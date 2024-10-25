@@ -45,7 +45,7 @@ The MDS analysis was conducted in R using the  `metaMDS' function in the `vegan'
 
 This algorithm resulted in a solution involving a number of different dimensions. The number of dimensions that are retained directly affects how well the original data is captured. To many dimensions and the data is overfit, to few and the data is underfit. To determine the number of dimensions to retain, I used a scree plot to plot the stress of each dimension. The `elbow' of the curve was identified as the correct number of dimensions for the analysis. Figure \ref{fig:stress_plot} shows that the majority of the data can be captured in a two-dimensional space. With the third dimension add some more subtle information about the voice quality.
 
-\begin{figure}[htbp]
+\begin{figure}[!h]
     \centering
     \includegraphics{images/stress_plot.eps}
     \caption{Scree plot for the MDS analysis.}
@@ -55,43 +55,45 @@ This algorithm resulted in a solution involving a number of different dimensions
 \section{Results} \label{sec:acousticlandscape:results}
 %--------------------------------------------------------------------------
 \subsection{Acoustic space of voice quality} \label{sec:acousticlandscape:space}
-The number of dimensions indicated by Figure~\ref{fig:stress_plot} can be plotted in a two-dimensional space. This solution is shown in Figure~\ref{fig:nmds12}. 
-In this and all subsequent plots, breathy voice is represented by black, checked voice with orange, rearticulated voice with green, and modal voice with blue. Overall, we see that breathy voice is located to the left of the plot, checked and rearticulated voice are tending to the right, and modal voice is located in the center. This is remarkably similar 
-
-The first dimension of the MDS analysis corresponds very closely to the \citet{gordonPhonationTypesCrosslinguistic2001} model of voice quality.   
-
-to a contrast between breathy and modal voice, with breathy voice at the top of the plot and modal voice at the bottom. The second dimension corresponds to a contrast between creaky and modal voice, with creaky voice at the left of the plot and modal voice at the right. The third dimension corresponds to a contrast between breathy and creaky voice, with breathy voice at the top of the plot and creaky voice at the left.
-\begin{figure}
+As mentioned above results of the MDS analysis can be represented in a two-dimensional space, as shown in Figure~\ref{fig:nmds12}. In this and all subsequent plots, breathy voice is represented by black, checked voice with orange, rearticulated voice with green, and modal voice with blue. Overall, we see that breathy voice is located to the left of the plot, checked and rearticulated voice are tending to the right, and modal voice is located in the center along the first dimension. The second dimension shows a modal and nonmodal split with modal voice at the bottom of the plot and nonmodal voice at the top.
+\begin{figure}[!h]
     \centering
     \includegraphics{images/nmds12.eps}
-    \caption{Non-metric multidimensional scaling plot of the acoustic space of voice quality in Santiago Laxopa Zapotec.}
+    \caption{Two-dimensional MDS solution showing the first and second dimensions.}
     \label{fig:nmds12}
-    \end{figure}
+\end{figure}
     
-    \begin{figure}
+As mentioned above, the third dimension adds more information about voice quality. The addition of the third dimension helps to spread out the groups along the first dimension, as shown in Figure~\ref{fig:nmds13}. We see that breathy vowels are located at the top of the plot and the two types of creaky voice (checked and rearticulated) are at the bottom of the plot. 
+
+\begin{figure}[!h]
         \centering
         \includegraphics{images/nmds13.eps}
-        \caption{Non-metric multidimensional scaling plot of the acoustic space of voice quality in Santiago Laxopa Zapotec.}
+        \caption{Two-dimensional MDS solution showing the first and third dimensions.}
         \label{fig:nmds13}
-    \end{figure}
+\end{figure}
     
-    \begin{figure}
-        \centering
-        \includegraphics{images/nmds23.eps}
-        \caption{Non-metric multidimensional scaling plot of the acoustic space of voice quality in Santiago Laxopa Zapotec.}
-        \label{fig:nmds23}
-    \end{figure}
+When the third dimension is added to the second, we see that breathy voices becomes separated from the other nonmodal voice qualities, as shown in Figure~\ref{fig:nmds23}. 
+
+\begin{figure}[!h]
+    \centering
+    \includegraphics{images/nmds23.eps}
+    \caption{Two-dimensional MDS solution showing the second and third dimensions.}
+    \label{fig:nmds23}
+\end{figure}
+
 
 \subsection{Acoustic correlates of voice quality} \label{sec:acousticlandscape:correlates}
 
+An additional step to the MDS analysis involves testing which acoustic measures contribute the most weight to the different dimensions. Table~\ref{tab:acoustic_correlates} shows how the 
+
 \begin{table}[ht]
     \centering
-    \caption{Acoustic correlates of voice quality in Santiago Laxopa Zapotec.} 
+    \caption{Weight of each acoustic measure along each dimension of the three-dimensional MDS solution (D1, D2, D3). Parameters that have weights higher than those of other parameters on each dimension are in boldface (weights > 4.0 for D1 and D2, and the weights > 3.0 for D3).} 
     \label{tab:acoustic_correlates}
-    \begin{tabular}{rrrr}
-      \hline
-     & MDS1 & MDS2 & MDS3 \\ 
-      \hline
+    \begin{tabular}{lrrr}
+    \hline
+    Acoustic Measure & D1 & D2 & D3 \\ 
+    \hline
     h1h2 & 1.03 & 1.01 & 0.39 \\ 
     h2h4 & 1.15 & 3.98 & 2.13 \\ 
     h1a1 & 2.22 & \textbf{5.15} & 1.84 \\ 
@@ -106,7 +108,7 @@ to a contrast between breathy and modal voice, with breathy voice at the top of 
     a3 & \textbf{4.54} & 2.91 & 1.11 \\ 
     cpp & 4.08 & 0.10 & 1.68 \\ 
     hnr05 & \textbf{5.66} & 1.47 & 1.81 \\ 
-    hnr15 & 3.95 & 2.68 & 3.08 \\ 
+    hnr15 & 3.95 & 2.68 & \textbf{3.08} \\ 
     hnr25 & 3.15 & 1.63 & \textbf{3.42} \\ 
     hnr35 & 2.86 & 0.55 & \textbf{3.19} \\ 
     soe & 2.09 & 0.78 & 0.36 \\ 
@@ -120,4 +122,3 @@ to a contrast between breathy and modal voice, with breathy voice at the top of 
 %--------------------------------------------------------------------------
 \section{Discussion} \label{sec:acousticlandscape:discussion}
 %--------------------------------------------------------------------------
-The results of this study provide insight into the acoustic properties of voice quality in Santiago Laxopa Zapotec. The MDS analysis revealed a three-dimensional acoustic space of voice quality in SLZ, with the first dimension corresponding to a contrast between breathy and modal voice, the second dimension corresponding to a contrast between creaky and modal voice, and the third dimension corresponding to a contrast between breathy and creaky voice. These results are consistent with previous research on voice quality in other languages \citep{keatingCrosslanguageAcousticSpace2023}.
