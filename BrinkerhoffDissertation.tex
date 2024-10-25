@@ -27,12 +27,14 @@
         maxbibnames=99,
         natbib,
         url=false]{biblatex}
-\addbibresource{.bib}
+\addbibresource{Dissertation.bib}
 \setcounter{biburlnumpenalty}{100}  % allow URL breaks at numbers
 % \setcounter{biburlucpenalty}{100}   % allow URL breaks at uppercase letters
 % \setcounter{biburllcpenalty}{100}   % allow URL breaks at lowercase letters
 
-%%TYPOLOGY       
+%%TYPOLOGY  
+\usepackage{tipa} %International Phonetic Alphabet
+\usepackage[colorlinks,allcolors={black},urlcolor={blue}]{hyperref} %allows for hyperlinks and pdf bookmarks 
 \usepackage{graphicx}	%Inserting graphics, pictures, images 		
 \usepackage{fontspec} %Selection of fonts must be ran in XeLaTeX or LuaLateX
 \usepackage{amssymb} %Math symbols
@@ -50,7 +52,7 @@
 %%FONTS
 \setmainfont{Libertinus Serif}
 \setsansfont{Libertinus Sans}
-\setmonofont[Scale=MatchLowercase]{Libertinus Mono}
+% \setmonofont[Scale=MatchLowercase]{Libertinus Mono}
 
 %%PACKAGES FOR LINGUISTICS
 %\usepackage{OTtablx} %Generating tableaux with using TIPA
@@ -88,20 +90,20 @@
 
 % Declarations for Front Matter
 
-\title{The Elements of Theses}
-\author{Perry H. Disdainful}
-\degreeyear{1994}
-\degreemonth{March}
+\title{Voice Quality and Tone at the phonetics and phonology interface}
+\author{Mykel L. Brinkerhoff}
+\degreeyear{2025}
+\degreemonth{June}
 \degree{DOCTOR OF PHILOSOPHY}
-\chair{Professor Ignatius Arrogant}
-\committeememberone{Professor Ivory Insular}
-\committeemembertwo{Professor General Reference}
-\committeememberthree{Professor Ipsum Lorem}
+\chair{Professor Grant McGuire}
+\committeememberone{Professor Jaye Padgett}
+\committeemembertwo{Professor Ryan Bennett}
+\committeememberthree{Professor Marc Garellek}
 \numberofmembers{4} %% (including chair) possible: 3, 4, 5, 6
-\deanlineone{Dean John Doe}
+\deanlineone{Peter Biehl}
 \deanlinetwo{Vice Provost and Dean of Graduate Studies}
 \deanlinethree{}
-\field{Indigineous Peoples Basketry}
+\field{Linguistics}
 \campus{Santa Cruz}
 
 \begin{frontmatter}
@@ -114,84 +116,24 @@
 \listoftables
 
 \include{contents/0.1.abstract}
-% \begin{abstract}
-% Theses have elements.  Isn't that nice?
-
-% \end{abstract}
-
-\begin{dedication}
-\null\vfil
-{\large
-\begin{center}
-To myself,\\\vspace{12pt}
-Perry H. Disdainful,\\\vspace{12pt}
-the only person worthy of my company.
-\end{center}}
-\vfil\null
-\end{dedication}
-
-
-\begin{acknowledgements}
-I want to ``thank'' my committee, without whose ridiculous demands, I
-would have graduated so, so, very much faster.
-\end{acknowledgements}
+\include{contents/0.2.dedication}
+\include{contents/0.3.acknowledgements}
 
 \end{frontmatter}
 
-\part{First Part}
+\include{contents/1.introduction}
+\include{contents/2.SLZ}
+\include{contents/3.acoustic_landscape}
+\include{contents/4.JASA}
+\include{contents/5.previous}
+\include{contents/6.conclusion}
 
-\chapter{Introduction}
-
-Every dissertation should have an introduction.  You might not realize
-it, but the introduction should introduce the concepts, backgrouand,
-and goals of the dissertation.
-
-\begin{table}
-\begin{tabular}{|l|r|}
-  \hline 
-Title & Author \\
-\hline
-War And Peace & Leo Tolstoy \\
-The Great Gatsby & F. Scott Fitzgerald \\ \hline
-\end{tabular}
-\caption{A normalsize table.  There has been a complaint that table
-captions are not single-spaced.  This is odd because the code
-indicates that they should be.}
-\end{table}
-
-\begin{table}
-\caption{A small table.}
-\begin{scriptsizetabular}{|l|r|}
-  \hline 
-Title & Author \\
-\hline
-War And Peace & Leo Tolstoy \\
-The Great Gatsby & F. Scott Fitzgerald \\ \hline
-\end{scriptsizetabular}
-\end{table}
-
-\chapter{Previous Work}
-
-Some other research was once performed.
-
-\begin{figure}
-\caption{A first figure.}
-\end{figure}
-
-\begin{figure}
-\caption{A second figure.}
-\end{figure}
-
-\chapter{Conclusion}
-
-\nocite{*}
-\bibliographystyle{plain}
-\bibliography{uctest}
+%--------------------------------------------------------------------------
+%  Bibliography
+%--------------------------------------------------------------------------
+\include{contents/bib.tex}
 
 \appendix
-\chapter{Some Ancillary Stuff}
-
-Ancillary material should be put in appendices, which appear after the
-bibliography. 
+\include{contents/appendix}
 
 \end{document}
