@@ -84,7 +84,9 @@ When the third dimension is added to the second, we see that breathy voices beco
 
 \subsection{Acoustic correlates of voice quality} \label{sec:acousticlandscape:correlates}
 
-An additional step to the MDS analysis involves testing which acoustic measures contribute the most weight to the different dimensions. Table~\ref{tab:acoustic_correlates} shows how the 
+An additional step to the MDS analysis involves testing which acoustic measures contribute the most weight to the different dimensions. Table~\ref{tab:acoustic_correlates} shows the results of this test. In each of the three dimensions of the MDS analysis, the acoustic measures that have the highest weight are in boldface. In the case of the first and second dimensions (D1 and D2), the acoustic measures that have weights higher than those of other parameters are in boldface (weights > 4.0). In the case of the third dimension (D3), the acoustic measures that have weights higher than those of other parameters are in boldface (weights > 3.0). 
+
+We see that for D1, the acoustic measures that have the highest weight on the first dimension are the amplitudes for the first three formants (i.e., A1*, A2*, A3*) and HNR < 500 Hz (i.e., a harmonics-to-noice ratio for everything from 0 to 500 Hz). For D2, the acoustic measures that have the highest weight are H1*-A1*, H1*-A2* (i.e., spectral-slope measures) and the amplitudes of the first two formants. For D3, we see that HNR < 1500 HZ, HNR < 2500 Hz, and HNR < 3500 Hz and Residual H1* and H2* have the highest weights.
 
 \begin{table}[ht]
     \centering
@@ -101,6 +103,7 @@ An additional step to the MDS analysis involves testing which acoustic measures 
     h1a3 & 2.37 & 3.24 & 0.90 \\ 
     h42k & 1.47 & 0.31 & 1.59 \\ 
     h2kh5k & 3.73 & 0.73 & 0.84 \\ 
+    h1\_resid & 1.75 & 0.97 & \textbf{4.24} \\ 
     h2 & 1.76 & 0.94 & \textbf{4.09} \\ 
     h4 & 0.79 & 4.28 & 0.10 \\ 
     a1 & \textbf{4.96} & \textbf{5.48} & 0.17 \\ 
@@ -114,11 +117,40 @@ An additional step to the MDS analysis involves testing which acoustic measures 
     soe & 2.09 & 0.78 & 0.36 \\ 
     shr & 2.39 & 0.50 & 0.47 \\ 
     energy & 2.22 & 3.91 & 0.64 \\ 
-    h1\_resid & 1.75 & 0.97 & \textbf{4.24} \\ 
     \hline
     \end{tabular}
 \end{table}
 
 %--------------------------------------------------------------------------
 \section{Discussion} \label{sec:acousticlandscape:discussion}
+%--------------------------------------------------------------------------
+
+The results of the MDS analysis show that the acoustic landscape that SLZ's voice quality occupies is similar to that of other languages. Similar to the findings that \citet{keatingCrosslanguageAcousticSpace2023} found in their study, the first dimension appears to roughly be similar to the open quotient of the glottis as proposed by \citet{gordonPhonationTypesCrosslinguistic2001}. In  this model, voice quality is seen as being simply the results of the glottis being open or closed. the more open the glottis the more breathy the phonation is. The more closed the glottis the more creaky the phonation. This model from \citet{gordonPhonationTypesCrosslinguistic2001} is shown in Figure~\ref{fig:phonation_types}. 
+
+\begin{figure}[h!]
+    \centering
+    \begin{tikzpicture}
+        % Draw the line with arrows at both ends
+        \draw[<->, line width=0.5mm] (0,0) -- (10,0);
+        
+        % Labels underneath the line
+        \node[below] at (0,0) {[h]};
+        \node[below] at (2,0) {Breathy};
+        \node[below] at (5,0) {Modal};
+        \node[below] at (8,0) {Creaky};
+        \node[below] at (10,0) {[ʔ]};
+        
+        % Labels above the line
+        \node[above] at (0,0) {Open Glottis};
+        \node[above] at (10,0) {Closed Glottis};
+    \end{tikzpicture}
+    \caption{A diagram showing the relationship between breathy, modal, and creaky phonation types. Based on \citet{gordonPhonationTypesCrosslinguistic2001}.}
+    \label{fig:phonation_types}
+\end{figure}
+
+As mentioned above, the measures that contribute the most this dimension are the amplitudes of the first three formants and HNR < 500 Hz. It is interesting even though this dimension is similar to the open-quotient model, we do not observe measures that are traditionally associated with this measure (i.e., spectal-slope). Instead of seeing traditional spectral-slope measures, we find the three formant amplitudes which are used to normalize the amplitude of the fundamental like in the measures H1*-A1*, H1*-A2*, and H1*-A3*. This suggests that the first dimension is more about the amplitude of the formants than the spectral-slope of the signal. This is combined with the HNR < 500 Hz which is a measure of the harmonics-to-noise ratio for the first 500 Hz of the signal. 
+
+The second dimension 
+%--------------------------------------------------------------------------
+\section{Conclusion} \label{sec:acousticlandscape:conclusion}
 %--------------------------------------------------------------------------
