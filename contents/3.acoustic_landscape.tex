@@ -83,7 +83,7 @@ When adding the third dimension to the second, we see that the breathy voices be
 
 \subsection{Acoustic correlates of voice quality} \label{sec:acousticlandscape:correlates}
 
-An additional step to MDS analysis involves testing which acoustic measures contribute the most weight to the different dimensions. Table~\ref{tab:acoustic_correlates} shows the results of this test. In each of the three dimensions of the MDS analysis, the acoustic measures with the highest weight are in bold. In the case of the first and second dimensions (D1 and D2), the acoustic measures that have weights higher than those of other parameters are in boldface (weights > 4.0). In the case of the third dimension (D3), the acoustic measures that have weights higher than those of other parameters are in boldface (weights > 3.0). 
+An additional step to MDS analysis involves testing which acoustic measures contribute the most weight to the different dimensions. Table~\ref{tab:acoustic_correlates} shows the results of this test. In each of the three dimensions of the MDS analysis, the acoustic measures with the highest weight are shown in bold. In the case of the first and second dimensions (D1 and D2), the acoustic measures that have weights higher than those of other parameters are in boldface (weights > 4.0). In the case of the third dimension (D3), the acoustic measures that have weights higher than those of other parameters are in boldface (weights > 3.0). 
 
 We see that for D1, the acoustic measures that have the highest weight on the first dimension are the amplitudes for the first three formants (i.e., A1*, A2*, A3*) and HNR < 500 Hz (i.e., a harmonics-to-noise ratio for everything from 0 to 500 Hz). For D2, the acoustic measures with the highest weight are H1*-A1*, H1*-A2* (i.e., spectral-slope measures), and the amplitudes of the first two formants. For D3, we see that HNR < 1500 HZ, HNR < 2500 Hz, HNR < 3500 Hz, and Residual H1* and H2* have the highest weights.
 
@@ -95,27 +95,27 @@ We see that for D1, the acoustic measures that have the highest weight on the fi
     \hline
     Acoustic Measure & D1 & D2 & D3 \\ 
     \hline
-    h1h2 & 1.03 & 1.01 & 0.39 \\ 
-    h2h4 & 1.15 & 3.98 & 2.13 \\ 
-    h1a1 & 2.22 & \textbf{5.15} & 1.84 \\ 
-    h1a2 & 2.93 & \textbf{4.66} & 1.00 \\ 
-    h1a3 & 2.37 & 3.24 & 0.90 \\ 
-    h42k & 1.47 & 0.31 & 1.59 \\ 
-    h2kh5k & 3.73 & 0.73 & 0.84 \\ 
-    h1\_resid & 1.75 & 0.97 & \textbf{4.24} \\ 
-    h2 & 1.76 & 0.94 & \textbf{4.09} \\ 
-    h4 & 0.79 & \textbf{4.28} & 0.10 \\ 
-    a1 & \textbf{4.96} & \textbf{5.48} & 0.17 \\ 
-    a2 & \textbf{5.30} & \textbf{4.90} & 1.38 \\ 
-    a3 & \textbf{4.54} & 2.91 & 1.11 \\ 
-    cpp & \textbf{4.08} & 0.10 & 1.68 \\ 
-    hnr05 & \textbf{5.66} & 1.47 & 1.81 \\ 
-    hnr15 & 3.95 & 2.68 & \textbf{3.08} \\ 
-    hnr25 & 3.15 & 1.63 & \textbf{3.42} \\ 
-    hnr35 & 2.86 & 0.55 & \textbf{3.19} \\ 
-    soe & 2.09 & 0.78 & 0.36 \\ 
-    shr & 2.39 & 0.50 & 0.47 \\ 
-    energy & 2.22 & 3.91 & 0.64 \\ 
+    H1*-H2* & 1.03 & 1.01 & 0.39 \\ 
+    H2*-H4 & 1.15 & 3.98 & 2.13 \\ 
+    H1*-A1* & 2.22 & \textbf{5.15} & 1.84 \\ 
+    H1-A2* & 2.93 & \textbf{4.66} & 1.00 \\ 
+    H1-A3* & 2.37 & 3.24 & 0.90 \\ 
+    H4*-H2k* & 1.47 & 0.31 & 1.59 \\ 
+    H2k*-H5k* & 3.73 & 0.73 & 0.84 \\ 
+    residual H1* & 1.75 & 0.97 & \textbf{4.24} \\ 
+    H2* & 1.76 & 0.94 & \textbf{4.09} \\ 
+    H4* & 0.79 & \textbf{4.28} & 0.10 \\ 
+    A1* & \textbf{4.96} & \textbf{5.48} & 0.17 \\ 
+    A2* & \textbf{5.30} & \textbf{4.90} & 1.38 \\ 
+    A3* & \textbf{4.54} & 2.91 & 1.11 \\ 
+    CPP & \textbf{4.08} & 0.10 & 1.68 \\ 
+    HNR < 500 Hz & \textbf{5.66} & 1.47 & 1.81 \\ 
+    HNR < 1500 Hz & 3.95 & 2.68 & \textbf{3.08} \\ 
+    HNR < 2500 Hz & 3.15 & 1.63 & \textbf{3.42} \\ 
+    HNR < 3500 Hz & 2.86 & 0.55 & \textbf{3.19} \\ 
+    Strength of Excitation & 2.09 & 0.78 & 0.36 \\ 
+    SHR & 2.39 & 0.50 & 0.47 \\ 
+    Energy & 2.22 & 3.91 & 0.64 \\ 
     \hline
     \end{tabular}
 \end{table}
@@ -147,14 +147,16 @@ The results of the MDS analysis show that the acoustic space in which SLZ's voic
     \label{fig:phonation_types}
 \end{figure}
 
-As mentioned above, the measures that contribute the most to this first dimension are the amplitudes of the first three formants, CPP, and Harmonics-to-Noise Ratio < 500 Hz. Interestingly, even though this dimension is similar to the open-quotient model put forward by \citet{gordonPhonationTypesCrosslinguistic2001}, we do not observe measures traditionally associated with the open-quotient (i.e., spectral-slope). Instead of seeing traditional spectral-slope measures, we find the three formant amplitudes used to normalize the amplitude of the fundamental like in the measures H1*-A1*, H1*-A2*, and H1*-A3*. This suggests that the first dimension is more about the formants' amplitude than the signal's spectral-slope. This is combined with CPP and HNR < 500 Hz, which measures the harmonics-to-noise ratio for the first 500 Hz of the signal. This suggests that the first dimension is also concerned about the amount of noise in the signal.
+As mentioned above, the measures that contribute the most to this first dimension are the amplitudes of the first three formants, CPP, and Harmonics-to-Noise Ratio < 500 Hz. Interestingly, even though this dimension is similar to the open-quotient model put forward by \citet{gordonPhonationTypesCrosslinguistic2001}, we do not observe measures traditionally associated with the open-quotient (i.e., spectral-slope). Instead of seeing traditional spectral-slope measures, we find the three formant amplitudes used to normalize the amplitude of the fundamental like in the measures H1*-A1*, H1*-A2*, and H1*-A3*. This suggests that the first dimension is more about the formants' amplitude than the signal's spectral-slope. This is combined with CPP and HNR < 500 Hz, which measures the harmonics-to-noise ratio for the first 500 Hz of the signal. This suggests that the first dimension is also concerned with the amount of noise in the signal.
 
-The second dimension divides the space into modal versus nonmodal voice quality. The acoustic measures that contribute the most weight to this dimension are the spectral-slope measures H1*-A1* and H1*-A2* and the harmonic amplitudes of H4*, A1*, and A2*. This suggests that the second dimension is more about the spectral-slope of the signal rather than the amount of noise in the signal. Which is interesting given that traditionally spectral-slope measures are associated with the open-quotient model of voice quality \citep{holmbergComparisonsAerodynamicElectroglottographic1995,kreimanMeasuresGlottalSource2007,garellekModelingVoiceSource2016,garellekPhoneticsVoice2019,chaiH1H2Acoustic2022}
+The second dimension divides the space into modal versus nonmodal voice quality. The acoustic measures that contribute the most weight to this dimension are the spectral-slope measures H1*-A1* and H1*-A2* and the harmonic amplitudes of H4*, A1*, and A2*. This suggests that the second dimension is more about the spectral-slope of the signal than about the amount of noise in the signal. This is interesting given that traditional spectral-slope measures are associated with the open-quotient model of voice quality \citep{holmbergComparisonsAerodynamicElectroglottographic1995,kreimanMeasuresGlottalSource2007,garellekModelingVoiceSource2016,garellekPhoneticsVoice2019,chaiH1H2Acoustic2022}.
 
-The third dimension adds more information about nonmodal voice quality. Figure~\ref{fig:nmds13} and Figure~\ref{fig:nmds23}, this third dimension separates breathy voice from the other nonmodal phonation types. The measures contributing the most to this dimension are the harmonics-to-noise ratio for the first 1500 Hz, 2500 Hz, and 3500 Hz. In addition, the residual H1* and H2* have the highest weights, which is interesting given that residual H1* has been argued to be a more robust measure of the spectral-slope of the signal than the traditional spectral-slope measures \citep{chaiH1H2Acoustic2022,brinkerhoffResidualH1Measure2024}. Additionally, As discussed in Chapter~\ref{ch:residual_h1}, residual H1* does represent the voice quality in SLZ better than H1*-H2* and H1*-A3*. This dimension is characterized by the harmonics-to-noise ratios for the first 1500 Hz, 2500 Hz, and 3500 Hz. This suggests that the third dimension is more about the signal's spectral quality than about the formants' amplitude. This is combined with residual H1* and H2* which are measures of the spectral-slope of the signal.
+The third dimension adds more information on nonmodal voice quality. Figure~\ref{fig:nmds13} and Figure~\ref{fig:nmds23}, this third dimension separates the breathy voice from the other nonmodal phonation types. The measures contributing the most to this dimension are the harmonics-to-noise ratio for the first 1500 Hz, 2500 Hz, and 3500 Hz. In addition, the residual H1* and H2* have the highest weights, which is interesting given that residual H1* has been argued to be a more robust measure of the spectral-slope of the signal than traditional spectral-slope measures \citep{chaiH1H2Acoustic2022,brinkerhoffResidualH1Measure2024}. Furthermore, as discussed in Chapter~\ref{ch:residual_h1}, residual H1* represents the voice quality in SLZ better than H1*-H2* and H1*-A3*. This dimension is characterized by the harmonics-to-noise ratios for the first 1500 Hz, 2500 Hz, and 3500 Hz. This suggests that the third dimension is more about the signal's spectral quality than about the formants' amplitude. This is combined with residual H1* and H2*, which are measures of the spectral-slope of the signal.
 
 %--------------------------------------------------------------------------
 \section{Conclusion} \label{sec:acousticlandscape:conclusion}
 %--------------------------------------------------------------------------
 
-Even though the discussion has predominately been about the weights of the measures that contribute to the different dimensions, it is important to note that the measures are not independent of each other. Instead, all of the measures contribute to the acoustic space of voice quality in SLZ in one degree or another. Just because a measure has a low weight does not mean that it does not contribute to the space but is still important to understanding the acoustic space in SLZ. Rather than thinking of the measures as independent of each other, it is better to think of them as a group of measures that work together to create the acoustic space of voice quality in SLZ. This is especially true given the fact that the MDS analysis is a reduction of the data to a few dimensions. This analysis offers a snapshot into the acoustic space of voice quality in SLZ, but it is not the full picture. Additionally, as will be discussed in Chapter~\ref{ch:bagging}, another way that we can determine which measures are the most important is by performing a classification and regression tree analysis \citep{breimanClassificationRegressionTrees1986}. This analysis will help show us which measures are the most important in characterizing the different voice qualities in SLZ through a bootstrap aggregating version of the classification and regression tree analysis non as bagging \citep{breimanBaggingPredictors1996}.
+Although the discussion has predominately been about the weights of the measures that contribute to the different dimensions, it is important to note that the measures are not independent of each other. Instead, all of the measures contribute to the acoustic space of voice quality in SLZ to some extent or another. Just because a measure has a low weight does not mean that it does not contribute to the acoustic space, but it is still important to understand the acoustic space in SLZ. Rather than thinking of the measures as independent of each other, it is better to think of them as a group of measures that work together to create the acoustic space of voice quality in SLZ. This is especially true given the fact that the MDS analysis is a reduction of the data to a few dimensions. This analysis offers a snapshot of the voice quality acoustic space in SLZ, but is not the full picture. 
+
+Additionally, as will be discussed in Chapter~\ref{ch:bagging}, another way in which we can determine which measures are the most important is by performing a bootstrap aggregating version of a classification and regression tree analysis \citep{breimanClassificationRegressionTrees1986,breimanBaggingPredictors1996}.
