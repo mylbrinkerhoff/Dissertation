@@ -1,1 +1,51 @@
 \chapter{Modeling laryngeal complexity} \label{ch:modeling_lc}
+
+\begin{figure}
+    \centering
+    \begin{tikzpicture}
+        \node[draw,circle,minimum size=1cm,inner sep=0pt] (tra) at (0,0) {tra};
+        \node[draw,circle,minimum size=1cm,inner sep=0pt] (tfr) at (-2,-1.5) {tfr};
+        \node[draw,circle,minimum size=1cm,inner sep=0pt] (tre) at (2,-1.5) {tre};
+        \node[draw,circle,minimum size=1cm,inner sep=0pt] (tdb) at (0,-3) {tdb};
+
+        \node[draw,circle,minimum size=1cm,inner sep=0pt] (epc) at (0,-6) {epc};
+        \node[draw,circle,minimum size=1cm,inner sep=0pt] (vfo) at (-2,-7.5) {vfo};
+        \node[draw,circle,minimum size=1cm,inner sep=0pt] (vfc) at (2,-7.5) {vfc};
+        \node[draw,circle,minimum size=1cm,inner sep=0pt] (epv) at (0,-9) {epv};
+
+        \node[draw,circle,minimum size=1cm,inner sep=0pt] (lower_lx) at (-3.5,-6) {↓lx};
+        \node[draw,circle,minimum size=1cm,inner sep=0pt] (raised_lx) at (3.5,-6) {↑lx};
+
+        \node[draw,circle,minimum size=1cm,inner sep=0pt] (Lf0) at (-2,-10.5) {Lf0};
+        \node[draw,circle,minimum size=1cm,inner sep=0pt] (Hf0) at (2,-10.5) {Hf0};
+        
+        % Anti-syngeristic
+        \draw[<->, dotted, line width=.5mm] (tra.west) to[out=180,in=90] (tfr.north);
+        \draw[<->,dotted, line width=.5mm] (tra.east) to[out=0,in=90] (tre.north);
+        \draw[<->,dotted, line width=.5mm] (tfr.east) to (tre.west);
+        \draw[<->,dotted, line width=.5mm] (tra.south) to (tdb.north);
+        \draw[<->,dotted, line width=.5mm] (tfr.south) to[in=180, out=-90] (epc.west);
+        \draw[<->,dotted, line width=.5mm] (lower_lx.north) to[in=140,out=40] (raised_lx.north);
+        \draw[<->,dotted, line width=.5mm] (lower_lx.east) to (epc.west);
+        \draw[<->,dotted, line width=.5mm] (epc.west) to[in=90,out=180] (vfo.north);
+        \draw[<->,dotted, line width=.5mm] (vfo.east) to[in=180,out=0] (vfc.west);
+        \draw[<->,dotted, line width=.5mm] (vfc.south) to[in=0,out=-90] (epv.east);
+        \draw[<->,dotted, line width=.5mm] (epc.south) to[out=-90, in=90] (Hf0.north);
+        \draw[<->,dotted, line width=.5mm] (Hf0.south) to[out=-140, in=-40] (Lf0.south);
+        \draw[<->,dotted, line width=.5mm] (epv.south) to[out=-90, in=180] (Hf0.west);
+
+        % Syngeristic
+        \draw[<->, line width=.5mm] (tdb.west) to[out=180, in=-90] (tfr.south);
+        \draw[<->, line width=.5mm] (tdb.east) to[out=0, in=-90] (tre.south);
+        \draw[<->, line width=.5mm] (epc.north) to (tdb.south);
+        \draw[<->, line width=.5mm] (epc.south) to (epv.north);
+        \draw[<->, line width=.5mm] (epc.east) to[in=-90, out=0] (tre.south);
+        \draw[<->, line width=.5mm] (lower_lx.north) to[in=-135, out=90] (tfr.west);
+        \draw[<->, line width=.5mm] (raised_lx.north) to[in=-45, out=90] (tre.east);
+        \draw[<->, line width=.5mm] (Lf0.west) to[in=-90, out =135] (lower_lx.south);
+        \draw[<->, line width=.5mm] (raised_lx.west) to (epc.east);
+        \draw[<->, line width=.5mm] (Hf0.east) to[in=-90, out=45] (raised_lx.south);
+    \end{tikzpicture}
+    \caption{This is a figure.}
+    \label{fig:tra}
+\end{figure}
