@@ -42,11 +42,12 @@
 \usepackage{multicol} %Multicolumn text
 \usepackage{enumitem} %Allows for continuous numbering of lists over examples, etc.
 \usepackage{multirow} %Useful for combining cells in tablesbrew 
+\usepackage{booktabs} %Enhanced tables
 % \usepackage[colorlinks,allcolors={black},urlcolor={blue}]{hyperref} %allows for hyperlinks and pdf bookmarks
 % \usepackage{url} %allows for urls
 % \def\UrlBreaks{\do\/\do-} %allows for urls to be broken up
 % \usepackage[normalem]{ulem} %strike out text. Handy for syntax
-% \usepackage{tcolorbox}
+\usepackage{tcolorbox}
 % \usepackage{todonotes} % Creates todo marginalia
 
 %%FONTS
@@ -85,6 +86,12 @@
 % \newleipzig{res}{res}{restitutive} % Restitutive Aspect
 \newleipzig{rep}{rep}{repetitive} % Repetitive Aspect
 
+%%MACROS
+\newcommand{\sub}[1]{\textsubscript{#1}}
+\newcommand{\supr}[1]{\textsuperscript{#1}}
+\providecommand{\lsptoprule}{\midrule\toprule}
+\providecommand{\lspbottomrule}{\bottomrule\midrule}
+\newcommand{\fittable}[1]{\resizebox{\textwidth}{!}{#1}}
 
 \begin{document}
 
