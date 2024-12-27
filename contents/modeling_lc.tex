@@ -45,7 +45,23 @@
         \draw[<->, line width=.5mm] (Lf0.west) to[in=-90, out =135] (lower_lx.south);
         \draw[<->, line width=.5mm] (raised_lx.west) to (epc.east);
         \draw[<->, line width=.5mm] (Hf0.east) to[in=-90, out=45] (raised_lx.south);
+        \draw[<->, line width=.5mm] (epv.south) to[out=-90, in=0] (Lf0.east);
+        \draw[<->, line width=.5mm] (epc.east) to[out=0, in=90] (vfc.north);
+        \draw[<->, line width=.5mm] (vfo.south) to[out=-90, in=180] (epv.west);
+        \draw[<->, line width=.5mm] (vfc.south) to (Hf0.north);
+        \draw[<->, line width=.5mm] (vfo.south) to (Lf0.north);
+        \draw[<->, line width=.5mm] (epc.south) to[out=-90,in=90] (Lf0.north);
+        \draw[<->, line width=.5mm] (lower_lx.south) to[out=-90,in=180] (vfo.west);
+        \draw[<->, line width=.5mm] (raised_lx.south) to[out=-90,in=0] (vfc.east);
+
+        % Curly bracket with text
+        \draw[decorate,decoration={brace,amplitude=10pt,raise=5pt},thick] (4,0) -- (4,-4) node[midway,xshift=15pt,right=5pt] {\parbox{2cm}{vowel\\quality}};
+        \draw[decorate,decoration={brace,amplitude=10pt,raise=5pt},thick] (4,-4) -- (4,-9.5) node[midway,xshift=15pt,right=5pt] {\parbox{2cm}{phonatory\\quality}};
+        \draw[decorate,decoration={brace,amplitude=10pt,raise=5pt},thick] (4,-9.5) -- (4,-11) node[midway,xshift=15pt,right=5pt] {\parbox{2cm}{tonal\\quality}};
+        \draw[decorate,decoration={brace,amplitude=10pt,raise=5pt},thick] (7,-2) -- (7,-11) node[midway,xshift=15pt,right=5pt] {\parbox{2cm}{voice\\quality}};
+
+        
     \end{tikzpicture}
-    \caption{This is a figure.}
+    \caption{The Laryngeal Articulator Model from \citet{eslingVoiceQualityLaryngeal2019}. This model shows the interactions between the laryngeal articulators (labeled circles). Syngeristic interactions are shown with solid lines, while anti-syngeristic interactions are shown with dotted lines.}
     \label{fig:tra}
 \end{figure}
