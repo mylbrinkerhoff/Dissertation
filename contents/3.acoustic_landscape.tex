@@ -36,7 +36,7 @@ Once these steps were completed, the mean of each vowel and speaker of the fifth
 
 \subsection{Statistical analysis} \label{sec:acousticlandscape:statistics}
 
-Using a multidimensional scaling (MDS) analysis is a statistical method of reducing the dimensionality of a dataset to visualize the relationships between the data points \citep{b.kruskalMultidimensionalScaling1978}. This is especially true when many variables could contribute to the data. In the case of voice quality, this is especially true. As shown in \citet{kreimanUnifiedTheoryVoice2014,kreimanValidatingPsychoacousticModel2021,garellekAcousticDiscriminabilityComplex2020}, voice quality is psychoacoustically complex and a single measure is not enough to capture the full range of voice quality. Instead, multiple measures are required that function as cues for the different types of voice quality. For example, a vowel characterized as having a breathy voice has an elevated spectral-slope and a lower harmonics-to-noise ratio than modal voice. A creaky voice has a lowered spectral-slope and a lowered harmonics-to-noise ratio. 
+Using a multidimensional scaling (MDS) analysis is a statistical method of reducing the dimensionality of a dataset to visualize the relationships between the data points \citep{kruskalMultidimensionalScaling1978}. This is especially true when many variables could contribute to the data. In the case of voice quality, this is especially true. As shown in \citet{kreimanUnifiedTheoryVoice2014,kreimanValidatingPsychoacousticModel2021,garellekAcousticDiscriminabilityComplex2020}, voice quality is psychoacoustically complex and a single measure is not enough to capture the full range of voice quality. Instead, multiple measures are required that function as cues for the different types of voice quality. For example, a vowel characterized as having a breathy voice has an elevated spectral-slope and a lower harmonics-to-noise ratio than modal voice. A creaky voice has a lowered spectral-slope and a lowered harmonics-to-noise ratio. 
 
 Because MDS analyses that contain many variables can result in rather unmeaningful results, I chose to focus on the speaker x voice quality interaction. This allows us to see how speakers differ in their production of the different voice qualities. This choice to focus on speaker x voice quality means that each speaker's production of each of the four phonation contrasts is represented as a single point in the MDS plot (e.g., one point for speaker 1's modal voice, one for speaker one's checked voice, one for speaker one's rearticulated voice, and one for speaker one's breathy voice). This is similar to what \citet{keatingCrosslanguageAcousticSpace2023} did in their study of the acoustic space of voice quality in 11 languages, except that they compared the language x voice quality interaction. Both of these interactions show us similar information. One shows us within a language, while the other shows us between languages.
 
@@ -46,7 +46,7 @@ This algorithm resulted in a solution that involves several different dimensions
 
 \begin{figure}[!h]
     \centering
-    \includegraphics[width = \linewidth]{images/stress_plot.eps}
+    \includegraphics[width = 0.9\linewidth]{images/stress_plot.eps}
     \caption{Scree plot for the MDS analysis.}
     \label{fig:stress_plot}
 \end{figure}
@@ -57,7 +57,7 @@ This algorithm resulted in a solution that involves several different dimensions
 As mentioned above, the results of the MDS analysis can be represented in a two-dimensional space, as shown in Figure~\ref{fig:nmds12}. In this and all subsequent plots, the breathy voice is represented by black, checked voice with orange, rearticulated voice with green, and modal voice with blue. Overall, we see that the breathy voice is located to the left of the plot, checked and rearticulated voices are tending to the right, and the modal voice is located in the center along the first dimension. The second dimension shows a modal and nonmodal split, with modal voice at the bottom of the plot and nonmodal voice at the top.
 \begin{figure}[!h]
     \centering
-    \includegraphics[width = \linewidth]{images/nmds12.eps}
+    \includegraphics[width = 0.9\linewidth]{images/nmds12.eps}
     \caption{Two-dimensional MDS solution showing the first and second dimensions.}
     \label{fig:nmds12}
 \end{figure}
@@ -66,7 +66,7 @@ As mentioned above, the third dimension adds more information about voice qualit
 
 \begin{figure}[!h]
         \centering
-        \includegraphics[width = \linewidth]{images/nmds13.eps}
+        \includegraphics[width = 0.9\linewidth]{images/nmds13.eps}
         \caption{Two-dimensional MDS solution showing the first and third dimensions.}
         \label{fig:nmds13}
 \end{figure}
