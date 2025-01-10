@@ -16,7 +16,7 @@ These trees can be used for both regression and classification. In the case of r
 
 In the case of classification, the algorithms that result in a tree are very similar to those used for regression trees. The main difference in algorithm comes from what is used to split the nodes and how the tree is pruned. Additionally, instead of predicting a continuous outcome like with regression trees, classification trees predict a categorical outcome. The predictor space is divided into regions, and within each region, the majority class is assigned as the predicted class for that region. This process continues until a stopping rule is applied, similar to regression trees. The resulting tree can also be pruned to avoid overfitting, using a cost-complexity criterion.
 
-Decision trees are easy to interpret and visualize, making them a popular choice for understanding the structure of the data. However, they are prone to overfitting, especially with small datasets. To remedy this issue techniques such as bagging \citep{breimanBaggingPredictors1996} and random forests \citep{breimanRandomForests2001} were introduced in order to improve the performance and robustness of decision trees. 
+Decision trees are easy to interpret and visualize, making them an ideal choice for understanding the structure of data and how the different predictors interact with data \citep{hastieElementsStatisticalLearning2009,jamesIntroductionStatisticalLearning2021}.
 
 %-----------------------------
 \section{Decision trees in linguistics}\label{}
@@ -24,7 +24,7 @@ Decision trees are easy to interpret and visualize, making them a popular choice
 
 The use of decision trees in linguistics is not new. One of the first uses was done by \citet{tagliamonteModelsForestsTrees2012}, where they were illustrated the use of decision trees in investigating which sociolinguistic factors were the most important in the use of \textit{was} versus \textit{were} in York English. Recently, decision trees were used to show which acoustic measures were the most important in making the split in the acoustic space for voice quality \citep{keatingCrosslanguageAcousticSpace2023}. 
 
-In their study, \citet{keatingCrosslanguageAcousticSpace2023} performed an simple decision tree analysis to suppliment their MDS analysis of 11 languages and their voice quality contrasts. 
+In their study, \citet{keatingCrosslanguageAcousticSpace2023} performed an simple decision tree analysis to supplement their MDS analysis of voice quality in 11 languages. The results of this analysis are shown in Figure~\ref{fig:keating_tree}. 
 
 \begin{figure}[!h]
     \centering
@@ -33,4 +33,16 @@ In their study, \citet{keatingCrosslanguageAcousticSpace2023} performed an simpl
     \label{fig:keating_tree}
 \end{figure}
 
-In the analysis presented in this chapter, I will make use of bagging trees to assess the importance of the different 
+Decision trees like the one in Figure~\ref{fig:keating_tree}, show the binary splits that are made in the space and what predictor, and the value of that predictor, makes that split. In the case of \citeauthor{keatingCrosslanguageAcousticSpace2023}'s \citeyear{keatingCrosslanguageAcousticSpace2023} tree, the first split is made on the harmonics-to-noise ratio over the frequency range from 0 Hz to 500 Hz for the middle third of each vowel. This split is made at the z-score of 0.48. If the value of the predictor is greater or equal to 0.48, the dominate voice quality of that region is modal. If, however, that HNR < 500 Hz value is less than 0.48, the region needs to be further split. 
+
+The next split in the region is made on the subharmonic-to-harmonic ratio for the middle third of each vowel. If the value of this predictor is less than 0.0024, the voice quality is classified as breathy. If the value is greater than or equal to 0.0024, the region needs to be split further.
+
+The final split in the region is made on the H1* - H2* for the middle third of each vowel. If the value of this predictor is less than 0.45, the voice quality is classified as creaky. If the value is greater than or equal to 0.45, the voice quality is classified as modal.
+
+This tree shows that using only three acoustic measure, one can classify the voice quality of the data. This is a powerful tool for understanding the importance of the different acoustic measures in the acoustic space. Using these trees however, can be prone to overfitting. To remedy this, techniques such as bootstrap aggregating (i.e., bagging) and random forests were introduced \citep{breimanBaggingPredictors1996,breimanRandomForests2001}. I will discuss bagging in the next section.
+
+%--------------------------
+\section{Bagging Trees} \label{sec:bagging_bagging}
+%--------------------------
+
+In the analysis presented in this chapter, I will make use of a refinement to decision trees called bootstrap aggregating \citep{breimanBaggingPredictors1996} to assess the
