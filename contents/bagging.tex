@@ -77,7 +77,45 @@ From Figure~\ref{fig:bagging_tree}, it is clear that the out-of-bag error stabil
     \label{fig:bagging_importance}
 \end{figure}
 
-From Figure~\ref{fig:bagging_importance}, it is clear that the most important predictors in the bagging model are A1*, residual H1*, and the harmonics-to-noise ratio over the frequency range from 0 Hz to 1500 Hz (HNR 1500 Hz). 
+From Figure~\ref{fig:bagging_importance}, the variables with the largest mean decrease in Gini index are A1* (the amplitude of the harmonic closest to the first formant), residual H1*, and the harmonics-to-noise ratio over the frequency range from 0 Hz to 1500 Hz (HNR 1500 Hz). This means that these three variables are the most important in making the splits in the acoustic space of SLZ. This is consistent with the results of the MDS analysis in Chapter~\ref{ch:acousticlandscape}, where these three variables were some of the variables that contributed the most to the different dimensions of the acoustic space. 
 
+%--------------------------
+\section{Discussion} \label{sec:bagging_discussion}
+%--------------------------
+
+%--------------------------
+\subsection{Importance of A1*} \label{sec:bagging_a1}
+%--------------------------
+
+\begin{figure}[!h]
+    \centering
+    \includegraphics[width = 0.9\linewidth]{images/slz_a1c.eps}
+    \caption{Plot showing the distribution of A1* across the different voice qualities in SLZ.}
+    \label{fig:a1}
+\end{figure}
+%--------------------------
+\subsection{Importance of Residual H1*} \label{sec:bagging_residual}
+%--------------------------
+\begin{figure}[!h]
+    \centering
+    \includegraphics[width = 0.9\linewidth]{images/slz_residual_h1c.eps}
+    \caption{Plot showing the distribution of residual H1* across the different voice qualities in SLZ.}
+    \label{fig:residualH1}
+\end{figure}
+
+%--------------------------
+\subsection{Importance of HNR 1500 Hz} \label{sec:bagging_hnr}
+%--------------------------
+
+\begin{figure}[!h]
+    \centering
+    \includegraphics[width = 0.9\linewidth]{images/slz_hnr15.eps}
+    \caption{Plot showing the distribution of HNR 1500 Hz across the different voice qualities in SLZ.}
+    \label{fig:hnr1500}
+\end{figure}
+
+%--------------------------
+\section{Conclusion} \label{sec:bagging_conclusion}
+%--------------------------
 
 
