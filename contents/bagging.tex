@@ -24,25 +24,21 @@ Decision trees are easy to interpret and visualize, making them an ideal choice 
 
 The use of decision trees in linguistics is not new. One of the first uses was done by \citet{tagliamonteModelsForestsTrees2012}, where they were illustrated the use of decision trees in investigating which sociolinguistic factors were the most important in the use of \textit{was} versus \textit{were} in York English. Recently, decision trees were used to show which acoustic measures were the most important in making the split in the acoustic space for voice quality \citep{keatingCrosslanguageAcousticSpace2023}. 
 
-In their study, \citet{keatingCrosslanguageAcousticSpace2023} performed a simple decision tree analysis to supplement their MDS analysis of voice quality in 11 languages. The results of this analysis are shown in Figure~\ref{fig:keating_tree}. 
+In their study, \citet{keatingCrosslanguageAcousticSpace2023} performed a simple decision tree analysis to supplement their MDS analysis of voice quality in 11 languages. The results of this analysis are shown in Figure~\ref{fig:keating_tree}. Decision trees like the one in Figure~\ref{fig:keating_tree}, show the binary splits that are made in the space and what predictor, and the value of that predictor, makes that split. In the case of \citeauthor{keatingCrosslanguageAcousticSpace2023}'s (\citeyear{keatingCrosslanguageAcousticSpace2023}) tree, the first split is made on the harmonics-to-noise ratio over the frequency range from 0 Hz to 500 Hz for the middle third of each vowel. This split is made at the z-score of 0.48. If the value of the predictor is greater or equal to 0.48, the dominate voice quality of that region is modal. If, however, that HNR < 500 Hz value is less than 0.48, the region needs to be further split. 
 
-\begin{figure}[!ht]
+\begin{figure}[!h]
     \centering
     \includegraphics[width = 0.9\linewidth]{images/keating_tree.pdf}
     \caption{Classification tree of phonation categories from \citet{keatingCrosslanguageAcousticSpace2023}. Abbreviations used in this figure are: {HNR05_means002}: harmonics-to-noise ratio over the frequency range from 0 Hz to 500 Hz for the middle third of each vowel; {SHR_means002}: subharmonic-to-harmonic ratio for the middle third of each vowel; {H1H2c_means002}: H1* − H2* for the middle third of each vowel; B: breathy, M: modal, and C: creaky phonation categories.}
     \label{fig:keating_tree}
 \end{figure}
 
-Decision trees like the one in Figure~\ref{fig:keating_tree}, show the binary splits that are made in the space and what predictor, and the value of that predictor, makes that split. In the case of \citeauthor{keatingCrosslanguageAcousticSpace2023}'s (\citeyear{keatingCrosslanguageAcousticSpace2023}) tree, the first split is made on the harmonics-to-noise ratio over the frequency range from 0 Hz to 500 Hz for the middle third of each vowel. This split is made at the z-score of 0.48. If the value of the predictor is greater or equal to 0.48, the dominate voice quality of that region is modal. If, however, that HNR < 500 Hz value is less than 0.48, the region needs to be further split. 
-
 The next split in the region is made on the subharmonic-to-harmonic ratio for the middle third of each vowel. If the value of this predictor is less than 0.0024, the voice quality is classified as breathy. If the value is greater than or equal to 0.0024, the region needs to be split further.
 
-The final split in the region is made on the H1* - H2* for the middle third of each vowel. If the value of this predictor is less than 0.45, the voice quality is classified as creaky. If the value is greater than or equal to 0.45, the voice quality is classified as modal.
-
-This tree shows that using only three acoustic measure, one can classify the voice quality of the data. This is a powerful tool for understanding the importance of the different acoustic measures in the acoustic space. 
+The final split in the region is made on the H1* - H2* for the middle third of each vowel. If the value of this predictor is less than 0.45, the voice quality is classified as creaky. If the value is greater than or equal to 0.45, the voice quality is classified as modal. This tree shows that using only three acoustic measure, one can classify the voice quality of the data. This is a powerful tool for understanding the importance of the different acoustic measures in the acoustic space. 
 
 %--------------------------
-\section{Bagging Trees} \label{sec:bagging_bagging}
+\section{What is bagging} \label{sec:bagging_bagging}
 %--------------------------
 
 Simple decision trees, however, suffer from two main disadvantages. The first is that decision trees can suffer from high variance. In other words, the tree can be very sensitive to small changes in the data that it was trained on. The second disadvantage is that decision trees do not have the same predictive accuracy as other regression or classification models (see \cite{hastieElementsStatisticalLearning2009} for discussion).
@@ -80,7 +76,7 @@ From Figure~\ref{fig:bagging_tree}, it is clear that the out-of-bag error stabil
 From Figure~\ref{fig:bagging_importance}, the variables with the largest mean decrease in Gini index are A1* (the amplitude of the harmonic closest to the first formant), residual H1*, and the harmonics-to-noise ratio over the frequency range from 0 Hz to 1500 Hz (HNR 1500 Hz). This means that these three variables are the most important in making the splits in the acoustic space of SLZ. This is consistent with the results of the MDS analysis in Chapter~\ref{ch:acousticlandscape}, where these three variables were some of the variables that contributed the most to the different dimensions of the acoustic space. 
 
 %--------------------------
-\section{Discussion} \label{sec:bagging_discussion}
+\section{Discussion of the bagging results} \label{sec:bagging_discussion}
 %--------------------------
 
 It is interesting to not that in both the MDS analysis and the bagging trees, the same three variables are found to play a role in the acoustic space of SLZ. These two analyses complement each other and help us to better understand what measures to focus are attention on. From Chapter~\ref{ch:acousticlandscape}, we saw that the acoustic measure A1* was heavily weighted for both dimensions 1 and 2. It is not surprising then that this measure would rank so high in the variable importance.
@@ -137,6 +133,10 @@ In regards to what is going on in SLZ, it is not clear if the lowering of A1* fo
 %--------------------------
 \subsection{Importance of Residual H1*} \label{sec:bagging_residual}
 %--------------------------
+As residual H1* is a type of spectral slope measure it is expected to show similar behavior to other spectral slope measures. Namely, breathy voice should be associated with a higher score than modal voice. Since the two types of laryngealization are closely associated with creaky voice, they should be associated with a lower score than modal voice. Additionally, there is a temporal difference between the two types of laryngealization, it is expected that checked voice will have a lower score toward the end of the vowel and  rearticulated voice will have a lower score in the middle of the vowel. 
+
+In Figure~\ref{fig:residualH1}, we see that are predictions are correct. Breathy voice is associated with a higher score than modal voice. The two types of laryngealization are associated with a lower score than modal voice.
+
 \begin{figure}[!ht]
     \centering
     \includegraphics[width = 0.9\linewidth]{images/slz_residual_h1c.eps}
@@ -144,19 +144,30 @@ In regards to what is going on in SLZ, it is not clear if the lowering of A1* fo
     \label{fig:residualH1}
 \end{figure}
 
+A further analysis of the results of this measure using generalized additive (mixed) models (GAM(M)s; \cite{hastieGeneralizedAdditiveModels1986,woodGeneralizedAdditiveModels2017,soskuthyGeneralisedAdditiveMixed2017,wielingAnalyzingDynamicPhonetic2018}) shows that the temporal behavior of the two types of laryngealization is also correct. Checked voice is associated with a lower score toward the end of the vowel and rearticulated voice is associated with a lower score in the middle of the vowel. Additionally, the results of the GAMM show that for the first three time points there is no significant difference between breathy and modal voice. Suggesting that breathy voice is more closely associated with the latter part of the vowel than the beginning. The full results of the GAMM for residual H1* are discussed in Chapter~\ref{ch:residual_h1}.
+
 %--------------------------
-\subsection{Importance of HNR \textless 1500 Hz} \label{sec:bagging_hnr}
+\subsection{Importance of the HNR \textless 1500 Hz} \label{sec:bagging_hnr}
 %--------------------------
+
+The acoustic measure HNR $<$ 1500 Hz is a harmonics-to-noise ratio measure that is calculated over the frequency range from 0 Hz to 1500 Hz and is a measure of the amount of noise in the signal or in other words it is measure of periodicity. In these measures, modal voice is associated with a higher score than non-modal phonations. This is because modal voice is associated with a higher degree of periodicity than non-modal phonations as a-periodicity is a defining feature of non-modal phonations (e.g., \cite{hillenbrandAcousticCorrelatesBreathy1996,blankenshipTimeCourseBreathiness1997,kentVoiceQualityMeasurement1999}).
+
+As seen in Figure~\ref{fig:hnr1500}, this is exactly what we see in SLZ. Modal voice is associated with a higher score than non-modal phonations. Among the non-modal phonations, breathy and rearticulated voice have a higher HNR $<$ 1500 Hz than checked voice. 
 
 \begin{figure}[!ht]
     \centering
     \includegraphics[width = 0.9\linewidth]{images/slz_hnr15.eps}
-    \caption{Plot showing the distribution of HNR 1500 Hz across the different voice qualities in SLZ.}
+    \caption{Plot showing the distribution of HNR $<$ 1500 Hz across the different voice qualities in SLZ.}
     \label{fig:hnr1500}
 \end{figure}
+
+The fact that breathy and rearticulated voice have a higher HNR $<$ 1500 Hz than checked voice is not surprising. As discussed in Chapter~\ref{ch:SLZ}, breathy and rearticulated voices are associated with more modal-like qualities than checked voice. In most instances of rearticulated voice, the vowel is produced with modal voice except for a small portion of the middle of the vowel where the vowel is produced with creaky voice or a glottal occlusion. Breathy voice typically appears  very periodic but with a high degree of noise in the signal. Checked voice on the other hand is typically the shortest of the non-modal phonations and is associated with a high degree of aperiodicity in the signal from the creaky voice that is produced at the end of the vowel. This is why checked voice has the lowest HNR $<$ 1500 Hz of the non-modal phonations.
+
+This measure will be very important in Chapter~\ref{ch:testing_lc}, where this measure will be used to test the predictions of the laryngeal complexity hypothesis.
 
 %--------------------------
 \section{Conclusion} \label{sec:bagging_conclusion}
 %--------------------------
 
+In conclusion, the results of the bagging analysis show that the acoustic measures A1*, residual H1*, and HNR $<$ 1500 Hz are the most important in making the splits in the acoustic space of SLZ. These three measures are also the measures that were found to be the important in the MDS analysis in Chapter~\ref{ch:acousticlandscape}. This suggests that these three measures play an important role in defining and characterizing the different voice qualities from one another in SLZ. 
 
