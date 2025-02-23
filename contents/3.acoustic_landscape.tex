@@ -11,21 +11,29 @@ This study is based on the work conducted by \citet{keatingCrosslanguageAcoustic
 %--------------------------------------------------------------------------
 \section{Methods} \label{sec:acousticlandscape:methods}
 %--------------------------------------------------------------------------
+%--------------------------------------------------------------------------
 \subsection{Participants} \label{sec:acousticlandscape:participants}
-
+%--------------------------------------------------------------------------
 This study uses data collected from 10 native speakers of SLZ during the summer of 2022. Participants were recruited from the community of Santiago Laxopa, Oaxaca, Mexico. All participants were native speakers of SLZ. The participants were between 18 and 60 years old and consisted of five males and five females.
+%--------------------------------------------------------------------------
 \subsection{Recordings} \label{sec:acousticlandscape:recordings} 
+%--------------------------------------------------------------------------
 The participants were asked to perform a word list elicitation task consisting of 72 words. These words were selected to elicit the entire range of types of voice quality in SLZ, including modal voice, the two kinds of creaky (i.e., checked and rearticulated), and breathy voice. The words were selected based on previous research conducted as part of the Zapotec Language Project at the University of California, Santa Cruz \citep{ZapotecLanguageProject}. 
 Because participants were not literate in SLZ, the word list was prompted for them by asking them ``How do you say [word in Spanish]?" by myself and another researcher in Zapotec. Participants were asked to respond with the desired word in the carrier phrase \textit{Shnia' [WORD] chonhe lhas} ``I say [WORD] three times.'' which was repeated three times. These utterances were recorded in a quiet environment using a Zoom H4n digital recorder. The recordings were saved as 16-bit WAV files with a sampling rate of 44.1 kHz.
 
+%--------------------------------------------------------------------------
 \subsection{Acoustic measuring} \label{sec:acousticlandscape:analysis}
+%--------------------------------------------------------------------------
+
 These resulting audio files were then processed in Praat to isolate the vowel portion of each word. The onset of the vowel was set to the second glottal pulse after the onset, and the offset of the vowel was set to the last glottal pulse before the decrease in amplitude at the end of the vowel \citep{garellekAcousticDiscriminabilityComplex2020}. The vowel was then extracted and saved as a separate file for analysis.
 
 These vowels were fed into VoiceSauce \citep{shueVoiceSauceProgramVoice2011} to generate the acoustic measures for the studies discussed in this dissertation. Because many acoustic measures are based on the fundamental frequency, this measure was calculated using the STRAIGHT algorithm from \citep{kawaharaInstantaneousfrequencybasedPitchExtraction1998}. The STRAIGHT algorithm estimates the fundamental frequency in millisecond (ms) intervals. Once the fundamental frequency is calculated, VoiceSauce then uses an optimization function to locate the harmonics of the spectrum, finding their amplitudes.
 
 VoiceSauce then uses the Snack Sound toolkit \citep{sjolanderSnackSoundToolkit2004} to find the frequencies and bandwidths of the first four formants, also at millisecond intervals. The amplitudes of the harmonics closest to these formant frequencies are located and treated as the amplitudes of the formants. These formant frequencies and bandwidths are used to correct the harmonic amplitudes for the filtering effects of the vocal tract, using \citeauthor{iseliAgeSexVowel2007}'s \citeyear{iseliAgeSexVowel2007} extension of the method employed by \citet{hansonGlottalCharacteristicsFemale1997}. Each vowel was measured across ten equal time intervals, resulting in 22890 data points in total. These measures were then z-scored by speaker to reduce the variation between speakers and provide a way to compare the different measures directly on the same scale.
 
+%--------------------------------------------------------------------------
 \subsection{Data processing} \label{sec:acousticlandscape:processing}
+%--------------------------------------------------------------------------
 Data points with an absolute z-score value greater than three were considered outliers and excluded from the analyses in the dissertation. The Mahalanobis distance was calculated in the F1-F2 panel within each vowel category. Each data point with a Mahalanobis distance greater than six was considered an outlier and excluded from the analysis.  
 
 Energy was excluded if it had a zero value and then log-transformed to normalize its right-skewed distribution. Afterward, the resulting log-transformed data was z-scored, and any data point with a z-score greater than three was excluded. This outlier removal resulted in 1918 data points being removed. 
@@ -34,7 +42,9 @@ After removing the outliers, I calculated residual H1* for the remaining data po
 
 Once these steps were completed, the mean of each vowel and speaker of the fifth and sixth intervals was taken. This is similar to what \citet{keatingCrosslanguageAcousticSpace2023} did by taking the middle of the vowel for their analysis. This choice minimizes the effect of the onset and offset of the vowel on the acoustic measures, which are more likely to be affected by the surrounding consonants and should give us the most accurate representation of the vowel quality. Because z-scores were used, this resulted in negative measures, which presents a problem for MDS analyses. To correct for this, I added the absolute value of the minimum z-score to each measure. This results in a dataset that still preserves the relative differences in the scores while providing a dataset that is all positive for the MDS analysis.
 
+%--------------------------------------------------------------------------
 \subsection{Statistical analysis} \label{sec:acousticlandscape:statistics}
+%--------------------------------------------------------------------------
 
 Using a multidimensional scaling (MDS) analysis is a statistical method of reducing the dimensionality of a dataset to visualize the relationships between the data points \citep{kruskalMultidimensionalScaling1978}. This is especially true when many variables could contribute to the data. In the case of voice quality, this is especially true. As shown in \citet{kreimanUnifiedTheoryVoice2014,kreimanValidatingPsychoacousticModel2021,garellekAcousticDiscriminabilityComplex2020}, voice quality is psychoacoustically complex and a single measure is not enough to capture the full range of voice quality. Instead, multiple measures are required that function as cues for the different types of voice quality. For example, a vowel characterized as having a breathy voice has an elevated spectral-slope and a lower harmonics-to-noise ratio than modal voice. A creaky voice has a lowered spectral-slope and a lowered harmonics-to-noise ratio. 
 
@@ -50,10 +60,14 @@ This algorithm resulted in a solution that involves several different dimensions
     \caption{Scree plot for the MDS analysis.}
     \label{fig:stress_plot}
 \end{figure}
+
 %--------------------------------------------------------------------------
 \section{Results} \label{sec:acousticlandscape:results}
 %--------------------------------------------------------------------------
+%--------------------------------------------------------------------------
 \subsection{Acoustic space of voice quality} \label{sec:acousticlandscape:space}
+%--------------------------------------------------------------------------
+
 As mentioned above, the results of the MDS analysis can be represented in a two-dimensional space, as shown in Figure~\ref{fig:nmds12}. In this and all subsequent plots, the breathy voice is represented by black, checked voice with orange, rearticulated voice with green, and modal voice with blue. Overall, we see that the breathy voice is located to the left of the plot, checked and rearticulated voices are tending to the right, and the modal voice is located in the center along the first dimension. The second dimension shows a modal and nonmodal split, with modal voice at the bottom of the plot and nonmodal voice at the top.
 \begin{figure}[!h]
     \centering
@@ -80,8 +94,9 @@ When adding the third dimension to the second, we see that the breathy voices be
     \label{fig:nmds23}
 \end{figure}
 
-
+%--------------------------------------------------------------------------
 \subsection{Acoustic correlates of voice quality} \label{sec:acousticlandscape:correlates}
+%--------------------------------------------------------------------------
 
 An additional step to MDS analysis involves testing which acoustic measures contribute the most weight to the different dimensions. Table~\ref{tab:acoustic_correlates} shows the results of this test. In each of the three dimensions of the MDS analysis, the acoustic measures with the highest weight are shown in bold. In the case of the first and second dimensions (D1 and D2), the acoustic measures that have weights higher than those of other parameters are in boldface (weights > 4.0). In the case of the third dimension (D3), the acoustic measures that have weights higher than those of other parameters are in boldface (weights > 3.0). 
 
