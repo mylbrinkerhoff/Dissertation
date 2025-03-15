@@ -7,7 +7,7 @@
 \section{Introduction} \label{sec:Intro}
 %------------------------------------------------
 
-Languages use voice quality distinctions to convey phonemic distinctions \citep{garellekPhoneticsVoice2019} and to convey paralinguistic information by ``indexing the biological, psychological, and social characteristics of the speaker" \citep{laverVoiceQualityIndexical1968,podesvaStanceWindowLanguageRace2016}. Voice quality contrasts have been studied extensively by examining their correlates in the acoustic signal \citep[e.g.,][]{espositoCrossLinguisticPatterns2020}, resulting in a large and complex literature on acoustic correlates of phonation differences \cite[see][]{garellekPhoneticsVoice2019}. 
+Languages use voice quality distinctions to convey phonemic distinctions \citep{garellekPhoneticsVoice2019} and to convey paralinguistic information by ``indexing the biological, psychological, and social characteristics of the speaker" \citep{laverVoiceQualityIndexical1968,podesvaStanceWindowLanguageRace2016}. Voice quality contrasts have been studied extensively by examining their correlates in the acoustic signal \citep[e.g.,][]{espositoCrossLinguisticPatterns2020}, resulting in a large and complex literature on acoustic correlates of phonation differences \citep[see][]{garellekPhoneticsVoice2019}. 
 
 One measure that is by far the most commonly applied is H1*$-$H2*, which measures the relative amplitudes of the first harmonic and second harmonic. As established by Fischer-Jorgensen, the relative strength of the fundamental is a correlated measure of breathy voice in contrast with modal voice \citet{fischer-jorgensenPhoneticAnalysisBreathy1968}. In order to normalize the amplitude of the fundamental and counteract some of the effects of high-pass filtering and differences in sound pressure in the signal, she proposed that you could subtract the amplitude of a higher harmonic, in this case, the second harmonic (H2), from the amplitude of the fundamental (H1). Since its introduction, H1*$-$H2* has been used in many studies to measure not only breathy voice but other voice quality contrasts as well \citep{garellekPhoneticsVoice2019,chaiH1H2Acoustic2022}.
 
@@ -69,7 +69,7 @@ Each vowel of the target words in the carrier sentence condition was labeled fol
 
 These vowels were then extracted and fed into VoiceSauce for acoustic measurement \citep{shueVoiceSauceProgramVoice2011}. The formants were measured using Snack \citep{sjolanderSnackSoundToolkit2004}, while the fundamental frequency (\textit{f0}) was measured using the STRAIGHT algorithm \citep{kawaharaInstantaneousfrequencybasedPitchExtraction1998}. Spectral slope measures were corrected for formants and bandwidths \citep{hansonGlottalCharacteristicsFemale1997,iseliAgeSexVowel2007}. Each vowel was measured with ten equal time intervals, resulting in 22890 data points in total.
 
-The data were cleaned of outliers following the same steps as taken by \citet{chaiH1H2Acoustic2022} in their study. The H1*, H1*–H2*, and \textit{f0} values were z-scored by speaker to reduce the variation between the speakers and provide a way to directly compare the different measures on the same scale. Data points with an absolute z-score value greater than 3 were considered outliers and excluded from the analyses. Within each vowel category, we calculated the Mahalanobis distance in the F1-F2 panel. Each data point with a Mahalanobis distance greater than 6 was considered an outlier and excluded from the analysis. Using the Mahalanobis distance allows us to compare the data points to the mean of the F1-F2 panel for each vowel category. The larger the Mahalanobis distance is the more deviant the data point is from the mean which in turn means that the data point was improperly tracked. This is comparable to what was done in \citet{seyfarthPlosiveVoicingAcoustics2018,chaiCheckedSyllablesChecked2022,garellekPhoneticsWhiteHmong2021}.
+The data were cleaned of outliers following the same steps as taken by \citet{chaiH1H2Acoustic2022} in their study. The H1*, H1*–H2*, and \textit{f0} values were z-scored by speaker to reduce the variation between the speakers and provide a way to directly compare the different measures on the same scale. Data points with an absolute z-score value greater than 3 were considered outliers and excluded from the analyses. Within each vowel category, we calculated the Mahalanobis distance in the F1-F2 panel. Each data point with a Mahalanobis distance greater than 6 was considered an outlier and excluded from the analysis. Using the Mahalanobis distance allows us to compare the data points to the mean of the F1-F2 panel for each vowel category. The larger the Mahalanobis distance is the more deviant the data point is from the mean which in turn means that the data point was improperly tracked. This is comparable to what was done in \citet{seyfarthPlosiveVoicingAcoustics2018,chaiCheckedSyllablesChecked2022,garellekPhoneticsWhiteHmong2023}.
 
 Time points whose \textit{f}0, F1, or F2 values were outliers were also excluded from H1* and H1*$-$H2* analyzes because H1* and H1*$-$H2* are calculated based on \textit{f0}, F1, and F2. Energy was excluded if it had a zero value and then logarithmically transformed to normalize its right-skewed distribution. Afterward, the resulting logarithmically transformed data was z-scored, and any data point with a z-score greater than 3 was excluded. This outlier removal resulted in 1918 datapoints being removed. 
 
@@ -88,15 +88,16 @@ The tone and the interaction between voice quality and position in the vowel wer
 The interaction between speaker, word, and repetition was treated as a random intercept because this allows us to consider that each speaker said each word on the elicitation list three times. This intercept accounts for not only the intra-speaker variability, but also the inter-speaker variability during each time the word was uttered. Treating a vowel as a random intercept allows us to capture the fact that each voice quality occurred with different vowels during elicitation.
 
 Additional statistical modeling was performed with two generalized additive mixed models (GAMM) using the \texttt{mgcv} package in R \citep{woodGeneralizedAdditiveModels2017}. The GAMMs were fitted to account for any non-linear effects that may be present in the data. In each case the response variable was the same as in the linear mixed-effects models with voice quality as a fixed effect. Splines where used to model the non-linear effects of position and position by phonation. Speaker and word were treated as random intercepts.
-%----------------------------------------------------------------------------------------
+
+%---------------------------------------------------------------------
 \section{Results} \label{sec:Results}
-%----------------------------------------------------------------------------------------
+%---------------------------------------------------------------------
 
 In interpreting the results, there are certain expectations about how these measures should capture the voice quality contrasts. As discussed in \citet{garellekPhoneticsVoice2019}, it is expected that breathy vowels should have a higher spectral slope than modal vowels across the two measures in keeping with observations about breathy vowels in other languages. Because both checked and rearticulated vowels make use of creaky voice, they should have a lower spectral slope than modal vowels. Additionally, because there is a temporal distinction between checked and rearticulated with where the creakiness appears, this should also be captured in the two measures. 
 
-%----------------------------------------------------------------------------------------
+%---------------------------------------------------------------------
 \subsection{H1*$-$H2*} \label{sec:H1H2}
-%----------------------------------------------------------------------------------------
+%---------------------------------------------------------------------
 
 Figure~\ref{fig:FIG1} shows the mean H1*$-$H2* values for each voice quality at each of the ten vowel intervals. We see that the breathy, checked, and rearticulated values are lower than the modal values at each of the first nine intervals. In the final intervals, breathy and rearticulated are essentially equal to the modal value. In contrast, checked's value remains lower than the modal's value throughout the entire vowel. This measure does not match the expectations discussed above.
 
@@ -131,7 +132,6 @@ Table~\ref{tab:CGComparison} compares the linear mixed effects models for H1*$-$
   \centering
   \caption{Model comparison between H1*$–$H2* and Residual H1* in distinguishing Santiago Laxopa Zapotec voice quality.}
   \label{tab:CGComparison}
-  % \begin{ruledtabular}
     \begin{tabular}{lllllll}
       \lsptoprule
     Voice Quality Contrast & Model & \textit{$\beta$ } & Std. Error & \textit{t}-value & \textit{p}-value  &     \\
@@ -144,7 +144,6 @@ Table~\ref{tab:CGComparison} compares the linear mixed effects models for H1*$-$
      & Res. H1* & -0.44162 & 0.03450 & -12.80027 & \textless 0.001 & *** \\
      \lspbottomrule
     \end{tabular}
-  % \end{ruledtabular}
 \end{table}
 
 Table~\ref{tab:Comparison} shows the results of the AIC comparison between the H1*$-$H2* and residual H1* models. The residual H1* model had a lower AIC than the H1*$-$H2* model, indicating that the residual H1* model is a better fit for the data than the H1*$-$H2* model. Although AIC comparison is usually performed on nested models, it is still a useful tool for comparing non-nested models \citep{burnhamMultimodelInferenceUnderstanding2004,burnhamAICModelSelection2011,burnhamModelSelectionMultimodel2004}.
@@ -183,15 +182,15 @@ In Figure~\ref{fig:GAMM_h1h2}, we see that the different voice qualities are ver
 \end{figure}
 
 
-The residual H1* shows a clearer distinction between the different voice qualities than H1*$-$H2*. This is especially clear in the difference plots, where the difference between breathy and modal is much more pronounced in the residual H1* than in H1*$-$H2*.
-
+The residual H1* GAMM showed a clearer distinction between the different voice qualities than H1*$-$H2*. This is especially clear in the smooth plot where the voice quality distinctions match with the predictions stated above. The difference plot in the top right shows that breathy and modal voice are only significantly different in the final two thirds of the vowel. The bottom left shows that checked and modal voice are significantly different across the entire duration of the vowel. Finally, the bottom right shows that rearticulated and modal voice are significantly different across the entire duration of the vowel.
 \begin{figure}[!ht]
   \centering
   \includegraphics[width = \textwidth]{images/residh1_gamm.eps}
   \caption{GAMM smooths and difference plots for residual H1* across the duration of the vowel.}
   \label{fig:GAMM_residh1}
 \end{figure}
-%% Before bibliography:
+
+In comparing the two GAMM analyses, we find that the residual H1* model provides a clearer distinction between the different voice qualities than the H1*$-$H2* model. This is further evidence that residual H1* is a more robust measure of voice quality than H1*$-$H2* in Santiago Laxopa Zapotec. Additionally, the GAMM analysis shows that there appear to be some amount of phasing in the data, which the linear models where unable to capture. This is especially clear in the residual H1* model where the difference plots show that breathy voice is only significantly different from modal in the final two thirds of the vowel. This suggests that breathy voice is aligned with the end of the vowel. This is similar to the predictions made by \citet{silvermanLaryngealComplexityOtomanguean1997,silvermanPhasingRecoverability1997} about the alignment of non-modal phonation in laryngeally complex languages. This will be further discussed in Chapters~\ref{ch:testing_lc} and \ref{ch:modeling_lc}.
 
 \section{Conclusion} \label{sec:Conclusion}
 
