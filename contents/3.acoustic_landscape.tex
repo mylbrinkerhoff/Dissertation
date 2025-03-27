@@ -183,23 +183,21 @@ The plots of the MDS analysis shows us that the acoustic space of voice quality 
     \label{fig:phonation_types}
 \end{figure}
 
-From the plots involving the second dimension, we see that this dimension separates the modals from the nonmodals. This is similar to what, we observe with the various harmonics-to-noise ratios and cepstral peak prominence (CPP) which are all measures of the the amount of noise present in the signal across various bandwidths \citep{dekromCepstrumBasedTechniqueDetermining1993,blankenshipTimingNonmodalPhonation2002,ferrerriesgoWhatMakesCepstral2020}. In addition to the amount of noise it could also be capturing the strength of the vocal fold vibration, similar to what \citet{garellekVoicingGlottalConsonants2021} found in their study of glottal consonants and non-modal phonation. In their study, they found that modal voice had the highest strength of vocal fold vibration (as measured by the Strength of Excitation) while the nonmodals had a lower strength of vocal fold vibration. This suggests that the second dimension is capturing the amount of aperiodic noise in the signal, the strength of vocal fold vibration, or both.
+From the plots involving the second dimension, we see that this dimension separates the modals from the nonmodals. This is similar to what, we observe with the various harmonics-to-noise ratios and cepstral peak prominence (CPP) which are all measures of the the amount of noise present in the signal across various bandwidths \citep{dekromCepstrumBasedTechniqueDetermining1993,hillenbrandAcousticCorrelatesBreathy1996,blankenshipTimingNonmodalPhonation2002,ferrerriesgoWhatMakesCepstral2020}. In addition to the amount of noise it could also be capturing the strength of the vocal fold vibration, similar to what \citet{garellekVoicingGlottalConsonants2021} found in their study of glottal consonants and non-modal phonation. In their study, they found that modal voice had the highest strength of vocal fold vibration (as measured by the Strength of Excitation) while the nonmodals had a lower strength of vocal fold vibration. This suggests that the second dimension is capturing the amount of aperiodic noise in the signal, the strength of vocal fold vibration, or both.
 
-The fourth dimension is less clear in what it is potentially capturing. IN alll of the plots involving the fourth dimension, we see that modal voice is always located near the center of the plot, while the nonmodal voice qualities are located around this point depending on the patterns from the other dimensions. This suggests that the fourth dimension is possibly capturing something about modal voice. 
+The fourth dimension is less clear in what it is potentially capturing. In all of the plots involving the fourth dimension, we see that modal voice is always located near the center of the plot, while the nonmodal voice qualities are located around this point depending on the patterns from the other dimensions. This suggests that the fourth dimension is possibly capturing something about modal voice. 
 
-The rest of this chapter will focus on the how the different acoustic measures contribute to the different dimensions of the MDS analysis. This will be followed by a general discussion of the both the MDS analysis dimensions and the acoustic measures that are correlated with these dimesniosns. This discussion will focus on how the results of this study relate to previous work on voice quality and the implications of these results for our understanding of the acoustic space of voice quality. 
+The rest of this chapter will focus on the how the different acoustic measures contribute to the different dimensions of the MDS analysis. This will be followed by a general discussion of the both the MDS analysis dimensions and the acoustic measures that are correlated with these dimensions. This discussion will focus on how the results of this study relate to previous work on voice quality and the implications of these results for our understanding of the acoustic space of voice quality. 
 
 %--------------------------------------------------------------------------
 \subsection{Acoustic correlates of voice quality} \label{sec:acousticlandscape:correlates}
 %--------------------------------------------------------------------------
 
-Looking at the visual representation of the dimensions is only part of the story. In order to fully understand what is going on we need to determine how the acoustic measures contribute to the An additional step to MDS analysis involves ascertaining which acoustic measures are correlated with each of the different dimensions. Table~\ref{tab:acoustic_correlates} shows these correlations. In each of the four dimensions produced by the MDS analysis, the four largest correlations for each acoustic measures are bolded. The choice to bold the four largest correlations was arbitrary and was done to make it easier to discuss each of the In the case of the first and second dimensions (D1 and D2), the acoustic measures that have weights higher than those of other parameters are in boldface (weights > 4.0). In the case of the third dimension (D3), the acoustic measures that have weights higher than those of other parameters are in boldface (weights > 3.0). 
+Looking at the visual representation of the dimensions is only part of the full story. In order to fully understand what is occurring, we need to determine how the acoustic measures contribute to each of the different dimensions. There are two ways to do this: (i) looking at the amount of weight each acoustic measure contributes to the different dimensions, and (ii) looking at how correlated the different acoustic measures are to the different dimensions \citep{kruskalMultidimensionalScaling1978,hastieElementsStatisticalLearning2009}. Both of these methods are useful in understanding the shape of the data. In the following discussion, I will take the second approach and look at the correlations between the different acoustic measures and the different dimensions. This is done to make the resulting discussion easier to follow.   
 
-We see that for D1, the acoustic measures that have the highest weight on the first dimension are the amplitudes for the first three formants (i.e., A1*, A2*, A3*) and HNR < 500 Hz (i.e., a harmonics-to-noise ratio for everything from 0 to 500 Hz). For D2, the acoustic measures with the highest weight are H1*$-$A1*, H1*$-$A2* (i.e., spectral-slope measures), and the amplitudes of the first two formants. For D3, we see that HNR < 1500 HZ, HNR < 2500 Hz, HNR < 3500 Hz, and Residual H1* and H2* have the highest weights.
+Table~\ref{tab:acoustic_correlates} shows the correlation score, computed by the \texttt{cor} function in R, for each acoustic measure and dimension. The four largest correlations in each dimension are bolded. The choice to bold the four largest correlations was arbitrary and was done to make it easier to discuss. Even though only the four largest correlations are bolded, there are several correlations that share similar correlation values. These cases will be discussed as the are needed.
 
-
-
-\begin{table}[ht]
+\begin{table}[!ht]
     \centering
     \caption{Correlations for each acoustic measure to the four dimensions (NMDS1, NMDS2, NMDS3, NMDS4). The four largest correlations in each dimension are bolded.} 
     \label{tab:acoustic_correlates}
@@ -225,46 +223,33 @@ We see that for D1, the acoustic measures that have the highest weight on the fi
         HNR < 1500 Hz & -0.275 & \textbf{-0.799} & 0.323 & -0.290 \\ 
         HNR < 2500 Hz & -0.327 & -0.714 & 0.391 & -0.348 \\ 
         HNR < 3500 Hz & -0.446 & -0.644 & 0.393 & -0.356 \\ 
-        SoE & -0.013 & -0.741 & -0.238 & 0.145 \\ 
+        Strength of Excitation & -0.013 & -0.741 & -0.238 & 0.145 \\ 
         SHR & 0.144 & -0.176 & 0.122 & \textbf{-0.597} \\ 
         Energy & -0.080 & \textbf{-0.793} & -0.015 & 0.341 \\ 
         Duration & -0.622 & 0.539 & 0.257 & 0.030 \\ 
         \lspbottomrule
     \end{tabular}
-    % \begin{tabular}{lrrr}
-    % \hline
-    % Acoustic Measure & D1 & D2 & D3 \\ 
-    % \hline
-    % H1*$-$H2* & 1.03 & 1.01 & 0.39 \\ 
-    % H2*$-$H4 & 1.15 & 3.98 & 2.13 \\ 
-    % H1*$-$A1* & 2.22 & \textbf{5.15} & 1.84 \\ 
-    % H1*$-$A2* & 2.93 & \textbf{4.66} & 1.00 \\ 
-    % H1*$-$A3* & 2.37 & 3.24 & 0.90 \\ 
-    % H4*$-$H2k* & 1.47 & 0.31 & 1.59 \\ 
-    % H2k*$-$H5k* & 3.73 & 0.73 & 0.84 \\ 
-    % residual H1* & 1.75 & 0.97 & \textbf{4.24} \\ 
-    % H2* & 1.76 & 0.94 & \textbf{4.09} \\ 
-    % H4* & 0.79 & \textbf{4.28} & 0.10 \\ 
-    % A1* & \textbf{4.96} & \textbf{5.48} & 0.17 \\ 
-    % A2* & \textbf{5.30} & \textbf{4.90} & 1.38 \\ 
-    % A3* & \textbf{4.54} & 2.91 & 1.11 \\ 
-    % CPP & \textbf{4.08} & 0.10 & 1.68 \\ 
-    % HNR < 500 Hz & \textbf{5.66} & 1.47 & 1.81 \\ 
-    % HNR < 1500 Hz & 3.95 & 2.68 & \textbf{3.08} \\ 
-    % HNR < 2500 Hz & 3.15 & 1.63 & \textbf{3.42} \\ 
-    % HNR < 3500 Hz & 2.86 & 0.55 & \textbf{3.19} \\ 
-    % Strength of Excitation & 2.09 & 0.78 & 0.36 \\ 
-    % SHR & 2.39 & 0.50 & 0.47 \\ 
-    % Energy & 2.22 & 3.91 & 0.64 \\ 
-    % \hline
-    % \end{tabular}
 \end{table}
+
+%--------------------------------------------------------------------------
+\subsubsection{Dimension 1} \label{sec:acousticlandscape:dim1}
+%--------------------------------------------------------------------------
+From Table~\ref{tab:acoustic_correlates}, we observe that the first dimension is negatively correlated with the acoustic slope measures of H1*$-$A1*, H1*$-$A2*, and H1*$-$A3* ($r^{2} \approx -0.825$ for all three of these measures). These measures are all types of spectral slope measures which attempt to normalize the amplitude of the formant corrected H1 against the amplitudes of the formant correct harmonic closest to the first three formants. It has been noted that these measures are correlated with the open-quotient of the glottis (see \cite{garellekPhoneticsVoice2019,garellekTheoreticalAchievementsPhonetics2022} for an overview of these measures). Because these measures all capture the same information and they are all highly correlated with the first dimension, we can conclude that the first dimension is primarily concerned with the spectral slope of the signal (i.e., the open-quotient of the glottis). 
+
+The first dimension is also positively correlated with the amplitude of the first three formants (i.e., A1*, A2*, and A3*). These acoustic measures also share correlations of a similar value ($r^{2} \approx 0.75$). It is also worth noting that these amplitude measures are all used in the normalization of the spectral slope measures (i.e., H1*$-$A1*, H1*$-$A2*, and H1*$-$A3*). I believe that this fact suggests that the first dimension is primarily concerned with the spectral slope of the signal, but is also factoring in the amplitude of the formants.
+
+%--------------------------------------------------------------------------
+\subsubsection{Dimension 2} \label{sec:acousticlandscape:dim2}
+%--------------------------------------------------------------------------
+The second dimension is strongly correlated with the harmonics-to-noise ratio (HNR) measures. The HNR measures HNR < 500 Hz, HNR < 1500 Hz, and HNR < 2500 Hz are all negatively correlated with the second dimension ($r^{2} \approx -0.79$). These measures are all measures of the amount of noise in the signal and are used to indicate the amount of periodicity in the signal (e.g., whether something is modal or nonmodal). This suggests that the second dimension is concerned with the amount of noise in the signal.
+
+Additionally, there are strong negative correlations with Energy, which is the root mean squared energy of the acoustic signal, and the Strength of Excitation (SoE), which is defined as ``the instant of significant excitation of the vocal-tract system during production of speech'' and represents ``the relative amplitude of impulse-like excitation'' \citep{mittalStudyEffectsVocal2014}. his suggests that the second dimension is primarily concerned with the amount of noise in the signal.
 
 %--------------------------------------------------------------------------
 \section{Discussion} \label{sec:acousticlandscape:discussion}
 %--------------------------------------------------------------------------
 
-The results of the MDS analysis show that the acoustic space in which SLZ's voice quality occupies is similar to other languages. Similar to what \citet{keatingCrosslanguageAcousticSpace2023} found in their study, the first dimension appears to roughly be similar to the open quotient of the glottis as proposed by \citet{gordonPhonationTypesCrosslinguistic2001}. In this model, voice quality is seen as the result of the glottis being more open or closed during phonation. The more open the glottis, the more breathy the phonation will be. The more closed the glottis, the more creaky the phonation will be. This model from \citet{gordonPhonationTypesCrosslinguistic2001} is shown in Figure~\ref{fig:phonation_types}.
+The results of the MDS analysis show that the acoustic space in which SLZ's voice quality occupies is similar to other languages. Similar to what \citet{keatingCrosslanguageAcousticSpace2023} found in their study, the first dimension appears to roughly be similar to the open quotient of the glottis as proposed by \citet{gordonPhonationTypesCrosslinguistic2001}. In this model, voice quality is seen as the result of the glottis being more open or closed during phonation. The more open the glottis, the more breathy the phonation will be. The more closed the glottis, the more creaky the phonation will be. This model from \citet{gordonPhonationTypesCrosslinguistic2001} is shown in Figure~\ref{fig:phonation_types_1}.
 
 \begin{figure}[h!]
     \centering
@@ -284,7 +269,7 @@ The results of the MDS analysis show that the acoustic space in which SLZ's voic
         \node[above] at (10,0) {Closed Glottis};
     \end{tikzpicture}
     \caption{A diagram showing the relationship between breathy, modal, and creaky phonation types. Based on \citet{gordonPhonationTypesCrosslinguistic2001}.}
-    \label{fig:phonation_types}
+    \label{fig:phonation_types_1}
 \end{figure}
 
 As mentioned above, the measures that contribute the most to this first dimension are the amplitudes of the first three formants, CPP, and Harmonics-to-Noise Ratio < 500 Hz. Interestingly, even though this dimension is similar to the open-quotient model put forward by \citet{gordonPhonationTypesCrosslinguistic2001}, we do not observe measures traditionally associated with the open-quotient (i.e., spectral-slope). Instead of seeing traditional spectral-slope measures, we find the three formant amplitudes used to normalize the amplitude of the fundamental like in the measures H1*$-$A1*, H1*$-$A2*, and H1*$-$A3*. This suggests that the first dimension is more about the formants' amplitude than the signal's spectral-slope. This is combined with CPP and HNR < 500 Hz, which measures the harmonics-to-noise ratio for the first 500 Hz of the signal. This suggests that the first dimension is also concerned with the amount of noise in the signal.
