@@ -131,7 +131,7 @@ Figure~\ref{fig:nmds14} shows the first dimension plotted against the fourth dim
 
 Figure~\ref{fig:nmds23} shows the second dimension plotted against the third dimension. This plot is essentially the same as Figure~\ref{fig:nmds13}, with that the coordinates are flipped.
 
-\begin{figure}[!h]
+\begin{figure}[!ht]
     \centering
     \includegraphics[width = 0.9\linewidth]{images/MDS/nmds23_dur.eps}
     \caption{Two-dimensional MDS solution showing the second and third dimensions.}
@@ -157,7 +157,7 @@ Figure~\ref{fig:nmds34} shows the third dimension plotted against the fourth dim
 \end{figure}
 
 %--------------------------------------------------------------------------
-\subsubsection{Interim summary} \label{sec:acousticlandscape:inter_sum}
+\subsubsection{Interim summary for dimension plots} \label{sec:acousticlandscape:inter_sum}
 %--------------------------------------------------------------------------
 
 The plots of the MDS analysis shows us that the acoustic space of voice quality in SLZ is primarily represented by a three-dimensional space. The first dimension and third dimensions are very similar in that they capture a continuum from breathy, to modal, and finally creaky voice. This is similar to what \citet{keatingCrosslanguageAcousticSpace2023} found in their study that the first dimension captures this continuum. This continuum is very similar to the open-quotient model of voice quality put forward by \citet{gordonPhonationTypesCrosslinguistic2001}, as illustrated in Figure~\ref{fig:phonation_types}. Because of this similarly to the open-quotient model, the first and third dimensions are likely capturing the open-quotient of the glottis or something similar. 
@@ -252,13 +252,25 @@ All together given the correlations of the HNR measures, Energy, SoE, and we can
 %--------------------------------------------------------------------------
 \subsubsection{Dimension 3} \label{sec:acousticlandscape:dim3}
 %--------------------------------------------------------------------------
-The third dimension is primarily correlated with the two spectral slope measures of residual H1* and H2*$-$H4* ($r^{2} \approx -0.7$). Residual H1* is a measure that has been shown to be robust in capturing the strength of the first harmonic \citep{chaiH1H2AcousticMeasure2022,brinkerhoffUsingResidualH12025}. H2*-H4* has also been shown to be another spectral slope measure that is able to capture the differences in amplitude between different phonation types \citep{garellekPhoneticsVoice2019,garellekModelingVoiceSource2016,kreimanUnifiedTheoryVoice2014,kreimanValidatingPsychoacousticModel2021}. This suggests that the third dimension is primarily concerned with the spectral slope of the signal, similar to what we observed in the first dimension.
+The third dimension is negatively correlated with the two spectral slope measures of residual H1* and H2*$-$H4* ($r^{2} \approx -0.7$). Residual H1* is a measure that has been shown to be robust in capturing the strength of the first harmonic \citep{chaiH1H2AcousticMeasure2022,brinkerhoffUsingResidualH12025}, which was the original goal of using higher harmonics to normalize H1 \citep{fischer-jorgensenPhoneticAnalysisBreathy1968}. H2*$-$H4* has also been shown to be another spectral slope measure that is able to capture the differences in amplitude between different phonation types \citep{garellekPhoneticsVoice2019,garellekModelingVoiceSource2016,kreimanUnifiedTheoryVoice2014,kreimanValidatingPsychoacousticModel2021}. This suggests that the third dimension is primarily concerned with the spectral slope of the signal, similar to what we observed in the first dimension.
+
+In addition to these measures, the amplitude of the second harmonic (H2*) was also found to be negatively correlated with the third dimension ($r^{2} \approx -0.69$). This measure is typically used to help normalize the amplitude of the first harmonic and is used in the calculation of the spectral slope measures (e.g., H1*$-$H2*, H2*$-$H4*, etc.). Because of its use in spectral slope measures and that H2*$-$H4* is also negatively correlated with the third dimension, we can conclude that H2* is also contributing to the spectral slope of the signal. This further supports the idea that the third dimension is primarily concerned with the spectral slope of the signal. 
+
+The last acoustic measure also correlated with the third dimension is the spectral slope measure of H1*$-$A1* ($r^{2} \approx -0.46$). Even though the correlation is not as strong as the other acoustic measures it still shows that the third dimension is corresponds to the spectral slope of the signal (i.e., the open-quotient of the glottis).
 
 %--------------------------------------------------------------------------
 \subsubsection{Dimension 4} \label{sec:acousticlandscape:dim4}
 %--------------------------------------------------------------------------
 
+In the fourth dimension, we observe that the correlations are less clear than in the previous three dimensions. The strongest correlations in this dimension with the Subharmonic-to-Harmonic ratio (SHR; $r^{2} \approx -0.60$) describes the relative strength of any subharmonics (interharmonics) in the signal \citep{sunPitchDeterminationVoice2002}. Subharmonics in the signal correspond to alternating periods in the time domain (i.e., period doubling), which typically occurs in creaky voice and with broader laryngeal constrictions (see \cite{herbstPerformanceEvaluationSubharmonictoHarmonic2021} for concerns about this acoustic measure). 
 
+The positive correlation with H4* ($r^{2} \approx 0.48$) suggests that the fourth dimension may also be capturing some information about the amplitude of the higher harmonics. This is also true with the positive correlation with H4*$-$H2k* ($r^{2} \approx 0.37$) and H2*$-$H4* ($r^{2} \approx 0.36$), which are both measure that captures the spectral slope of the signal. This suggests that the fourth dimension may be capturing some information about the amplitude of the harmonics in the signal. 
+
+%--------------------------------------------------------------------------
+\subsubsection{Interim summary for acoustic correlates} \label{sec:acousticlandscape:interim_correlates}
+%--------------------------------------------------------------------------
+
+Based on the correlations observed in Table~\ref{tab:acoustic_correlates}, we can summarize the acoustic correlates of each dimension as follows: Dimension 1 captures the spectral slope of the signal, primarily through the spectral slope measures H1*$-$A1*, H1*$-$A2*, and H1*$-$A3*. This dimension appears to be related to the open-quotient of the glottis. Dimension 2 captures the amount of noise in the signal and the strength of vocal fold vibration, primarily through the HNR measures (HNR < 500 Hz, HNR < 1500 Hz, and HNR < 2500 Hz), Energy, and Strength of Excitation. This dimension separates modal from nonmodal voice quality which is. Dimension 3 captures the spectral slope of the signal as well, just as Dimension 1 does, primarily through residual H1*, H2*$-$H4*, and H2*. This dimension also appears to be related to the open-quotient of the glottis. Finally, Dimension 4 captures periodicity in the signal through SHR and also appears to capture some information about the spectral slope as evidenced by the amplitude of the higher harmonics through H4* and H4*$-$H2k*. However, it is not entirely clear if this dimension is primarily concerned with the spectral slope of the signal or periodicity in the signal.
 
 %--------------------------------------------------------------------------
 \section{Discussion} \label{sec:acousticlandscape:discussion}
