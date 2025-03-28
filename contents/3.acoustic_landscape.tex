@@ -32,7 +32,7 @@ These vowels were fed into VoiceSauce \citep{shueVoiceSauceProgramVoice2011} to 
 VoiceSauce then uses the Snack Sound toolkit \citep{sjolanderSnackSoundToolkit2004} to find the frequencies and bandwidths of the first four formants, also at millisecond intervals. The amplitudes of the harmonics closest to these formant frequencies are located and treated as the amplitudes of the formants. These formant frequencies and bandwidths are used to correct the harmonic amplitudes for the filtering effects of the vocal tract, using \citeauthor{iseliAgeSexVowel2007}'s \citeyear{iseliAgeSexVowel2007} extension of the method employed by \citet{hansonGlottalCharacteristicsFemale1997}. Each vowel was measured across ten equal time intervals, resulting in 22890 data points in total. These measures were then z-scored by speaker to reduce the variation between speakers and provide a way to compare the different measures directly on the similar scales.
 
 %--------------------------------------------------------------------------
-\subsection{Data processing} \label{sec:acousticlandscape:processing}
+\subsection{Data processing} \label{sec:acousticlandscape:data_processing}
 %--------------------------------------------------------------------------
 Data points with an absolute z-score value greater than three were considered outliers and excluded from the analyses in the dissertation. The Mahalanobis distance was calculated in the F1-F2 panel within each vowel category. Each data point with a Mahalanobis distance greater than six was considered an outlier and excluded from the analysis.  
 
@@ -40,7 +40,7 @@ Energy was excluded if it had a zero value and then log-transformed to normalize
 
 All data points were then z-scored by speaker to reduce the variation between speakers and provide a way to compare the different measures directly on the same scale.
 
-I then calculated residual H1* for the remaining data points following \citet{chaiH1H2Acoustic2022}. First, a linear mixed effects model was generated with the z-scored H1* as the response variable and the z-scored energy as the fixed effect. The uncorrelated interaction of the z-scored energy by speaker was treated as random. The energy factor resulting from this linear mixed-effects model was extracted. Finally, the z-scored H1* had the product of the z-scored energy and energy factor subtracted from it to produce the residual H1* measure. 
+I then calculated residual H1* for the remaining data points following \citet{chaiH1H2AcousticMeasure2022}. First, a linear mixed effects model was generated with the z-scored H1* as the response variable and the z-scored energy as the fixed effect. The uncorrelated interaction of the z-scored energy by speaker was treated as random. The energy factor resulting from this linear mixed-effects model was extracted. Finally, the z-scored H1* had the product of the z-scored energy and energy factor subtracted from it to produce the residual H1* measure. 
 
 Once these steps were completed, the mean of each combination of phonation and speaker was taken for the fourth through seventh interval of the vowel. This is similar to what \citet{keatingCrosslanguageAcousticSpace2023} did by taking the middle of the vowel for their analysis. This choice minimizes the effect of the onset and offset of the vowel on the acoustic measures, which are more likely to be affected by the surrounding consonants and should give us the most accurate representation of the vowel quality. Because z-scores were used, this resulted in negative measures, which presents a problem for MDS analyses. To correct for this, I added the absolute value of the minimum z-score to each measure. This results in a dataset that still preserves the relative differences in the scores while providing a dataset that is all positive for the MDS analysis.
 
@@ -58,7 +58,7 @@ The MDS analysis was conducted using the \texttt{metaMDS} function in the \textt
 
 This algorithm resulted in a solution that involves several different dimensions. The number of dimensions retained directly affects how well the original data is captured. Too many dimensions and the data are overfitted; too few, and the data are underfitted. To determine the number of dimensions to retain, I used a scree plot to plot the stress of each dimension. As shown in Figure~\ref{fig:stress_plot}, most of the data is captured in the first four dimensions. These four dimensions were retained for the analysis.
 
-\begin{figure}[!h]
+\begin{figure}[!ht]
     \centering
     \includegraphics[width = 0.9\linewidth]{images/MDS/stress_plot_dur.eps}
     \caption{Scree plot showing the stress for each dimension for the MDS analysis.}
@@ -104,7 +104,7 @@ Figure~\ref{fig:nmds12} shows the first dimension plotted against the second dim
     \label{fig:nmds12}
 \end{figure}
 
-\begin{figure}[!h]
+\begin{figure}[!ht]
     \centering
     \includegraphics[width = 0.9\linewidth]{images/MDS/nmds13_dur.eps}
     \caption{Two-dimensional MDS solution showing the first and third dimensions.}
@@ -122,7 +122,7 @@ Figure~\ref{fig:nmds13} compares the first dimension to the third dimension. In 
 
 Figure~\ref{fig:nmds14} shows the first dimension plotted against the fourth dimension. This plot is very similar to Figure~\ref{fig:nmds12}, with the only difference being the the fourth dimension moves the modal voice from the bottom-center of the plot to almost the exact center of the plot.
 
-\begin{figure}[!h]
+\begin{figure}[!ht]
     \centering
     \includegraphics[width = 0.9\linewidth]{images/MDS/nmds14_dur.eps}
     \caption{Two-dimensional MDS solution showing the first and fourth dimensions.}
@@ -149,7 +149,7 @@ Figure~\ref{fig:nmds24} shows the second dimension plotted against the fourth di
 
 Figure~\ref{fig:nmds34} shows the third dimension plotted against the fourth dimension. This plot is very similar to Figure~\ref{fig:nmds14} with the exception that along the third dimension checked and rearticulated voice have swapped places. Checked voice is more centralized in the plot, while rearticulated voice is located more to the right of the plot. Again, we observe that the modal voice is located at the center of the plot.
 
-\begin{figure}[!h]
+\begin{figure}[!ht]
     \centering
     \includegraphics[width = 0.9\linewidth]{images/MDS/nmds34_dur.eps}
     \caption{Two-dimensional MDS solution showing the third and fourth dimensions.}
@@ -252,7 +252,13 @@ All together given the correlations of the HNR measures, Energy, SoE, and we can
 %--------------------------------------------------------------------------
 \subsubsection{Dimension 3} \label{sec:acousticlandscape:dim3}
 %--------------------------------------------------------------------------
-The third dimension is primarily concerned with the spectral slope of the signal.
+The third dimension is primarily correlated with the two spectral slope measures of residual H1* and H2*$-$H4* ($r^{2} \approx -0.7$). Residual H1* is a measure that has been shown to be robust in capturing the strength of the first harmonic \citep{chaiH1H2AcousticMeasure2022,brinkerhoffUsingResidualH12025}. H2*-H4* has also been shown to be another spectral slope measure that is able to capture the differences in amplitude between different phonation types \citep{garellekPhoneticsVoice2019,garellekModelingVoiceSource2016,kreimanUnifiedTheoryVoice2014,kreimanValidatingPsychoacousticModel2021}. This suggests that the third dimension is primarily concerned with the spectral slope of the signal, similar to what we observed in the first dimension.
+
+%--------------------------------------------------------------------------
+\subsubsection{Dimension 4} \label{sec:acousticlandscape:dim4}
+%--------------------------------------------------------------------------
+
+
 
 %--------------------------------------------------------------------------
 \section{Discussion} \label{sec:acousticlandscape:discussion}
@@ -283,9 +289,9 @@ The results of the MDS analysis show that the acoustic space in which SLZ's voic
 
 As mentioned above, the measures that contribute the most to this first dimension are the amplitudes of the first three formants, CPP, and Harmonics-to-Noise Ratio < 500 Hz. Interestingly, even though this dimension is similar to the open-quotient model put forward by \citet{gordonPhonationTypesCrosslinguistic2001}, we do not observe measures traditionally associated with the open-quotient (i.e., spectral-slope). Instead of seeing traditional spectral-slope measures, we find the three formant amplitudes used to normalize the amplitude of the fundamental like in the measures H1*$-$A1*, H1*$-$A2*, and H1*$-$A3*. This suggests that the first dimension is more about the formants' amplitude than the signal's spectral-slope. This is combined with CPP and HNR < 500 Hz, which measures the harmonics-to-noise ratio for the first 500 Hz of the signal. This suggests that the first dimension is also concerned with the amount of noise in the signal.
 
-The second dimension divides the space into modal versus nonmodal voice quality. The acoustic measures that contribute the most weight to this dimension are the spectral-slope measures H1*$-$A1* and H1*$-$A2* and the harmonic amplitudes of H4*, A1*, and A2*. This suggests that the second dimension is more about the spectral-slope of the signal than about the amount of noise in the signal. This is interesting given that traditional spectral-slope measures are associated with the open-quotient model of voice quality \citep{holmbergComparisonsAerodynamicElectroglottographic1995,kreimanMeasuresGlottalSource2007,garellekModelingVoiceSource2016,garellekPhoneticsVoice2019,chaiH1H2Acoustic2022}.
+The second dimension divides the space into modal versus nonmodal voice quality. The acoustic measures that contribute the most weight to this dimension are the spectral-slope measures H1*$-$A1* and H1*$-$A2* and the harmonic amplitudes of H4*, A1*, and A2*. This suggests that the second dimension is more about the spectral-slope of the signal than about the amount of noise in the signal. This is interesting given that traditional spectral-slope measures are associated with the open-quotient model of voice quality \citep{holmbergComparisonsAerodynamicElectroglottographic1995,kreimanMeasuresGlottalSource2007,garellekModelingVoiceSource2016,garellekPhoneticsVoice2019,chaiH1H2AcousticMeasure2022}.
 
-The third dimension adds more information on nonmodal voice quality. Figure~\ref{fig:nmds13} and Figure~\ref{fig:nmds23}, this third dimension separates the breathy voice from the other nonmodal phonation types. The measures contributing the most to this dimension are the harmonics-to-noise ratio for the first 1500 Hz, 2500 Hz, and 3500 Hz. In addition, the residual H1* and H2* have the highest weights, which is interesting given that residual H1* has been argued to be a more robust measure of the spectral-slope of the signal than traditional spectral-slope measures \citep{chaiH1H2Acoustic2022,brinkerhoffResidualH1Measure2024}. Furthermore, as discussed in Chapter~\ref{ch:residual_h1}, residual H1* represents the voice quality in SLZ better than H1*$-$H2* and H1*$-$A3*. This dimension is characterized by the harmonics-to-noise ratios for the first 1500 Hz, 2500 Hz, and 3500 Hz. This suggests that the third dimension is more about the signal's spectral quality than about the formants' amplitude. This is combined with residual H1* and H2*, which are measures of the spectral-slope of the signal.
+The third dimension adds more information on nonmodal voice quality. Figure~\ref{fig:nmds13} and Figure~\ref{fig:nmds23}, this third dimension separates the breathy voice from the other nonmodal phonation types. The measures contributing the most to this dimension are the harmonics-to-noise ratio for the first 1500 Hz, 2500 Hz, and 3500 Hz. In addition, the residual H1* and H2* have the highest weights, which is interesting given that residual H1* has been argued to be a more robust measure of the spectral-slope of the signal than traditional spectral-slope measures \citep{chaiH1H2AcousticMeasure2022,brinkerhoffResidualH1Measure2024}. Furthermore, as discussed in Chapter~\ref{ch:residual_h1}, residual H1* represents the voice quality in SLZ better than H1*$-$H2* and H1*$-$A3*. This dimension is characterized by the harmonics-to-noise ratios for the first 1500 Hz, 2500 Hz, and 3500 Hz. This suggests that the third dimension is more about the signal's spectral quality than about the formants' amplitude. This is combined with residual H1* and H2*, which are measures of the spectral-slope of the signal.
 
 %--------------------------------------------------------------------------
 \section{Conclusion} \label{sec:acousticlandscape:conclusion}
