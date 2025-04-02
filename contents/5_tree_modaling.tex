@@ -1,30 +1,35 @@
-\chapter{Trees reveal the importance of measures in SLZ} \label{ch:bagging}
+\chapter{Trees reveal the importance of measures in SLZ} \label{ch:revealing_trees}
 
 %--------------------------
 \section{Introduction} \label{sec:bagging_intro}
 %--------------------------
 
-The MDS analysis presented in Chapter~\ref{ch:acousticlandscape} helps us to understand the acoustic landscape of SLZ. This helps reveal the multidimensional nature of voice quality and how all the acoustic measures work together to produce that acoustic landscape. The chapter also discussed how certain measures contributed more weight than other acoustic measures to each of the different dimensions. However, it does not tell us what measures are more important in separating the voice qualities from from one another. This is where decision trees can be most helpful.
+The MDS analysis presented in Chapter~\ref{ch:acousticlandscape} provides us an understanding of the acoustic shape that voice quality takes in SLZ. This shape is defined by different dimensions that correspond to the glottal configuration needed to produce each voice quality and the amount of noise in the signal. The MDS analysis also provides us with a way to visualize how the different voice qualities occupy an acoustic space. Finally, the chapter discussed how different acoustic measures are correlated with the different dimensions of the acoustic space. This provides us with a potential avenue to explore which measures contribute to our understanding of the different voice qualities in SLZ.
+However, the analysis does not tell us which measures are the most important in making the splits between the different voice qualities. This is where decision trees are helpful as they provide a way to cut through the noise and reveal which measures play the most important role in dividing that acoustic space. 
+
+In this chapter, I present an anlysis using a flavor of decision trees called Random Forests \citep{breimanClassificationRegressionTrees1986,breimanRandomForests2001}. Random Forests are a type of ensemble learning method that combines multiple decision trees that are built on the same data. This allows us to take advantage of the strengths of decisions trees while minimizing the weaknesses that are present in classical decision trees (see \cite{hastieElementsStatisticalLearning2009,boehmkeHandsOnMachineLearning2019,jamesIntroductionStatisticalLearning2021} for a discussion of the strengths and weaknesses of the different types of decision trees).
+
+I show in this chapter that only a small number of acoustic measures are needed to classify the different voice qualities and make the splits in the acoustic space. 
 
 %--------------------------
-\section{What are Decision Trees} \label{sec:bagging_what}
+\section{What are Decision Trees} \label{sec:what_are_dt}
 %--------------------------
 
-Decision trees are a statistical tool that helps to reveal which variables divide the space under investigation. Essentially, this is done by stratifying or segmenting the predictor space into some number of simpler regions. The rules that divide the space into these regions are based on some aspect of the variables (see \cite{hastieElementsStatisticalLearning2009,jamesIntroductionStatisticalLearning2021} for explanations on the statistics and how to perform these analyses in R). 
+Decision trees are a statistical tool that helps to reveal which predictors divide the space under investigation. Essentially, this is done by stratifying or segmenting the predictor space into some number of simpler regions. The rules that divide the space into these regions are based on some aspect of the predictors (see \cite{hastieElementsStatisticalLearning2009,jamesIntroductionStatisticalLearning2021} for explanations on the statistics and how to perform these analyses in R). 
 
 These trees can be used for both regression and classification. In the case of regressions, it splits the predictor space into regions and calculates how the item under discussion behaves in each region. This process of splitting into regions and calculating how something responds in that region continues until some stopping rule is applied, which is usually defined to some number of terminal nodes. This resulting tree is rather large and is then pruned based on the cost-complexity pruning to a subset of itself. This subsetted tree is the tree that has minimized its cost-complexity criterion of all potential subsets. Meaning that it balances the trade-off between the complexity of the tree and its fit to the data. 
 
-In the case of classification, the algorithms that result in a tree are very similar to those used for regression trees. The main difference in algorithm comes from what is used to split the nodes and how the tree is pruned. Additionally, instead of predicting a continuous outcome like with regression trees, classification trees predict a categorical outcome. The predictor space is divided into regions, and within each region, the majority class is assigned as the predicted class for that region. This process continues until a stopping rule is applied, similar to regression trees. The resulting tree can also be pruned to avoid overfitting, using a cost-complexity criterion.
+In the case of classification, the algorithms that result in a tree are very similar to those used for regression trees. The main difference in algorithm comes from what is used to split the nodes and how the tree is pruned. Instead of predicting a continuous outcome like with regression trees, classification trees predict a categorical outcome. The predictor space is divided into regions, and within each region, the majority class is assigned as the predicted class for that region. This process continues until a stopping rule is applied, similar to regression trees. The resulting tree can also be pruned to avoid overfitting, using a cost-complexity criterion.
 
 Decision trees are easy to interpret and visualize, making them an ideal choice for understanding the structure of data and how the different predictors interact with data \citep{hastieElementsStatisticalLearning2009,jamesIntroductionStatisticalLearning2021}.
 
 %-----------------------------
-\section{Decision trees in linguistics}\label{sec:bagging_DecisionTrees}
+\section{Decision trees in linguistics}\label{sec:dt_linguistics}
 %-----------------------------
 
-The use of decision trees in linguistics is not new. One of the first uses was done by \citet{tagliamonteModelsForestsTrees2012}, where they were illustrated the use of decision trees in investigating which sociolinguistic factors were the most important in the use of \textit{was} versus \textit{were} in York English. Recently, decision trees were used to show which acoustic measures were the most important in making the split in the acoustic space for voice quality \citep{keatingCrosslanguageAcousticSpace2023}. 
+The use of decision trees in linguistics is not new. One of the first uses was done by \citet{tagliamonteModelsForestsTrees2012}, where they illustrated the use of decision trees in investigating which sociolinguistic factors were the most important in the use of \textit{was} versus \textit{were} in York English. 
 
-In their study, \citet{keatingCrosslanguageAcousticSpace2023} performed a simple decision tree analysis to supplement their MDS analysis of voice quality in 11 languages. The results of this analysis are shown in Figure~\ref{fig:keating_tree}. Decision trees like the one in Figure~\ref{fig:keating_tree}, show the binary splits that are made in the space and what predictor, and the value of that predictor, makes that split. In the case of \citeauthor{keatingCrosslanguageAcousticSpace2023}'s (\citeyear{keatingCrosslanguageAcousticSpace2023}) tree, the first split is made on the harmonics-to-noise ratio over the frequency range from 0 Hz to 500 Hz for the middle third of each vowel. This split is made at the z-score of 0.48. If the value of the predictor is greater or equal to 0.48, the dominate voice quality of that region is modal. If, however, that HNR < 500 Hz value is less than 0.48, the region needs to be further split. 
+Recently, decision trees were used to show which acoustic measures were the important in making the split in the acoustic space for voice quality \citep{keatingCrosslanguageAcousticSpace2023}. \citeauthor{keatingCrosslanguageAcousticSpace2023} performed a simple decision tree analysis to supplement their MDS analysis of voice quality in 11 languages. The results of this analysis are shown in Figure~\ref{fig:keating_tree}. Decision trees like the one in Figure~\ref{fig:keating_tree}, show the binary splits that are made in the space and what predictor, and the value of that predictor, makes that split. In the case of \citeauthor{keatingCrosslanguageAcousticSpace2023}'s (\citeyear{keatingCrosslanguageAcousticSpace2023}) tree, the first split is made on the harmonics-to-noise ratio over the frequency range from 0 Hz to 500 Hz for the middle third of each vowel. This split is made at the z-score of 0.48. If the value of the predictor is greater or equal to 0.48, the dominate voice quality of that region is modal. If HNR < 500 Hz value is less than 0.48, the region needs to be further split. 
 
 \begin{figure}[!ht]
     \centering
@@ -38,21 +43,52 @@ The next split in the region is made on the subharmonic-to-harmonic ratio for th
 The final split in the region is made on the H1*$-$H2* for the middle third of each vowel. If the value of this predictor is less than 0.45, the voice quality is classified as creaky. If the value is greater than or equal to 0.45, the voice quality is classified as modal. This tree shows that using only three acoustic measure, one can classify the voice quality of the data. This is a powerful tool for understanding the importance of the different acoustic measures in the acoustic space. 
 
 %--------------------------
-\section{What is bagging} \label{sec:bagging_bagging}
+\section{Growing a forest of decision trees} \label{sec:growing_forest}
 %--------------------------
 
 Simple decision trees, however, suffer from two main disadvantages. The first is that decision trees can suffer from high variance. In other words, the tree can be very sensitive to small changes in the data that it was trained on. The second disadvantage is that decision trees do not have the same predictive accuracy as other regression or classification models (see \cite{hastieElementsStatisticalLearning2009} for discussion).
 
-One way to overcome these disadvantages, is to make use of a technique called bootstrap aggregating, or bagging \citep{breimanBaggingPredictors1996}. This means that instead of growing a single tree on the data like in simple decision trees, we grow many trees on random samples of the data until we reach a given number of trees. Once these trees are grown, we then average across the trees to get a more stable prediction of how the regions are split and what predictors are most important in making those splits. This averaging across the trees help to explain the variance in the data and improve the predictive accuracy of the model. However, this comes at the cost of interpretability. 
+%---------------------------
+\subsection{Bagging trees} \label{sec:bagging_bagging}
+%---------------------------
+One way to overcome these disadvantages, is to make use of a technique called bootstrap aggregating, or bagging \citep{breimanBaggingPredictors1996}. This means that instead of growing a single tree with all of the predictors (i.e., variables in your data) in the data like in simple decision trees, we grow many trees on random samples of the data until we reach a given number of trees using the full set of predictors. Once these trees are grown, we then average across the trees to get a more stable prediction of how the regions are split and what predictors are most important in making those splits. This averaging across the trees help to explain the variance in the data and improve the predictive accuracy of the model. However, this comes at the cost of interpretability. 
 
 In decision trees, we usually represent the splits in the data as a tree. When we using bagging, because of the large numbers of trees that are grown, it is impossible to represent the results in this way. Instead of using a tree, we use variable importance measures to understand which predictors are most important in making the splits in the data. There are two measures that are commonly used to understand variable importance in bagging trees: the residual sum of squares (RSS) for regression trees and the Gini index, which is a measure of \textit{purity}, for classification. In regression trees, the amount that the RSS is decreased due to the splits over a given predictor is recorded and averaged across all the trees. In classification trees, the total amount that the Gini index is decreased for each predictor is recorded and averaged across all the trees. The higher the value of the RSS or Gini index, the more important that predictor is in making the splits in the data. These are then graphed to show the importance of each predictor in the data with the most important predictors at the top of the graph.
 
 In many instances of bagging trees, the exact number of trees needed to be grown is not known \textit{a priori}. Instead, the number of trees is determined by the user and is usually determined by the number of trees that are needed to stabilize the prediction. This is done by comparing multiple models that where built with different numbers of trees and determining which number of trees produces the most stable prediction. This is done by comparing the predictions of the different models and calculating the variance of the predictions across the different models. The model that produces the most stable prediction is the one that is chosen.
 
-In this chapter, I will use bagging trees to understand the importance of the different acoustic measures in making the splits in the acoustic space of SLZ. This will help to understand which measures are most important in separating the different voice qualities from one another.
+%---------------------------
+\subsection{Random Forests} \label{sec:random_forests}
+%---------------------------
+
+However, subsequent research by \citet{breimanRandomForests2001}, showed that bagging is sometimes would not stabilize and that they would overfit the data. To remedy this problem, \citeauthor{breimanRandomForests2001} proposed that instead of growing multiple trees that consider all of the predictors every time, we should only consider a random subset of the predictors at each split. This means that bagging and Random Forests are essentially the exact same thing except in the number of predictors are considered at each split. This is a very important distinction as it allows us to grow trees that are more stable and less likely to overfit the data. 
+
+Research has shown that generally speaking the number of predictors that need to be considered at each split (i.e., \textit{mtry}) is usually the square root of the total number of predictors in the data for classification trees and one-third of the total number of predictors for regression trees \citep{breimanRandomForests2001,sandriBiasCorrectionAlgorithm2008,hastieElementsStatisticalLearning2009,
+janitzaOverestimationRandomForests2018,boehmkeHandsOnMachineLearning2019,jamesIntroductionStatisticalLearning2021}. This means that if we have 81 predictors in our data, we would only consider $\approx 9$ predictors at each split for classification trees and $\approx 27$ predictors for regression trees. This is a very important distinction as it allows us to grow trees that are more stable and less likely to overfit the data.
+
+%---------------------------
+\subsection{How to interpret the results} \label{sec:random_forests_interpret}
+%---------------------------
+
+The benefits of using Bagging and Random Forests is that they are able to produce a more stable prediction than simple decision trees. This is because they are able to average across the predictions of multiple trees instead of growing a single tree. This allows us to take advantage of the strengths of decision trees while minimizing the weaknesses that are present in classical decision trees. 
+
+However, the benefits of using these methods come at the cost of interpretability. In classical decision trees, the results of the analysis are presented as a tree plot, similar to the tree in Figure~\ref{fig:keating_tree}. This allows us to see how the different predictors are used to make the splits in the data. This is not possible in bagging and random forests because of the large number of trees that are grown that are then used to average the predictions. Instead, we use variable importance plots to show how important a variable is across all of the trees in making the splits in the data. This is done by calculating a measure of importance for each variable and then plotting the results. In the case of random forests, the most common measure of importance is called the Gini Index, which is a measure of how pure the split is generally. The Gini Index is calculated for each variable and then averaged across all of the trees. The higher the Gini Index, the more important that variable is in making the splits in the data. This is similar to how we interpret the results of a classical decision tree, where the most important predictors are at the top of the tree and the least important predictors are at the bottom. In bagging and random forests we are not concerned with the exact value of the Gini Index but rather we are concerned with the mean decrease in the Gini Index. This is because the Gini Index is a measure of how pure the split is and not a measure of how important the variable is in making the splits in the data. The mean decrease in Gini Index is a measure of how much the variable contributes to the overall purity of the split. For bagging this is the only measure that is considered. 
+
+There is some evidence that the Gini Index is not always the best measure for random forests. For example, \citet{stroblBiasRandomForest2007} showed that the Gini Index can be biased in some cases with random forests. To get around this fact interpretation of random forests also frequently consult the permutation importance in addition to the Gini Index. The permutation importance measures the change in the model's prediction accuracy when the values of a variable are randomly permuted. This means that the variable is shuffled and the model is re-evaluated. The difference in accuracy between the original model and the permuted model is then used to measure the importance of that variable. The higher the difference, the more important that variable is in making the splits in the data.
+
+\citet{tagliamonteModelsForestsTrees2012} made use of both the Gini Index and the permutation importance to evaluate the importance of the different sociolinguistic predictors in their analysis. The results of their analysis are shown in Figure~\ref{fig:tagliamonte_importance}. The Gini Index is shown on the left and the permutation importance is shown on the right. The y-axis shows the different predictors for both plots. We observe in this plot that for the impurity importance (i.e., Gini index) the most important predictors are the ones that are at the top of the plot. The most important predictor is the one that has the largest Gini index, in this case the Individual variable. The second most important predictor is the Age variable, and so on. The permutation importance is shown on the right and is interpreted in the same way. However, they kept the ordering of the predictors the same across the two plots. The most important predictor according to the permutation importance is the one that has the largest value in this case the Individual variable. The second most important predictor is the Proximate1 variable, and so on.
+
+\begin{figure}[!ht]
+    \centering
+    \includegraphics[width = 0.9\linewidth]{images/TagliamonteBaayen_vip.png}
+    \caption{Variable importance plot from \citet{tagliamonteModelsForestsTrees2012}. The plot on the left shows the impurity importance (i.e., Gini index) and the plot on the right shows the permutation importance. The y-axis shows the different predictors for both plots.}
+    \label{fig:tagliamonte_importance}
+\end{figure}
+
+By looking at both the impurity importance and the permutation importance, we can get a better understanding of which predictors are the most important in making the splits in the space. For \citet{tagliamonteModelsForestsTrees2012} this meant that the Individual variable was the most important predictor in making the splits in the data. The other predictors were also important but we now see differences between the two plots in which are important. In general, the researcher should look at both the impurity importance and the permutation importance to gain an understanding of which predictors are the most important in making the splits in the data. If there is a overlap between the two plots, then we can be more confident that the predictor is important in making the splits in the data. If there is a large difference between the importance of a predictor, then we should be cautious in that predictor's importance. 
 
 %--------------------------
-\section{Bagging Trees in SLZ} \label{sec:bagging_slz}
+\section{Random Forests in SLZ} \label{sec:bagging_slz}
 %--------------------------
 %--------------------------------------------------------------------------
 \subsection{Data processing} \label{sec:bagging:processing}
@@ -69,8 +105,8 @@ Using this data, I will use bagging trees to understand the importance of the di
 
 \begin{figure}[!ht]
     \centering
-    \includegraphics[width = 0.9\linewidth]{images/bagging_numbers_4:7.eps}
-    \caption{Plot showing the out-of-bag error as a function of the number of trees ran in the bagging models.}
+    \includegraphics[width = 0.9\linewidth]{images/RandomForest/tree_num_dur.eps}
+    \caption{Plot showing the percent of inaccurately classified phonation types as a function of the number of trees ran. The different colored lines indicate the different mtry values.}
     \label{fig:bagging_tree}
 \end{figure}
 
@@ -78,18 +114,18 @@ From Figure~\ref{fig:bagging_tree}, it is clear that the out-of-bag error stabil
 
 \begin{figure}[!ht]
     \centering
-    \includegraphics[width = 0.9\linewidth]{images/vip_bagginig_4:7.eps}
-    \caption{Variable importance plot showing the importance of the different acoustic measures in the bagging model based on the total amount that the Gini index is decreased by splits over a given predictor, averaged over all 1400 trees.}
+    \includegraphics[width = \linewidth]{images/RandomForest/rf_dur_plots.eps}
+    \caption{Variable importance plots showing the impurity importance and permutation importance of each acoustic measure.}
     \label{fig:bagging_importance}
 \end{figure}
 
-From Figure~\ref{fig:bagging_importance}, the variables with the largest mean decrease in Gini index are A1* (the amplitude of the harmonic closest to the first formant), residual H1*, and the harmonics-to-noise ratio over the frequency range from 0 Hz to 1500 Hz (HNR 1500 Hz). This means that these three variables are the most important in making the splits in the acoustic space of SLZ. This is consistent with the results of the MDS analysis in Chapter~\ref{ch:acousticlandscape}, where these three variables were some of the variables that contributed the most to the different dimensions of the acoustic space. 
+From Figure~\ref{fig:bagging_importance}, the predictors with the largest mean decrease in Gini index are A1* (the amplitude of the harmonic closest to the first formant), residual H1*, and the harmonics-to-noise ratio over the frequency range from 0 Hz to 1500 Hz (HNR 1500 Hz). This means that these three predictors are the most important in making the splits in the acoustic space of SLZ. This is consistent with the results of the MDS analysis in Chapter~\ref{ch:acousticlandscape}, where these three predictors were some of the predictors that contributed the most to the different dimensions of the acoustic space. 
 
 %--------------------------
 \section{Discussion of the bagging results} \label{sec:bagging_discussion}
 %--------------------------
 
-It is interesting to not that in both the MDS analysis and the bagging trees, the same three variables are found to play a role in the acoustic space of SLZ. These two analyses complement each other and help us to better understand what measures to focus are attention on. From Chapter~\ref{ch:acousticlandscape}, we saw that the acoustic measure A1* was heavily weighted for both dimensions 1 and 2. It is not surprising then that this measure would rank so high in the variable importance.
+It is interesting to not that in both the MDS analysis and the bagging trees, the same three predictors are found to play a role in the acoustic space of SLZ. These two analyses complement each other and help us to better understand what measures to focus are attention on. From Chapter~\ref{ch:acousticlandscape}, we saw that the acoustic measure A1* was heavily weighted for both dimensions 1 and 2. It is not surprising then that this measure would rank so high in the variable importance.
 
 The other two measures that the bagging analysis found to be of most importance are the measures residual H1* and HNR 1500 Hz. These two measures were also important for the analysis in Chapter~\ref{ch:acousticlandscape}. However, they were only heavily weighted for dimension 3. 
 
