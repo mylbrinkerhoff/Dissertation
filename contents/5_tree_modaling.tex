@@ -46,31 +46,31 @@ The final split in the region is made on the H1*$-$H2* for the middle third of e
 \section{Growing a forest of decision trees} \label{sec:growing_forest}
 %--------------------------
 
-Simple decision trees, however, suffer from two main disadvantages. The first is that decision trees can suffer from high variance. In other words, the tree can be very sensitive to small changes in the data that it was trained on. The second disadvantage is that decision trees do not have the same predictive accuracy as other regression or classification models (see \cite{hastieElementsStatisticalLearning2009} for discussion).
+Simple decision trees, however, suffer from two main disadvantages. The first is that decision trees can suffer from high variance. In other words, the tree can be very sensitive to small changes in the data that it was trained on. The second disadvantage is that decision trees do not have the same predictive accuracy as other regression or classification models (see \cite{hastieElementsStatisticalLearning2009} for discussion). The following to subsections explain two methods that have been proposed to overcome these disadvantages. The first method is called Bagging trees and the second method is called Random Forests. As will be explained in the following sections, these two methods are essentially the same except for one key difference, number of predictors that are used. Bagging trees use all of the predictors at each split while Random Forests only use a random subset of the predictors at each split. 
 
 %---------------------------
 \subsection{Bagging trees} \label{sec:bagging_bagging}
 %---------------------------
-One way to overcome these disadvantages, is to make use of a technique called bootstrap aggregating, or bagging \citep{breimanBaggingPredictors1996}. This means that instead of growing a single tree with all of the predictors (i.e., variables in your data) in the data like in simple decision trees, we grow many trees on random samples of the data until we reach a given number of trees using the full set of predictors. Once these trees are grown, we then average across the trees to get a more stable prediction of how the regions are split and what predictors are most important in making those splits. This averaging across the trees help to explain the variance in the data and improve the predictive accuracy of the model. However, this comes at the cost of interpretability. 
+One way to overcome the disadvantages of simple decision trees, is to make use of a technique called bootstrap aggregating, or bagging \citep{breimanBaggingPredictors1996}. This means that instead of growing a single tree with all of the predictors (i.e., variables in your data) in the data like in simple decision trees, we grow many trees on random samples of the data until we reach a given number of trees using the full set of predictors. Once these trees are grown, we then average across the trees to get a more stable prediction of how the regions are split and what predictors are most important in making those splits. This averaging across the trees help to explain the variance in the data and improve the predictive accuracy of the model. However, this comes at the cost of interpretability. 
 
-In decision trees, we usually represent the splits in the data as a tree. When we using bagging, because of the large numbers of trees that are grown, it is impossible to represent the results in this way. Instead of using a tree, we use variable importance measures to understand which predictors are most important in making the splits in the data. There are two measures that are commonly used to understand variable importance in bagging trees: the residual sum of squares (RSS) for regression trees and the Gini index, which is a measure of \textit{purity}, for classification. In regression trees, the amount that the RSS is decreased due to the splits over a given predictor is recorded and averaged across all the trees. In classification trees, the total amount that the Gini index is decreased for each predictor is recorded and averaged across all the trees. The higher the value of the RSS or Gini index, the more important that predictor is in making the splits in the data. These are then graphed to show the importance of each predictor in the data with the most important predictors at the top of the graph.
+In decision trees, we usually represent the splits in the data as a tree. When we using bagging, because of the large numbers of trees that are grown, it is impossible to represent the results in this way. Instead of using a tree, we use variable importance measures to understand which predictors are most important in making the splits in the data. There are two measures that are commonly used to understand variable importance in bagging trees: the residual sum of squares (RSS) for regression trees and the Gini index, which is a measure of \textit{purity}, for classification. In regression trees, the amount that the RSS is decreased due to the splits over a given predictor is recorded and averaged across all the trees. In classification trees, the total amount that the Gini index is decreased for each predictor is recorded and averaged across all the trees. The higher the value of the RSS, or Gini index, the more important that predictor is in making the splits in the data. These are then graphed to show the importance of each predictor in the data with the most important predictors at the top of the graph.
 
-In many instances of bagging trees, the exact number of trees needed to be grown is not known \textit{a priori}. Instead, the number of trees is determined by the user and is usually determined by the number of trees that are needed to stabilize the prediction. This is done by comparing multiple models that where built with different numbers of trees and determining which number of trees produces the most stable prediction. This is done by comparing the predictions of the different models and calculating the variance of the predictions across the different models. The model that produces the most stable prediction is the one that is chosen.
+The exact number of trees needed to be grown is not known \textit{a priori}. Instead, the number of trees is determined by the user and is usually determined by the number of trees that are needed to stabilize the prediction. This is done by comparing multiple models that where built with different numbers of trees and determining which number of trees produces the most stable prediction. This is done by comparing the predictions of the different models and calculating the variance of the predictions across the different models. The model that produces the most stable prediction is the one that is chosen.
 
 %---------------------------
 \subsection{Random Forests} \label{sec:random_forests}
 %---------------------------
 
-However, subsequent research by \citet{breimanRandomForests2001}, showed that bagging is sometimes would not stabilize and that they would overfit the data. To remedy this problem, \citeauthor{breimanRandomForests2001} proposed that instead of growing multiple trees that consider all of the predictors every time, we should only consider a random subset of the predictors at each split. This means that bagging and Random Forests are essentially the exact same thing except in the number of predictors are considered at each split. This is a very important distinction as it allows us to grow trees that are more stable and less likely to overfit the data. 
+However, subsequent research by \citet{breimanRandomForests2001}, showed that bagging is sometimes would not stabilize and that they would overfit the data. To remedy this problem, \citeauthor{breimanRandomForests2001} proposed that instead of growing multiple trees that consider all of the predictors every time, we should only consider a random subset of the predictors at each split. This means that bagging and Random Forests are essentially the exact same thing except in the number of predictors that are considered at each split. This is a very important distinction as it allows us to grow trees that are more stable and less likely to overfit the data. 
 
-Research has shown that generally speaking the number of predictors that need to be considered at each split (i.e., \textit{mtry}) is usually the square root of the total number of predictors in the data for classification trees and one-third of the total number of predictors for regression trees \citep{breimanRandomForests2001,sandriBiasCorrectionAlgorithm2008,hastieElementsStatisticalLearning2009,
-janitzaOverestimationRandomForests2018,boehmkeHandsOnMachineLearning2019,jamesIntroductionStatisticalLearning2021}. This means that if we have 81 predictors in our data, we would only consider $\approx 9$ predictors at each split for classification trees and $\approx 27$ predictors for regression trees. This is a very important distinction as it allows us to grow trees that are more stable and less likely to overfit the data.
+Research has shown that generally speaking the number of predictors that need to be considered at each split (i.e., $m_{try}$) is usually the square root of the total number of predictors in the data for classification trees and one-third of the total number of predictors for regression trees \citep{breimanRandomForests2001,sandriBiasCorrectionAlgorithm2008,hastieElementsStatisticalLearning2009,
+janitzaOverestimationRandomForests2018,boehmkeHandsOnMachineLearning2019,jamesIntroductionStatisticalLearning2021}. This means that if we have 81 predictors in our data, we would only consider $\approx 9$ predictors at each split for classification trees and $\approx 27$ predictors for regression trees. However, this is not a hard and fast rule and the number of predictors that are considered at each split can be tuned to improve the performance of the model. This is done by comparing the predictions of the different models and calculating the variance of the predictions across the different models. The model that produces the most stable prediction is the one that is chosen.
 
 %---------------------------
 \subsection{How to interpret the results} \label{sec:random_forests_interpret}
 %---------------------------
 
-The benefits of using Bagging and Random Forests is that they are able to produce a more stable prediction than simple decision trees. This is because they are able to average across the predictions of multiple trees instead of growing a single tree. This allows us to take advantage of the strengths of decision trees while minimizing the weaknesses that are present in classical decision trees. 
+The benefit of using Bagging and Random Forests is that they are able to produce more stable predictions than simple decision trees. This is because they are able to average across the predictions of multiple trees instead of growing a single tree. This allows us to take advantage of the strengths of decision trees while minimizing the weaknesses that are present in classical decision trees. 
 
 However, the benefits of using these methods come at the cost of interpretability. In classical decision trees, the results of the analysis are presented as a tree plot, similar to the tree in Figure~\ref{fig:keating_tree}. This allows us to see how the different predictors are used to make the splits in the data. This is not possible in bagging and random forests because of the large number of trees that are grown that are then used to average the predictions. Instead, we use variable importance plots to show how important a variable is across all of the trees in making the splits in the data. This is done by calculating a measure of importance for each variable and then plotting the results. In the case of random forests, the most common measure of importance is called the Gini Index, which is a measure of how pure the split is generally. The Gini Index is calculated for each variable and then averaged across all of the trees. The higher the Gini Index, the more important that variable is in making the splits in the data. This is similar to how we interpret the results of a classical decision tree, where the most important predictors are at the top of the tree and the least important predictors are at the bottom. In bagging and random forests we are not concerned with the exact value of the Gini Index but rather we are concerned with the mean decrease in the Gini Index. This is because the Gini Index is a measure of how pure the split is and not a measure of how important the variable is in making the splits in the data. The mean decrease in Gini Index is a measure of how much the variable contributes to the overall purity of the split. For bagging this is the only measure that is considered. 
 
@@ -85,54 +85,139 @@ There is some evidence that the Gini Index is not always the best measure for ra
     \label{fig:tagliamonte_importance}
 \end{figure}
 
-By looking at both the impurity importance and the permutation importance, we can get a better understanding of which predictors are the most important in making the splits in the space. For \citet{tagliamonteModelsForestsTrees2012} this meant that the Individual variable was the most important predictor in making the splits in the data. The other predictors were also important but we now see differences between the two plots in which are important. In general, the researcher should look at both the impurity importance and the permutation importance to gain an understanding of which predictors are the most important in making the splits in the data. If there is a overlap between the two plots, then we can be more confident that the predictor is important in making the splits in the data. If there is a large difference between the importance of a predictor, then we should be cautious in that predictor's importance. 
+By looking at both the impurity importance and the permutation importance, we can get a better understanding of which predictors are the most important in making the splits in the space. For \citet{tagliamonteModelsForestsTrees2012} this meant that the Individual variable was the most important predictor in making the splits in the data. The other predictors were also important but we now see differences between the two plots in which are important. In general, the researcher should look at both the impurity importance and the permutation importance to gain an understanding of which predictors are the most important in making the splits in the data. If there is a overlap between the two plots, then we can be more confident that the predictor is important in making the splits in the data. If there is a large difference between the importance of a predictor between the two plots, then we should be cautious in that predictor's importance. 
 
 %--------------------------
 \section{Random Forests in SLZ} \label{sec:bagging_slz}
 %--------------------------
-%--------------------------------------------------------------------------
-\subsection{Data processing} \label{sec:bagging:processing}
-%--------------------------------------------------------------------------
-Data points with an absolute z-score value greater than 3 were considered outliers and excluded from the analyses. Within each vowel category, we calculated the Mahalanobis distance in the F1-F2 panel. Each data point with a Mahalanobis distance greater than 6 was considered an outlier and excluded from the analysis. Using the Mahalanobis distance allows me to compare the data points to the mean of the F1-F2 panel for each vowel category. The larger the Mahalanobis distance is the more deviant the data point is from the mean which in turn indicated that the data point was improperly tracked. This is comparable to what was done in \citet{seyfarthPlosiveVoicingAcoustics2018,chaiCheckedSyllablesChecked2022,garellekPhoneticsWhiteHmong2023}.  
 
-Energy was excluded if it had a zero value and then logarithmically transformed to normalize its right-skewed distribution. Afterward, the resulting logarithmically transformed data was z-scored, and any data point with a z-score greater than three was excluded. Additionally, residual H1* was calculated and included in the analysis.
-
-Once these steps were completed, the mean of each vowel and speaker for the fourth through seventh intervals was taken. This is similar to what \citet{keatingCrosslanguageAcousticSpace2023} did by taking the middle of the vowel for their analysis. This choice minimizes the effect of the onset and offset of the vowel on the acoustic measures, which are more likely to be affected by the surrounding consonants and should give us the most accurate representation of the vowel quality. Because z-scores were used, this resulted in negative measures. To correct for this, I added the absolute value of the minimum z-score to each measure. This results in a dataset that still preserves the relative differences in the scores while providing a dataset that is was positive for the MDS analysis.
+In this section, I will present the results of a Random Forest analysis that was performed on the data from SLZ. The goal of this analysis is to understand which acoustic measures are the most important in making the splits in the acoustic space of SLZ. The methods for the data collection and analysis are similar to those used in the MDS analysis presented in Chapter~\ref{ch:acousticlandscape}. The main difference is that I will be using a Random Forests analysis instead of an MDS analysis. The results of this analysis will be presented in the following sections.
 
 %--------------------------------------------------------------------------
+\subsection{Methods} \label{sec:methods}
+%--------------------------------------------------------------------------
+%--------------------------------------------------------------------------
+\subsection{Participants} \label{sec:participants}
+%--------------------------------------------------------------------------
+This study uses data collected from 10 native speakers of SLZ during the summer of 2022. Participants were recruited from the community of Santiago Laxopa, Oaxaca, Mexico. All participants were native speakers of SLZ. The participants were between 18 and 60 years old and consisted of five males and five females.
 
-Using this data, I will use bagging trees to understand the importance of the different acoustic measures in making the splits in the acoustic space of SLZ. In order to determine the number of trees that are needed to stabilize the prediction, I compared models with different numbers of trees. The results of this comparison are shown in Figure~\ref{fig:bagging_tree}. The x-axis shows the number of trees that were used in the model and the y-axis shows the out-of-bag error. The out-of-bag error is a measure of how well the model predicts the data that was not used to train the model. The lower the out-of-bag error, the better the model is at predicting unseen data.
+%--------------------------------------------------------------------------
+\subsubsection{Recordings} \label{sec:recordings} 
+%--------------------------------------------------------------------------
+The participants were asked to perform a word list elicitation task consisting of 72 words. These words were selected to elicit the entire range of types of voice quality in SLZ, including modal voice, the two kinds of creaky (i.e., checked and rearticulated), and breathy voice. The words were selected based on previous research conducted as part of the Zapotec Language Project at the University of California, Santa Cruz \citep{ZapotecLanguageProject}. 
+Because participants were not literate in SLZ, the word list was prompted for them by asking them ``How do you say [word in Spanish]?" by myself and another researcher in Zapotec. Participants were asked to respond with the desired word in the carrier phrase \textit{Shnia' X chonhe lhas} [ʃnːiaˀ X tʃone ɾas] ``I say X three times.'' which was repeated three times. These utterances were recorded in a quiet environment using a Zoom H4n handheld digital recorder. The recordings were saved as 16-bit WAV files with a sampling rate of 44.1 kHz.
+
+%--------------------------------------------------------------------------
+\subsubsection{Acoustic measuring} \label{sec:acoustics}
+%--------------------------------------------------------------------------
+
+These resulting audio files were then processed in Praat to isolate the vowel portion of each word. The onset of the vowel was set to the second glottal pulse after the onset, and the offset of the vowel was set to the last glottal pulse before the decrease in amplitude at the end of the vowel \citep{garellekAcousticDiscriminabilityComplex2020}. The vowel was then extracted and saved as a separate file for analysis.
+
+These vowels were fed into VoiceSauce \citep{shueVoiceSauceProgramVoice2011} to generate the acoustic measures for the studies discussed in this dissertation. Because many acoustic measures are based on the fundamental frequency, this measure was calculated using the STRAIGHT algorithm from \citep{kawaharaInstantaneousfrequencybasedPitchExtraction1998} to estimate the fundamental frequency in millisecond (ms) intervals. Once the fundamental frequency is calculated, VoiceSauce then uses an optimization function to locate the harmonics of the spectrum, finding their amplitudes.
+
+VoiceSauce then uses the Snack Sound toolkit \citep{sjolanderSnackSoundToolkit2004} to find the frequencies and bandwidths of the first four formants, also at millisecond intervals. The amplitudes of the harmonics closest to these formant frequencies are located and treated as the amplitudes of the formants. These formant frequencies and bandwidths are used to correct the harmonic amplitudes for the filtering effects of the vocal tract, using \citeauthor{iseliAgeSexVowel2007}'s \citeyear{iseliAgeSexVowel2007} extension of the method employed by \citet{hansonGlottalCharacteristicsFemale1997}. Each vowel was measured across ten equal time intervals, resulting in 22890 data points in total. These measures were then z-scored by speaker to reduce the variation between speakers and provide a way to compare the different measures directly on the similar scales.
+
+%--------------------------------------------------------------------------
+\subsubsection{Data processing} \label{sec:data_processing}
+%--------------------------------------------------------------------------
+Data points with an absolute z-score value greater than three were considered outliers and excluded from the analyses in the dissertation. The Mahalanobis distance was calculated in the F1-F2 panel within each vowel category. Each data point with a Mahalanobis distance greater than six was considered an outlier and excluded from the analysis.  
+
+Energy was excluded if it had a zero value and then log-transformed to normalize its right-skewed distribution. Afterward, the resulting log-transformed Energy was z-scored, and any data point with a z-score greater than three was excluded. This outlier removal resulted in 1918 data points being removed. 
+
+All data points were then z-scored by speaker to reduce the variation between speakers and provide a way to compare the different measures directly on the same scale.
+
+I then calculated residual H1* for the remaining data points following \citet{chaiH1H2AcousticMeasure2022}. First, a linear mixed effects model was generated with the z-scored H1* as the response variable and the z-scored energy as the fixed effect. The uncorrelated interaction of the z-scored energy by speaker was treated as random. The energy factor resulting from this linear mixed-effects model was extracted. Finally, the z-scored H1* had the product of the z-scored energy and energy factor subtracted from it to produce the residual H1* measure. 
+
+Once these steps were completed, the mean of each combination of phonation and speaker was taken for the fourth through seventh interval of the vowel. This is similar to what \citet{keatingCrosslanguageAcousticSpace2023} did by taking the middle of the vowel for their analysis. This choice minimizes the effect of the onset and offset of the vowel on the acoustic measures, which are more likely to be affected by the surrounding consonants and should give us the most accurate representation of the vowel quality. Because z-scores were used, this resulted in negative measures, which presents a problem for MDS analyses. To correct for this, I added the absolute value of the minimum z-score to each measure. This results in a dataset that still preserves the relative differences in the scores. 
+%--------------------------------------------------------------------------
+\section{Parameter selection} \label{sec:bagging_model}
+%--------------------------------------------------------------------------
+
+In order to determine the correct number of trees and the number of predictors to use at each split, I followed the methods outlined in \citet{boehmkeHandsOnMachineLearning2019} and \citet{jamesIntroductionStatisticalLearning2021} for parameter selection. The data was split into a training set and a test set. The training set was used to train the model and the test set was used to evaluate the performance of the model. The training set consisted of 70\% of the data and the test set consisted of 30\% of the data. The split was done so that the distributions of the different voice qualities was the same between the training and test sets. The training set was then used to tune the parameters of the model. The parameters that were tuned were the number of trees, the number of predictors to use at each split, the amount to sample from the training set, and whether to sample with replacement. The values for the parameters were chosen based on the results of a grid search.
+
+Using a grid search allowed me to systematically search through the different combinations of parameters to find the best combination for the model. Another reason was that this allowed me to determine if Bagging (i.e., using all of the predictors at each split) or Random Forests (i.e., using a random subset of the predictors at each split) was the best model for the data. The model whose parameters resulted in the most accurate model was chosen as the final model. 
+
+Figure~\ref{fig:mtry_number}, shows the results of the grid search in relation to the number of trees and the number of predictors to use at each split. The x-axis shows the number of trees that were used in the model and the y-axis shows the percentage of inaccurately classified out-of-bag tokens. The lower the out-of-bag error percentage, the better the model is at predicting unseen data. The colored lines show the different values of $m_{try}$ that were used in the model. When $m_{try} = 21$, the model is using all of the predictors at each split and is therefore a bagging model. The other values of $m_{try}$ are potential values corresponding to 5\%, 15\%, $\sqrt{21}$, 25\%, $\frac{21}{3}$, and 40\% of the number of predictors that were used at each split, these numbers values were recommended by \citet{boehmkeHandsOnMachineLearning2019}. Figure~\ref{fig:mtry_number} shows that the model with $m_{try} = 21$ (i.e., bagging) is not the best model for the data. This is because it has a very high out-of-bag error percentage when compared with the other models. The model that performed the best was the model that was trained on 300 trees and whose $m_{try} = 5$ had the lowest out-of-bag error percentages. Additionally it was found that sampling only 80\% of the data with replacement produced the best model.\footnote{The full grid search results can be found online at my website: \href{mlbrinkerhoff.me}{mlbrinkerhoff.me}.}
 
 \begin{figure}[!ht]
     \centering
     \includegraphics[width = 0.9\linewidth]{images/RandomForest/tree_num_dur.eps}
-    \caption{Plot showing the percent of inaccurately classified phonation types as a function of the number of trees ran. The different colored lines indicate the different mtry values.}
-    \label{fig:bagging_tree}
+    \caption{Plot showing the percent of inaccurately classified phonation types as a function of the number of trees ran. The different colored lines indicate the different $m_{try}$ values.}
+    \label{fig:mtry_number}
 \end{figure}
 
-From Figure~\ref{fig:bagging_tree}, it is clear that the out-of-bag error stabilizes at approximately 1400 trees after which the out-of-bag error increases and decreases while hovering around an out-of-bag error rate of 0.305. This means that the number of trees that are required for the the bagging model to be the most stable is 1400 trees. In order to further insure the stability of the model, I also ran a 10-fold cross-validation on the bagging model with 1400 trees. The results of this model are shown in Figure~\ref{fig:bagging_importance}. In interpreting the variable importance plot we arrange the variables by their importance in making the splits in the data. The x-axis shows the mean decrease in Gini index, which is a measure of impurity, for each predictor and the y-axis shows the different predictors that were used in the model. Typically, the top 3-5 predictors are the most important in making the splits in the data \citep{boehmkeHandsOnMachineLearning2019}.
+%--------------------------------------------------------------------------
+\section{Results} \label{sec:dt_results}
+%--------------------------------------------------------------------------
 
-\begin{figure}[!ht]
+The results of the Random Forest analysis are shown in Figure~\ref{fig:predictor_importance}. The plot on the left shows the impurity importance which uses the mean decrease in Gini index to measure the importance of each predictor. The Gini index is a measure of how pure the split is and is calculated for each variable and then averaged across all of the trees. The higher the Gini index, the more important that variable is in making the splits in the data. The plot on the right shows the permutation importance which measures the change in the model's prediction accuracy when the values of a variable are randomly permuted (i.e, the variable is shuffled and the model is re-evaluated). The difference in accuracy between the original model and the permuted model is then used to measure the importance of that variable. The higher the difference, the more important that variable is in making the splits in the data. The y-axis shows all 21 different predictors for both plots. However, the predictors in each plot are ranked in descending order of importance. 
+
+\begin{figure}[h!]
     \centering
     \includegraphics[width = \linewidth]{images/RandomForest/rf_dur_plots.eps}
     \caption{Variable importance plots showing the impurity importance and permutation importance of each acoustic measure.}
-    \label{fig:bagging_importance}
+    \label{fig:predictor_importance}
 \end{figure}
 
-From Figure~\ref{fig:bagging_importance}, the predictors with the largest mean decrease in Gini index are A1* (the amplitude of the harmonic closest to the first formant), residual H1*, and the harmonics-to-noise ratio over the frequency range from 0 Hz to 1500 Hz (HNR 1500 Hz). This means that these three predictors are the most important in making the splits in the acoustic space of SLZ. This is consistent with the results of the MDS analysis in Chapter~\ref{ch:acousticlandscape}, where these three predictors were some of the predictors that contributed the most to the different dimensions of the acoustic space. 
+From Figure~\ref{fig:predictor_importance}, we can see that the two most important predictors for classifying the different phonations are: (i) duration, and (ii) HNR < 1500 Hz. The reason for this is that both of these measures appear as the two highest predictors in terms of impurity and permutation. Each of the predictors suggested by the model will be discussed in more detail below. 
+
+The rest of the variables require some discussion to determine their importance. This is because the next several predictors in both plots are not consistent. In the impurity importance plot, we see that Strength of Excitation and residual H1* are the next most important measures. However, their importance decreases when we consider permutation. Instead of being the third and fourth most important impurity predictors they are now the ninth and eleventh most important permutation predictors. Because both measures are sifted only slightly and are in the upper half of both plots we can assume that these acoustic measures still play an important role to some extent.
+
+Additionally, we see that A1* is relatively consistent between the two plots. In the impurity plot on the left it is the sixth most important predictor and in the permutation plot on the right it is the fifth most important predictor. This suggests that A1* plays an important role in classifying the different phonations. This same reasoning holds for H1*-A1* which is the seventh most important predictor across both plots. 
 
 %--------------------------
-\section{Discussion of the bagging results} \label{sec:bagging_discussion}
+\section{Discussion of the results} \label{sec:dt_discussion}
 %--------------------------
 
-It is interesting to not that in both the MDS analysis and the bagging trees, the same three predictors are found to play a role in the acoustic space of SLZ. These two analyses complement each other and help us to better understand what measures to focus are attention on. From Chapter~\ref{ch:acousticlandscape}, we saw that the acoustic measure A1* was heavily weighted for both dimensions 1 and 2. It is not surprising then that this measure would rank so high in the variable importance.
+%--------------------------
+\subsection{Comparing the MDS and bagging trees} \label{sec:dt_mds}
+%--------------------------
+There was a large amount of overlap between which measures were correlated with the dimensions of the MDS analysis and the important predictors found by the Random Forest analysis. The correlations for the MDS analysis were found in Chapter~\ref{ch:acousticlandscape} and are shown in Table~\ref{tab:acoustic_correlates}. They are repeated here as Table~\ref{tab:acoustic_correlates_repeat} for convenience.  
 
-The other two measures that the bagging analysis found to be of most importance are the measures residual H1* and HNR 1500 Hz. These two measures were also important for the analysis in Chapter~\ref{ch:acousticlandscape}. However, they were only heavily weighted for dimension 3. 
+\begin{table}[!ht]
+    \centering
+    \caption{Correlations for each acoustic measure to the four dimensions (NMDS1, NMDS2, NMDS3, NMDS4). The four largest correlations in each dimension are bolded.} 
+    \label{tab:acoustic_correlates_repeat}
+    \begin{tabular}{lrrrr}
+        \lsptoprule
+        Acoustic Measure & NMDS1 & NMDS2 & NMDS3 & NMDS4 \\ 
+        \hline
+        H1*$-$H2* & -0.221 & -0.339 & 0.031 & 0.314 \\ 
+        H2*$-$H4 & -0.437 & 0.239 & \textbf{-0.689} & \textbf{-0.364} \\ 
+        H1*$-$A1* & \textbf{-0.828} & 0.048 & \textbf{-0.459} & 0.044 \\ 
+        H1*$-$A2* & \textbf{-0.855} & -0.067 & -0.343 & 0.114 \\ 
+        H1*$-$A3* & \textbf{-0.809} & -0.218 & -0.297 & 0.126 \\ 
+        H4*$-$H2k* & -0.452 & -0.598 & 0.294 & \textbf{0.366} \\ 
+        H2k*$-$H5k* & 0.152 & 0.023 & 0.101 & 0.057 \\ 
+        residual H1* & -0.290 & -0.443 & \textbf{-0.722} & 0.084 \\ 
+        H2* & -0.157 & -0.555 & \textbf{-0.679} & 0.114 \\ 
+        H4* & 0.295 & \textbf{-0.778} & 0.078 & \textbf{0.479} \\ 
+        A1* & 0.756 & -0.549 & 0.092 & 0.124 \\ 
+        A2* & \textbf{0.779} & -0.476 & -0.103 & 0.086 \\ 
+        A3* & 0.735 & -0.416 & -0.211 & 0.093 \\ 
+        CPP & -0.590 & -0.606 & 0.209 & -0.179 \\ 
+        HNR < 500 Hz & -0.513 & \textbf{-0.792} & 0.152 & -0.202 \\ 
+        HNR < 1500 Hz & -0.275 & \textbf{-0.799} & 0.323 & -0.290 \\ 
+        HNR < 2500 Hz & -0.327 & -0.714 & 0.391 & -0.348 \\ 
+        HNR < 3500 Hz & -0.446 & -0.644 & 0.393 & -0.356 \\ 
+        Strength of Excitation & -0.013 & -0.741 & -0.238 & 0.145 \\ 
+        SHR & 0.144 & -0.176 & 0.122 & \textbf{-0.597} \\ 
+        Energy & -0.080 & \textbf{-0.793} & -0.015 & 0.341 \\ 
+        Duration & -0.622 & 0.539 & 0.257 & 0.030 \\ 
+        \lspbottomrule
+    \end{tabular}
+\end{table}
 
-The rest of this section will discuss each of the measures that were found to be important in the bagging analysis and how they relate to the different voice qualities in SLZ and other linguistic phenomena. 
+The rest of this section will discuss each of the measures were there was overlap between which measures showed a correlation to a MDS dimension and the Random Forest results. Additionally, I will discuss duration and A1* because of how important the Random Forest model showed these measures to be. These measures are: (i) duration, (ii) A1*, (iii) H1*$-$A1*, (iv)  residual H1*, (v) HNR < 1500 Hz, and (vi) Strength of Excitation. 
 
 %--------------------------
-\subsection{Importance of A1*} \label{sec:bagging_a1}
+\subsection{Importance of duration} \label{sec:duration_discussion}
+%--------------------------
+
+
+
+%--------------------------
+\subsection{Importance of A1*} \label{sec:a1_discussion}
 %--------------------------
 
 The measure that was found to be the most important for classifying SLZ's phonation contrasts was A1*. This measure captures the amplitude of the harmonic closest to the first formant. This measure is typically not found in voice quality research except as a way to normalize the amplitude of the first harmonic (i.e., H1*). This goes back to \citet{fischer-jorgensenPhoneticAnalysisBreathy1968} who used this as one of the ways to correct for the high pass filtering, in addition to the widely used H1*$-$H2* measure. However, A1* as a standalone measure is not typically used in voice quality research. Therefore what we are to make of this measure's importance in SLZ is not clear as is its behavior in regards to the different phonations. 
@@ -181,7 +266,12 @@ In regards to what is going on in SLZ, it is not clear if the lowering of A1* fo
 %     \label{<label>}
 % \end{figure}
 %--------------------------
-\subsection{Importance of Residual H1*} \label{sec:bagging_residual}
+\subsection{Importance of \texorpdfstring{H1*$-$A1*}{H1*-A1*}} \label{sec:h1a1_discussion}
+%--------------------------
+
+
+%--------------------------
+\subsection{Importance of Residual H1*} \label{sec:rh1_discussion}
 %--------------------------
 As residual H1* is a type of spectral slope measure it is expected to show similar behavior to other spectral slope measures. Namely, breathy voice should be associated with a higher score than modal voice. Since the two types of laryngealization are closely associated with creaky voice, they should be associated with a lower score than modal voice. Additionally, there is a temporal difference between the two types of laryngealization, it is expected that checked voice will have a lower score toward the end of the vowel and  rearticulated voice will have a lower score in the middle of the vowel. 
 
