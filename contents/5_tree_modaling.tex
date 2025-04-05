@@ -7,7 +7,7 @@
 The MDS analysis presented in Chapter~\ref{ch:acousticlandscape} provides us an understanding of the acoustic shape that voice quality takes in SLZ. This shape is defined by different dimensions that correspond to the glottal configuration needed to produce each voice quality and the amount of noise in the signal. The MDS analysis also provides us with a way to visualize how the different voice qualities occupy an acoustic space. Finally, the chapter discussed how different acoustic measures are correlated with the different dimensions of the acoustic space. This provides us with a potential avenue to explore which measures contribute to our understanding of the different voice qualities in SLZ.
 However, the analysis does not tell us which measures are the most important in making the splits between the different voice qualities. This is where decision trees are helpful as they provide a way to cut through the noise and reveal which measures play the most important role in dividing that acoustic space. 
 
-In this chapter, I present an anlysis using a flavor of decision trees called Random Forests \citep{breimanClassificationRegressionTrees1986,breimanRandomForests2001}. Random Forests are a type of ensemble learning method that combines multiple decision trees that are built on the same data. This allows us to take advantage of the strengths of decisions trees while minimizing the weaknesses that are present in classical decision trees (see \cite{hastieElementsStatisticalLearning2009,boehmkeHandsOnMachineLearning2019,jamesIntroductionStatisticalLearning2021} for a discussion of the strengths and weaknesses of the different types of decision trees).
+In this chapter, I present an analysis using a flavor of decision trees called Random Forests \citep{breimanClassificationRegressionTrees1986,breimanRandomForests2001}. Random Forests are a type of ensemble learning method that combines multiple decision trees that are built on the same data. This allows us to take advantage of the strengths of decision trees while minimizing the weaknesses that are present in classical decision trees (see \cite{hastieElementsStatisticalLearning2009,boehmkeHandsOnMachineLearning2019,jamesIntroductionStatisticalLearning2021} for a discussion of the strengths and weaknesses of the different types of decision trees).
 
 I show in this chapter that only a small number of acoustic measures are needed to classify the different voice qualities and make the splits in the acoustic space. 
 
@@ -31,7 +31,7 @@ The use of decision trees in linguistics is not new. One of the first uses was d
 
 Recently, decision trees were used to show which acoustic measures were the important in making the split in the acoustic space for voice quality \citep{keatingCrosslanguageAcousticSpace2023}. \citeauthor{keatingCrosslanguageAcousticSpace2023} performed a simple decision tree analysis to supplement their MDS analysis of voice quality in 11 languages. The results of this analysis are shown in Figure~\ref{fig:keating_tree}. Decision trees like the one in Figure~\ref{fig:keating_tree}, show the binary splits that are made in the space and what predictor, and the value of that predictor, makes that split. In the case of \citeauthor{keatingCrosslanguageAcousticSpace2023}'s (\citeyear{keatingCrosslanguageAcousticSpace2023}) tree, the first split is made on the harmonics-to-noise ratio over the frequency range from 0 Hz to 500 Hz for the middle third of each vowel. This split is made at the z-score of 0.48. If the value of the predictor is greater or equal to 0.48, the dominate voice quality of that region is modal. If HNR < 500 Hz value is less than 0.48, the region needs to be further split. 
 
-\begin{figure}[!ht]
+\begin{figure}[h!]
     \centering
     \includegraphics[width = 0.9\linewidth]{images/keating_tree.pdf}
     \caption{Classification tree of phonation categories from \citet{keatingCrosslanguageAcousticSpace2023}. Abbreviations used in this figure are: {HNR05_means002}: harmonics-to-noise ratio over the frequency range from 0 Hz to 500 Hz for the middle third of each vowel; {SHR_means002}: subharmonic-to-harmonic ratio for the middle third of each vowel; {H1H2c_means002}: H1* − H2* for the middle third of each vowel; B: breathy, M: modal, and C: creaky phonation categories.}
@@ -78,7 +78,7 @@ There is some evidence that the Gini Index is not always the best measure for ra
 
 \citet{tagliamonteModelsForestsTrees2012} made use of both the Gini Index and the permutation importance to evaluate the importance of the different sociolinguistic predictors in their analysis. The results of their analysis are shown in Figure~\ref{fig:tagliamonte_importance}. The Gini Index is shown on the left and the permutation importance is shown on the right. The y-axis shows the different predictors for both plots. We observe in this plot that for the impurity importance (i.e., Gini index) the most important predictors are the ones that are at the top of the plot. The most important predictor is the one that has the largest Gini index, in this case the Individual variable. The second most important predictor is the Age variable, and so on. The permutation importance is shown on the right and is interpreted in the same way. However, they kept the ordering of the predictors the same across the two plots. The most important predictor according to the permutation importance is the one that has the largest value in this case the Individual variable. The second most important predictor is the Proximate1 variable, and so on.
 
-\begin{figure}[!ht]
+\begin{figure}[h!]
     \centering
     \includegraphics[width = 0.9\linewidth]{images/TagliamonteBaayen_vip.png}
     \caption{Variable importance plot from \citet{tagliamonteModelsForestsTrees2012}. The plot on the left shows the impurity importance (i.e., Gini index) and the plot on the right shows the permutation importance. The y-axis shows the different predictors for both plots.}
@@ -130,16 +130,18 @@ I then calculated residual H1* for the remaining data points following \citet{ch
 
 Once these steps were completed, the mean of each combination of phonation and speaker was taken for the fourth through seventh interval of the vowel. This is similar to what \citet{keatingCrosslanguageAcousticSpace2023} did by taking the middle of the vowel for their analysis. This choice minimizes the effect of the onset and offset of the vowel on the acoustic measures, which are more likely to be affected by the surrounding consonants and should give us the most accurate representation of the vowel quality. Because z-scores were used, this resulted in negative measures, which presents a problem for MDS analyses. To correct for this, I added the absolute value of the minimum z-score to each measure. This results in a dataset that still preserves the relative differences in the scores. 
 %--------------------------------------------------------------------------
-\section{Parameter selection} \label{sec:bagging_model}
+\subsection{Parameter selection} \label{sec:bagging_model}
 %--------------------------------------------------------------------------
 
 In order to determine the correct number of trees and the number of predictors to use at each split, I followed the methods outlined in \citet{boehmkeHandsOnMachineLearning2019} and \citet{jamesIntroductionStatisticalLearning2021} for parameter selection. The data was split into a training set and a test set. The training set was used to train the model and the test set was used to evaluate the performance of the model. The training set consisted of 70\% of the data and the test set consisted of 30\% of the data. The split was done so that the distributions of the different voice qualities was the same between the training and test sets. The training set was then used to tune the parameters of the model. The parameters that were tuned were the number of trees, the number of predictors to use at each split, the amount to sample from the training set, and whether to sample with replacement. The values for the parameters were chosen based on the results of a grid search.
 
 Using a grid search allowed me to systematically search through the different combinations of parameters to find the best combination for the model. Another reason was that this allowed me to determine if Bagging (i.e., using all of the predictors at each split) or Random Forests (i.e., using a random subset of the predictors at each split) was the best model for the data. The model whose parameters resulted in the most accurate model was chosen as the final model. 
 
-Figure~\ref{fig:mtry_number}, shows the results of the grid search in relation to the number of trees and the number of predictors to use at each split. The x-axis shows the number of trees that were used in the model and the y-axis shows the percentage of inaccurately classified out-of-bag tokens. The lower the out-of-bag error percentage, the better the model is at predicting unseen data. The colored lines show the different values of $m_{try}$ that were used in the model. When $m_{try} = 21$, the model is using all of the predictors at each split and is therefore a bagging model. The other values of $m_{try}$ are potential values corresponding to 5\%, 15\%, $\sqrt{21}$, 25\%, $\frac{21}{3}$, and 40\% of the number of predictors that were used at each split, these numbers values were recommended by \citet{boehmkeHandsOnMachineLearning2019}. Figure~\ref{fig:mtry_number} shows that the model with $m_{try} = 21$ (i.e., bagging) is not the best model for the data. This is because it has a very high out-of-bag error percentage when compared with the other models. The model that performed the best was the model that was trained on 300 trees and whose $m_{try} = 5$ had the lowest out-of-bag error percentages. Additionally it was found that sampling only 80\% of the data with replacement produced the best model.\footnote{The full grid search results can be found online at my website: \href{mlbrinkerhoff.me}{mlbrinkerhoff.me}.}
+Figure~\ref{fig:mtry_number}, shows the results of the grid search in relation to the number of trees and the number of predictors to use at each split. The x-axis shows the number of trees that were used in the model and the y-axis shows the percentage of inaccurately classified out-of-bag tokens. The lower the out-of-bag error percentage, the better the model is at predicting unseen data. The colored lines show the different values of $m_{try}$ that were used in the model. When $m_{try} = 22$, the model is using all of the predictors at each split and is therefore a bagging model. The other values of $m_{try}$ are potential values corresponding to 5\%, 15\%, 25\%, and 40\% of the total number of predictors. Additionally, the default values of $m_{try} = \sqrt{22}$ and $m_{try} = \frac{22}{3}$ for classification and regression trees were considered, these values were recommended by \citet{boehmkeHandsOnMachineLearning2019}. 
 
-\begin{figure}[!ht]
+Figure~\ref{fig:mtry_number} shows that the model with $m_{try} = 22$ (i.e., bagging) is not the best model for the data. This is because it has a very high out-of-bag error percentage when compared with the other models. The model that performed the best was the model that was trained on 300 trees and whose $m_{try} = 5$ had the lowest out-of-bag error percentages. Additionally it was found that sampling only 80\% of the data with replacement produced the best model.\footnote{The full grid search results can be found online at my website: \href{mlbrinkerhoff.me}{mlbrinkerhoff.me}.}
+
+\begin{figure}[h!]
     \centering
     \includegraphics[width = 0.9\linewidth]{images/RandomForest/tree_num_dur.eps}
     \caption{Plot showing the percent of inaccurately classified phonation types as a function of the number of trees ran. The different colored lines indicate the different $m_{try}$ values.}
@@ -169,12 +171,13 @@ Additionally, we see that A1* is relatively consistent between the two plots. In
 \section{Discussion of the results} \label{sec:dt_discussion}
 %--------------------------
 
+This section will discuss the results of the Random Forest analysis in two parts. The first part will discuss the results of the Random Forest analysis in relation to the MDS analysis presented in Chapter~\ref{ch:acousticlandscape}. The second part will discuss the certain acoustic measures that were shared by the analyses and those that were uniquely chosen by the Random Forest analysis. 
 %--------------------------
 \subsection{Comparing the MDS and bagging trees} \label{sec:dt_mds}
 %--------------------------
 There was a large amount of overlap between which measures were correlated with the dimensions of the MDS analysis and the important predictors found by the Random Forest analysis. The correlations for the MDS analysis were found in Chapter~\ref{ch:acousticlandscape} and are shown in Table~\ref{tab:acoustic_correlates}. They are repeated here as Table~\ref{tab:acoustic_correlates_repeat} for convenience.  
 
-\begin{table}[!ht]
+\begin{table}[h!]
     \centering
     \caption{Correlations for each acoustic measure to the four dimensions (NMDS1, NMDS2, NMDS3, NMDS4). The four largest correlations in each dimension are bolded.} 
     \label{tab:acoustic_correlates_repeat}
@@ -208,14 +211,27 @@ There was a large amount of overlap between which measures were correlated with 
     \end{tabular}
 \end{table}
 
-The rest of this section will discuss each of the measures were there was overlap between which measures showed a correlation to a MDS dimension and the Random Forest results. Additionally, I will discuss duration and A1* because of how important the Random Forest model showed these measures to be. These measures are: (i) duration, (ii) A1*, (iii) H1*$-$A1*, (iv)  residual H1*, (v) HNR < 1500 Hz, and (vi) Strength of Excitation. 
+The rest of this section will discuss each of the measures were there was overlap between which measures showed a correlation to a MDS dimension and the Random Forest results. Additionally, I will discuss duration and A1* because of how important the Random Forest model showed these measures to be. These measures are: (i) duration, (ii) A1*, (iii) H1*$-$A1*, (iv)  residual H1*, (v) HNR < 1500 Hz, and (vi) Strength of Excitation. Each of these measures will be discussed in the following subsections in the order above.
 
 %--------------------------
 \subsection{Importance of duration} \label{sec:duration_discussion}
 %--------------------------
+In the Random Forest analysis, duration was found to be one of the most important predictors in classifying the different phonations. This importance is reflected in the fact that it is the most important predictor in the impurity importance plot and the second most important predictor in the permutation importance plot. 
 
+Duration frequently plays an important role in Zapotec phonation contrasts. Many descriptions of Zapotec languages have shown that duration is often an important correlate for checked vowels \citep{ariza-garciaPhonationTypesTones2018}. This has also been reported by \citet{chaiPerceptionCheckedRearticulated2025} for Yateé Zapotec, a variety of Zapotec spoken in the Sierra Norte region of Oaxaca, Mexico and a close relative of SLZ. \citet{chaiPerceptionCheckedRearticulated2025} found that duration was the most important percept for distinguishing between Yateé Zapotec's checked and rearticulated vowels. \citeauthor{chaiPerceptionCheckedRearticulated2025} also found that the longer the duration of the vowel, the more likely speakers of Yateé Zapotec were to classify the vowel as rearticulated. Similar results for checked vowels have been reported for other Zapotec varieties \citep{arellanesarellanesSistemaFonologicoPropiedades2009,arellanesarellanesDosGradosLaringizacion2010,chavez-peonInteractionMetricalStructure2010,lopeznicolasEstudiosFonologiaGramatica2016,merrillTilquiapanZapotec2008}, other members of the Oto-Manguean family \citep[e.g.,][]{campbellAspectsPhonologyMorphology2014}, and cross-linguistically \citep{gaoPhonationVariationFunction2022,chaiCheckedSyllablesChecked2022}. 
 
+In SLZ, the distribution of duration across the different phonation types is shown in Figure~\ref{fig:duration_plot}. The y-axis shows the duration of each of the different phonation types in z-scores, again z-scores where used to minimize individual speaker variation. The x-axis shows each of the four different phonations. The plot shows that breathy voice has the longest duration and rearticulated voice have the longest durations, followed by checked voice. The shortest duration is found in modal voice. 
 
+\begin{figure}[h!]
+    \centering
+    \includegraphics[width = 0.9\linewidth]{images/duration_plot.eps}
+    \caption{Plot showing the distribution of duration across the different voice qualities in SLZ.}
+    \label{fig:duration_plot}
+\end{figure}
+
+These results are somewhat surprising because of the generalization that checked vowels are vowels that are abruptly stopped at the end of the vowel. This is not the case in SLZ. The checked vowels in SLZ are indeed the shortest of the three non-modal phonations. However, they are not the shortest when modal is included. This is likely due to the fact that checked vowels are often limited to word final open syllables in SLZ, and there is a general trend in Zapotec phonology for these syllables to be longer or minimally bimoraic \citep[e.g.,][]{,chavez-peonInteractionMetricalStructure2010,nellisFortisLenisCajonos1980,uchiharaFortisLenisGlides2016}. 
+
+When we consider the behavior of non-modal phonation cross-linguistically, we see that the behavior of duration is consistent with what is generally found. For example, \citet{gordonPhonationTypesCrosslinguistic2001,espositoCrosslinguisticPatternsPhonation2020}
 %--------------------------
 \subsection{Importance of A1*} \label{sec:a1_discussion}
 %--------------------------
@@ -223,7 +239,7 @@ The rest of this section will discuss each of the measures were there was overla
 The measure that was found to be the most important for classifying SLZ's phonation contrasts was A1*. This measure captures the amplitude of the harmonic closest to the first formant. This measure is typically not found in voice quality research except as a way to normalize the amplitude of the first harmonic (i.e., H1*). This goes back to \citet{fischer-jorgensenPhoneticAnalysisBreathy1968} who used this as one of the ways to correct for the high pass filtering, in addition to the widely used H1*$-$H2* measure. However, A1* as a standalone measure is not typically used in voice quality research. Therefore what we are to make of this measure's importance in SLZ is not clear as is its behavior in regards to the different phonations. 
 
 When we look at how A1* is distributed across the different voice qualities in SLZ, as seen as Figure~\ref{fig:a1}, we see that modal vowels are found at the top of the chart with the other phonation contrasts located lower on the chart. The phonation that is found at the bottom of the chart is breathy voice. 
-\begin{figure}[!ht]
+\begin{figure}[h!]
     \centering
     \includegraphics[width = 0.9\linewidth]{images/slz_a1c.eps}
     \caption{Plot showing the distribution of A1* across the different voice qualities in SLZ.}
@@ -234,7 +250,7 @@ The pattern of behavior for A1* is very similar to what is found in descriptions
 
 As described in \citet{brunelleTonePhonationSoutheast2016}, many of the languages of Southeast Asia have what is called register. The linguistic term register is defined as ``the redundant use of pitch, voice quality, vowel quality, and durational differences to distinguish (typically two) contrastive categories'' \citep[193]{brunelleTonePhonationSoutheast2016}, and was first used by \citet{hendersonMainFeaturesCambodian1952} to describe the categorical contrasts found in Khmer. The characteristics that define the higher and lower registers are found in Table~\ref{tab:register_correlates}.
 
-\begin{table}[!ht]
+\begin{table}[h!]
     \centering
     \caption{Possible phonetic correlates of register. From \citet{brunelleTonePhonationSoutheast2016}.}
     \label{tab:register_correlates}
@@ -269,6 +285,17 @@ In regards to what is going on in SLZ, it is not clear if the lowering of A1* fo
 \subsection{Importance of \texorpdfstring{H1*$-$A1*}{H1*-A1*}} \label{sec:h1a1_discussion}
 %--------------------------
 
+The acoustic measure H1*$-$A1* is a measure of the difference between the amplitude of the first harmonic and the amplitude of the the harmonic closest to the first formant. This acoustic measure falls under the category of spectral slope measures. As previously discussed in Chapter~\ref{ch:residual_h1}, these measures capture the differences in the amplitude of the harmonics of the spectrum. The higher the spectral slopes' values are the more breathy the phonation is \citep{fischer-jorgensenPhoneticAnalysisBreathy1968}. 
+
+In the Random Forest analysis, H1*$-$A1* was found to be one of the most important predictors in classifying the different phonations. This is because of its high ranking in both the impurity and permutation importance plots. In the impurity plot, it is the seventh most important predictor and in the permutation plot it is the sixth most important predictor.
+
+The distribution of H1*$-$A1* across the different phonation types is shown in Figure~\ref{fig:h1a1}. The y-axis is the z-scored H1*$-$A1* values and the x-axis shows the ten equally spaced intervals across the duration of the vowel. The plot shows that breathy voice has the highest H1*$-$A1* score and checked voice has the lowest H1*$-$A1* score. This is consistent with what we would expect from a spectral slope measure.
+\begin{figure}[h!]
+    \centering
+    \includegraphics[width = 0.9\linewidth]{images/h1a1_line.eps}
+    \caption{Plot showing the distribution of H1*$-$A1* across the different voice qualities in SLZ.}
+    \label{fig:h1a1}
+\end{figure}
 
 %--------------------------
 \subsection{Importance of Residual H1*} \label{sec:rh1_discussion}
@@ -277,7 +304,7 @@ As residual H1* is a type of spectral slope measure it is expected to show simil
 
 In Figure~\ref{fig:residualH1}, we see that are predictions are correct. Breathy voice is associated with a higher score than modal voice. The two types of laryngealization are associated with a lower score than modal voice.
 
-\begin{figure}[!ht]
+\begin{figure}[h!]
     \centering
     \includegraphics[width = 0.9\linewidth]{images/slz_residual_h1c.eps}
     \caption{Plot showing the distribution of residual H1* across the different voice qualities in SLZ.}
@@ -294,7 +321,7 @@ The acoustic measure HNR $<$ 1500 Hz is a harmonics-to-noise ratio measure that 
 
 As seen in Figure~\ref{fig:hnr1500}, this is exactly what we see in SLZ. Modal voice is associated with a higher score than non-modal phonations. Among the non-modal phonations, breathy and rearticulated voice have a higher HNR $<$ 1500 Hz than checked voice. 
 
-\begin{figure}[!ht]
+\begin{figure}[h!]
     \centering
     \includegraphics[width = 0.9\linewidth]{images/slz_hnr15.eps}
     \caption{Plot showing the distribution of HNR $<$ 1500 Hz across the different voice qualities in SLZ.}

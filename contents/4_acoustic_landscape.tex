@@ -58,7 +58,7 @@ The MDS analysis was conducted using the \texttt{metaMDS} function in the \textt
 
 This algorithm resulted in a solution that involves several different dimensions. The number of dimensions retained directly affects how well the original data is captured. Too many dimensions and the data are overfitted; too few, and the data are underfitted. To determine the number of dimensions to retain, I used a scree plot to plot the stress of each dimension. As shown in Figure~\ref{fig:stress_plot}, most of the data are captured in the first four dimensions. These four dimensions were retained for the analysis.
 
-\begin{figure}[!ht]
+\begin{figure}[h!]
     \centering
     \includegraphics[width = 0.9\linewidth]{images/MDS/stress_plot_dur.eps}
     \caption{Scree plot showing the stress for each dimension for the MDS analysis.}
@@ -97,14 +97,14 @@ The results of the MDS analysis show that the acoustical space is represented pr
 
 Figure~\ref{fig:nmds12} shows the first dimension plotted against the second dimension. In this plot, we observe that breathy voice is located in the top left of the plot, modal voice is located in the bottom center of the plot, and the two types of creaky voices are located to the right of the plot, with checked voice located at the extreme right of the plot, and rearticulated voice located closer to the center. From this plot, we see that the first dimension separates breathy, modal, and creaky voices. The second dimension separates the modal voice, bottom of the plot, from the non-modal voice qualities, top of the plot.
 
-\begin{figure}[!ht]
+\begin{figure}[h!]
     \centering
     \includegraphics[width = 0.9\linewidth]{images/MDS/nmds12_dur.eps}
     \caption{Two-dimensional MDS solution showing the first and second dimensions.}
     \label{fig:nmds12}
 \end{figure}
 
-\begin{figure}[!ht]
+\begin{figure}[h!]
     \centering
     \includegraphics[width = 0.9\linewidth]{images/MDS/nmds13_dur.eps}
     \caption{Two-dimensional MDS solution showing the first and third dimensions.}
@@ -122,7 +122,7 @@ Figure~\ref{fig:nmds13} compares the first dimension with the third dimension. I
 
 Figure~\ref{fig:nmds14} shows the first dimension plotted against the fourth dimension. This plot is very similar to Figure~\ref{fig:nmds12}, with the only difference being that the fourth dimension moves the modal voice from the bottom-center of the plot to almost the exact center of the plot.
 
-\begin{figure}[!ht]
+\begin{figure}[h!]
     \centering
     \includegraphics[width = 0.9\linewidth]{images/MDS/nmds14_dur.eps}
     \caption{Two-dimensional MDS solution showing the first and fourth dimensions.}
@@ -131,7 +131,7 @@ Figure~\ref{fig:nmds14} shows the first dimension plotted against the fourth dim
 
 Figure~\ref{fig:nmds23} shows the second dimension plotted against the third dimension. This plot is essentially the same as Figure~\ref{fig:nmds13}, except that the coordinates are flipped.
 
-\begin{figure}[!ht]
+\begin{figure}[h!]
     \centering
     \includegraphics[width = 0.9\linewidth]{images/MDS/nmds23_dur.eps}
     \caption{Two-dimensional MDS solution showing the second and third dimensions.}
@@ -149,7 +149,7 @@ Figure~\ref{fig:nmds24} shows the second dimension plotted against the fourth di
 
 Figure~\ref{fig:nmds34} shows the third dimension plotted against the fourth dimension. This plot is very similar to Figure~\ref{fig:nmds14} with the exception that along the third dimension checked and rearticulated voice have swapped places. Checked voice is more centralized in the plot, whereas rearticulated voice is located more to the right of the plot. Again, we observe that the modal voice is located in the center of the plot.
 
-\begin{figure}[!ht]
+\begin{figure}[h!]
     \centering
     \includegraphics[width = 0.9\linewidth]{images/MDS/nmds34_dur.eps}
     \caption{Two-dimensional MDS solution showing the third and fourth dimensions.}
@@ -199,7 +199,7 @@ Looking at the visual representation of the dimensions is only part of the full 
 
 Table~\ref{tab:acoustic_correlates} shows the correlation score, computed by the \texttt{cor} function in R, for each acoustic measure and dimension. The four largest correlations in each dimension are in bold. The choice to bold the four largest correlations was arbitrary and was done to make it easier to discuss. Although only the four largest correlations are bolded, there are several correlations that share similar correlation values. These cases will be discussed as needed.
 
-\begin{table}[!ht]
+\begin{table}[h!]
     \centering
     \caption{Correlations for each acoustic measure to the four dimensions (NMDS1, NMDS2, NMDS3, NMDS4). The four largest correlations in each dimension are bolded.} 
     \label{tab:acoustic_correlates}
