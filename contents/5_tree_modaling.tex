@@ -231,7 +231,11 @@ In SLZ, the distribution of duration across the different phonation types is sho
 
 These results are somewhat surprising because of the generalization that checked vowels are vowels that are abruptly stopped at the end of the vowel. This is not the case in SLZ. The checked vowels in SLZ are indeed the shortest of the three non-modal phonations. However, they are not the shortest when modal is included. This is likely due to the fact that checked vowels are often limited to word final open syllables in SLZ, and there is a general trend in Zapotec phonology for these syllables to be longer or minimally bimoraic \citep[e.g.,][]{,chavez-peonInteractionMetricalStructure2010,nellisFortisLenisCajonos1980,uchiharaFortisLenisGlides2016}. 
 
-When we consider the behavior of non-modal phonation cross-linguistically, we see that the behavior of duration is consistent with what is generally found. For example, \citet{gordonPhonationTypesCrosslinguistic2001,espositoCrosslinguisticPatternsPhonation2020}
+When we consider the behavior of non-modal phonation cross-linguistically, we see that the behavior of duration is consistent with what is generally found. For example, \citet{gordonPhonationTypesCrosslinguistic2001,espositoCrosslinguisticPatternsPhonation2020} both report that non-modal voice qualities are typically longer than modal voice. One of the reasons for this is that by lengthening the vowel, the speaker is able to increase the amount of time that the glottal source is able to produce the desired voice quality, which increases the likelihood that the listener will be able to perceive the desired voice quality. 
+
+The behavior of duration warrants further investigation in SLZ. If checked vowels are indeed longer than modal vowels, then this would suggest that the checked vowels in SLZ are not the same as the checked vowels in other Zapotec languages. Additionally, it has been claimed that vowels undergo a process of vowel lengthening in Zapotec languages depending on the type of syllable it is in and whether to coda is a fortis or lenis consonant \citep{nellisFortisLenisCajonos1980,uchiharaFortisLenisGlides2016}. 
+
+If the vowel is in an open syllable or a closed syllable with a lenis coda, then the vowel is lengthened. If the vowel is in a closed syllable with a fortis coda, then the vowel is not lengthened. If this behavior is true for SLZ, this means that the duration of the vowel is not only dependent on the type of phonation but also on the type of syllable it is in. This requires further investigation to determine if to what extent duration is affected by phonation and syllable type.
 %--------------------------
 \subsection{Importance of A1*} \label{sec:a1_discussion}
 %--------------------------
@@ -275,27 +279,32 @@ There is a large body of research that discusses that nasality is closely associ
 
 In regards to what is going on in SLZ, it is not clear if the lowering of A1* for breathy voice can be attributed to the same observations as discussed above. I suggest there are three different possibilities to explain what is going on in SLZ. First; because SLZ does not have phonemic nasaliZation, it is possible that speakers of SLZ are using nasalization as a way to phonetically enhance the the contrast of breathy voice. Essentially, the reverse of what was reported by \citet{garellekBreathyVoiceNasality2016}. This possibility could be tested acoustically by performing an experiment to detect nasal airflow during breathy vowels. The second possibility is that the same measures that work for detecting nasality can also be used to detect breathy voice. This second possibility could be easily tested by examining whether A1* and the other measures for nasality work in other breathy voice contexts cross-linguistically. The third possibility is that the lowering of A1* is a result of sub-glottal resonances which is much harder to test than the other two possibilities. 
 
-% \begin{figure}[htbp]
-%     \centering
-%     \includegraphics[width = \linewidth]{images/test.eps}
-%     \caption{<caption>}
-%     \label{<label>}
-% \end{figure}
 %--------------------------
 \subsection{Importance of \texorpdfstring{H1*$-$A1*}{H1*-A1*}} \label{sec:h1a1_discussion}
 %--------------------------
 
-The acoustic measure H1*$-$A1* is a measure of the difference between the amplitude of the first harmonic and the amplitude of the the harmonic closest to the first formant. This acoustic measure falls under the category of spectral slope measures. As previously discussed in Chapter~\ref{ch:residual_h1}, these measures capture the differences in the amplitude of the harmonics of the spectrum. The higher the spectral slopes' values are the more breathy the phonation is \citep{fischer-jorgensenPhoneticAnalysisBreathy1968}. 
+The Random Forest analysis found H1*$-$A1* to be one of the most important predictors in classifying the different phonations. This is because of its high ranking in both the impurity and permutation importance plots. In the impurity plot, it is the seventh most important predictor and in the permutation plot it is the sixth most important predictor.
 
-In the Random Forest analysis, H1*$-$A1* was found to be one of the most important predictors in classifying the different phonations. This is because of its high ranking in both the impurity and permutation importance plots. In the impurity plot, it is the seventh most important predictor and in the permutation plot it is the sixth most important predictor.
+The acoustic measure H1*$-$A1* is a measure of the difference between the amplitude of the first harmonic and the amplitude of the the harmonic closest to the first formant. This acoustic measure falls under the category of spectral slope measures. As previously discussed in Chapter~\ref{ch:residual_h1}, these measures capture the differences in the amplitude of the harmonics of the spectrum. The higher the spectral slopes' values are the more breathy the phonation is \citep{fischer-jorgensenPhoneticAnalysisBreathy1968}. The lower the spectral slope's values are the more creaky the phonation is.
 
-The distribution of H1*$-$A1* across the different phonation types is shown in Figure~\ref{fig:h1a1}. The y-axis is the z-scored H1*$-$A1* values and the x-axis shows the ten equally spaced intervals across the duration of the vowel. The plot shows that breathy voice has the highest H1*$-$A1* score and checked voice has the lowest H1*$-$A1* score. This is consistent with what we would expect from a spectral slope measure.
+The distribution of H1*$-$A1* across the different phonation types is shown in Figure~\ref{fig:h1a1}. The y-axis is the z-scored H1*$-$A1* values and the x-axis shows the ten equally spaced intervals across the duration of the vowel. 
+
 \begin{figure}[h!]
     \centering
     \includegraphics[width = 0.9\linewidth]{images/h1a1_line.eps}
-    \caption{Plot showing the distribution of H1*$-$A1* across the different voice qualities in SLZ.}
+    \caption{Plot showing the distribution of H1*$-$A1* across the different voice qualities in SLZ. Each point represents the mean of the ten equally spaced intervals across the duration of the vowel and the error bars represent a 95\% confidence interval.}
     \label{fig:h1a1}
 \end{figure}
+
+The plot shows that breathy voice has the highest H1*$-$A1* score, which is consistent with what we would expect from a spectral slope measure. Things are more complicated when we look at the other non-modal phonations. It is expected that checked voice and rearticulated voice should have a lower spectral slope than modal voice because of their association with creaky voice. However, this is not the case in Figure~\ref{fig:h1a1}. 
+
+The plot shows that checked voice has a spectral slope that is identical to modal voice. Additionally, we see that rearticulated voice has a spectral slope that is higher than modal voice except at measurement intervals three and four, where it is identical to modal voice. This behavior for rearticulated voice is not too surprising, especially at the end of the vowel. 
+
+One reason for this is that when listening to the rearticulated vowels, the portion of the vowel after the glottal occlusion sounds somewhat breathy. One of the possible explanations for this is that in order to produce the glottal occlusion, the speaker is tightly constricting the vocal folds which causes either a glottal stop or creaky voice. The speaker then most relax the vocal folds in order to produce the modal voice which stereotypically occurs after this glottal occlusion. However, one way for the speaker to quickly relax the vocal folds is to open them as much as possible to get to the ideal position for modal voice. This overall behavior of opening the vocal folds to produce modal voice is similar to what is found in breathy voice. This could be a possible explanation for why rearticulated voice has a higher H1*$-$A1* score than modal voice.
+
+
+
+
 
 %--------------------------
 \subsection{Importance of Residual H1*} \label{sec:rh1_discussion}
