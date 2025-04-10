@@ -90,9 +90,11 @@ The on/off response asymmetry principle has origins in the work of \citet{tylerP
 
 The second principle, short-term adaptation, states that ``after a rapid onset of auditory nerve discharge at a particular frequency, there is a decay to a moderate level of discharge, even though the same speech sound is continuing to be produced \citep[250]{silvermanLaryngealComplexityOtomanguean1997}'' and is based on the work of \citet{delgutteCorrelatesPhoneticDistinctions1982}. This means that the auditory nerve is less sensitive to changes in the signal after a rapid onset of firing which in turn means that the auditory nerve is less able to recover the underlying phonation and tone when the signal is not changing.
 
-For \citeauthor{silvermanLaryngealComplexityOtomanguean1997}, 
+For \citeauthor{silvermanLaryngealComplexityOtomanguean1997}, these two principles are important because they help to provide an acoustic explanation for why laryngeal complexity needs to be phased. By phasing tone and phonation, the listener is able to recover the signal more easily. This is because when there is a change in the signal the auditory nerve has the greatest chance of recovering the signal. In regards to tone and phonation, this means that when there is a change from tone's modal phonation to nonmodal phonation or from nonmodal phonation to tone's modal phonation, the listener is able to perceive the difference better than if the two were produced simultaneously. Additionally, these two principles suggest that some phasing relationships are more perceptually saliant than others. Based on these two principles things are easier to perceive if they are produced first or if there is a large change in the signal. 
 
+To illustrate this point graphically, \citeauthor{silvermanLaryngealComplexityOtomanguean1997} provides a series of figures that show the relationship between the articulatory, acoustic, and perceptual components of laryngeal complexity. These figures are shown in Figures~\ref{fig:silverman_18}, \ref{fig:silverman_19}, and \ref{fig:silverman_20}. 
 
+Figure~\ref{fig:silverman_18} shows the characteristics for the sequence of [ha˥], where breathiness is produced first followed by a modal vowel with high tone. The figure shows that when the breathiness is produced first, the auditory nerve response is high followed by a sharp decline through the rest of the breathiness. As the energy increases when the modal vowel with high tone is produced there is a sharp increase in the auditory nerve response which is followed by a gradual decline. This means that it is easier for the listener to perceive the transition and recover the underlying phonation and tone.
 \begin{figure}[h!]
     \centering
     \begin{tikzpicture}[x=3.5cm, y=1cm]
@@ -129,7 +131,7 @@ For \citeauthor{silvermanLaryngealComplexityOtomanguean1997},
     \label{fig:silverman_18}
 \end{figure}
 
-
+For Figure~\ref{fig:silverman_19}, the sequence is reversed. In this case, the modal vowel with high tone is produced first followed by breathiness. The figure shows that when the modal vowel with high tone is produced first, the auditory nerve response is at its highest followed by a sharp decline through the rest of the modal vowel portion. Because there is no energy increase associated with breathiness there is a continual decrease in the auditory nerve response. This means that it is not as easy as prevocalic  of for the listener to perceive the transitions and recover the underlying phonation and tone.
 \begin{figure}[h!]
     \centering
     \begin{tikzpicture}[x=3.5cm, y=1cm]
@@ -166,7 +168,7 @@ For \citeauthor{silvermanLaryngealComplexityOtomanguean1997},
     \label{fig:silverman_19}
 \end{figure}
 
-
+In regards to the third type of sequence, [aha˥], the figure shows that the auditory nerve response is at its highest when the modal vowel is produced first. This is followed by a decline similar to what we see in Figure~\ref{fig:silverman_19}. However, because there is a modal vowel with high tone, we see a sharp increase in auditory nerve response. Again this is not as optimal as having the breathiness produced first. 
 \begin{figure}[h!]
     \centering
     \begin{tikzpicture}[x=3.5cm, y=1cm]
@@ -204,6 +206,8 @@ For \citeauthor{silvermanLaryngealComplexityOtomanguean1997},
     \caption{Schematic representation of the characteristics of [aha˥] sequences. Adaptation of figure from \citet{silvermanLaryngealComplexityOtomanguean1997}.}
     \label{fig:silverman_20}
 \end{figure}
+
+In summary, \citeauthor{silvermanLaryngealComplexityOtomanguean1997} claims that because of this auditory response asymmetry, we see that there is a difference in the auditory nerve response depending on the sequencing of the phonation and tone. For Silverman, this implies that there is an implicational hierarchy between the different types of sequences found in laryngeal complexity. This implicational hierarchy will be discussed in more detail in Section~\ref{sec:implicational_hierarchy}.
 
 %--------------------------------------------------------------------------
 \subsection{Implicational hierarchy of laryngealization}\label{sec:implicational_hierarchy}
@@ -295,7 +299,6 @@ Residual H1* for the remaining data points following \citet{chaiH1H2AcousticMeas
 
 As was mentioned in Chapter~\ref{ch:residual_h1}, the distribution of tone and phonation was not equal across all combinations of the two. This means that in the dataset certain combinations of tone and phonation were overrepresented. As seen in Table~\ref{tab:distribution}, which is repeated here as Table~\ref{tab:distribution_repeat}, the distribution of tone and phonation is not equal across all combinations. 
 
-
 \begin{table}[!h]
     \centering
     \caption{Distribution of the number of syllables containing the combination of tone and voice quality in the wordlist.}
@@ -318,8 +321,11 @@ Modal voice was the only phonation that occurred across all possible tones and L
 \subsubsection{Statistical analysis} \label{sec:statistical_analysis}
 %--------------------------------------------------------------------------
 
-The data were analyzed using a generalized additive mixed model (GAMM) \citep{hastieGeneralizedAdditiveModels1986,woodGeneralizedAdditiveModels2017,soskuthyGeneralisedAdditiveMixed2017,wielingAnalyzingDynamicPhonetic2018}. The GAMM was fit using the \texttt{mgcv} package in R \citep{woodGeneralizedAdditiveModels2017}.
+The data were analyzed using a generalized additive mixed model (GAMM) \citep{hastieGeneralizedAdditiveModels1986,woodGeneralizedAdditiveModels2017}. GAMMs are a type of statistical model that is similar to generalized linear mixed models (GLMMs) but allow for the inclusion of smooth functions of continuous predictors. This allows for the modeling of non-linear relationships between the predictors and the response variable, especially over time. 
 
+The GAMMs were fit using the \texttt{mgcv} package in R \citep{woodGeneralizedAdditiveModels2017} and plotted using the \texttt{tidygam} package \citep{corettaTidygamTidyPrediction2024}. Three GAMMs were fit for each of the acoustic measures: \textit{f}0, HNR < 1500 Hz, and SoE as the response variable. These measures where chosen because in regards to \textit{f}0, this measure has been used the most to test for laryngeal complexity. HNR < 1500 Hz and  Phonation was treated as a fixed effect to modal the main effect of phonation on the acoustic measures. A smooth term for time was included to model the non-linear relationship between time. A second smooth term was included to allow for time to vary by phonation type. Random effects for speaker and the interaction between speaker and phonation were included to account for the variability in the data due to individual differences between speakers and individual differences in how they produce the phonation types. A tensor product interaction between time and repetition was also included as a random effect to account for the variability in the data due to the different repetitions the speakers where asked to complete. 
+
+By modeling the GAMMs in this way, each model is able to capture four things: (i) the main effect of phonation on the acoustic measures, (ii) the non-linear relationships in time both overall and specific for each phonation type, (iii) speaker variability and its interation with phonation, and (iv) the variability in the data due to the different repetitions the speakers were asked to complete. This allows for a more accurate modeling of the data and a better understanding of how phonation affects the acoustic measures under consideration. 
 
 %--------------------------------------------------------------------------
 \section{Results}\label{sec:results_of_lc}
