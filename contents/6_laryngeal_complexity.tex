@@ -254,14 +254,11 @@ However, these accounts only offer a limited window into the question of larynge
 
 The class of harmonic-to-noise ratio measures is one such class that promises to give this better understanding. Harmonic-to-noise ratio measures are a class of measures that look at the ratio of the harmonic energy to the noise energy in the signal. This class of measures has been particularly helpful in determining whether or not there is aperiodicity in the signal \citep{dekromCepstrumBasedTechniqueDetermining1993,ferrerriesgoWhatMakesCepstral2020,garellekPhoneticsVoice2019}. It is well understood that aperiodicity is one of the defining characteristics of non-modal phonation \citep{ladefogedSoundsWorldsLanguages1996}. This means that harmonic-to-noise ratio measures can be used to determine if there is aperiodicity in the signal and if there is a clear phasing between modal and non-modal phonation.
 
-% The rest of this chapter will focus on analyzing SoE, a measure of the strength of voicing, and two harmonic-to-noise ratio measures, Harmonic-to-Noise Ratio (HNR) < 1500 Hz, which measures the noise in frequency band of 0 Hz to 1500 Hz, and Cepstral Peak Prominence (CPP), a measure of noise across the entire spectrum, in order to determine if there is a clear phasing between modal and non-modal phonation in SLZ using a generalized additive mixed model (GAMM) analysis \citep{hastieGeneralizedAdditiveModels1986,woodGeneralizedAdditiveModels2017,soskuthyGeneralisedAdditiveMixed2017,wielingAnalyzingDynamicPhonetic2018}.
+
 
 %--------------------------------------------------------------------------
 \section{Analysis of laryngeal complexity}\label{sec:analysis_of_lc}
 %--------------------------------------------------------------------------
-
-
-
 %--------------------------------------------------------------------------
 \subsection{Methods} \label{sec:methods}
 %--------------------------------------------------------------------------
@@ -321,22 +318,33 @@ Modal voice was the only phonation that occurred across all possible tones and L
 \subsubsection{Statistical analysis} \label{sec:statistical_analysis}
 %--------------------------------------------------------------------------
 
-The data were analyzed using a generalized additive mixed model (GAMM) \citep{hastieGeneralizedAdditiveModels1986,woodGeneralizedAdditiveModels2017}. GAMMs are a type of statistical model that is similar to generalized linear mixed models (GLMMs) but allow for the inclusion of smooth functions of continuous predictors. This allows for the modeling of non-linear relationships between the predictors and the response variable, especially over time. 
+Generalized additive mixed-models \citep[GAMM;][]{hastieGeneralizedAdditiveModels1986,woodGeneralizedAdditiveModels2017} are a type of statistical model similar to generalized linear mixed-models but allow for the inclusion of smooth functions of continuous predictors. This allows for the modeling of non-linear relationships between the predictors and the response variable, especially over time. Using GAMMs allows us to capture the non-linear relationships between the predictors and the response variable, which is important for understanding how phonation affects the acoustic measures over time. 
 
-The GAMMs were fit using the \texttt{mgcv} package in R \citep{woodGeneralizedAdditiveModels2017} and plotted using the \texttt{tidygam} package \citep{corettaTidygamTidyPrediction2024}. Three GAMMs were fit for each of the acoustic measures: \textit{f}0, HNR < 1500 Hz, and SoE as the response variable. These measures where chosen because in regards to \textit{f}0, this measure has been used the most to test for laryngeal complexity. HNR < 1500 Hz and  Phonation was treated as a fixed effect to modal the main effect of phonation on the acoustic measures. A smooth term for time was included to model the non-linear relationship between time. A second smooth term was included to allow for time to vary by phonation type. Random effects for speaker and the interaction between speaker and phonation were included to account for the variability in the data due to individual differences between speakers and individual differences in how they produce the phonation types. A tensor product interaction between time and repetition was also included as a random effect to account for the variability in the data due to the different repetitions the speakers where asked to complete. 
+The GAMMs were fit to the data using the \texttt{mgcv} package in R \citep{woodGeneralizedAdditiveModels2017} and plotted using the \texttt{tidygam} package \citep{corettaTidygamTidyPrediction2024}. Three GAMMs were fit for each of the acoustic measures: \textit{f}0, HNR < 1500 Hz, and SoE as the response variable. These measures where chosen because in regards to \textit{f}0, this measure has been used the most to test for laryngeal complexity. Phonation was treated as a fixed effect to model the main effect of phonation on the acoustic measures. A smooth term for time (i.e., measurement number)  was included to model the non-linear relationship between time. A second smooth term was included to allow for time to vary by phonation type. Random effects for speaker and the interaction between speaker and phonation were included to account for the variability in the data due to individual differences between speakers and individual differences in how they produce the phonation types. A tensor product interaction between time and repetition was also included as a random effect to account for the variability in the data due to the different repetitions the speakers where asked to complete. 
 
-By modeling the GAMMs in this way, each model is able to capture four things: (i) the main effect of phonation on the acoustic measures, (ii) the non-linear relationships in time both overall and specific for each phonation type, (iii) speaker variability and its interation with phonation, and (iv) the variability in the data due to the different repetitions the speakers were asked to complete. This allows for a more accurate modeling of the data and a better understanding of how phonation affects the acoustic measures under consideration. 
+By modeling the GAMMs in this way, each model is able to capture four things: (i) the main effect of phonation on the acoustic measures, (ii) the non-linear relationships in time both overall and specific for each phonation type, (iii) speaker variability and its interaction with phonation, and (iv) the variability in the data due to the different repetitions the speakers were asked to complete. This allows for a more accurate modeling of the data and a better understanding of how phonation affects the acoustic measures under consideration. 
 
 %--------------------------------------------------------------------------
 \section{Results}\label{sec:results_of_lc}
 %--------------------------------------------------------------------------
 
+This section presents the results of the three GAMM analyses. For each measure, I present the GAMM model fit and the model difference plot. The model fit plot shows the predicted values from the GAMM for each of the phonations over time. The model difference plot shows the difference between the modal phonation and each of the other phonations. This allows us to see how each of the non-modal voice qualities differs from modal phonation over time.
+%--------------------------------------------------------------------------
+\subsection{Fundamental frequency} \label{sec:model_f0}
+%--------------------------------------------------------------------------
+
+Figure~\ref{fig:f0_model_fit} shows the model fit for \textit{f}0. Each line represents the predicted values from the GAMM for each of the phonations over time. The shaded area represents the 95\% confidence interval. The model fit shows modal voice (the black solid line) has the highest predicted values for \textit{f}0. The non-modal phonations have lower predicted values with breathy voice (the orange dashed line) having the lowest predicted values. Checked and rearticulated voice (the blue and green dashed lines, respectively) have similar predicted values to each other and lie between modal and breathy voice. Beginning at measurement number 8 we see that checked voice and rearticulated voice begin to separate from each other. For checked voice the predicted values begin to increase while for rearticulated voice the predicted values begin to decrease until measurement number 10.
+
 \begin{figure}[h!]
     \centering
     \includegraphics[]{images/LCH_GAMMs/f0_model_fit.eps}
-    \caption{Model fit for \textit{f}0.}
+    \caption{Model fit for \textit{f}0. Each line represents the predicted values from the GAMM for each of the phonations over time. The shaded area represents the 95\% confidence interval.}
     \label{fig:f0_model_fit}
 \end{figure}
+
+The observations from the model fit are only part of the story when evaluating GAMMs. The other piece of evidence that we need is whether or not the differences that we observe in the model fit are significant. This is done through difference plots that compare the values for a given comparison (in this case modal versus one of the non-modal phonations) and returns whether or not the difference is significant or not. In these plots, the red line indicates that the difference that we observe between modal and the other phonation types is significant. The blue line indicates that the difference between modal and the non-modal phonation is not significant. This method of evaluation is the most common method for evaluating GAMMs (see \cite{soskuthyEvaluatingGeneralisedAdditive2021} for discussion about evaluating GAMMs). 
+
+Figure~\ref{fig:f0_model_diff} shows the corresponding difference plot for \textit{f}0. The leftmost panel shows the difference plot between modal and breathy voice. The red line indicates that the differences we observed between modal and breathy voice in Figure~\ref{fig:f0_model_fit} is significant across the entire length of the vowel. The center panel shows the differences between modal and checked voice is not significant at any point during the vowel and in terms of \textit{f}0 there is no difference between these two phonations. The rightmost panel shows the difference between modal and rearticulated voice is also not significant for the first part of the vowel. However, beginning at about measurement number 7, we see that the differences are significant.
 
 \begin{figure}[h!]
     \centering
@@ -345,10 +353,16 @@ By modeling the GAMMs in this way, each model is able to capture four things: (i
     \label{fig:f0_model_diff}
 \end{figure}
 
+This suggests that in terms of \textit{f}0, breathy voice is significantly different from modal voice throughout the entire duration of the vowel. This is consistent with descriptions for breathy voice cross-linguistically where one of its acoustic cues is a lower \textit{f}0 than modal vowels \citep[e.g.,][]{hillenbrandAcousticCorrelatesBreathy1996}. Whereas rearticulated vowels are only significantly different from modal vowels for the final third of the vowel. 
+%--------------------------------------------------------------------------
+\subsection{Harmonic-to-noise ratio} \label{sec:model_hnr}
+%--------------------------------------------------------------------------
+
+
 \begin{figure}[h!]
     \centering
     \includegraphics[]{images/LCH_GAMMs/hnr15_model_fit.eps}
-    \caption{Model fit for HNR.}
+    \caption{Model fit for HNR. Each line represents the predicted values from the GAMM for each of the phonations over time. The shaded area represents the 95\% confidence interval.}
     \label{fig:hnr_model_fit}
 \end{figure}    
 \begin{figure}[h!]
@@ -358,10 +372,14 @@ By modeling the GAMMs in this way, each model is able to capture four things: (i
     \label{fig:hnr_model_diff}
 \end{figure}
 
+%--------------------------------------------------------------------------
+\subsection{Strength of excitation} \label{sec:model_soe}
+%--------------------------------------------------------------------------
+
 \begin{figure}[h!]
     \centering
     \includegraphics[]{images/LCH_GAMMs/soe_model_fit.eps}
-    \caption{Model fit for SoE.}
+    \caption{Model fit for SoE. Each line represents the predicted values from the GAMM for each of the phonations over time. The shaded area represents the 95\% confidence interval.}
     \label{fig:soe_model_fit}
 \end{figure}
 
