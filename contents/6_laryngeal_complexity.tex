@@ -337,7 +337,7 @@ Figure~\ref{fig:f0_model_fit} shows the model fit for \textit{f}0. Each line rep
 
 \begin{figure}[h!]
     \centering
-    \includegraphics[]{images/LCH_GAMMs/f0_model_fit.eps}
+    \includegraphics[width = \linewidth]{images/LCH_GAMMs/f0_model_fit.eps}
     \caption{Model fit for \textit{f}0. Each line represents the predicted values from the GAMM for each of the phonations over time. The shaded area represents the 95\% confidence interval.}
     \label{fig:f0_model_fit}
 \end{figure}
@@ -348,44 +348,57 @@ Figure~\ref{fig:f0_model_diff} shows the corresponding difference plot for \text
 
 \begin{figure}[h!]
     \centering
-    \includegraphics[]{images/LCH_GAMMs/f0_model_diff.eps}
+    \includegraphics[width = \linewidth]{images/LCH_GAMMs/f0_model_diff.eps}
     \caption{Plot of the difference between modal and each of the non-modal phonation types.}
     \label{fig:f0_model_diff}
 \end{figure}
 
-This suggests that in terms of \textit{f}0, breathy voice is significantly different from modal voice throughout the entire duration of the vowel. This is consistent with descriptions for breathy voice cross-linguistically where one of its acoustic cues is a lower \textit{f}0 than modal vowels \citep[e.g.,][]{hillenbrandAcousticCorrelatesBreathy1996}. Whereas rearticulated vowels are only significantly different from modal vowels for the final third of the vowel. 
+This suggests that in terms of \textit{f}0, breathy voice is significantly different from modal voice throughout the entire duration of the vowel. This is consistent with descriptions for breathy voice cross-linguistically where one of its acoustic cues is a lower \textit{f}0 than modal vowels \citep[e.g.,][]{hillenbrandAcousticCorrelatesBreathy1996}. Whereas rearticulated vowels are only significantly different from modal vowels for the final third of the vowel. The results suggest that in terms of \textit{f}0 perturbation only rearticulated vowels show phasing. 
 %--------------------------------------------------------------------------
 \subsection{Harmonic-to-noise ratio} \label{sec:model_hnr}
 %--------------------------------------------------------------------------
 
+The model fit for HNR < 1500 Hz is shown in Figure~\ref{fig:hnr_model_fit}. In the model fit, we see that modal voice has the highest predicted values for HNR < 1500 Hz, which is consistent with previous research that has shown that modal voice has a higher HNR than non-modal phonation types \citep[e.g.,][]{blankenshipTimeCourseBreathiness1997,blankenshipTimingNonmodalPhonation2002,dekromCepstrumBasedTechniqueDetermining1993,garellekTimingSequencingCoarticulated2012,garellekPhoneticsVoice2019,gerrattTaxonomyNonmodalPhonation2001}. Additionally we see that the three non-modal phonations are all very similar to each other. Checked vowels, however, shows a dipping at the end of the vowel indicating more noise in the signal. 
 
 \begin{figure}[h!]
     \centering
-    \includegraphics[]{images/LCH_GAMMs/hnr15_model_fit.eps}
+    \includegraphics[width = \linewidth]{images/LCH_GAMMs/hnr15_model_fit.eps}
     \caption{Model fit for HNR. Each line represents the predicted values from the GAMM for each of the phonations over time. The shaded area represents the 95\% confidence interval.}
     \label{fig:hnr_model_fit}
-\end{figure}    
+\end{figure}  
+
+Figure~\ref{fig:hnr_model_diff} shows the difference plots for each of the non-modal phonations. Similar to Figure~\ref{fig:f0_model_diff}, we see that the leftmost panel shows the difference between modal and breathy voice. This difference is significant from measurement number 4 to halfway between measurements 8 and 9. 
+
+The center and leftmost panels show that the difference between modal and the non-modal phonations is significant across the entire length of the vowel. This indicates that checked and rearticulated vowels are associated with greater aperiodicity across the entire length of the vowel.
+
 \begin{figure}[h!]
     \centering
-    \includegraphics[]{images/LCH_GAMMs/hnr15_model_diff.eps}
+    \includegraphics[width = \linewidth]{images/LCH_GAMMs/hnr15_model_diff.eps}
     \caption{Plot of the difference between modal and each of the non-modal phonation types.}
     \label{fig:hnr_model_diff}
 \end{figure}
 
+From HNR < 1500 Hz, we see that all three non-modal phonations have more noise in their signal than modal vowels. As I discussed in Section~\ref{sec:bagging_hnr}, HNR measures are typically associated with aperiodicity in the signal. If there is phasing between modal phonation and non-modal phonation as predicted by \citet{silvermanLaryngealComplexityOtomanguean1997}, we would expect to see that these phonations should have a periods where they exhibit more modal-like properties or are not significantly different from modal phonation, which is what we observe with only breathy voice. Breathy vowels show a period of greater aperiodicity than modal vowels in the second half of the vowel, especially if we ignore the interval between 9 and 10 due to coarticulation with the surrounding consonants. Furthermore, this indicates that there is a phasing relationship in breathy vowels where the first half of the vowel is modal and the second half is breathy. 
 %--------------------------------------------------------------------------
 \subsection{Strength of excitation} \label{sec:model_soe}
 %--------------------------------------------------------------------------
 
+As previously discussed in Section~\ref{sec:dt_soe}, SoE is a acoustic measure that correlates to the strength of voicing. Figure~\ref{fig:soe_model_fit} shows the model fit for SoE. In the model fit, we see that modal voice has the highest predicted values for SoE, which is consistent with \citet{garellekVoicingGlottalConsonants2021} where modal vowels are associated with a higher SoE than non-modal phonation because of the greater strength in voicing. 
+
+Breathy voice is identical to modal voice until just after measurement number 2 and then begins to decrease but become identical with modal vowels shortly after measurement number 9. Checked vowels vowels are similar to breathy vowels in that they are identical with modal vowels until just after measurement number 2. However, checked vowels have a sharp decrease in SoE throughout the vowel until measurement number 10. Rearticulated vowels, however, begin lower than the other three phonations but increase in SoE until they are identical with modal voice between measurements 8 and 9. 
+
 \begin{figure}[h!]
     \centering
-    \includegraphics[]{images/LCH_GAMMs/soe_model_fit.eps}
+    \includegraphics[width = \linewidth]{images/LCH_GAMMs/soe_model_fit.eps}
     \caption{Model fit for SoE. Each line represents the predicted values from the GAMM for each of the phonations over time. The shaded area represents the 95\% confidence interval.}
     \label{fig:soe_model_fit}
 \end{figure}
 
+
+
 \begin{figure}[h!]
     \centering
-    \includegraphics[]{images/LCH_GAMMs/soe_model_diff.eps}
+    \includegraphics[width = \linewidth]{images/LCH_GAMMs/soe_model_diff.eps}
     \caption{Plot of the difference between modal and each of the non-modal phonation types.}
     \label{fig:soe_model_diff}
 \end{figure}
