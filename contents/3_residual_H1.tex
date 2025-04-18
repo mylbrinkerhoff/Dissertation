@@ -168,29 +168,41 @@ Table~\ref{tab:Comparison} shows the results of the AIC comparison between the H
 \subsection{GAMM analysis and model comparisons} \label{sec:GAMM}
 %---------------------------------------------------------
 
-The GAMM analysis shows that there are non-linear effects present in the data. This was expected because of the dynamic nature of the voice quality in SLZ. Figures~\ref{fig:GAMM_h1h2} and \ref{fig:GAMM_residh1} show the GAMM smooths and difference plots for H1*$-$H2* and residual H1*, respectively. The difference plots in each figure show the difference between the smooths for each voice quality compared to modal.
+The GAMM analysis shows that there are non-linear effects present in the data. This was expected because of the dynamic nature of voice quality in SLZ. The following section discusses the results of the GAMM analysis.Do to the nature of GAMM analyses, it is important to visually inspect the results to see how well the model fits the data. The model that best fits the data is the one that shows the clearest distinction between the different voice qualities.
 
-Do to the nature of GAMM analyses, it is important to visually inspect the results to see how well the model fits the data. The model that best fits the data is the one that shows the clearest distinction between the different voice qualities.
-
-In Figure~\ref{fig:GAMM_h1h2}, we see that the different voice qualities are very difficult to observe clearly. In the top left panel, the smooth functions of the GAMM analysis are shown. In it we see that modal and breathy voice occupy the same space. However, checked and rearticulated voice are more separated from modal, with both appearing lower in the graph. The difference plot in the top right show that for breathy vs. modal there was no significant difference between the two voice qualities in term of H1*$-$H2*. In the bottom left, the difference plot shows that the differences we observe between checked and modal voice is significant across the entire duration of the vowel. The difference plot in the bottom right shows that there is a significant difference between rearticulated and modal voice in the first two thirds of the vowel, but not in the final third of the vowel.
-
+Figure~\ref{fig:h1h2_model_fit} shows the predicted values for H1*$-$H2* from the GAMM. We see that the different voice qualities are very difficult to observe clearly. We see that modal and breathy voice occupy the same space. However, checked and rearticulated voice are more separated from modal, with both appearing lower in the graph which is expected because of creaky voice. We also observe that rearticulated voice begins to increase throughout the final third of the vowel until it is higher than modal voice. 
 \begin{figure}[h!]
   \centering
-  \includegraphics[width = \textwidth]{images/h1h2_gamm.eps}
-  \caption{GAMM smooths and difference plots for H1*$-$H2* across the duration of the vowel.}
-  \label{fig:GAMM_h1h2}
+  \includegraphics[width = 0.75\textwidth]{images/SpectralSlopes_GAMMs/h1h2_model_fit.eps}
+  \caption{GAMM smooths for H1*$-$H2* across the duration of the vowel.}
+  \label{fig:h1h2_model_fit}
 \end{figure}
 
+The difference plots in Figure~\ref{fig:h1h2_model_diff} show three panels for a comparison between modal voice and each of the other voice qualities. The leftmost panel shows the difference between modal and breathy voice which never reaches significance. This means that breathy voice and modal voice are essentially the same according to the model. The middle panel shows the difference between modal and checked voice. This shows that checked voice is significantly different from modal voice across the entire duration of the vowel, except for a short period of time right before measurement number 10. The rightmost panel shows the difference between modal and rearticulated voice. This panel shows that rearticulated voice is significantly different from modal voice for the first two-thirds of the vowel. However, in the final third of the vowel, rearticulated voice is not significantly different from modal voice.
+\begin{figure}[h!]
+  \centering
+  \includegraphics[width = 0.75\textwidth]{images/SpectralSlopes_GAMMs/h1h2_model_diff.eps}
+  \caption{GAMM difference plots for H1*$-$H2* across the duration of the vowel.}
+  \label{fig:h1h2_model_diff}
+\end{figure}
 
 The residual H1* GAMM showed a clearer distinction between the different voice qualities than H1*$-$H2*. This is especially clear in the smooth plot where the voice quality distinctions match with the predictions stated above. The difference plot in the top right shows that breathy and modal voice are only significantly different in the final two thirds of the vowel. The bottom left shows that checked and modal voice are significantly different across the entire duration of the vowel. Finally, the bottom right shows that rearticulated and modal voice are significantly different across the entire duration of the vowel.
+
 \begin{figure}[h!]
   \centering
-  \includegraphics[width = \textwidth]{images/residH1_gamm.eps}
+  \includegraphics[width = 0.75\textwidth]{images/SpectralSlopes_GAMMs/rh1_model_fit.eps}
   \caption{GAMM smooths and difference plots for residual H1* across the duration of the vowel.}
-  \label{fig:GAMM_residh1}
+  \label{fig:rh1_model_fit}
 \end{figure}
 
-In comparing the two GAMM analyses, we find that the residual H1* model provides a clearer distinction between the different voice qualities than the H1*$-$H2* model. This is further evidence that residual H1* is a more robust measure of voice quality than H1*$-$H2* in Santiago Laxopa Zapotec. Additionally, the GAMM analysis shows that there appear to be some amount of phasing in the data, which the linear models where unable to capture. This is especially clear in the residual H1* model where the difference plots show that breathy voice is only significantly different from modal in the final two thirds of the vowel. This suggests that breathy voice is aligned with the end of the vowel. This is similar to the predictions made by \citet{silvermanLaryngealComplexityOtomanguean1997,silvermanPhasingRecoverability1997} about the alignment of non-modal phonation in laryngeally complex languages. This will be further discussed in Chapters~\ref{ch:testing_lc} and \ref{ch:modeling_lc}.
+\begin{figure}[h!]
+  \centering
+  \includegraphics[width = 0.75\textwidth]{images/SpectralSlopes_GAMMs/rh1_model_diff.eps}
+  \caption{GAMM smooths and difference plots for residual H1* across the duration of the vowel.}
+  \label{fig:rh1_model_diff}
+\end{figure}
+
+In comparing the two GAMM analyses, we find that the residual H1* model provides a clearer distinction between the different voice qualities than the H1*$-$H2* model. This is further evidence that residual H1* is a more robust measure of voice quality than H1*$-$H2* in Santiago Laxopa Zapotec. Additionally, the GAMM analysis shows that there appear to be some amount of phasing in the data, which the linear models where unable to capture. This is especially clear in the residual H1* model where the difference plots show that breathy voice is only significantly different from modal in the final two thirds of the vowel. This suggests that breathy voice is aligned with the end of the vowel. This is similar to the predictions made by \citet{silvermanLaryngealComplexityOtomanguean1997,silvermanPhasingRecoverability1997} about the alignment of non-modal phonation in laryngeally complex languages. This will be further discussed in Chapters~\ref{ch:testing_lc}.
 
 \section{Conclusion} \label{sec:Conclusion}
 
