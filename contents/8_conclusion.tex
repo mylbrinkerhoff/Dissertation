@@ -3,121 +3,152 @@
 %--------------------------------------------------------------------------
 
 
+This dissertation investigated the acoustics of voice quality in Santiago Laxopa Zapotec and its interactions with tone. There were four main questions that this dissertation addressed: (i) does the recently proposed residual H1* acoustic measure more effective captures the phonation contrasts between Santiago Laxopa Zapotec's four phonations than the traditional H1*$-$H2* acoustic measure; (ii) how is the acoustic landscape of voice quality in Santiago Laxopa Zapotec structured; (iii) which acoustic measures most effectively capture and classify the voice quality contrasts; (iv) and how do those acoustic measures help explain Santiago Laxopa Zapotec's laryngeal complexity? 
 
-perception research into laryngeal complexity is lacking
+%------------------------------------------
+\section{Summary of findings}\label{sec:summary_of_findings}
+%-------------------------------------------
 
-%--------------------------------------------------------------------------
-\section{The Laryngeal Articulator Model}\label{sec:lam}
-%--------------------------------------------------------------------------
+This dissertation showed in Chapter~\ref{ch:residual_h1}, that \posscitet{chaiH1H2AcousticMeasure2022} residual H1* is a more effective acoustic measure for capturing the phonation contrasts in Santiago Laxopa Zapotec than the traditional H1*$-$H2* measure. Furthermore, this measure was also shown to play an important role in defining the phonation's acoustic landscape in Santiago Laxopa Zapotec, as demonstrated in Chapter~\ref{ch:acousticlandscape}. Additionally, Chapter~\ref{ch:revealing_trees} showed that residual H1* also was one of the important acoustic measures for classifying the phonation contrasts in Santiago Laxopa Zapotec according to a Random Forest model. These results contribute to validating \posscitet{chaiH1H2AcousticMeasure2022} residual H1* measure as a reliable acoustic measure for phonation contrasts as does recent work by \citet{chaiPhoneticsGlottalizedPhonations2023} and \citet{garellekMarginsPhonologyPhonetics2025}. 
 
-\citet{eslingThereAreNo2005,eslingVoiceQualityLaryngeal2019,moisikPhonologicalPotentialsLower2021,moisikMultimodalImagingGlottal2015,moisikModelingBiomechanicalInfluence2014}
+Chapter~\ref{ch:acousticlandscape} demonstrated that SLZ's phonation largely occupies a three-dimensional acoustic landscape defined by spectral slope and harmonic structure/noise. These findings are consistent with the findings from \citet{keatingCrosslanguageAcousticSpace2023}. In both studies, these first two dimensions are correlated with spectral slope and harmonic structure. The study presented in Chapter~\ref{ch:acousticlandscape} showed that SLZ additionally needed a third dimension, also correlated with spectral slope, to fully capture phonation's dimensionality. The results of these studies suggest that phonation is primarily characterized by just spectral slope and harmonic structure. Furthermore, the results of this study suggest that when higher dimensionality is needed, spectral slope or harmonic structure/noise are also correlated with these dimensions.
 
-\begin{figure}
-    \centering
-    \begin{tikzpicture}
-        \node[draw,circle,minimum size=1cm,inner sep=0pt] (tra) at (0,0) {tra};
-        \node[draw,circle,minimum size=1cm,inner sep=0pt] (tfr) at (-2,-1.5) {tfr};
-        \node[draw,circle,minimum size=1cm,inner sep=0pt] (tre) at (2,-1.5) {tre};
-        \node[draw,circle,minimum size=1cm,inner sep=0pt] (tdb) at (0,-3) {tdb};
+Chapter~\ref{ch:revealing_trees} demonstrated that SLZ's phonation relies on a small set of acoustic measures to effectively classify the phonation contrasts. The Random Forest model presented in this chapter showed that many of the same measures that were correlated with the dimensions of the acoustic landscape were also important for classification. The results of the Random Forest analysis showed that the most important acoustic measures for classification were: (i) duration, (ii) A1*, (iii) H1*$-$A1*, (iv) residual H1*, (v) HNR $<$ 1500 Hz, and (vi) Strength of Excitation.These findings suggest that the phonation contrasts in SLZ are not only characterized by spectral slope and harmonic structure/noise, but also by the duration of the vowel and the strength of excitation. These results contribute to our understanding of how phonation contrasts can be effectively classified using a small set of acoustic measures.
 
-        \node[draw,circle,minimum size=1cm,inner sep=0pt] (epc) at (0,-6) {epc};
-        \node[draw,circle,minimum size=1cm,inner sep=0pt] (vfo) at (-2,-7.5) {vfo};
-        \node[draw,circle,minimum size=1cm,inner sep=0pt] (vfc) at (2,-7.5) {vfc};
-        \node[draw,circle,minimum size=1cm,inner sep=0pt] (epv) at (0,-9) {epv};
+The previous chapters were important in establishing which acoustic measures needed to be consulted for Chapter~\ref{ch:testing_lc}'s analysis of how phonation interacts with tone in SLZ. This chapter investigated these interaction through generalized additive mixed model analysis of \textit{f}0, HNR $<$ 1500 Hz, and Strength of Excitation; revealing two facts about how laryngeal complexity manifests itself in SLZ. First, the results of this chapter showed that nonmodal phonation is not strongly articulated in SLZ. This was demonstrated by the very small, though statistically significant, differences in Strength of Excitation between the modal and nonmodal phonations. If nonmodal phonation were strongly articulated in SLZ, we would expect to see larger differences in Strength of Excitation between the modal and nonmodal phonations. This first fact confirms \posscitet{herrerazendejasAmuzgoZapotecTwo2000} claim that Zapotec languages do not articulate their nonmodal phonation strongly. Second, the results of this chapter also showed that contrary to \posscitet{herrerazendejasAmuzgoZapotecTwo2000} claims that Zapotec languages lack phasing of modal and nonmodal phonation, SLZ does exhibit phasing of modal and nonmodal phonation. These results demonstrate that \citet{silvermanLaryngealComplexityOtomanguean1997,silvermanPhasingRecoverability1997} was correct in their assertion that laryngeal complexity primarily exhibits itself through phasing of modal and nonmodal phonation. The results additionally showed that despite lacking strong articulation of nonmodal phonation, SLZ does exhibit phasing of modal and nonmodal phonation which runs counter to \possciteauthor{silvermanLaryngealComplexityOtomanguean1997} claims that either you exhibit phasing with strong articulation or you lack phasing and weakly articulate nonmodal phonation.
 
-        \node[draw,circle,minimum size=1cm,inner sep=0pt] (lower_lx) at (-3.5,-6) {↓lx};
-        \node[draw,circle,minimum size=1cm,inner sep=0pt] (raised_lx) at (3.5,-6) {↑lx};
+These finding contribute to our understanding of phonation and laryngeal complexity; however, these findings also raise several questions important questions that require further investigation. These questions will be discussed in the following sections. 
 
-        \node[draw,circle,minimum size=1cm,inner sep=0pt] (Lf0) at (-2,-10.5) {Lf0};
-        \node[draw,circle,minimum size=1cm,inner sep=0pt] (Hf0) at (2,-10.5) {Hf0};
+%-------------------------------------------
+\section{Future directions}\label{sec:future_directions}
+%-------------------------------------------
+This dissertation has opened up three main avenues for future research: (i) perception of phonation and tone, (ii) typological, and (iii) the phonology of laryngeal complexity.
+
+
+
+% %-------------------------------------------
+% \section{Typological implications}\label{sec:typological_implications}
+% %-------------------------------------------
+
+% \begin{itemize}
+%     \item Another aspect of my research into the tone and phonation interactions is why we see gaps/restrictions for which tones and phonations are allowed to combine. 
+%     \begin{itemize}
+%         \item This is important because of the gaps I observe in SLZ where some we never see breathy with high tone and we do not see checked vowels with rising tone. 
+%         \begin{itemize}
+%             \item This is true for nominals. 
+%             \item I have not looked at verbs and whether or not we see this same gap. 
+%             \begin{itemize}
+%                 \item I expect that the gap is also present in the verbal paradigms similar to what \citet{uchiharaToneRegistrogenesisQuiavini2016} observed where breathy phonation fails to appear in some parts of the paradigm.
+%                 \item Especially with the Potential Aspect, which is always realized as a high tone on the verbal root. 
+%             \end{itemize}
+%         \end{itemize}
+%     \end{itemize}
+%     \item These four types of languages offer an excellent way for me to characterize what we see cross-linguistically in the interactions between tone and phonation. 
+%     \item This primarily is useful for me as a way to zero in on which languages I need to look at. 
+%     \begin{itemize}
+%         \item This means that I need to focus my search into types IIb, IIIb, and IV languages.
+%     \end{itemize}
+% \end{itemize}
+
+% %-------------------------------------------
+% \section{Perception of phonation and tone}\label{sec:perception}
+% %-------------------------------------------
+
+
+
+
+
+
+
+
+% %--------------------------------------------------------------------------
+% \section{The Laryngeal Articulator Model}\label{sec:lam}
+% %--------------------------------------------------------------------------
+
+% \citet{eslingThereAreNo2005,eslingVoiceQualityLaryngeal2019,moisikPhonologicalPotentialsLower2021,moisikMultimodalImagingGlottal2015,moisikModelingBiomechanicalInfluence2014}
+
+% \begin{figure}
+%     \centering
+%     \begin{tikzpicture}
+%         \node[draw,circle,minimum size=1cm,inner sep=0pt] (tra) at (0,0) {tra};
+%         \node[draw,circle,minimum size=1cm,inner sep=0pt] (tfr) at (-2,-1.5) {tfr};
+%         \node[draw,circle,minimum size=1cm,inner sep=0pt] (tre) at (2,-1.5) {tre};
+%         \node[draw,circle,minimum size=1cm,inner sep=0pt] (tdb) at (0,-3) {tdb};
+
+%         \node[draw,circle,minimum size=1cm,inner sep=0pt] (epc) at (0,-6) {epc};
+%         \node[draw,circle,minimum size=1cm,inner sep=0pt] (vfo) at (-2,-7.5) {vfo};
+%         \node[draw,circle,minimum size=1cm,inner sep=0pt] (vfc) at (2,-7.5) {vfc};
+%         \node[draw,circle,minimum size=1cm,inner sep=0pt] (epv) at (0,-9) {epv};
+
+%         \node[draw,circle,minimum size=1cm,inner sep=0pt] (lower_lx) at (-3.5,-6) {↓lx};
+%         \node[draw,circle,minimum size=1cm,inner sep=0pt] (raised_lx) at (3.5,-6) {↑lx};
+
+%         \node[draw,circle,minimum size=1cm,inner sep=0pt] (Lf0) at (-2,-10.5) {Lf0};
+%         \node[draw,circle,minimum size=1cm,inner sep=0pt] (Hf0) at (2,-10.5) {Hf0};
         
-        % Anti-syngeristic
-        \draw[<->, dotted, line width=.5mm] (tra.west) to[out=180,in=90] (tfr.north);
-        \draw[<->,dotted, line width=.5mm] (tra.east) to[out=0,in=90] (tre.north);
-        \draw[<->,dotted, line width=.5mm] (tfr.east) to (tre.west);
-        \draw[<->,dotted, line width=.5mm] (tra.south) to (tdb.north);
-        \draw[<->,dotted, line width=.5mm] (tfr.south) to[in=180, out=-90] (epc.west);
-        \draw[<->,dotted, line width=.5mm] (lower_lx.north) to[in=140,out=40] (raised_lx.north);
-        \draw[<->,dotted, line width=.5mm] (lower_lx.east) to (epc.west);
-        \draw[<->,dotted, line width=.5mm] (epc.west) to[in=90,out=180] (vfo.north);
-        \draw[<->,dotted, line width=.5mm] (vfo.east) to[in=180,out=0] (vfc.west);
-        \draw[<->,dotted, line width=.5mm] (vfc.south) to[in=0,out=-90] (epv.east);
-        \draw[<->,dotted, line width=.5mm] (epc.south) to[out=-90, in=90] (Hf0.north);
-        \draw[<->,dotted, line width=.5mm] (Hf0.south) to[out=-140, in=-40] (Lf0.south);
-        \draw[<->,dotted, line width=.5mm] (epv.south) to[out=-90, in=180] (Hf0.west);
+%         % Anti-syngeristic
+%         \draw[<->, dotted, line width=.5mm] (tra.west) to[out=180,in=90] (tfr.north);
+%         \draw[<->,dotted, line width=.5mm] (tra.east) to[out=0,in=90] (tre.north);
+%         \draw[<->,dotted, line width=.5mm] (tfr.east) to (tre.west);
+%         \draw[<->,dotted, line width=.5mm] (tra.south) to (tdb.north);
+%         \draw[<->,dotted, line width=.5mm] (tfr.south) to[in=180, out=-90] (epc.west);
+%         \draw[<->,dotted, line width=.5mm] (lower_lx.north) to[in=140,out=40] (raised_lx.north);
+%         \draw[<->,dotted, line width=.5mm] (lower_lx.east) to (epc.west);
+%         \draw[<->,dotted, line width=.5mm] (epc.west) to[in=90,out=180] (vfo.north);
+%         \draw[<->,dotted, line width=.5mm] (vfo.east) to[in=180,out=0] (vfc.west);
+%         \draw[<->,dotted, line width=.5mm] (vfc.south) to[in=0,out=-90] (epv.east);
+%         \draw[<->,dotted, line width=.5mm] (epc.south) to[out=-90, in=90] (Hf0.north);
+%         \draw[<->,dotted, line width=.5mm] (Hf0.south) to[out=-140, in=-40] (Lf0.south);
+%         \draw[<->,dotted, line width=.5mm] (epv.south) to[out=-90, in=180] (Hf0.west);
 
-        % Syngeristic
-        \draw[<->, line width=.5mm] (tdb.west) to[out=180, in=-90] (tfr.south);
-        \draw[<->, line width=.5mm] (tdb.east) to[out=0, in=-90] (tre.south);
-        \draw[<->, line width=.5mm] (epc.north) to (tdb.south);
-        \draw[<->, line width=.5mm] (epc.south) to (epv.north);
-        \draw[<->, line width=.5mm] (epc.east) to[in=-90, out=0] (tre.south);
-        \draw[<->, line width=.5mm] (lower_lx.north) to[in=-135, out=90] (tfr.west);
-        \draw[<->, line width=.5mm] (raised_lx.north) to[in=-45, out=90] (tre.east);
-        \draw[<->, line width=.5mm] (Lf0.west) to[in=-90, out =135] (lower_lx.south);
-        \draw[<->, line width=.5mm] (raised_lx.west) to (epc.east);
-        \draw[<->, line width=.5mm] (Hf0.east) to[in=-90, out=45] (raised_lx.south);
-        \draw[<->, line width=.5mm] (epv.south) to[out=-90, in=0] (Lf0.east);
-        \draw[<->, line width=.5mm] (epc.east) to[out=0, in=90] (vfc.north);
-        \draw[<->, line width=.5mm] (vfo.south) to[out=-90, in=180] (epv.west);
-        \draw[<->, line width=.5mm] (vfc.south) to (Hf0.north);
-        \draw[<->, line width=.5mm] (vfo.south) to (Lf0.north);
-        \draw[<->, line width=.5mm] (epc.south) to[out=-90,in=90] (Lf0.north);
-        \draw[<->, line width=.5mm] (lower_lx.south) to[out=-90,in=180] (vfo.west);
-        \draw[<->, line width=.5mm] (raised_lx.south) to[out=-90,in=0] (vfc.east);
+%         % Syngeristic
+%         \draw[<->, line width=.5mm] (tdb.west) to[out=180, in=-90] (tfr.south);
+%         \draw[<->, line width=.5mm] (tdb.east) to[out=0, in=-90] (tre.south);
+%         \draw[<->, line width=.5mm] (epc.north) to (tdb.south);
+%         \draw[<->, line width=.5mm] (epc.south) to (epv.north);
+%         \draw[<->, line width=.5mm] (epc.east) to[in=-90, out=0] (tre.south);
+%         \draw[<->, line width=.5mm] (lower_lx.north) to[in=-135, out=90] (tfr.west);
+%         \draw[<->, line width=.5mm] (raised_lx.north) to[in=-45, out=90] (tre.east);
+%         \draw[<->, line width=.5mm] (Lf0.west) to[in=-90, out =135] (lower_lx.south);
+%         \draw[<->, line width=.5mm] (raised_lx.west) to (epc.east);
+%         \draw[<->, line width=.5mm] (Hf0.east) to[in=-90, out=45] (raised_lx.south);
+%         \draw[<->, line width=.5mm] (epv.south) to[out=-90, in=0] (Lf0.east);
+%         \draw[<->, line width=.5mm] (epc.east) to[out=0, in=90] (vfc.north);
+%         \draw[<->, line width=.5mm] (vfo.south) to[out=-90, in=180] (epv.west);
+%         \draw[<->, line width=.5mm] (vfc.south) to (Hf0.north);
+%         \draw[<->, line width=.5mm] (vfo.south) to (Lf0.north);
+%         \draw[<->, line width=.5mm] (epc.south) to[out=-90,in=90] (Lf0.north);
+%         \draw[<->, line width=.5mm] (lower_lx.south) to[out=-90,in=180] (vfo.west);
+%         \draw[<->, line width=.5mm] (raised_lx.south) to[out=-90,in=0] (vfc.east);
 
-        % Curly bracket with text
-        \draw[decorate,decoration={brace,amplitude=10pt,raise=5pt},thick] (4,0) -- (4,-4) node[midway,xshift=15pt,right=5pt] {\parbox{2cm}{vowel\\quality}};
-        \draw[decorate,decoration={brace,amplitude=10pt,raise=5pt},thick] (4,-4) -- (4,-9.5) node[midway,xshift=15pt,right=5pt] {\parbox{2cm}{phonatory\\quality}};
-        \draw[decorate,decoration={brace,amplitude=10pt,raise=5pt},thick] (4,-9.5) -- (4,-11) node[midway,xshift=15pt,right=5pt] {\parbox{2cm}{tonal\\quality}};
-        \draw[decorate,decoration={brace,amplitude=10pt,raise=5pt},thick] (7,-2) -- (7,-11) node[midway,xshift=15pt,right=5pt] {\parbox{2cm}{voice\\quality}};
+%         % Curly bracket with text
+%         \draw[decorate,decoration={brace,amplitude=10pt,raise=5pt},thick] (4,0) -- (4,-4) node[midway,xshift=15pt,right=5pt] {\parbox{2cm}{vowel\\quality}};
+%         \draw[decorate,decoration={brace,amplitude=10pt,raise=5pt},thick] (4,-4) -- (4,-9.5) node[midway,xshift=15pt,right=5pt] {\parbox{2cm}{phonatory\\quality}};
+%         \draw[decorate,decoration={brace,amplitude=10pt,raise=5pt},thick] (4,-9.5) -- (4,-11) node[midway,xshift=15pt,right=5pt] {\parbox{2cm}{tonal\\quality}};
+%         \draw[decorate,decoration={brace,amplitude=10pt,raise=5pt},thick] (7,-2) -- (7,-11) node[midway,xshift=15pt,right=5pt] {\parbox{2cm}{voice\\quality}};
 
         
-    \end{tikzpicture}
-    \caption{The Laryngeal Articulator Model from \citet{eslingVoiceQualityLaryngeal2019}. This model shows the interactions between the laryngeal articulators (labeled circles). Syngeristic interactions are shown with solid lines, while anti-syngeristic interactions are shown with dotted lines.}
-    \label{fig:tra}
-\end{figure}
+%     \end{tikzpicture}
+%     \caption{The Laryngeal Articulator Model from \citet{eslingVoiceQualityLaryngeal2019}. This model shows the interactions between the laryngeal articulators (labeled circles). Syngeristic interactions are shown with solid lines, while anti-syngeristic interactions are shown with dotted lines.}
+%     \label{fig:tra}
+% \end{figure}
 
-%--------------------------------------------------------------------------
-\section{Modeling laryngeal complexity}\label{sec:modeling_lc}
-%--------------------------------------------------------------------------
+% %--------------------------------------------------------------------------
+% \section{Modeling laryngeal complexity}\label{sec:modeling_lc}
+% %--------------------------------------------------------------------------
 
-%--------------------------------------------------------------------------
-\section{Alternative accounts}\label{sec:alternative_accounts}
-%--------------------------------------------------------------------------
+% %--------------------------------------------------------------------------
+% \section{Alternative accounts}\label{sec:alternative_accounts}
+% %--------------------------------------------------------------------------
 
-%--------------------------------------------------------------------------
-\subsection{Articulatory Phonology account}\label{sec:ap_account}
-%--------------------------------------------------------------------------
+% %--------------------------------------------------------------------------
+% \subsection{Articulatory Phonology account}\label{sec:ap_account}
+% %--------------------------------------------------------------------------
 
-%--------------------------------------------------------------------------
-\subsection{Q-theory account}\label{sec:q_theory_account}
-%--------------------------------------------------------------------------
+% %--------------------------------------------------------------------------
+% \subsection{Q-theory account}\label{sec:q_theory_account}
+% %--------------------------------------------------------------------------
 
-%--------------------------------------------------------------------------
-\subsection{Radical CV Phonology account}\label{sec:rcv_account}
-%--------------------------------------------------------------------------
-
-%--------------------------------------------------------------------------
-\section{Typological implications}\label{sec:typological_implications}
-%--------------------------------------------------------------------------
-
-\begin{itemize}
-    \item Another aspect of my research into the tone and phonation interactions is why we see gaps/restrictions for which tones and phonations are allowed to combine. 
-    \begin{itemize}
-        \item This is important because of the gaps I observe in SLZ where some we never see breathy with high tone and we do not see checked vowels with rising tone. 
-        \begin{itemize}
-            \item This is true for nominals. 
-            \item I have not looked at verbs and whether or not we see this same gap. 
-            \begin{itemize}
-                \item I expect that the gap is also present in the verbal paradigms similar to what \citet{uchiharaToneRegistrogenesisQuiavini2016} observed where breathy phonation fails to appear in some parts of the paradigm.
-                \item Especially with the Potential Aspect, which is always realized as a high tone on the verbal root. 
-            \end{itemize}
-        \end{itemize}
-    \end{itemize}
-    \item These four types of languages offer an excellent way for me to characterize what we see cross-linguistically in the interactions between tone and phonation. 
-    \item This primarily is useful for me as a way to zero in on which languages I need to look at. 
-    \begin{itemize}
-        \item This means that I need to focus my search into types IIb, IIIb, and IV languages.
-    \end{itemize}
-\end{itemize}
+% %--------------------------------------------------------------------------
+% \subsection{Radical CV Phonology account}\label{sec:rcv_account}
+% %--------------------------------------------------------------------------
