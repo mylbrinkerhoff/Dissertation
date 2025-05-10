@@ -1,0 +1,800 @@
+% $ biblatex auxiliary file $
+% $ biblatex bbl format version 3.3 $
+% Do not modify the above lines!
+%
+% This is an auxiliary file used by the 'biblatex' package.
+% This file may safely be deleted. It will be recreated by
+% biber as required.
+%
+\begingroup
+\makeatletter
+\@ifundefined{ver@biblatex.sty}
+  {\@latex@error
+     {Missing 'biblatex' package}
+     {The bibliography requires the 'biblatex' package.}
+      \aftergroup\endinput}
+  {}
+\endgroup
+
+
+\refsection{0}
+  \datalist[entry]{nyt/global//global/global/global}
+    \entry{blankenshipTimingNonmodalPhonation2002}{article}{}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=1a34a3de891ef3377a4ce247b638c5b1}{%
+           family={Blankenship},
+           familyi={B\bibinitperiod},
+           given={Barbara},
+           giveni={B\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{1a34a3de891ef3377a4ce247b638c5b1}
+      \strng{fullhash}{1a34a3de891ef3377a4ce247b638c5b1}
+      \strng{fullhashraw}{1a34a3de891ef3377a4ce247b638c5b1}
+      \strng{bibnamehash}{1a34a3de891ef3377a4ce247b638c5b1}
+      \strng{authorbibnamehash}{1a34a3de891ef3377a4ce247b638c5b1}
+      \strng{authornamehash}{1a34a3de891ef3377a4ce247b638c5b1}
+      \strng{authorfullhash}{1a34a3de891ef3377a4ce247b638c5b1}
+      \strng{authorfullhashraw}{1a34a3de891ef3377a4ce247b638c5b1}
+      \field{sortinit}{B}
+      \field{sortinithash}{d7095fff47cda75ca2589920aae98399}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{issn}{00954470}
+      \field{journaltitle}{Journal of Phonetics}
+      \field{langid}{english}
+      \field{month}{4}
+      \field{number}{2}
+      \field{shortjournal}{Journal of Phonetics}
+      \field{title}{The Timing of Nonmodal Phonation in Vowels}
+      \field{volume}{30}
+      \field{year}{2002}
+      \field{dateera}{ce}
+      \field{pages}{163\bibrangedash 191}
+      \range{pages}{29}
+      \verb{doi}
+      \verb 10.1006/jpho.2001.0155
+      \endverb
+      \verb{file}
+      \verb /Users/mlbrinke/Dropbox/Zotero/2_Areas/Zapotec/QP2/blankenshipTimingNonmodalPhonation2002.pdf
+      \endverb
+      \keyw{Voice Quality}
+    \endentry
+    \entry{brunelleTonePhonationSoutheast2016}{article}{}{}
+      \name{author}{2}{}{%
+        {{un=0,uniquepart=base,hash=7d6a5b5776037be59870e95574946ce9}{%
+           family={Brunelle},
+           familyi={B\bibinitperiod},
+           given={Marc},
+           giveni={M\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=8267d2d7f8ebfcee04e15da6a4828444}{%
+           family={Kirby},
+           familyi={K\bibinitperiod},
+           given={James},
+           giveni={J\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{abe8d1c4be974891813abe21b15966e1}
+      \strng{fullhash}{abe8d1c4be974891813abe21b15966e1}
+      \strng{fullhashraw}{abe8d1c4be974891813abe21b15966e1}
+      \strng{bibnamehash}{abe8d1c4be974891813abe21b15966e1}
+      \strng{authorbibnamehash}{abe8d1c4be974891813abe21b15966e1}
+      \strng{authornamehash}{abe8d1c4be974891813abe21b15966e1}
+      \strng{authorfullhash}{abe8d1c4be974891813abe21b15966e1}
+      \strng{authorfullhashraw}{abe8d1c4be974891813abe21b15966e1}
+      \field{sortinit}{B}
+      \field{sortinithash}{d7095fff47cda75ca2589920aae98399}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{shorttitle}
+      \field{abstract}{Southeast Asia is often considered a quintessential Sprachbund where languages from five different language phyla have been converging typologically for millennia. One of the common features shared by many languages of the area is tone: several major national languages of the region have large tone inventories and complex tone contours. In this paper, we suggest a more fine-grained view. We show that in addition to a large number of atonal languages, the tone languages of the region are actually far more diverse than usually assumed, and employ phonation type contrasts at least as often as pitch. Along the same lines, we argue that concepts such as tone and register, while descriptively useful, can obscure important underlying similarities and impede our understanding of the behavior of phonetic properties, typological regularities, and diachrony. We finally draw the reader’s attention to some issues of current interest in the study of tone and phonation in Southeast Asia and describe some technical developments that are likely to allow researchers to address new lines of research in years to come.}
+      \field{issn}{1749818X}
+      \field{journaltitle}{Language and Linguistics Compass}
+      \field{langid}{english}
+      \field{month}{4}
+      \field{number}{4}
+      \field{shortjournal}{Language and Linguistics Compass}
+      \field{shorttitle}{Tone and {{Phonation}} in {{Southeast Asian Languages}}}
+      \field{title}{Tone and {{Phonation}} in {{Southeast Asian Languages}}}
+      \field{volume}{10}
+      \field{year}{2016}
+      \field{dateera}{ce}
+      \field{pages}{191\bibrangedash 207}
+      \range{pages}{17}
+      \verb{doi}
+      \verb 10.1111/lnc3.12182
+      \endverb
+      \verb{file}
+      \verb /Users/mlbrinke/Dropbox/Zotero/2_Areas/Zapotec/brunelleTonePhonationSoutheast2016.pdf;/Users/mlbrinke/Zotero/storage/V22PW58G/lnc3.html
+      \endverb
+      \keyw{Voice Quality}
+    \endentry
+    \entry{espositoAcousticElectroglottographicStudy2012}{article}{}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=8302fa658b038a406c26db0f6760e735}{%
+           family={Esposito},
+           familyi={E\bibinitperiod},
+           given={Christina\bibnamedelima M.},
+           giveni={C\bibinitperiod\bibinitdelim M\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{8302fa658b038a406c26db0f6760e735}
+      \strng{fullhash}{8302fa658b038a406c26db0f6760e735}
+      \strng{fullhashraw}{8302fa658b038a406c26db0f6760e735}
+      \strng{bibnamehash}{8302fa658b038a406c26db0f6760e735}
+      \strng{authorbibnamehash}{8302fa658b038a406c26db0f6760e735}
+      \strng{authornamehash}{8302fa658b038a406c26db0f6760e735}
+      \strng{authorfullhash}{8302fa658b038a406c26db0f6760e735}
+      \strng{authorfullhashraw}{8302fa658b038a406c26db0f6760e735}
+      \field{sortinit}{E}
+      \field{sortinithash}{8da8a182d344d5b9047633dfc0cc9131}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{abstract}{This study examines tone and phonation in White Hmong, a language with seven tones (traditionally described as: high, mid, low, high-falling, mid-rising, low-falling, and mid-low) and three phonations (low-falling tone is creaky, mid-low tone is breathy and the remaining tones are modal). Thirty-two speakers were recorded producing words with all seven tones; audio and electroglottographic recordings were made. Acoustic measures were: cepstral peak prominence (CPP), H1⁎, H2⁎, H1⁎−H2⁎, H1⁎−A1⁎, H1⁎−A2⁎, H1⁎−A3⁎, and H2⁎−H4⁎. Electroglottographic (EGG) measures were: closed quotient and derivative-EGG closure peak amplitude (DECPA). F0 and duration were measured. Results showed that the traditional tonal descriptions are accurate except for the high-level tone which is better described as rising and the mid-low tone, which is falling. Furthermore, the rising and low-falling tones are shorter than the other five tones. In terms of acoustic and electroglottographic measures, none of the measures tested distinguished all three phonation types at a given time point. Several measures, H1⁎, H1⁎−H2⁎, CQ, CPP, and DECPA, distinguished two phonation categories, suggesting that phonation contrasts are realized across several phonetic dimensions. Additional results showed that many of the acoustic and EGG measures were correlated with F0 and that closed quotient and DECPA were most strongly correlated with H1⁎−H2⁎.}
+      \field{day}{1}
+      \field{issn}{0095-4470}
+      \field{journaltitle}{Journal of Phonetics}
+      \field{langid}{english}
+      \field{month}{5}
+      \field{number}{3}
+      \field{shortjournal}{Journal of Phonetics}
+      \field{title}{An Acoustic and Electroglottographic Study of {{White Hmong}} Tone and Phonation}
+      \field{volume}{40}
+      \field{year}{2012}
+      \field{dateera}{ce}
+      \field{pages}{466\bibrangedash 476}
+      \range{pages}{11}
+      \verb{doi}
+      \verb 10.1016/j.wocn.2012.02.007
+      \endverb
+      \verb{file}
+      \verb /Users/mlbrinke/Dropbox/Zotero/2_Areas/Zapotec/QP2/LarynxTime/espositoAcousticElectroglottographicStudy2012.pdf;/Users/mlbrinke/Zotero/storage/RIHIB9DS/S0095447012000174.html
+      \endverb
+      \keyw{Voice Quality}
+    \endentry
+    \entry{espositoCrosslinguisticPatternsPhonation2020}{article}{}{}
+      \name{author}{2}{}{%
+        {{un=0,uniquepart=base,hash=8302fa658b038a406c26db0f6760e735}{%
+           family={Esposito},
+           familyi={E\bibinitperiod},
+           given={Christina\bibnamedelima M.},
+           giveni={C\bibinitperiod\bibinitdelim M\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=1e278f071c6b1958dea181d4413c7e40}{%
+           family={Khan},
+           familyi={K\bibinitperiod},
+           given={Sameer\bibnamedelimb ud\bibnamedelima Dowla},
+           giveni={S\bibinitperiod\bibinitdelim u\bibinitperiod\bibinitdelim D\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{4f2af2bb0ab93576c18909519b9035e8}
+      \strng{fullhash}{4f2af2bb0ab93576c18909519b9035e8}
+      \strng{fullhashraw}{4f2af2bb0ab93576c18909519b9035e8}
+      \strng{bibnamehash}{4f2af2bb0ab93576c18909519b9035e8}
+      \strng{authorbibnamehash}{4f2af2bb0ab93576c18909519b9035e8}
+      \strng{authornamehash}{4f2af2bb0ab93576c18909519b9035e8}
+      \strng{authorfullhash}{4f2af2bb0ab93576c18909519b9035e8}
+      \strng{authorfullhashraw}{4f2af2bb0ab93576c18909519b9035e8}
+      \field{sortinit}{E}
+      \field{sortinithash}{8da8a182d344d5b9047633dfc0cc9131}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{abstract}{We provide an update on the state of research on phonation (the production of sound by the vocal folds) since Gordon and Ladefoged's, Journal of Phonetics, 2001 29, 383–406 overview, focusing on the acoustics of breathiness, creak, and other linguistic voice qualities. We highlight cross-linguistic variation, introduce measuring techniques, and discuss the relationship between phonation and other phonological dimensions (e.g., tone, vowel quality). We also review perceptual literature, an area of phonation research that has greatly expanded recently. Taken together, the studies reviewed demonstrate that phonation types indeed lie not just on a single continuum, but in a multidimensional space.}
+      \field{issn}{1749-818X, 1749-818X}
+      \field{journaltitle}{Language and Linguistics Compass}
+      \field{langid}{english}
+      \field{month}{12}
+      \field{number}{12}
+      \field{shortjournal}{Lang Linguist Compass}
+      \field{title}{The Cross‐linguistic Patterns of Phonation Types}
+      \field{volume}{14}
+      \field{year}{2020}
+      \field{dateera}{ce}
+      \verb{doi}
+      \verb 10.1111/lnc3.12392
+      \endverb
+      \verb{file}
+      \verb /Users/mlbrinke/Dropbox/Zotero/2_Areas/Zapotec/QP2/espositoCrossLinguisticPatterns2020.pdf
+      \endverb
+      \keyw{Voice Quality}
+    \endentry
+    \entry{fischer-jorgensenPhoneticAnalysisBreathy1968}{article}{}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=5bdbf7486dd42b047bb8f3f971a70489}{%
+           family={Fischer-Jørgensen},
+           familyi={F\bibinithyphendelim J\bibinitperiod},
+           given={Eli},
+           giveni={E\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{5bdbf7486dd42b047bb8f3f971a70489}
+      \strng{fullhash}{5bdbf7486dd42b047bb8f3f971a70489}
+      \strng{fullhashraw}{5bdbf7486dd42b047bb8f3f971a70489}
+      \strng{bibnamehash}{5bdbf7486dd42b047bb8f3f971a70489}
+      \strng{authorbibnamehash}{5bdbf7486dd42b047bb8f3f971a70489}
+      \strng{authornamehash}{5bdbf7486dd42b047bb8f3f971a70489}
+      \strng{authorfullhash}{5bdbf7486dd42b047bb8f3f971a70489}
+      \strng{authorfullhashraw}{5bdbf7486dd42b047bb8f3f971a70489}
+      \field{sortinit}{F}
+      \field{sortinithash}{2638baaa20439f1b5a8f80c6c08a13b4}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{abstract}{No abstract}
+      \field{day}{1}
+      \field{issn}{2794-3224}
+      \field{journaltitle}{Annual Report of the Institute of Phonetics University of Copenhagen}
+      \field{langid}{english}
+      \field{month}{1}
+      \field{title}{Phonetic {{Analysis}} of {{Breathy}} ({{Murmured}}) {{Vowels}} in {{Gujarati}}}
+      \field{volume}{2}
+      \field{year}{1968}
+      \field{dateera}{ce}
+      \field{pages}{35\bibrangedash 85}
+      \range{pages}{51}
+      \verb{doi}
+      \verb 10.7146/aripuc.v2i.130674
+      \endverb
+      \verb{file}
+      \verb /Users/mlbrinke/Dropbox/Zotero/1_Projects/Dissertation/fischer-jorgensenPhoneticAnalysisBreathy1968.pdf
+      \endverb
+      \keyw{Voice Quality}
+    \endentry
+    \entry{garellekVoiceQualityTone2013}{article}{}{}
+      \name{author}{4}{}{%
+        {{un=0,uniquepart=base,hash=6261be825a58b093c669ab685b17a0a2}{%
+           family={Garellek},
+           familyi={G\bibinitperiod},
+           given={Marc},
+           giveni={M\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=fc50eafcd8e8098287287e0504b34e67}{%
+           family={Keating},
+           familyi={K\bibinitperiod},
+           given={Patricia},
+           giveni={P\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=8302fa658b038a406c26db0f6760e735}{%
+           family={Esposito},
+           familyi={E\bibinitperiod},
+           given={Christina\bibnamedelima M.},
+           giveni={C\bibinitperiod\bibinitdelim M\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=d2d148472f827463299e324b2c3ee3b8}{%
+           family={Kreiman},
+           familyi={K\bibinitperiod},
+           given={Jody},
+           giveni={J\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{8c59d9056f3f3e00d53ff80aef36a55f}
+      \strng{fullhash}{f2fc8b7843ffdb320b686dec5c3c7be4}
+      \strng{fullhashraw}{f2fc8b7843ffdb320b686dec5c3c7be4}
+      \strng{bibnamehash}{f2fc8b7843ffdb320b686dec5c3c7be4}
+      \strng{authorbibnamehash}{f2fc8b7843ffdb320b686dec5c3c7be4}
+      \strng{authornamehash}{8c59d9056f3f3e00d53ff80aef36a55f}
+      \strng{authorfullhash}{f2fc8b7843ffdb320b686dec5c3c7be4}
+      \strng{authorfullhashraw}{f2fc8b7843ffdb320b686dec5c3c7be4}
+      \field{extraname}{1}
+      \field{sortinit}{G}
+      \field{sortinithash}{32d67eca0634bf53703493fb1090a2e8}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{issn}{0001-4966}
+      \field{journaltitle}{The Journal of the Acoustical Society of America}
+      \field{langid}{english}
+      \field{month}{2}
+      \field{number}{2}
+      \field{shortjournal}{The Journal of the Acoustical Society of America}
+      \field{title}{Voice Quality and Tone Identification in {{White Hmong}}}
+      \field{volume}{133}
+      \field{year}{2013}
+      \field{dateera}{ce}
+      \field{pages}{1078\bibrangedash 1089}
+      \range{pages}{12}
+      \verb{doi}
+      \verb 10.1121/1.4773259
+      \endverb
+      \verb{file}
+      \verb /Users/mlbrinke/Dropbox/Zotero/2_Areas/Zapotec/QP2/garellekVoiceQualityTone2013.pdf
+      \endverb
+    \endentry
+    \entry{garellekModelingVoiceSource2016}{article}{}{}
+      \name{author}{4}{}{%
+        {{un=0,uniquepart=base,hash=6261be825a58b093c669ab685b17a0a2}{%
+           family={Garellek},
+           familyi={G\bibinitperiod},
+           given={Marc},
+           giveni={M\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=57cc5e491e13464e727d78f0cad36c99}{%
+           family={Samlan},
+           familyi={S\bibinitperiod},
+           given={Robin},
+           giveni={R\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=4ca67c39dc38a5286306030a24a2683c}{%
+           family={Gerratt},
+           familyi={G\bibinitperiod},
+           given={Bruce\bibnamedelima R.},
+           giveni={B\bibinitperiod\bibinitdelim R\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=d2d148472f827463299e324b2c3ee3b8}{%
+           family={Kreiman},
+           familyi={K\bibinitperiod},
+           given={Jody},
+           giveni={J\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{8c59d9056f3f3e00d53ff80aef36a55f}
+      \strng{fullhash}{7daf26632feb980df7cf5b09e9bbc136}
+      \strng{fullhashraw}{7daf26632feb980df7cf5b09e9bbc136}
+      \strng{bibnamehash}{7daf26632feb980df7cf5b09e9bbc136}
+      \strng{authorbibnamehash}{7daf26632feb980df7cf5b09e9bbc136}
+      \strng{authornamehash}{8c59d9056f3f3e00d53ff80aef36a55f}
+      \strng{authorfullhash}{7daf26632feb980df7cf5b09e9bbc136}
+      \strng{authorfullhashraw}{7daf26632feb980df7cf5b09e9bbc136}
+      \field{extraname}{2}
+      \field{sortinit}{G}
+      \field{sortinithash}{32d67eca0634bf53703493fb1090a2e8}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{issn}{0001-4966}
+      \field{journaltitle}{The Journal of the Acoustical Society of America}
+      \field{langid}{english}
+      \field{month}{3}
+      \field{number}{3}
+      \field{shortjournal}{The Journal of the Acoustical Society of America}
+      \field{title}{Modeling the Voice Source in Terms of Spectral Slopes}
+      \field{volume}{139}
+      \field{year}{2016}
+      \field{dateera}{ce}
+      \field{pages}{1404\bibrangedash 1410}
+      \range{pages}{7}
+      \verb{doi}
+      \verb 10.1121/1.4944474
+      \endverb
+      \verb{file}
+      \verb /Users/mlbrinke/Dropbox/Zotero/4_Archive/QE/garellekModelingVoiceSource2016 2.pdf;/Users/mlbrinke/Dropbox/Zotero/4_Archive/QE/garellekModelingVoiceSource2016.pdf;/Users/mlbrinke/Zotero/storage/7MZYRXVF/Modeling-the-voice-source-in-terms-of-spectral.html
+      \endverb
+    \endentry
+    \entry{gordonPhonationTypesCrosslinguistic2001}{article}{}{}
+      \name{author}{2}{}{%
+        {{un=0,uniquepart=base,hash=8b8891db68628ca28c08481da8cf5dc6}{%
+           family={Gordon},
+           familyi={G\bibinitperiod},
+           given={Matthew},
+           giveni={M\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=ee50d5fae1323a80cddc05b09f356e54}{%
+           family={Ladefoged},
+           familyi={L\bibinitperiod},
+           given={Peter},
+           giveni={P\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{6e499dfd33984b3f3ccddc1b54f21884}
+      \strng{fullhash}{6e499dfd33984b3f3ccddc1b54f21884}
+      \strng{fullhashraw}{6e499dfd33984b3f3ccddc1b54f21884}
+      \strng{bibnamehash}{6e499dfd33984b3f3ccddc1b54f21884}
+      \strng{authorbibnamehash}{6e499dfd33984b3f3ccddc1b54f21884}
+      \strng{authornamehash}{6e499dfd33984b3f3ccddc1b54f21884}
+      \strng{authorfullhash}{6e499dfd33984b3f3ccddc1b54f21884}
+      \strng{authorfullhashraw}{6e499dfd33984b3f3ccddc1b54f21884}
+      \field{sortinit}{G}
+      \field{sortinithash}{32d67eca0634bf53703493fb1090a2e8}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{shorttitle}
+      \field{abstract}{Differences in phonation type signal important linguistic information in many languages, including contrasts between otherwise identical lexical items and boundaries of prosodic constituents. Phonation differences can be classified along a continuum ranging from voiceless, through breathy voiced, to regular, modal voicing, and then on through creaky voice to glottal closure. Cross-linguistic investigation suggests that this phonation continuum can be defined in terms of a recurring set of articulatory, acoustic, and timing properties. Nevertheless, there exist several languages whose phonation contrasts do not neatly fall within the phonation categories defined by other languages.}
+      \field{day}{1}
+      \field{issn}{0095-4470}
+      \field{journaltitle}{Journal of Phonetics}
+      \field{langid}{english}
+      \field{month}{10}
+      \field{number}{4}
+      \field{shortjournal}{Journal of Phonetics}
+      \field{shorttitle}{Phonation Types}
+      \field{title}{Phonation Types: A Cross-Linguistic Overview}
+      \field{volume}{29}
+      \field{year}{2001}
+      \field{dateera}{ce}
+      \field{pages}{383\bibrangedash 406}
+      \range{pages}{24}
+      \verb{doi}
+      \verb 10.1006/jpho.2001.0147
+      \endverb
+      \verb{file}
+      \verb /Users/mlbrinke/Dropbox/Zotero/2_Areas/Zapotec/QP2/gordonPhonationTypesCrosslinguistic2001.pdf
+      \endverb
+      \keyw{/unread,Voice Quality}
+    \endentry
+    \entry{keatingCrosslanguageAcousticSpace2023}{article}{}{}
+      \name{author}{5}{}{%
+        {{un=0,uniquepart=base,hash=fc50eafcd8e8098287287e0504b34e67}{%
+           family={Keating},
+           familyi={K\bibinitperiod},
+           given={Patricia},
+           giveni={P\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=7d1849b84165ad2cf1a6792d64e558ab}{%
+           family={Kuang},
+           familyi={K\bibinitperiod},
+           given={Jianjing},
+           giveni={J\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=6261be825a58b093c669ab685b17a0a2}{%
+           family={Garellek},
+           familyi={G\bibinitperiod},
+           given={Marc},
+           giveni={M\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=8302fa658b038a406c26db0f6760e735}{%
+           family={Esposito},
+           familyi={E\bibinitperiod},
+           given={Christina\bibnamedelima M.},
+           giveni={C\bibinitperiod\bibinitdelim M\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=1e278f071c6b1958dea181d4413c7e40}{%
+           family={Khan},
+           familyi={K\bibinitperiod},
+           given={Sameer\bibnamedelimb ud\bibnamedelima Dowla},
+           giveni={S\bibinitperiod\bibinitdelim u\bibinitperiod\bibinitdelim D\bibinitperiod},
+           givenun=0}}%
+      }
+      \list{publisher}{1}{%
+        {Linguistic Society of America}%
+      }
+      \strng{namehash}{598d014c98253185954661b223073717}
+      \strng{fullhash}{a2fe3a0907e667ce45bb92e62b1895ce}
+      \strng{fullhashraw}{a2fe3a0907e667ce45bb92e62b1895ce}
+      \strng{bibnamehash}{a2fe3a0907e667ce45bb92e62b1895ce}
+      \strng{authorbibnamehash}{a2fe3a0907e667ce45bb92e62b1895ce}
+      \strng{authornamehash}{598d014c98253185954661b223073717}
+      \strng{authorfullhash}{a2fe3a0907e667ce45bb92e62b1895ce}
+      \strng{authorfullhashraw}{a2fe3a0907e667ce45bb92e62b1895ce}
+      \field{sortinit}{K}
+      \field{sortinithash}{c02bf6bff1c488450c352b40f5d853ab}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{abstract}{Many languages use phonation types for phonemic or allophonic distinctions. This study examines the acoustic structure of the phonetic space for vowel phonations across languages. Our sample of eleven languages includes languages with contrastive modal, breathy, creaky, lax, tense, harsh, and/or pharyngealized phonations, and languages with allophonic nonmodal phonation on particular tones. In compiling and analyzing this sample we address related issues such as contrast vs. allophony, phonetic similarity across languages, and understanding complex contrasts of several multidimensional phonetic categories via data reduction. Based on extensive acoustic analysis, all of the languages’ phonations were mapped into a single phonetic space, which exhibits dispersion (languages with more categories use more of the space). The space is largely two-dimensional, with dimensions that can be interpreted phonetically (e.g. dimension 2 is like a traditional breathy-to-creaky continuum) and also can be related back to the acoustic measures that structure them, thus indicating which acoustic measures are most important across languages.*}
+      \field{issn}{1535-0665}
+      \field{journaltitle}{Language}
+      \field{number}{2}
+      \field{title}{A Cross-Language Acoustic Space for Vocalic Phonation Distinctions}
+      \field{volume}{99}
+      \field{year}{2023}
+      \field{dateera}{ce}
+      \field{pages}{351\bibrangedash 389}
+      \range{pages}{39}
+      \verb{doi}
+      \verb 10.1353/lan.2023.a900090
+      \endverb
+      \verb{file}
+      \verb /Users/mlbrinke/Dropbox/Zotero/1_Projects/Dissertation/keatingCrosslanguageAcousticSpace2023.pdf
+      \endverb
+      \keyw{Voice Quality}
+    \endentry
+    \entry{klattAnalysisSynthesisPerception1990}{article}{}{}
+      \name{author}{2}{}{%
+        {{un=0,uniquepart=base,hash=a2fa29fb28c17c62541fc39688ab5700}{%
+           family={Klatt},
+           familyi={K\bibinitperiod},
+           given={Dennis\bibnamedelima H.},
+           giveni={D\bibinitperiod\bibinitdelim H\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=dbcc6a85ca8200d2a952cc5bf223f76f}{%
+           family={Klatt},
+           familyi={K\bibinitperiod},
+           given={Laura\bibnamedelima C.},
+           giveni={L\bibinitperiod\bibinitdelim C\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{769ba56007bbf7ce25a123d8ebd42f21}
+      \strng{fullhash}{769ba56007bbf7ce25a123d8ebd42f21}
+      \strng{fullhashraw}{769ba56007bbf7ce25a123d8ebd42f21}
+      \strng{bibnamehash}{769ba56007bbf7ce25a123d8ebd42f21}
+      \strng{authorbibnamehash}{769ba56007bbf7ce25a123d8ebd42f21}
+      \strng{authornamehash}{769ba56007bbf7ce25a123d8ebd42f21}
+      \strng{authorfullhash}{769ba56007bbf7ce25a123d8ebd42f21}
+      \strng{authorfullhashraw}{769ba56007bbf7ce25a123d8ebd42f21}
+      \field{sortinit}{K}
+      \field{sortinithash}{c02bf6bff1c488450c352b40f5d853ab}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{issn}{0001-4966}
+      \field{journaltitle}{The Journal of the Acoustical Society of America}
+      \field{langid}{english}
+      \field{month}{2}
+      \field{number}{2}
+      \field{shortjournal}{The Journal of the Acoustical Society of America}
+      \field{title}{Analysis, Synthesis, and Perception of Voice Quality Variations among Female and Male Talkers}
+      \field{volume}{87}
+      \field{year}{1990}
+      \field{dateera}{ce}
+      \field{pages}{820\bibrangedash 857}
+      \range{pages}{38}
+      \verb{doi}
+      \verb 10.1121/1.398894
+      \endverb
+      \verb{file}
+      \verb /Users/mlbrinke/Dropbox/Zotero/2_Areas/Zapotec/QP2/LarynxTime/klattAnalysisSynthesisPerception1990.pdf
+      \endverb
+    \endentry
+    \entry{kreimanValidatingPsychoacousticModel2021}{article}{}{}
+      \name{author}{5}{}{%
+        {{un=0,uniquepart=base,hash=d2d148472f827463299e324b2c3ee3b8}{%
+           family={Kreiman},
+           familyi={K\bibinitperiod},
+           given={Jody},
+           giveni={J\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=28e53505b183583b5d2e4714bb73ac9d}{%
+           family={Lee},
+           familyi={L\bibinitperiod},
+           given={Yoonjeong},
+           giveni={Y\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=6261be825a58b093c669ab685b17a0a2}{%
+           family={Garellek},
+           familyi={G\bibinitperiod},
+           given={Marc},
+           giveni={M\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=57cc5e491e13464e727d78f0cad36c99}{%
+           family={Samlan},
+           familyi={S\bibinitperiod},
+           given={Robin},
+           giveni={R\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=4ca67c39dc38a5286306030a24a2683c}{%
+           family={Gerratt},
+           familyi={G\bibinitperiod},
+           given={Bruce\bibnamedelima R.},
+           giveni={B\bibinitperiod\bibinitdelim R\bibinitperiod},
+           givenun=0}}%
+      }
+      \list{publisher}{1}{%
+        {Acoustical Society of America}%
+      }
+      \strng{namehash}{aba01c7cf7d3fb2b516a9aad124b4cd1}
+      \strng{fullhash}{d74f4e23e280eb13744a65afeb1192b2}
+      \strng{fullhashraw}{d74f4e23e280eb13744a65afeb1192b2}
+      \strng{bibnamehash}{d74f4e23e280eb13744a65afeb1192b2}
+      \strng{authorbibnamehash}{d74f4e23e280eb13744a65afeb1192b2}
+      \strng{authornamehash}{aba01c7cf7d3fb2b516a9aad124b4cd1}
+      \strng{authorfullhash}{d74f4e23e280eb13744a65afeb1192b2}
+      \strng{authorfullhashraw}{d74f4e23e280eb13744a65afeb1192b2}
+      \field{sortinit}{K}
+      \field{sortinithash}{c02bf6bff1c488450c352b40f5d853ab}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{abstract}{No agreed-upon method currently exists for objective measurement of perceived voice quality. This paper describes validation of a psychoacoustic model designed to fill this gap. This model includes parameters to characterize the harmonic and inharmonic voice sources, vocal tract transfer function, fundamental frequency, and amplitude of the voice, which together serve to completely quantify the integral sound of a target voice sample. In experiment 1, 200 voices with and without diagnosed vocal pathology were fit with the model using analysis-by-synthesis. The resulting synthetic voice samples were not distinguishable from the original voice tokens, suggesting that the model has all the parameters it needs to fully quantify voice quality. In experiment 2 parameters that model the harmonic voice source were removed one by one, and the voice tokens were re-synthesized with the reduced model. In every case the lower-dimensional models provided worse perceptual matches to the quality of the natural tokens than did the original set, indicating that the psychoacoustic model cannot be reduced in dimensionality without loss of fit to the data. Results confirm that this model can be validly applied to quantify voice quality in clinical and research applications.}
+      \field{issn}{0001-4966}
+      \field{journaltitle}{The Journal of the Acoustical Society of America}
+      \field{month}{1}
+      \field{number}{1}
+      \field{title}{Validating a Psychoacoustic Model of Voice Quality}
+      \field{volume}{149}
+      \field{year}{2021}
+      \field{dateera}{ce}
+      \field{pages}{457\bibrangedash 465}
+      \range{pages}{9}
+      \verb{doi}
+      \verb 10.1121/10.0003331
+      \endverb
+      \verb{file}
+      \verb /Users/mlbrinke/Dropbox/Zotero/4_Archive/QE/kreimanValidatingPsychoacousticModel2021 2.pdf;/Users/mlbrinke/Dropbox/Zotero/4_Archive/QE/kreimanValidatingPsychoacousticModel2021.pdf;/Users/mlbrinke/Zotero/storage/9RLE8Y5W/Validating-a-psychoacoustic-model-of-voice-quality.html
+      \endverb
+    \endentry
+    \entry{ladefogedPreliminariesLinguisticPhonetics1971}{book}{}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=ee50d5fae1323a80cddc05b09f356e54}{%
+           family={Ladefoged},
+           familyi={L\bibinitperiod},
+           given={Peter},
+           giveni={P\bibinitperiod},
+           givenun=0}}%
+      }
+      \list{location}{1}{%
+        {Chicago}%
+      }
+      \list{publisher}{1}{%
+        {University of Chicago}%
+      }
+      \strng{namehash}{ee50d5fae1323a80cddc05b09f356e54}
+      \strng{fullhash}{ee50d5fae1323a80cddc05b09f356e54}
+      \strng{fullhashraw}{ee50d5fae1323a80cddc05b09f356e54}
+      \strng{bibnamehash}{ee50d5fae1323a80cddc05b09f356e54}
+      \strng{authorbibnamehash}{ee50d5fae1323a80cddc05b09f356e54}
+      \strng{authornamehash}{ee50d5fae1323a80cddc05b09f356e54}
+      \strng{authorfullhash}{ee50d5fae1323a80cddc05b09f356e54}
+      \strng{authorfullhashraw}{ee50d5fae1323a80cddc05b09f356e54}
+      \field{sortinit}{L}
+      \field{sortinithash}{7c47d417cecb1f4bd38d1825c427a61a}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{annotation}{OCLC: 1282747233}
+      \field{isbn}{978-0-226-22189-2}
+      \field{langid}{english}
+      \field{title}{Preliminaries to Linguistic Phonetics}
+      \field{year}{1971}
+      \field{dateera}{ce}
+    \endentry
+    \entry{ladefogedSoundsWorldsLanguages1996}{book}{}{}
+      \name{author}{2}{}{%
+        {{un=0,uniquepart=base,hash=ee50d5fae1323a80cddc05b09f356e54}{%
+           family={Ladefoged},
+           familyi={L\bibinitperiod},
+           given={Peter},
+           giveni={P\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=e6814f62a21c83c74d5e64592fcff2a8}{%
+           family={Maddieson},
+           familyi={M\bibinitperiod},
+           given={Ian},
+           giveni={I\bibinitperiod},
+           givenun=0}}%
+      }
+      \list{location}{1}{%
+        {Oxford, OX, UK ; Cambridge, Mass., USA}%
+      }
+      \list{publisher}{1}{%
+        {Blackwell Publishers}%
+      }
+      \strng{namehash}{92d44f650843ac0e55f4ebd846d02d3b}
+      \strng{fullhash}{92d44f650843ac0e55f4ebd846d02d3b}
+      \strng{fullhashraw}{92d44f650843ac0e55f4ebd846d02d3b}
+      \strng{bibnamehash}{92d44f650843ac0e55f4ebd846d02d3b}
+      \strng{authorbibnamehash}{92d44f650843ac0e55f4ebd846d02d3b}
+      \strng{authornamehash}{92d44f650843ac0e55f4ebd846d02d3b}
+      \strng{authorfullhash}{92d44f650843ac0e55f4ebd846d02d3b}
+      \strng{authorfullhashraw}{92d44f650843ac0e55f4ebd846d02d3b}
+      \field{sortinit}{L}
+      \field{sortinithash}{7c47d417cecb1f4bd38d1825c427a61a}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{isbn}{978-0-631-19814-7 978-0-631-19815-4}
+      \field{pagetotal}{425}
+      \field{series}{Phonological Theory}
+      \field{title}{The Sounds of the World's Languages}
+      \field{year}{1996}
+      \field{dateera}{ce}
+      \keyw{/unread}
+    \endentry
+    \entry{laverVoiceQualityIndexical1968}{article}{}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=32e2e5b32e647c0c0d595c1540445d31}{%
+           family={Laver},
+           familyi={L\bibinitperiod},
+           given={John\bibnamedelimb D.\bibnamedelimi M.},
+           giveni={J\bibinitperiod\bibinitdelim D\bibinitperiod\bibinitdelim M\bibinitperiod},
+           givenun=0}}%
+      }
+      \list{publisher}{1}{%
+        {Taylor \& Francis}%
+      }
+      \strng{namehash}{32e2e5b32e647c0c0d595c1540445d31}
+      \strng{fullhash}{32e2e5b32e647c0c0d595c1540445d31}
+      \strng{fullhashraw}{32e2e5b32e647c0c0d595c1540445d31}
+      \strng{bibnamehash}{32e2e5b32e647c0c0d595c1540445d31}
+      \strng{authorbibnamehash}{32e2e5b32e647c0c0d595c1540445d31}
+      \strng{authornamehash}{32e2e5b32e647c0c0d595c1540445d31}
+      \strng{authorfullhash}{32e2e5b32e647c0c0d595c1540445d31}
+      \strng{authorfullhashraw}{32e2e5b32e647c0c0d595c1540445d31}
+      \field{sortinit}{L}
+      \field{sortinithash}{7c47d417cecb1f4bd38d1825c427a61a}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{abstract}{The outline of a componential descriptive model of voice quality is suggested, in the hope of facilitating discussion about voice quality among phoneticians, linguists, speech therapists, psychologists and psychiatrists. Emphasis is laid on the function of voice quality as an index to biological, psychological and social characteristics of the speaker.}
+      \field{day}{1}
+      \field{issn}{0007-098X}
+      \field{journaltitle}{British Journal of Disorders of Communication}
+      \field{month}{1}
+      \field{number}{1}
+      \field{title}{Voice {{Quality}} and {{Indexical Information}}}
+      \field{volume}{3}
+      \field{year}{1968}
+      \field{dateera}{ce}
+      \field{pages}{43\bibrangedash 54}
+      \range{pages}{12}
+      \verb{doi}
+      \verb 10.3109/13682826809011440
+      \endverb
+      \verb{file}
+      \verb /Users/mlbrinke/Dropbox/Zotero/1_Projects/Dissertation/laverVoiceQualityIndexical1968.pdf
+      \endverb
+    \endentry
+    \entry{podesvaStanceWindowLanguageRace2016}{incollection}{}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=0f1b47a920774b4b8564e359f1229724}{%
+           family={Podesva},
+           familyi={P\bibinitperiod},
+           given={Robert\bibnamedelima J.},
+           giveni={R\bibinitperiod\bibinitdelim J\bibinitperiod},
+           givenun=0}}%
+      }
+      \name{editor}{3}{}{%
+        {{hash=07862f9ded7bd10af4897aa3a13aad10}{%
+           family={Alim},
+           familyi={A\bibinitperiod},
+           given={H.\bibnamedelimi Samy},
+           giveni={H\bibinitperiod\bibinitdelim S\bibinitperiod}}}%
+        {{hash=a19ddee84ee1b57962dd1b68b6b60a58}{%
+           family={Rickford},
+           familyi={R\bibinitperiod},
+           given={John\bibnamedelima R.},
+           giveni={J\bibinitperiod\bibinitdelim R\bibinitperiod}}}%
+        {{hash=ffa7cf6b31bae9936f7060f6ada46ef3}{%
+           family={Ball},
+           familyi={B\bibinitperiod},
+           given={Arnetha\bibnamedelima F.},
+           giveni={A\bibinitperiod\bibinitdelim F\bibinitperiod}}}%
+      }
+      \list{location}{1}{%
+        {Oxford}%
+      }
+      \list{publisher}{1}{%
+        {Oxford University Press}%
+      }
+      \strng{namehash}{0f1b47a920774b4b8564e359f1229724}
+      \strng{fullhash}{0f1b47a920774b4b8564e359f1229724}
+      \strng{fullhashraw}{0f1b47a920774b4b8564e359f1229724}
+      \strng{bibnamehash}{0f1b47a920774b4b8564e359f1229724}
+      \strng{authorbibnamehash}{0f1b47a920774b4b8564e359f1229724}
+      \strng{authornamehash}{0f1b47a920774b4b8564e359f1229724}
+      \strng{authorfullhash}{0f1b47a920774b4b8564e359f1229724}
+      \strng{authorfullhashraw}{0f1b47a920774b4b8564e359f1229724}
+      \strng{editorbibnamehash}{a789dd90dd301ccfd404bf9de4f8d864}
+      \strng{editornamehash}{a789dd90dd301ccfd404bf9de4f8d864}
+      \strng{editorfullhash}{a789dd90dd301ccfd404bf9de4f8d864}
+      \strng{editorfullhashraw}{a789dd90dd301ccfd404bf9de4f8d864}
+      \field{sortinit}{P}
+      \field{sortinithash}{ff3bcf24f47321b42cb156c2cc8a8422}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{shorttitle}
+      \field{abstract}{This chapter examines how two linguistic features commonly associated with African American English enable speakers to take stances about race. The analysis is based on the use of (-t/d) deletion and falsetto in sociolinguistic interviews with residents of Washington, DC. While broad distributional analyses reveal that African American speakers produce both features more frequently than white speakers, the explanation for this pattern can only be found by attending to the interactional moments when speakers use these features the most. For example, an African American woman uses her highest rates of (-t/d) deletion when talking about gentrification, as opposed to other topics that she does not characterize in racial terms. Similarly, African American women generally produce their phonetically strongest instantiations of falsetto when negatively evaluating gentrification and racism. I conclude by underscoring the importance of viewing components of ethnolinguistic repertoires as resources for taking stances about race and racially charged issues.}
+      \field{booktitle}{Raciolinguistics: {{How Language Shapes Our Ideas About Race}}}
+      \field{isbn}{978-0-19-062569-6}
+      \field{shorttitle}{Stance as a {{Window}} into the {{Language-Race Connection}}}
+      \field{title}{Stance as a {{Window}} into the {{Language-Race Connection}}: {{Evidence}} from {{African American}} and {{White Speakers}} in {{Washington}}, {{DC}}}
+      \field{year}{2016}
+      \field{dateera}{ce}
+      \field{pages}{203\bibrangedash 219}
+      \range{pages}{17}
+      \verb{doi}
+      \verb 10.1093/acprof:oso/9780190625696.003.0012
+      \endverb
+    \endentry
+  \enddatalist
+\endrefsection
+\endinput
+
