@@ -607,6 +607,48 @@
       \verb /Users/mlbrinke/Dropbox/Zotero/4_Archive/QE/kreimanValidatingPsychoacousticModel2021 2.pdf;/Users/mlbrinke/Dropbox/Zotero/4_Archive/QE/kreimanValidatingPsychoacousticModel2021.pdf;/Users/mlbrinke/Zotero/storage/9RLE8Y5W/Validating-a-psychoacoustic-model-of-voice-quality.html
       \endverb
     \endentry
+    \entry{kruskalMultidimensionalScaling1978}{book}{}{}
+      \name{author}{2}{}{%
+        {{un=0,uniquepart=base,hash=cc2e637dfc0dcdda30b13123fedb16d0}{%
+           family={Kruskal},
+           familyi={K\bibinitperiod},
+           given={Joseph},
+           giveni={J\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=2e8bee9714d58c56fc1e6e2b47ad7b1a}{%
+           family={Wish},
+           familyi={W\bibinitperiod},
+           given={Myron},
+           giveni={M\bibinitperiod},
+           givenun=0}}%
+      }
+      \list{publisher}{1}{%
+        {SAGE Publications, Inc.}%
+      }
+      \strng{namehash}{ad4e53d50ede867f1f6119d9c1527637}
+      \strng{fullhash}{ad4e53d50ede867f1f6119d9c1527637}
+      \strng{fullhashraw}{ad4e53d50ede867f1f6119d9c1527637}
+      \strng{bibnamehash}{ad4e53d50ede867f1f6119d9c1527637}
+      \strng{authorbibnamehash}{ad4e53d50ede867f1f6119d9c1527637}
+      \strng{authornamehash}{ad4e53d50ede867f1f6119d9c1527637}
+      \strng{authorfullhash}{ad4e53d50ede867f1f6119d9c1527637}
+      \strng{authorfullhashraw}{ad4e53d50ede867f1f6119d9c1527637}
+      \field{sortinit}{K}
+      \field{sortinithash}{c02bf6bff1c488450c352b40f5d853ab}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{abstract}{{$<$}p{$>$}Outlines a set of techniques that enables a researcher to explore the hidden structure of large databases. These techniques use proximities to find a configu}
+      \field{isbn}{978-1-4129-8513-0}
+      \field{langid}{english}
+      \field{title}{Multidimensional {{Scaling}}}
+      \field{year}{1978}
+      \field{dateera}{ce}
+      \verb{doi}
+      \verb 10.4135/9781412985130
+      \endverb
+    \endentry
     \entry{ladefogedPreliminariesLinguisticPhonetics1971}{book}{}{}
       \name{author}{1}{}{%
         {{un=0,uniquepart=base,hash=ee50d5fae1323a80cddc05b09f356e54}{%
@@ -792,6 +834,60 @@
       \range{pages}{17}
       \verb{doi}
       \verb 10.1093/acprof:oso/9780190625696.003.0012
+      \endverb
+    \endentry
+    \entry{shueVoiceSauceProgramVoice2011}{inproceedings}{}{}
+      \name{author}{4}{}{%
+        {{un=0,uniquepart=base,hash=896d0443e7a9226ce7368a885df38c1b}{%
+           family={Shue},
+           familyi={S\bibinitperiod},
+           given={Yen-Liang},
+           giveni={Y\bibinithyphendelim L\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=fc50eafcd8e8098287287e0504b34e67}{%
+           family={Keating},
+           familyi={K\bibinitperiod},
+           given={Patricia},
+           giveni={P\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=f4fd04c3da220bb07a7dabafb3e8cdd1}{%
+           family={Vicenik},
+           familyi={V\bibinitperiod},
+           given={Chad},
+           giveni={C\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=de3116136506ee966ad29abb8d674eda}{%
+           family={Yu},
+           familyi={Y\bibinitperiod},
+           given={Kristine},
+           giveni={K\bibinitperiod},
+           givenun=0}}%
+      }
+      \list{location}{1}{%
+        {Hong Kong}%
+      }
+      \strng{namehash}{588745f000ce9f123318f1ed7f49f206}
+      \strng{fullhash}{b1f9234a8e9964f31f02f6cadc0df477}
+      \strng{fullhashraw}{b1f9234a8e9964f31f02f6cadc0df477}
+      \strng{bibnamehash}{b1f9234a8e9964f31f02f6cadc0df477}
+      \strng{authorbibnamehash}{b1f9234a8e9964f31f02f6cadc0df477}
+      \strng{authornamehash}{588745f000ce9f123318f1ed7f49f206}
+      \strng{authorfullhash}{b1f9234a8e9964f31f02f6cadc0df477}
+      \strng{authorfullhashraw}{b1f9234a8e9964f31f02f6cadc0df477}
+      \field{sortinit}{S}
+      \field{sortinithash}{b164b07b29984b41daf1e85279fbc5ab}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{booktitle}{Proceedings of the 17th {{International Congress}} of {{Phonetic Sciences}} ({{ICPhS XVII}})}
+      \field{title}{{{VoiceSauce}}: {{A}} Program for Voice Analysis.}
+      \field{year}{2011}
+      \field{dateera}{ce}
+      \field{pages}{1846\bibrangedash 1849}
+      \range{pages}{4}
+      \verb{file}
+      \verb /Users/mlbrinke/Dropbox/Zotero/1_Projects/Dissertation/shueVoiceSauceProgramVoice2011.pdf
       \endverb
     \endentry
   \enddatalist

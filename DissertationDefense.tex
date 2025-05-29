@@ -1,0 +1,507 @@
+\documentclass{beamer}
+
+\mode<presentation>
+{
+  \usetheme{Madrid}
+  % or ...
+  \setbeamertemplate{bibliography item}{}
+  \setbeamercovered{transparent}
+  % or whatever (possibly just delete it)
+}
+
+\usepackage{fontspec}
+\usepackage[english]{babel}
+% or whatever
+\usepackage{csquotes}
+\usepackage[backend=biber,
+        style=unified,
+        maxcitenames=3,
+        maxbibnames=99,
+        natbib,
+        url=false]{biblatex}
+\addbibresource{Dissertation.bib}
+\setmainfont{Linux Libertine O}
+\setmonofont{CMU Typewriter Text}
+\renewcommand{\ttdefault}{cmtt}
+
+% \usepackage[colorlinks,allcolors={black},urlcolor={blue}]{hyperref} %allows for hyperlinks and pdf bookmarks 
+\usepackage{graphicx}	%Inserting graphics, pictures, images 		
+\usepackage{multicol} %Multicolumn text
+\usepackage{multirow} %Useful for combining cells in tablesbrew 
+\usepackage{booktabs} %Enhanced tables
+% \usepackage{underscore} %Allows for underscores in text mode
+% \usepackage[colorlinks,allcolors={black},urlcolor={blue}]{hyperref} %allows for hyperlinks and pdf bookmarks
+\usepackage{url} %allows for urls
+\def\UrlBreaks{\do\/\do-} %allows for urls to be broken up
+% \usepackage[normalem]{ulem} %strike out text. Handy for syntax
+% \usepackage{tcolorbox}
+% \usepackage{datetime2}
+% \usepackage{caption}
+% \usepackage{subcaption}
+\usepackage{tipa} %IPA symbols
+% \usepackage[documentfont=DoulosSIL]{tipauni}
+\usepackage{langsci-gb4e} % Language Science Press' modification of gb4e
+\usepackage{tikz} % Drawing Hasse diagrams
+\usetikzlibrary{decorations.pathreplacing}
+\usepackage{leipzig} %	Offers support for Leipzig Glossing Rules
+
+%%MACROS
+\newcommand{\sub}[1]{\textsubscript{#1}}
+\newcommand{\supr}[1]{\textsuperscript{#1}}
+\providecommand{\lsptoprule}{\midrule\toprule}
+\providecommand{\lspbottomrule}{\bottomrule\midrule}
+\newcommand{\fittable}[1]{\resizebox{\textwidth}{!}{#1}}
+
+
+\title[Voice Quality in SLZ] % (optional, use only with long paper titles)
+{Voice Quality and Laryngeal Complexity in Santiago Laxopa Zapotec}
+
+% \subtitle{Include Only If Paper Has a Subtitle}
+
+\author[Brinkerhoff] % (optional, use only with lots of authors)
+{Mykel Loren Brinkerhoff}
+% - Give the names in the same order as the appear in the paper.
+% - Use the \inst{?} command only if the authors have different
+%   affiliation.
+
+\institute[UC Santa Cruz] % (optional, but mostly needed)
+{University of California, Santa Cruz}
+% - Use the \inst command only if there are several affiliations.
+% - Keep it simple, no one is interested in your street address.
+
+\date[2025-06-06] % (optional, should be abbreviation of conference name)
+{6 June 2025}
+% - Either use conference name or its abbreviation.
+% - Not really informative to the audience, more for people (including
+%   yourself) who are reading the slides online
+
+% \subject{Theoretical Computer Science}
+% This is only inserted into the PDF information catalog. Can be left
+% out. 
+
+
+
+% If you have a file called "university-logo-filename.xxx", where xxx
+% is a graphic format that can be processed by latex or pdflatex,
+% resp., then you can add a logo as follows:
+
+\pgfdeclareimage[height=0.5cm]{university-logo}{images/UCSC_Logo_RGB.png}
+\logo{\pgfuseimage{university-logo}}
+
+
+
+% Delete this, if you do not want the table of contents to pop up at
+% the beginning of each subsection:
+% \AtBeginSubsection[]
+% {
+%   \begin{frame}<beamer>{Outline}
+%     \tableofcontents[currentsection,currentsubsection]
+%   \end{frame}
+% }
+
+
+% If you wish to uncover everything in a step-wise fashion, uncomment
+% the following command: 
+
+%\beamerdefaultoverlayspecification{<+->}
+
+
+\begin{document}
+
+\begin{frame}
+  \titlepage
+\end{frame}
+
+% \begin{frame}{Outline}
+%   \tableofcontents
+%   % You might wish to add the option [pausesections]
+% \end{frame}
+
+
+% Structuring a talk is a difficult task and the following structure
+% may not be suitable. Here are some rules that apply for this
+% solution: 
+
+% - Exactly two or three sections (other than the summary).
+% - At *most* three subsections per section.
+% - Talk about 30s to 2min per frame. So there should be between about
+%   15 and 30 frames, all told.
+
+% - A conference audience is likely to know very little of what you
+%   are going to talk about. So *simplify*!
+% - In a 20min talk, getting the main ideas across is hard
+%   enough. Leave out details, even if it means being less precise than
+%   you think necessary.
+% - If you omit details that are vital to the proof/implementation,
+%   just say so once. Everybody will be happy with that.
+%-----------------------------------------------------------
+\section{Motivation}
+%-----------------------------------------------------------
+%-----------------------------------------------------------
+\subsection{The Basic Problem That We Studied}
+%-----------------------------------------------------------
+\begin{frame}{What is Voice Quality?}
+  % - A title should summarize the slide in an understandable fashion
+  %   for anyone how does not follow everything on the slide itself.
+
+  \begin{itemize}
+  \item
+    Describes how the vocal folds vibrate.
+  \item
+    Used for both paralinguistic \citep[e.g.,][]{laverVoiceQualityIndexical1968,podesvaStanceWindowLanguageRace2016} and phonological contrasts \citep[e.g.,][]{espositoCrosslinguisticPatternsPhonation2020}.
+  \end{itemize}
+\end{frame}
+
+\begin{frame}{Modeling voice quality}
+  \begin{itemize}
+    \item Long been established that phonation has correlates in the acoustic signal (e.g., \cite{fischer-jorgensenPhoneticAnalysisBreathy1968,klattAnalysisSynthesisPerception1990}).
+    \item \citet{gordonPhonationTypesCrosslinguistic2001} list several types of measures types that can be used:
+    \begin{itemize}
+    \item Periodicity
+    \item Energy
+    \item Spectral tilt
+    \item Pitch
+    \item Duration 
+    \end{itemize}
+  \item Linguists have used combinations of these measures to model phonation (e.g., \cite{blankenshipTimingNonmodalPhonation2002,brunelleTonePhonationSoutheast2016,espositoAcousticElectroglottographicStudy2012}). 
+  \end{itemize}
+\end{frame}
+
+\begin{frame}{Voice quality's dimensionality}
+  \begin{itemize}
+    \item Early models proposed that voice quality is one dimensional and represents glottal airflow \citep{ladefogedPreliminariesLinguisticPhonetics1971,ladefogedSoundsWorldsLanguages1996}.
+  \end{itemize}
+  \begin{figure}[h!]
+    % \centering
+    \begin{tikzpicture}
+        % Draw the line with arrows at both ends
+        \draw[<->, line width=0.5mm] (0,0) -- (10,0);
+        
+        % Labels underneath the line
+        \node[below, yshift=-0.25cm] at (0,0) {[\textipa{h}]};
+        \node[below, yshift=-0.25cm] at (2,0) {Breathy};
+        \node[below, yshift=-0.25cm] at (5,0) {Modal};
+        \node[below, yshift=-0.25cm] at (8,0) {Creaky};
+        \node[below, yshift=-0.25cm] at (10,0) {[\textipa{P}]};
+        
+        % Labels above the line
+        \node[above, yshift=0.25cm] at (0,0) {Open Glottis};
+        \node[above, yshift=0.25cm] at (10,0) {Closed Glottis};
+    \end{tikzpicture}
+    % \caption{A diagram showing the relationship between breathy, modal, and creaky phonation types from \citet{gordonPhonationTypesCrosslinguistic2001}.}
+    % \label{fig:phonation_types}
+\end{figure}
+\end{frame}
+
+\begin{frame}{Voice quality's dimensionality}
+  \begin{itemize}
+    \item More recent work has shown that voice quality is not one-dimensional, but minimally five-dimensional \citep[e.g.,][]{garellekModelingVoiceSource2016,kreimanValidatingPsychoacousticModel2021}.
+    \begin{itemize}
+      \item Especially in the case of individual speaker differences.
+    \end{itemize}
+    \item \citet{garellekVoiceQualityTone2013} has argued that dimensionality might not be as complex for capturing phonation contrasts.
+  \end{itemize}
+\end{frame}
+
+
+%-----------------------------------------------------------
+\subsection{Previous Work}
+%-----------------------------------------------------------
+\begin{frame}{\citet{keatingCrosslanguageAcousticSpace2023}}
+  \begin{itemize}
+    \item Explored phonation's cross-linguistic acoustic space.
+    \item Found a two-dimensional space for phonation across 11 languages.
+    \begin{enumerate}
+      \item First dimension $=$ nonmodal-to-modal continuum.
+      \item Second dimension $=$ glottal-airflow continuum.
+    \end{enumerate}
+    \item Found that languages with more contrasts used more of the acoustic space than languages with fewer contrasts.
+    \item Found correlations between dimensions and acoustic measures.
+    \begin{enumerate}
+      \item First dimension $=$ periodicity and energy.
+      \item Second dimension $=$ spectral tilt and periodicity.
+    \end{enumerate}
+  \end{itemize}
+\end{frame}
+
+\begin{frame}{\citet{keatingCrosslanguageAcousticSpace2023}}
+  \begin{figure}[h!]
+    \centering
+    \includegraphics[width = 0.8\linewidth]{images/Keating_dimension.png}
+  \end{figure}
+\end{frame}
+
+\begin{frame}{Research Question}
+  \begin{block}{Question:}
+    \begin{itemize}
+      \item Can this same dimensionality reduction be found for a single language?
+      \item If so, what do the dimensions correlate with?
+    \end{itemize}
+  \end{block}
+\end{frame}
+
+\begin{frame}{Research Question}
+  \begin{block}{Answer:}
+    \begin{itemize}
+      \item Yes; we find a three-dimensional space.
+      \item Dimensions in Santiago Laxopa Zapotec are correlated with:
+      \begin{enumerate}
+        \item First/third dimension $=$ glottal-airflow continuum. 
+        \item Second dimension $=$ nonmodal-to-modal continuum.
+      \end{enumerate}
+    \end{itemize}  
+  \end{block}
+\end{frame}
+
+
+%-----------------------------------------------------------
+\section{My Analysis}
+%-----------------------------------------------------------
+%-----------------------------------------------------------
+\subsection{Main Results}
+%-----------------------------------------------------------
+\begin{frame}{Data}
+  \begin{itemize}
+    \item Data comes from fieldwork on Santiago Laxopa Zapotec (SLZ).
+    \item SLZ is a good candidate because of its four-way phonation contrast.
+    \begin{itemize}
+      \item Modal ( [\textipa{a}] )
+      \item Breathy ( [\textipa{\"*a}] )
+      \item Checked ( [\textipa{\t{aP}}] or [\textipa{\t{a\~*a}}] )
+      \item Rearticulated ([\textipa{\t{aPa}}], [\textipa{\t{a\~*aa}}], or [\textipa{\~*a}] )
+    \end{itemize}
+    \item Production data was collected from 10 speakers (5 male/5 female).
+  \end{itemize}
+\end{frame}
+
+\begin{frame}{MDS analysis}
+  \begin{itemize}
+    \item Multidimensional scaling (MDS; \cite{kruskalMultidimensionalScaling1978}) was used to reduce the dimensionality of the data.
+    \item Acoustic measures used to define the acoustic space, following \citet{keatingCrosslanguageAcousticSpace2023}.
+    \item Speaker x phonation combinations were used for the points in the MDS space.
+  \end{itemize}
+\end{frame}
+
+\begin{frame}{Number of Dimensions}
+  \begin{figure}[h!]
+    \centering
+    \includegraphics[width = 0.8\linewidth]{images/MDS/stress_plot_dur.eps}
+\end{figure}
+\end{frame}
+
+\begin{frame}{Dimensionality in SLZ}
+  \begin{itemize}
+    \item Scan the QR code to see the three-dimensional space.
+  \end{itemize}
+  \begin{figure}[h!]
+    \centering
+    \includegraphics[width=5cm, scale=0.5]{qrcode_3d_plot.eps}
+  \end{figure}
+\end{frame}
+
+\begin{frame}{Dimensionality in SLZ}
+  \begin{figure}
+    \centering
+    \includegraphics[width = 0.8\linewidth]{images/MDS/nmds12_dur.eps}
+  \end{figure}
+\end{frame}
+
+\begin{frame}{Dimensionality in SLZ}
+  \begin{figure}
+    \centering
+    \includegraphics[width = 0.8\linewidth]{images/MDS/nmds13_dur.eps}
+  \end{figure}
+\end{frame}
+
+\begin{frame}{Dimensionality in SLZ}
+  \begin{figure}
+    \centering
+    \includegraphics[width = 0.8\linewidth]{images/MDS/nmds23_dur.eps}
+  \end{figure}
+\end{frame}
+
+\begin{frame}{Summary of Dimensions}
+  \begin{itemize}
+    \item Dimension 1 (D1) gives a rough continuum from breathy to creaky.
+    \item Dimension 2 (D2) gives a rough continuum from modal to nonmodal.
+    \item Dimension 3 (D3) gives a rough continuum from breathy to creaky.
+  \end{itemize}
+\end{frame}
+%-----------------------------------------------------------
+\subsection{Correlation to Acoustic Measures}
+%-----------------------------------------------------------
+\begin{frame}{Correlation to Acoustic Measures}
+  \begin{itemize}
+    \item D1 correlated with spectral tilt measures: 
+    \begin{itemize}
+      \item H1*$-$A1* ($r^2 = -0.83$) 
+      \item H1*$-$A2* ($r^2 = -0.86$)
+      \item H1*$-$A3* ($r^2 = -0.81$)
+    \end{itemize}
+    \item D2 correlated with periodicity and energy: 
+    \begin{itemize}
+      \item HNR\textless 500 Hz ($r^2 = -0.79$)
+      \item HNR\textless 1500 Hz ($r^2 = -0.80$)
+      \item Energy ($r^2 = -0.79$)
+    \end{itemize}
+    \item D3 correlated with spectral tilt:
+    \begin{itemize}
+      \item residual H1* ($r^2 = -0.72$)
+      \item H2*$-$H4* ($r^2 = -0.69$)
+      \item H2* ($r^2 = -0.68$)
+    \end{itemize}
+  \end{itemize}
+\end{frame}
+
+% \begin{frame}{Make Titles Informative.}
+%   % \begin{table}[h!]
+%   %   % \centering
+%   %   % \caption{Correlations for each acoustic measure to the four dimensions (NMDS1, NMDS2, NMDS3, NMDS4). The four largest correlations in each dimension are bolded.} 
+%   %   % \label{tab:acoustic_correlates}
+%   %   \begin{tabular}{lrrrr}
+%   %       \lsptoprule
+%   %       Acoustic Measure & NMDS1 & NMDS2 & NMDS3 & NMDS4 \\ 
+%   %       \hline
+%   %       H1*$-$H2* & -0.221 & -0.339 & 0.031 & 0.314 \\ 
+%   %       H2*$-$H4 & -0.437 & 0.239 & \textbf{-0.689} & \textbf{-0.364} \\ 
+%   %       H1*$-$A1* & \textbf{-0.828} & 0.048 & \textbf{-0.459} & 0.044 \\ 
+%   %       H1*$-$A2* & \textbf{-0.855} & -0.067 & -0.343 & 0.114 \\ 
+%   %       H1*$-$A3* & \textbf{-0.809} & -0.218 & -0.297 & 0.126 \\ 
+%   %       H4*$-$H2k* & -0.452 & -0.598 & 0.294 & \textbf{0.366} \\ 
+%   %       H2k*$-$H5k* & 0.152 & 0.023 & 0.101 & 0.057 \\ 
+%   %       residual H1* & -0.290 & -0.443 & \textbf{-0.722} & 0.084 \\ 
+%   %       H2* & -0.157 & -0.555 & \textbf{-0.679} & 0.114 \\ 
+%   %       H4* & 0.295 & \textbf{-0.778} & 0.078 & \textbf{0.479} \\ 
+%   %       A1* & 0.756 & -0.549 & 0.092 & 0.124 \\ 
+%   %       A2* & \textbf{0.779} & -0.476 & -0.103 & 0.086 \\ 
+%   %       A3* & 0.735 & -0.416 & -0.211 & 0.093 \\ 
+%   %       CPP & -0.590 & -0.606 & 0.209 & -0.179 \\ 
+%   %       HNR < 500 Hz & -0.513 & \textbf{-0.792} & 0.152 & -0.202 \\ 
+%   %       HNR < 1500 Hz & -0.275 & \textbf{-0.799} & 0.323 & -0.290 \\ 
+%   %       HNR < 2500 Hz & -0.327 & -0.714 & 0.391 & -0.348 \\ 
+%   %       HNR < 3500 Hz & -0.446 & -0.644 & 0.393 & -0.356 \\ 
+%   %       Strength of Excitation & -0.013 & -0.741 & -0.238 & 0.145 \\ 
+%   %       SHR & 0.144 & -0.176 & 0.122 & \textbf{-0.597} \\ 
+%   %       Energy & -0.080 & \textbf{-0.793} & -0.015 & 0.341 \\ 
+%   %       Duration & -0.622 & 0.539 & 0.257 & 0.030 \\ 
+%   %       \lspbottomrule
+%   %   \end{tabular}
+%   % \end{table}
+% \end{frame}
+
+% \begin{frame}{Make Titles Informative.}
+% \end{frame}
+
+
+%-----------------------------------------------------------
+\section*{Summary of Results}
+%-----------------------------------------------------------
+\begin{frame}{Summary of Results}
+  \begin{itemize}
+    \item SLZ's phonation occupies a three-dimensional space.
+    \item Dimensions are correlated with glottal-airflow continuum (D1/D3) and nonmodal-to-modal continuum (D2).
+    \begin{itemize}
+      \item Collaborated with acoustic measure correlations.
+    \end{itemize}
+    \item Dimensions are similar to those found in \citeauthor{keatingCrosslanguageAcousticSpace2023}.
+  \end{itemize}
+\end{frame}
+
+\begin{frame}{Summary}
+  \begin{itemize}
+    \item Acoustic space can be reduced to two dimensions.
+    \item More dimensions add more information about these two dimensions.
+  \end{itemize}
+  \begin{figure}[h!]
+    \centering
+    \begin{tikzpicture}
+        % Draw the horizontal line with arrows
+        \draw[<->, line width=1.5mm] (-3,0) -- (3,0);
+        % Draw the vertical line with arrows
+        \draw[<->, line width=1.5mm] (0,-3) -- (0,3);
+        
+        % Labels for the horizontal line
+        \node[below,yshift=1cm] at (-3,0) {More Glottal Airflow};
+        \node[below,yshift=1cm] at (3,0) {Less Glottal Airflow};
+        
+        % Labels for the vertical line
+        \node[left, xshift = -1.5mm] at (0,-2.5) {Less Periodic};
+        \node[left, xshift = -1.5mm] at (0,2.5) {More Periodic};
+    \end{tikzpicture}
+\end{figure}
+\end{frame}
+
+\begin{frame}{Summary}
+
+  % Keep the summary *very short*.
+  \begin{itemize}
+  \item Dimensionality reduction also occurs in a single language.
+  \item Dimensions correspond to glottal-airflow and nonmodal-to-modal continua within a language and cross-linguistically.
+  \item If additional dimensions are added, they only add additional information about these two dimension.
+  \end{itemize}
+  
+  % The following outlook is optional.
+  \vskip0pt plus.5fill
+  \begin{itemize}
+  \item
+    Outlook
+    \begin{itemize}
+    \item What are the perceptual cues that speakers use to distinguish between phonation types?
+    \item How do these dimensions relate to the phonology?
+    \end{itemize}
+  \end{itemize}
+\end{frame}
+
+\begin{frame}
+  \frametitle{Duxhklhenhu' lhe' (Thank you)}
+  \begin{figure}[h!]
+    \centering
+    \includegraphics[width = \linewidth]{images/SantiagoLaxopa.jpeg}
+  %   \label{fig:fieldwork}
+  \end{figure}
+\end{frame}
+
+\begin{frame}
+  \frametitle{Acknowledgements}
+
+  \begin{itemize}
+    \item Thank you to the speakers in Santiago Laxopa for sharing their time and language expertise. 
+    \item Thank you to Grant McGuire, Jaye Padgett, Marc Garellek, Ryan Bennett, Jack Duff, Maya Wax Cavallaro, and many others for their help and discussions during all stages of this project. 
+  \end{itemize}
+\end{frame}
+
+\begin{frame}
+  \frametitle{Acknowledgements}
+  This work is supported by funding from: 
+  \begin{itemize}
+    \item The National Science Foundation under Grant No. 2019804
+    \item The Humanities Institute at UC Santa Cruz 
+    \item The Jacobs Research Funds
+  \end{itemize}
+
+\end{frame}
+
+\appendix
+%-----------------------------------------------------------
+% \section<presentation>*{\appendixname}
+%-----------------------------------------------------------
+%-----------------------------------------------------------
+\section{References}
+%-----------------------------------------------------------
+\begin{frame}[t,allowframebreaks]
+  \frametitle{References}
+    \printbibliography
+\end{frame}
+
+%-----------------------------------------------------------
+\section{Variable Importance}
+%-----------------------------------------------------------
+\begin{frame}
+  \frametitle{Variable Importance}
+  \begin{figure}[h!]
+    \centering
+    \includegraphics[width = 0.8\linewidth]{images/RandomForest/rf_dur_plots.eps}
+  \end{figure}
+\end{frame}
+
+\end{document}
