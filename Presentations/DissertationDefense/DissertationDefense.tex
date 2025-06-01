@@ -1,4 +1,18 @@
-\documentclass{beamer}
+\documentclass[professionalfont]{beamer}
+\usepackage{iftex,ifxetex}
+\ifPDFTeX
+  \usepackage[utf8]{inputenc}
+  \usepackage[T1]{fontenc}
+  \usepackage{lmodern}
+\else
+  \ifluatex
+    \usepackage{unicode-math} 
+    \defaultfontfeatures{Ligatures=TeX}
+    \setmathfont{Latin Modern Math}
+    \setsansfont{CMU Sans Serif}
+    % \setsansfont{Linux Biolinum O}
+  \fi
+\fi
 
 \mode<presentation>
 {
@@ -9,7 +23,7 @@
   % or whatever (possibly just delete it)
 }
 
-\usepackage{fontspec}
+% \usepackage{fontspec}
 \usepackage[english]{babel}
 % or whatever
 \usepackage{csquotes}
@@ -20,11 +34,12 @@
         natbib,
         url=false]{biblatex}
 \addbibresource{Dissertation.bib}
-\setmainfont{Linux Libertine O}
-\setmonofont{CMU Typewriter Text}
+% \setmainfont{Linux Libertine O}
+% \setmonofont{CMU Typewriter Text}
 \renewcommand{\ttdefault}{cmtt}
 
 % \usepackage[colorlinks,allcolors={black},urlcolor={blue}]{hyperref} %allows for hyperlinks and pdf bookmarks 
+\usepackage{pifont} %Maths
 \usepackage{graphicx}	%Inserting graphics, pictures, images 		
 \usepackage{multicol} %Multicolumn text
 \usepackage{multirow} %Useful for combining cells in tablesbrew 
@@ -39,7 +54,7 @@
 % \usepackage{caption}
 % \usepackage{subcaption}
 \usepackage{tipa} %IPA symbols
-% \usepackage[documentfont=DoulosSIL]{tipauni}
+% \usepackage{tipauni}
 \usepackage{langsci-gb4e} % Language Science Press' modification of gb4e
 \usepackage{tikz} % Drawing Hasse diagrams
 \usetikzlibrary{decorations.pathreplacing}
@@ -51,6 +66,7 @@
 \providecommand{\lsptoprule}{\midrule\toprule}
 \providecommand{\lspbottomrule}{\bottomrule\midrule}
 \newcommand{\fittable}[1]{\resizebox{\textwidth}{!}{#1}}
+\newcommand{\cmark}{\ding{51}}%
 
 
 \title[Voice Quality in SLZ] % (optional, use only with long paper titles)
@@ -142,13 +158,13 @@
 %-----------------------------------------------------------
 
 \begin{frame}{Research Overview}
-  \begin{itemize}
-    \item What my research is about:
-  \end{itemize}
+  \begin{block}{Overview:}
+    This presentation explores what characterizes voice quality in a Santiago Laxopa Zapotec (SLZ), how is it is structured acoustically, and how this structure helps explain SLZ's laryngeal complexity.  
+  \end{block}
 \end{frame}
 
-\begin{frame}{Research Questions}
-  \begin{block}{Questions:}
+\begin{frame}{Research Overview}
+  \begin{block}{Research Questions:}
     \begin{itemize}
       \item How is phonation's acoustic space structured in a single language?
       \item Which measures are important for capturing phonation contrasts?
@@ -157,15 +173,15 @@
   \end{block}
 \end{frame}
 
-\begin{frame}{Research Questions}
-  \begin{block}{Answers:}
+\begin{frame}{Research Overview}
+  \begin{block}{Answers to Research Questions:}
     \begin{itemize}
-      \item Yes; we find a three-dimensional space.
-      \item Dimensions in Santiago Laxopa Zapotec are correlated with:
-      \begin{enumerate}
-        \item First/third dimension $=$ glottal-airflow continuum. 
-        \item Second dimension $=$ nonmodal-to-modal continuum.
-      \end{enumerate}
+      \item The acoustic space is three-dimensional and the dimensions are comparable to \posscitet{keatingCrosslanguageAcousticSpace2023} findings.
+      \begin{itemize}
+        \item Dimensions are correlated with glottal-airflow (D1/D3) and nonmodal-to-modal (D2) continua.
+      \end{itemize}
+      \item Only a handful of measures are important for capturing phonation contrasts.
+      \item Measures show that SLZ's laryngeal complexity is weakly articulated and shows phasing. 
     \end{itemize}  
   \end{block}
 \end{frame}
@@ -176,23 +192,27 @@
 
 \begin{frame}{What is Voice Quality?}
   \begin{itemize}
-  \item
-    Describes how the vocal folds vibrate.
-  \item
-    Used for both paralinguistic \citep[e.g.,][]{laverVoiceQualityIndexical1968,podesvaStanceWindowLanguageRace2016} and phonological contrasts \citep[e.g.,][]{espositoCrosslinguisticPatternsPhonation2020}.
+  \item Broad sense $=$ long-term characteristics of an individual's voice \citep{abercrombieElementsGeneralPhonetics1967,laverPhoneticDescriptionVoice1980}.
+  \item Narrow sense $=$ how larynx affects phonetic characteristics of speech sounds \citep[e.g.,][]{eslingVoiceQualityLaryngeal2019}.
+  \item Sometimes used interchangeably with phonation
+    \begin{itemize}
+      \item \cite{barzilaiContextdependentPhoneticEnhancement2021} use \textit{voice quality} for phonetic description and \textit{phonation} for phonological contrasts.
+    \end{itemize}
   \end{itemize}
 \end{frame}
 
 \begin{frame}{How is voice quality used?}
   \begin{itemize}
-    \item Voice quality is a complex phenomenon that is not fully understood.
-    \item It is often described in terms of phonation types, such as:
-    \begin{itemize}
-      \item Modal
-      \item Breathy
-      \item Creaky
-      \item Whispery
-    \end{itemize}
+    \item Paralinguistic information by ``indexing the biological, psychological, and social characteristics of the speaker'' \citep[e.g.,][]{laverVoiceQualityIndexical1968,podesvaStanceWindowLanguageRace2016}
+    \item Phonological contrasts \citep[e.g.,][]{espositoCrosslinguisticPatternsPhonation2020}.
+  \end{itemize}
+\end{frame}
+
+\begin{frame}{Why study voice quality?}
+  \begin{itemize}
+    \item Voice quality plays a crucial role in speech communication.
+    \item It is used in many languages to create phonological contrasts.
+    \item It is a rich area of research that can help us understand speech production and perception.
   \end{itemize}
 \end{frame}
 
@@ -200,11 +220,11 @@
 \subsection{Santiago Laxopa Zapotec}
 %-----------------------------------------------------------
 
-\begin{frame}{Santiago Laxopa Zapotec}
+\begin{frame}{What is Santiago Laxopa Zapotec}
   \begin{columns}
     \begin{column}{0.33\textwidth}
       \begin{itemize}
-        \item Santiago Laxopa Zapotec (SLZ; \textit{Dille'xhunh Laxup}) is a Sierra Norte variety of Zapotec.
+        \item Santiago Laxopa Zapotec (SLZ; \textit{Dille'xhunh Laxup}) is a Sierra Norte variety of Zapotec (Oto-Manguean).
         \item Spoken by c. 1,000 speakers in Santiago Laxopa and in diaspora.
       \end{itemize}
     \end{column}
@@ -217,6 +237,18 @@
   \end{columns}
 \end{frame}
 
+\begin{frame}{Why study SLZ?}
+  \begin{itemize}
+        \item SLZ is a relatively understudied language, so it provides an opportunity to contribute to our linguistic understaning.
+    \item SLZ has a complex laryngeal system that is not well understood.
+    \begin{itemize}
+      \item SLZ has a four-way phonation contrast.
+      \item SLZ has a five-way tonal contrast.
+      \item These contrasts are orthogonal, meaning that they can occur independently of each other.
+    \end{itemize} 
+  \end{itemize}
+\end{frame}
+
 \begin{frame}{Phonation in SLZ}
   \begin{itemize}
     \item SLZ has a four-way phonation contrast:
@@ -226,26 +258,108 @@
       \item Checked ( [\textipa{\t{aP}}] or [\textipa{\t{a\~*a}}] )
       \item Rearticulated ([\textipa{\t{aPa}}], [\textipa{\t{a\~*aa}}], or [\textipa{\~*a}] )
     \end{itemize}
-    \item SLZ's phonation contrasts are used in both the phonology and the morphology.
   \end{itemize}
+\end{frame}
+
+\begin{frame}{Breathy Phonation in SLZ}
+  \begin{columns}
+    \begin{column}{0.33\linewidth}
+      \begin{itemize}
+        \item Characterized by aperiodicity and noise in the harmonic structure.
+        \item Longer duration than modal voice
+        \item Lower fundamental frequency (\textit{f}0)
+      \end{itemize}  
+    \end{column}
+
+    \begin{column}{0.67\linewidth}
+      \begin{figure}[h!]
+        \centering
+        \includegraphics[width=\textwidth]{images/Spectrograms/yah.png}
+      \end{figure}
+    \end{column}
+  \end{columns}
+\end{frame}
+
+\begin{frame}{Checked Phonation in SLZ}
+  \begin{columns}
+    \begin{column}{0.33\linewidth}
+      \begin{itemize}
+        \item Glottal occlusion at the end of vowel or creaky voice in second half vowel.
+        \item Decrease in voicing amplitude during second half.
+      \end{itemize}  
+    \end{column}
+
+    \begin{column}{0.67\linewidth}
+      \begin{figure}[h!]
+        \centering
+        \includegraphics[width=\textwidth]{images/Spectrograms/RD_yu'.png}
+      \end{figure}
+    \end{column}
+  \end{columns}
+\end{frame}
+
+\begin{frame}{Rearticulated Phonation in SLZ}
+  \begin{columns}
+    \begin{column}{0.33\linewidth}
+      \begin{itemize}
+        \item Glottal occlusion or creaky voice in the middle of the vowel.
+        \item Longer duration than modal voice
+        \item Decrease in voicing amplitude during first half.
+      \end{itemize}  
+    \end{column}
+
+    \begin{column}{0.67\linewidth}
+      \begin{figure}[h!]
+        \centering
+        \includegraphics[width=\textwidth]{images/Spectrograms/xa'ag.png}
+      \end{figure}
+    \end{column}
+  \end{columns}
 \end{frame}
 
 \begin{frame}{Tone in SLZ}
   \begin{itemize}
-    \item 
+    \item SLZ shows a five-way tonal contrast on monosyllabic nouns \citep{brinkerhoffTonalPatternsTheir2022}.
   \end{itemize}
+  \begin{table}[!h]
+	  \centering
+	  \begin{tabular}{llll}
+	    \lsptoprule
+					  % &	 Diacritic  & Example & Transcription \\
+	    High   	 &  \textit{xha}   &  [ ʐa˦ ] & `clothing.\Poss{}'\\
+	    Mid    	 &  \textit{lhill} 	& [ ɾiʒ˧ ] & `house.\Poss{}' \\
+	    Low   	 &  \textit{yu'} 	& [ çuˀ˨ ] & `earth'\\
+	    Rising	 &  \textit{yu'u} 	& [ çuˀu˧˦ ] & `lime (Sp. \textit{cal})' \\
+	    Falling  &  \textit{yu'u}  &  [ çuˀu˦˨ ] &	`house' \\
+	    \lspbottomrule
+	  \end{tabular}
+\end{table}
 \end{frame}
 
 \begin{frame}{Interaction of Tone and Phonation in SLZ}
   \begin{itemize}
-    \item 
+    \item Tone and phonation are orthogonal in SLZ.
   \end{itemize}
-  
+  \begin{table}[h!]
+	\centering
+	  \begin{tabular}{lcccc}
+	    \lsptoprule
+		  & \textbf{Modal} & \textbf{Breathy} & \textbf{Checked} & \textbf{Rearticulated} \\
+	    \hline
+	    High		& \cmark & -- & \cmark & \cmark \\
+	    Mid			& \cmark & \cmark & \cmark & \cmark \\
+	    Low			& \cmark & \cmark & \cmark & \cmark \\
+	    Rising	& \cmark & \cmark & -- & \cmark \\
+      Falling	& \cmark & \cmark & \cmark & \cmark \\
+	    \lspbottomrule
+	  \end{tabular}
+  \end{table} 
 \end{frame}
 
 %-----------------------------------------------------------
 \section{Previous research}
 %-----------------------------------------------------------
+% \frame{\sectionpage}
 %-----------------------------------------------------------
 \subsection{Measuring Voice Quality}
 %-----------------------------------------------------------
@@ -253,24 +367,94 @@
 \begin{frame}{Measuring voice quality}
   \begin{itemize}
     \item Long been established that phonation has correlates in the acoustic signal (e.g., \cite{fischer-jorgensenPhoneticAnalysisBreathy1968,klattAnalysisSynthesisPerception1990}).
-    \item \citet{gordonPhonationTypesCrosslinguistic2001} list several types of measures types that can be used:
+    \item \citet{fischer-jorgensenPhoneticAnalysisBreathy1968} found that a strengthened fundamental (i.e., H1) correlated with breathy vowels in Gujarati.
     \begin{itemize}
-    \item Periodicity
-    \item Energy
-    \item Spectral tilt
-    \item Pitch
-    \item Duration 
+      \item Proposed H1$-$H2 amplitude as a measure to normalize for overall intensity differences
     \end{itemize}
-  \item Linguists have used combinations of these measures to model phonation (e.g., \cite{blankenshipTimingNonmodalPhonation2002,brunelleTonePhonationSoutheast2016,espositoAcousticElectroglottographicStudy2012}). 
+    \item Subsequent research has shown that H1$-$H2 is useful for classifying voice quality contrasts.  
+    \item However, it is not without its problems (see \cite{chaiH1H2AcousticMeasure2022} for an overview).
+  \end{itemize}
+\end{frame}
+
+\begin{frame}{Measuring voice quality}
+  \begin{itemize}
+    \item H2 and other normalizations (A1, A3) are really attempts to understand the relative strength of the fundamental (H1) to higher harmonic energy
+    \item H1 and H2 are affected by subglottal pressure differently \citep{sundbergObjectiveCharacterizationPhonation2022}
+    \begin{itemize}
+      \item This undermines the original reasoning behind H1$-$H2
+    \end{itemize} 
+    \item Researchers sometimes find that H1$-$H2 does not distinguish phonation types \citep[e.g.,][]{espositoVariationContrastivePhonation2010,espositoAcousticElectroglottographicStudy2012,garellekPhoneticsWhiteHmong2023}.
+    \item Error in measuring H1$-$H2 is uncomfortably high \citep[e.g.,][]{chaiH1H2AcousticMeasure2022}.
+  \end{itemize}
+\end{frame}
+
+\begin{frame}{Measuring voice quality}
+  \begin{itemize}
+    \item Many measures have been proposed to capture voice quality.
+    \item Measures can be broadly categorized into several categories \citep{gordonPhonationTypesCrosslinguistic2001}:
+    \begin{itemize}
+      \item Periodicity (e.g., HNR or CPP)
+      \item Energy 
+      \item Spectral tilt (e.g., H1*$-$H2*, residual H1*)
+      \item Pitch (e.g., \textit{f}0)
+      \item Duration 
+    \end{itemize}
+  \item Linguists have used combinations of these measures to model phonation (e.g., \cite{blankenshipTimingNonmodalPhonation2002,brunelleTonePhonationSoutheast2016,espositoAcousticElectroglottographicStudy2012}).
   \end{itemize}
 \end{frame}
 
 \begin{frame}{New measures of voice quality}
-  
+  \begin{itemize}
+    \item New measures are being developed all the time.
+    \item \posscitet{chaiH1H2AcousticMeasure2022} residual H1* is a new measure of spectral tilt that is more robust than traditional spectral tilt measures.
+    \begin{itemize}
+      \item Does this by removing the the effects of Energy from the H1* measure.
+      \item This was the original goal of \citet{fischer-jorgensenPhoneticAnalysisBreathy1968}
+    \end{itemize}
+    \item \citet{brinkerhoffUsingResidualH12025} found that residual H1* is a better measure of spectral tilt than H1*$-$H2* for Santiago Laxopa Zapotec's four-way phonation contrast.
+  \end{itemize}
 \end{frame}
 
 \begin{frame}{Too many measures}
-  
+  \begin{itemize}
+    \item There are many measures of voice quality, but it is not clear which ones are the most useful.
+    \item It also makes it difficult to compare results across studies.
+    \item VoiceSauce makes this a common issue \citep{shueVoiceSauceProgramVoice2011}.
+  \end{itemize}
+\end{frame}
+
+\begin{frame}{Too many measures}
+  \begin{itemize}
+    \item \citet{kreimanUnifiedTheoryVoice2014,kreimanValidatingPsychoacousticModel2021} tackle this by proposing a psychoacoustic model of voice quality.
+    \item Found certain measures are perceptually more important than others.
+  \end{itemize}
+  \begin{table}[h!]
+    \centering
+    % \caption{Components of the psychoacoustic model of voice quality and associated voice synthesis parameters.}
+    \fittable{
+    \begin{tabular}{|l|l|}
+    \hline
+    \textbf{Model Component} & \textbf{Parameters} \\
+    \hline
+    \multirow{4}{*}{Harmonic source spectral shape} 
+      & H1--H2 \\
+      & H2--H4 \\
+      & H4--2~kHz \\
+      & 2~kHz--5~kHz \\
+    \hline
+    Inharmonic source excitation 
+      & Spectrally-shaped noise-to-harmonics ratio \\
+    \hline
+    \multirow{2}{*}{Time-varying source characteristics} 
+      & $f0$ mean and standard deviation (or $f0$ track) \\
+      & Amplitude mean and standard deviation (or amplitude track) \\
+    \hline
+    \multirow{2}{*}{Vocal tract transfer function} 
+      & Formant frequencies/bandwidths \\
+      & Spectral zeroes/bandwidths \\
+    \hline
+    \end{tabular}}
+  \end{table}
 \end{frame}
 
 %-----------------------------------------------------------
@@ -322,11 +506,11 @@
       \item First dimension $=$ nonmodal-to-modal continuum.
       \item Second dimension $=$ glottal-airflow continuum.
     \end{enumerate}
-    \item Found that languages with more contrasts used more of the acoustic space than languages with fewer contrasts.
+    \item Found languages with more contrasts used more of the acoustic space than languages with fewer contrasts.
     \item Found correlations between dimensions and acoustic measures.
     \begin{enumerate}
-      \item First dimension $=$ periodicity and energy.
-      \item Second dimension $=$ spectral tilt and periodicity.
+      \item First dimension $=$ periodicity and energy measures.
+      \item Second dimension $=$ spectral tilt and periodicity measures.
     \end{enumerate}
   \end{itemize}
 \end{frame}
@@ -344,23 +528,41 @@
 
 \begin{frame}{What is Laryngeal Complexity}
   \begin{itemize}
-    \item Laryngeal complexity is the number of phonation contrasts in a language.
-    \item More phonation contrasts means more complex laryngeal system.
-    \item Laryngeal complexity can be measured by the number of phonation contrasts in a language.
-    \item Laryngeal complexity can be measured by the dimensionality of the acoustic space.
+    \item \textit{Laryngeal complexity} describes languages that use both contrastive tone and phonation \citep{silvermanLaryngealComplexityOtomanguean1997,silvermanPhasingRecoverability1997}.
+    \item Very common in the Oto-Manguean language family, but is also found in other languages.
   \end{itemize}
 \end{frame}
 
 \begin{frame}{Phonation's phasing}
-  
+  \begin{itemize}
+    \item 
+  \end{itemize}
 \end{frame}
 
 \begin{frame}{Implicational hierarchy of patterns}
-  
+  \begin{itemize}
+    \item \citet{silvermanLaryngealComplexityOtomanguean1997} proposed a hierarchy of laryngeal complexity phasing pattern.
+  \end{itemize}
+  \begin{table}[h!]
+%     \centering
+%     % \caption{Implicational hierarchy of laryngeal complexity. The symbols h and ʔ represent laryngealization. The symbol V represents where the modal vowel is located in relation to the laryngealization. Modified from \citet{silvermanLaryngealComplexityOtomanguean1997}.} 
+    % \label{tab:implicational_hierarchy}
+    \begin{tabular}{lccc}
+        \lsptoprule
+        \textbf{Language} & \textbf{Prevocalic} & \textbf{Postvocalic} & \textbf{Interrupted} \\
+        \hline 
+        Jalapa Mazatec & hV˥, ʔV˥ & $-$ & $-$ \\
+        Comaltepec Chinantec & hV˥, ʔV˥ & Vh˥, Vʔ˥ & $-$ \\
+        Copala Trique & hV˥, ʔV˥ & Vh˥, Vʔ˥ & VhV˥, VʔV˥ \\
+        \lspbottomrule
+    \end{tabular}
+\end{table}
 \end{frame}
 
 \begin{frame}{Previous research on laryngeal complexity}
-
+  \begin{itemize}
+    \item 
+  \end{itemize}
 \end{frame}
 
 %-----------------------------------------------------------
@@ -383,26 +585,47 @@
 \begin{frame}{MDS analysis}
   \begin{itemize}
     \item Multidimensional scaling (MDS; \cite{kruskalMultidimensionalScaling1978}) was used to reduce the dimensionality of the data.
-    \item Acoustic measures used to define the acoustic space, following \citet{keatingCrosslanguageAcousticSpace2023}.
-    \item Speaker x phonation combinations were used for the points in the MDS space.
+
   \end{itemize}
 \end{frame}
 
-\begin{frame}{Number of Dimensions}
+\begin{frame}{Number of Dimensions needed}
   \begin{figure}[h!]
     \centering
     \includegraphics[width = 0.8\linewidth]{images/MDS/stress_plot_dur.eps}
 \end{figure}
 \end{frame}
 
+\begin{frame}{Explanation of the plots}
+  \begin{itemize}
+    \item Each point $=$ unique speaker x phonation combination.
+    \item Colors $=$ phonation type.
+    \begin{itemize}
+      \item Modal $=$ black
+      \item Breathy $=$ orange
+      \item Checked $=$ blue
+      \item Rearticulated $=$ green
+    \end{itemize}
+    \item Axes $=$ dimensions of the acoustic space.
+  \end{itemize}
+\end{frame}
+
 \begin{frame}{Dimensionality in SLZ}
   \begin{itemize}
     \item Scan the QR code to see the three-dimensional space.
+    % \item Or use the link: \href{https://bit.ly/3St9S6g}{https://bit.ly/3St9S6g}
   \end{itemize}
   \begin{figure}[h!]
     \centering
     \includegraphics[width=5cm, scale=0.5]{qrcode_3d_plot.eps}
   \end{figure}
+\end{frame}
+
+\begin{frame}{Takeaways from 3D plot}
+  \begin{itemize}
+    \item Shows clear groupings of phonation types 
+    \item 
+  \end{itemize}
 \end{frame}
 
 \begin{frame}{Dimensionality in SLZ}
@@ -466,15 +689,20 @@
 \end{frame}
 
 %-----------------------------------------------------------
-\subsection{Random Forests}
+\subsection{Random Forests show important measures}
 %-----------------------------------------------------------
 
-\begin{frame}{What is Random Forest?}
-  
+\begin{frame}{What is a Random Forest?}
+  \begin{itemize}
+    \item Random Forest is a subclass of decision trees that uses an ensemble of decision trees to make predictions \citep{breimanClassificationRegressionTrees1986,breimanBaggingPredictors1996,breimanRandomForests2001}.
+    \item More robust than 
+  \end{itemize}
 \end{frame}
 
-\begin{frame}{Results of Random Forest}
-  
+\begin{frame}{Interpreting Random Forests}
+  \begin{itemize}
+    \item 
+  \end{itemize}
 \end{frame}
 
 \begin{frame}
@@ -485,28 +713,137 @@
   \end{figure}
 \end{frame}
 
-\begin{frame}{Summary of Random Forest}
-  
+\begin{frame}{Variable Importance}
+  \begin{itemize}
+    \item Variable importance shows that only a handful of measures are important for capturing phonation contrasts.
+    \begin{enumerate}
+      \item Duration
+      \item A1*
+		  \item H1*$-$A1*
+      \item Residual H1*
+		  \item HNR < 1500 Hz
+		  \item Strength of Excitation (SoE)
+    \end{enumerate} 
+  \end{itemize}
+\end{frame}
+
+\begin{frame}{Duration}
+  \begin{figure}[h!]
+    \centering
+    \includegraphics[width = 0.8\linewidth]{images/duration_plot.eps}
+  \end{figure}
+\end{frame}
+
+\begin{frame}{A1*}
+  \begin{figure}[h!]
+    \centering
+    \includegraphics[width = 0.8\linewidth]{images/slz_a1c.eps}
+  \end{figure}
+\end{frame}
+
+\begin{frame}{H1*$-$A1*}
+  \begin{figure}[h!]
+    \centering
+    \includegraphics[width = 0.8\linewidth]{images/h1a1_line.eps}
+  \end{figure}
+\end{frame}
+
+\begin{frame}{Residual H1*}
+  \begin{figure}[h!]
+    \centering
+    \includegraphics[width = 0.8\linewidth]{images/slz_residual_h1c.eps}
+  \end{figure}
+\end{frame}
+
+\begin{frame}{HNR < 1500 Hz}
+  \begin{figure}[h!]
+    \centering
+    \includegraphics[width = 0.8\linewidth]{images/slz_hnr15.eps}
+  \end{figure}
+\end{frame}
+
+\begin{frame}{Strength of Excitation (SoE)}
+  \begin{figure}[h!]
+    \centering
+    \includegraphics[width = 0.8\linewidth]{images/slz_soe.eps}
+  \end{figure}
+\end{frame}
+
+\begin{frame}{Summary of Random Forest Results}
+  \begin{itemize}
+    \item Only a handful of measures are important for capturing phonation contrasts.
+    \item Duration, A1*, H1*$-$A1*, residual H1*, HNR < 1500 Hz, and SoE are the most important measures.
+    \item There is a lot of overlap between MDS' correlated measures and the important measures from the Random Forests.
+  \end{itemize}
 \end{frame}
 
 %-----------------------------------------------------------
 \subsection{Laryngeal Complexity in SLZ}
 %-----------------------------------------------------------
 
-\begin{frame}{Generalized Additive Models (GAMs)}
+\begin{frame}{Quanitfying Laryngeal Complexity}
   \begin{itemize}
-    \item Used to explore the relationship between phonation and the acoustic measures.
-    \item Used to explore the relationship between phonation and the MDS dimensions.
-    \item Used to explore the relationship between phonation and the random forest dimensions.
+    \item Laryngeal complexity is the number of phonation contrasts in a language.
+    \item More phonation contrasts means more complex laryngeal system.
+    \item Laryngeal complexity can be measured by the number of phonation contrasts in a language.
+    \item Laryngeal complexity can be measured by the dimensionality of the acoustic space.
   \end{itemize}
 \end{frame}
 
-\begin{frame}{Measuring Laryngeal Complexity}
+\begin{frame}{What are Generalized Additive Mixed Models (GAMMs)}
+  \begin{itemize}
+    \item GAMMs are a type of statistical model that can be used to analyze non-linear relationships between variables.
+  \end{itemize}
+\end{frame}
+
+\begin{frame}{Evaluating GAMMs}
   \begin{itemize}
     \item Laryngeal complexity is measured by the number of phonation contrasts in a language.
     \item SLZ has four phonation contrasts.
     \item The more phonation contrasts a language has, the more complex its laryngeal system is.
   \end{itemize}
+\end{frame}
+
+\begin{frame}{Model fit for \textit{f}0}
+  \begin{figure}[h!]
+    \centering
+    \includegraphics[width = 0.8\linewidth]{images/LCH_GAMMs/f0_model_fit.eps}
+  \end{figure}
+\end{frame}
+
+\begin{frame}{Model difference for \textit{f}0}
+  \begin{figure}[h!]
+    \centering
+    \includegraphics[width = 0.8\linewidth]{images/LCH_GAMMs/f0_model_diff.eps}
+  \end{figure}
+\end{frame}
+
+\begin{frame}{Model fit for HNR}
+  \begin{figure}[h!]
+    \centering
+    \includegraphics[width = 0.8\linewidth]{images/LCH_GAMMs/hnr15_model_fit.eps}
+  \end{figure}
+\end{frame}
+
+\begin{frame}{Model difference for HNR}
+  \begin{figure}[h!]
+    \centering
+    \includegraphics[width = 0.8\linewidth]{images/LCH_GAMMs/hnr15_model_diff.eps}
+  \end{figure}
+\end{frame}
+
+\begin{frame}{Model fit for SoE}
+  \begin{figure}[h!]
+    \centering
+    \includegraphics[width = 0.8\linewidth]{images/LCH_GAMMs/soe_model_fit.eps}
+  \end{figure}
+\end{frame}
+
+\begin{frame}{Model difference for SoE}
+  \begin{figure}[h!]
+    \centering
+    \includegraphics[width = 0.8\linewidth]{images/LCH_GAMMs/soe_model_diff.eps}
+  \end{figure}
 \end{frame}
 
 \begin{frame}{Summary of Laryngeal Complexity}
@@ -594,7 +931,7 @@
   \frametitle{Acknowledgements}
   \begin{itemize}
     \item Thank you to the speakers in Santiago Laxopa for sharing their time and language expertise. 
-    \item Thank you to Grant McGuire, Jaye Padgett, Marc Garellek, Ryan Bennett, Jack Duff, Maya Wax Cavallaro, and many others for their help and discussions during all stages of this project. 
+    \item Thank you to my Grant McGuire, Jaye Padgett, Marc Garellek, Ryan Bennett, Jack Duff, Maya Wax Cavallaro, and many others for their help and discussions during all stages of this project. 
   \end{itemize}
 \end{frame}
 
@@ -621,5 +958,7 @@
   \frametitle{References}
     \printbibliography
 \end{frame}
+
+
 
 \end{document}

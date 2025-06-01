@@ -105,3 +105,20 @@
 ## Appendix
 
 - **Random Forest hyper-grid parameter tuning**
+
+# General Notes
+- Overall gist is good
+- Really focus on the big picture
+- Good on making it clear that Keating et al congruent
+  - Not unique to Zapotec
+  - Converging on shared properties
+- Unique contribution 
+- Avoid saying I've thought about it (it is a tic)
+  - Ok to say I don't know or that is a good point i need to look into that some more
+- Timing like a colloquium but a little bit shorter
+  - Try and aim for the 40-45 minute mark. 
+- Don't go to much into the the particulars of what the methods are but go into why I chose them and why they are helpful (focus on the goal of the analysis)
+  - MDS a general technique for dimensionality reduction avoides pitfalls of PCA or LDA and makes a better comparison based on the data
+  - Random Forest avoides the problems of CART more robust 
+  - GAMMs allow us to model non-linear data
+- 
