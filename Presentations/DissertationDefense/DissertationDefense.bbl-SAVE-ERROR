@@ -50,6 +50,48 @@
       \field{dateera}{ce}
       \keyw{nosource}
     \endentry
+    \entry{ariza-garciaPhonationTypesTones2018}{article}{}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=74da72ebacc9805db380c3b6388acd11}{%
+           family={Ariza-García},
+           familyi={A\bibinithyphendelim G\bibinitperiod},
+           given={Andrea},
+           giveni={A\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{74da72ebacc9805db380c3b6388acd11}
+      \strng{fullhash}{74da72ebacc9805db380c3b6388acd11}
+      \strng{fullhashraw}{74da72ebacc9805db380c3b6388acd11}
+      \strng{bibnamehash}{74da72ebacc9805db380c3b6388acd11}
+      \strng{authorbibnamehash}{74da72ebacc9805db380c3b6388acd11}
+      \strng{authornamehash}{74da72ebacc9805db380c3b6388acd11}
+      \strng{authorfullhash}{74da72ebacc9805db380c3b6388acd11}
+      \strng{authorfullhashraw}{74da72ebacc9805db380c3b6388acd11}
+      \field{sortinit}{A}
+      \field{sortinithash}{2f401846e2029bad6b3ecc16d50031e2}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{shorttitle}
+      \field{issn}{23065737, 26584069}
+      \field{journaltitle}{Acta Linguistica Petropolitana}
+      \field{number}{2}
+      \field{shortjournal}{ALP}
+      \field{shorttitle}{Phonation Types and Tones in Zapotec Languages}
+      \field{title}{Phonation Types and Tones in {{Zapotec}} Languages: {{A}} Synchronic Comparison}
+      \field{volume}{XIV}
+      \field{year}{2018}
+      \field{dateera}{ce}
+      \field{pages}{485\bibrangedash 516}
+      \range{pages}{32}
+      \verb{doi}
+      \verb 10.30842/alp2306573714220
+      \endverb
+      \verb{file}
+      \verb /Users/mlbrinke/Zotero/storage/PZSJVFXM/ariza-garciaPhonationTypesTones2018.pdf
+      \endverb
+      \keyw{Otomanguean,Voice Quality}
+    \endentry
     \entry{barzilaiContextdependentPhoneticEnhancement2021}{article}{}{}
       \name{author}{2}{}{%
         {{un=0,uniquepart=base,hash=91bc5e1aa95856fb337a8643b86f0b6f}{%
@@ -147,49 +189,54 @@
       \endverb
       \keyw{Voice Quality}
     \endentry
-    \entry{breimanBaggingPredictors1996}{article}{}{}
-      \name{author}{1}{}{%
-        {{un=0,uniquepart=base,hash=132b7100417675d55d5d4d8b244f7a34}{%
-           family={Breiman},
+    \entry{boehmkeHandsOnMachineLearning2019}{book}{}{}
+      \name{author}{2}{}{%
+        {{un=0,uniquepart=base,hash=7fb49385398182e32b9a1d556b259b69}{%
+           family={Boehmke},
            familyi={B\bibinitperiod},
-           given={Leo},
-           giveni={L\bibinitperiod},
+           given={Brad},
+           giveni={B\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=8f2353d8bd52671f86aa78fc7988dace}{%
+           family={Greenwell},
+           familyi={G\bibinitperiod},
+           given={Brandon\bibnamedelima M.},
+           giveni={B\bibinitperiod\bibinitdelim M\bibinitperiod},
            givenun=0}}%
       }
-      \strng{namehash}{132b7100417675d55d5d4d8b244f7a34}
-      \strng{fullhash}{132b7100417675d55d5d4d8b244f7a34}
-      \strng{fullhashraw}{132b7100417675d55d5d4d8b244f7a34}
-      \strng{bibnamehash}{132b7100417675d55d5d4d8b244f7a34}
-      \strng{authorbibnamehash}{132b7100417675d55d5d4d8b244f7a34}
-      \strng{authornamehash}{132b7100417675d55d5d4d8b244f7a34}
-      \strng{authorfullhash}{132b7100417675d55d5d4d8b244f7a34}
-      \strng{authorfullhashraw}{132b7100417675d55d5d4d8b244f7a34}
-      \field{extraname}{1}
+      \list{location}{1}{%
+        {New York}%
+      }
+      \list{publisher}{1}{%
+        {Chapman and Hall/CRC}%
+      }
+      \strng{namehash}{783c80d16eb3f781a5451a96531587ae}
+      \strng{fullhash}{783c80d16eb3f781a5451a96531587ae}
+      \strng{fullhashraw}{783c80d16eb3f781a5451a96531587ae}
+      \strng{bibnamehash}{783c80d16eb3f781a5451a96531587ae}
+      \strng{authorbibnamehash}{783c80d16eb3f781a5451a96531587ae}
+      \strng{authornamehash}{783c80d16eb3f781a5451a96531587ae}
+      \strng{authorfullhash}{783c80d16eb3f781a5451a96531587ae}
+      \strng{authorfullhashraw}{783c80d16eb3f781a5451a96531587ae}
       \field{sortinit}{B}
       \field{sortinithash}{d7095fff47cda75ca2589920aae98399}
       \field{extradatescope}{labelyear}
       \field{labeldatesource}{}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
-      \field{abstract}{Bagging predictors is a method for generating multiple versions of a predictor and using these to get an aggregated predictor. The aggregation averages over the versions when predicting a numerical outcome and does a plurality vote when predicting a class. The multiple versions are formed by making bootstrap replicates of the learning set and using these as new learning sets. Tests on real and simulated data sets using classification and regression trees and subset selection in linear regression show that bagging can give substantial gains in accuracy. The vital element is the instability of the prediction method. If perturbing the learning set can cause significant changes in the predictor constructed, then bagging can improve accuracy.}
-      \field{day}{1}
-      \field{issn}{1573-0565}
-      \field{journaltitle}{Machine Learning}
-      \field{langid}{english}
-      \field{month}{8}
-      \field{number}{2}
-      \field{shortjournal}{Mach Learn}
-      \field{title}{Bagging Predictors}
-      \field{volume}{24}
-      \field{year}{1996}
+      \field{abstract}{Hands-on Machine Learning with R provides a practical and applied approach to learning and developing intuition into today’s most popular machine learning methods. This book serves as a practitioner’s guide to the machine learning process and is meant to help the reader learn to apply the machine learning stack within R, which includes using various R packages such as glmnet, h2o, ranger, xgboost, keras, and others to effectively model and gain insight from their data. The book favors a hands-on approach, providing an intuitive understanding of machine learning concepts through concrete examples and just a little bit of theory.~ Throughout this book, the reader will be exposed to the entire machine learning process including feature engineering, resampling, hyperparameter tuning, model evaluation, and interpretation. The reader will be exposed to powerful algorithms such as regularized regression, random forests, gradient boosting machines, deep learning, generalized low rank models, and more! By favoring a hands-on approach and using real word data, the reader will gain an intuitive understanding of the architectures and engines that drive these algorithms and packages, understand when and how to tune the various hyperparameters, and be able to interpret model results. By the end of this book, the reader should have a firm grasp of R’s machine learning stack and be able to implement a systematic approach for producing high quality modeling results. Features: ·~~~~~~~~ Offers a practical and applied introduction to the most popular machine learning methods. ·~~~~~~~~ Topics covered include feature engineering, resampling, deep learning and more. ·~~~~~~~~ Uses a hands-on approach and real world data.}
+      \field{day}{14}
+      \field{isbn}{978-0-367-81637-7}
+      \field{month}{11}
+      \field{pagetotal}{484}
+      \field{title}{Hands-{{On Machine Learning}} with {{R}}}
+      \field{year}{2019}
       \field{dateera}{ce}
-      \field{pages}{123\bibrangedash 140}
-      \range{pages}{18}
       \verb{doi}
-      \verb 10.1007/BF00058655
+      \verb 10.1201/9780367816377
       \endverb
       \verb{file}
-      \verb /Users/mlbrinke/Zotero/storage/ATP7QY6L/breimanBaggingPredictors1996.pdf
+      \verb /Users/mlbrinke/Zotero/storage/Z5ZVNX3V/boehmkeHandsOnMachineLearning2019.pdf;/Users/mlbrinke/Zotero/storage/2ZBT2CYW/HOML.html
       \endverb
     \endentry
     \entry{breimanRandomForests2001}{article}{}{}
@@ -209,7 +256,6 @@
       \strng{authornamehash}{132b7100417675d55d5d4d8b244f7a34}
       \strng{authorfullhash}{132b7100417675d55d5d4d8b244f7a34}
       \strng{authorfullhashraw}{132b7100417675d55d5d4d8b244f7a34}
-      \field{extraname}{2}
       \field{sortinit}{B}
       \field{sortinithash}{d7095fff47cda75ca2589920aae98399}
       \field{extradatescope}{labelyear}
@@ -293,6 +339,49 @@
       \verb{file}
       \verb /Users/mlbrinke/Zotero/storage/LNPJTP7B/breimanClassificationRegressionTrees1986.pdf
       \endverb
+    \endentry
+    \entry{brinkerhoffTonalPatternsTheir2022}{unpublished}{}{}
+      \name{author}{3}{}{%
+        {{un=0,uniquepart=base,hash=7c0d8fdf16e991bdf7a0fdd7d16085ff}{%
+           family={Brinkerhoff},
+           familyi={B\bibinitperiod},
+           given={Mykel\bibnamedelima Loren},
+           giveni={M\bibinitperiod\bibinitdelim L\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=52162df3cbdb5dc511edccd7f7b84cad}{%
+           family={Duff},
+           familyi={D\bibinitperiod},
+           given={John},
+           giveni={J\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=320ade47f51b3250b76058356896f5cd}{%
+           family={Wax\bibnamedelima Cavallaro},
+           familyi={W\bibinitperiod\bibinitdelim C\bibinitperiod},
+           given={Maya},
+           giveni={M\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{6f16261cfdbf5c8fc6d2db6fb9955426}
+      \strng{fullhash}{6f16261cfdbf5c8fc6d2db6fb9955426}
+      \strng{fullhashraw}{6f16261cfdbf5c8fc6d2db6fb9955426}
+      \strng{bibnamehash}{6f16261cfdbf5c8fc6d2db6fb9955426}
+      \strng{authorbibnamehash}{6f16261cfdbf5c8fc6d2db6fb9955426}
+      \strng{authornamehash}{6f16261cfdbf5c8fc6d2db6fb9955426}
+      \strng{authorfullhash}{6f16261cfdbf5c8fc6d2db6fb9955426}
+      \strng{authorfullhashraw}{6f16261cfdbf5c8fc6d2db6fb9955426}
+      \field{sortinit}{B}
+      \field{sortinithash}{d7095fff47cda75ca2589920aae98399}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{eventtitle}{2022 {{Annual Meeting}} of the {{Society}} for the {{Study}} of {{Indigenous Languages}} of the {{Americas}} ({{SSILA}})}
+      \field{title}{Tonal Patterns and Their Restrictions in {{Santago Laxopa Zapotec}}}
+      \field{type}{Presentation}
+      \field{venue}{Virtual}
+      \field{year}{2022}
+      \field{dateera}{ce}
+      \keyw{Otomanguean}
     \endentry
     \entry{brinkerhoffUsingResidualH12025}{article}{}{}
       \name{author}{2}{}{%
@@ -445,6 +534,126 @@
       \endverb
       \keyw{Voice Quality}
     \endentry
+    \entry{coetzeeProducingPerceivingSocially2022}{article}{}{}
+      \name{author}{6}{}{%
+        {{un=0,uniquepart=base,hash=f927a14c846373223178687bd0a4b647}{%
+           family={Coetzee},
+           familyi={C\bibinitperiod},
+           given={Andries\bibnamedelima W.},
+           giveni={A\bibinitperiod\bibinitdelim W\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=5fa9f03070c5473f68f7517e03d23769}{%
+           family={Beddor},
+           familyi={B\bibinitperiod},
+           given={Patrice\bibnamedelima Speeter},
+           giveni={P\bibinitperiod\bibinitdelim S\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=bee524a6b691a794f6c828ecf76748db}{%
+           family={Styler},
+           familyi={S\bibinitperiod},
+           given={Will},
+           giveni={W\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=a9f8c1ac55c0a6cddcd7f51623ca1c19}{%
+           family={Tobin},
+           familyi={T\bibinitperiod},
+           given={Stephen},
+           giveni={S\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=66e91dc55edb23d92c6f7a584834e565}{%
+           family={Bekker},
+           familyi={B\bibinitperiod},
+           given={Ian},
+           giveni={I\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=4b5bed7190f7fb4bc8d5ccc077ba45b9}{%
+           family={Wissing},
+           familyi={W\bibinitperiod},
+           given={Daan},
+           giveni={D\bibinitperiod},
+           givenun=0}}%
+      }
+      \list{publisher}{1}{%
+        {Open Library of Humanities}%
+      }
+      \strng{namehash}{e0872a4daed3192a96aefbd43d36b117}
+      \strng{fullhash}{db6687c2c06dba7eed4d8683d6211ea4}
+      \strng{fullhashraw}{db6687c2c06dba7eed4d8683d6211ea4}
+      \strng{bibnamehash}{db6687c2c06dba7eed4d8683d6211ea4}
+      \strng{authorbibnamehash}{db6687c2c06dba7eed4d8683d6211ea4}
+      \strng{authornamehash}{e0872a4daed3192a96aefbd43d36b117}
+      \strng{authorfullhash}{db6687c2c06dba7eed4d8683d6211ea4}
+      \strng{authorfullhashraw}{db6687c2c06dba7eed4d8683d6211ea4}
+      \field{sortinit}{C}
+      \field{sortinithash}{4d103a86280481745c9c897c925753c0}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{shorttitle}
+      \field{abstract}{Most theories of phonetics assume a tight relation between production and perception, and recent years have also seen increasing evidence for such a relation at the level of the individual. For the most part, however, this evidence comes from socially homogeneous speech communities where the targeted pattern of variation is mostly socially neutral. What implications might socially structured phonetic variation in the speech community have for the perception-production link? If listeners can predict the phonetic patterns of a talker based on the talker’s actual or assumed identity, would they adjust their perceptual strategies accordingly, possibly weakening the link between their own production and perception patterns? This study reports the results of a pair of experiments that investigate the production and perception of coarticulatory vowel nasalization in Afrikaans, a language for which variation in coarticulatory nasalization is socially structured. Relying on nasal airflow measures, the production experiment showed that speakers of White Afrikaans produce more extensive coarticulatory nasalization than speakers of Kleurling Afrikaans. The perception experiment used an eye-tracking paradigm to assess listeners’ perceptual reliance on coarticulatory nasalization, and found (i) that Afrikaans speakers’ use of coarticulatory nasalization in production predicts their perceptual reliance on this information, (ii) that they rapidly adjust to the coarticulatory timing patterns in the speech of other speakers, but also (iii) that they do not adjust their perceptual reliance on coarticulation in response to the assumed identity of the speaker. The link between perception and production therefore persists, even in this situation of socially structured variation in coarticulatory timing.}
+      \field{day}{16}
+      \field{issn}{1868-6354}
+      \field{issue}{1}
+      \field{journaltitle}{Laboratory Phonology}
+      \field{langid}{english}
+      \field{month}{6}
+      \field{number}{1}
+      \field{shorttitle}{Producing and Perceiving Socially Structured Coarticulation}
+      \field{title}{Producing and Perceiving Socially Structured Coarticulation: {{Coarticulatory}} Nasalization in {{Afrikaans}}}
+      \field{volume}{13}
+      \field{year}{2022}
+      \field{dateera}{ce}
+      \verb{doi}
+      \verb 10.16995/labphon.6450
+      \endverb
+      \verb{file}
+      \verb /Users/mlbrinke/Zotero/storage/JMUXI4KH/coetzeeProducingPerceivingSocially2022.pdf
+      \endverb
+    \endentry
+    \entry{dicanioCoarticulationToneGlottal2012}{article}{}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=8b5bcd278ae69c9608f75bc543fc2bd1}{%
+           family={DiCanio},
+           familyi={D\bibinitperiod},
+           given={Christian},
+           giveni={C\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{8b5bcd278ae69c9608f75bc543fc2bd1}
+      \strng{fullhash}{8b5bcd278ae69c9608f75bc543fc2bd1}
+      \strng{fullhashraw}{8b5bcd278ae69c9608f75bc543fc2bd1}
+      \strng{bibnamehash}{8b5bcd278ae69c9608f75bc543fc2bd1}
+      \strng{authorbibnamehash}{8b5bcd278ae69c9608f75bc543fc2bd1}
+      \strng{authornamehash}{8b5bcd278ae69c9608f75bc543fc2bd1}
+      \strng{authorfullhash}{8b5bcd278ae69c9608f75bc543fc2bd1}
+      \strng{authorfullhashraw}{8b5bcd278ae69c9608f75bc543fc2bd1}
+      \field{sortinit}{D}
+      \field{sortinithash}{6f385f66841fb5e82009dc833c761848}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{abstract}{This paper investigates the realization of contrastive tone in three non-modal phonation contexts (creaky phonation, glottal closure, and breathy phonation) in Itunyoso Trique, an Oto-Manguean language spoken in Oaxaca, Mexico. The study examines how coarticulatory glottalization (creaky phonation, glottal closure) coincides with coarticulatory pitch perturbations and spectral tilt changes on neighboring vowels. The onset of laryngeally induced F0 perturbation effects and the timing of changes in spectral tilt were examined using acoustic data from six speakers of the language. The results show that in contexts where substantial non-modal phonation spreads onto the adjacent vowel, greater pitch effects are observed. In contexts where abrupt glottal closure occurs, less coarticulatory changes in spectral tilt and pitch are observed on adjacent vowels. In addition, strong tonal effects are observed for certain spectral measures. These findings are discussed in relation to the literature on tonogenesis and coarticulatory pitch effects.}
+      \field{issn}{00954470}
+      \field{journaltitle}{Journal of Phonetics}
+      \field{langid}{english}
+      \field{month}{1}
+      \field{number}{1}
+      \field{shortjournal}{Journal of Phonetics}
+      \field{title}{Coarticulation between Tone and Glottal Consonants in {{Itunyoso Trique}}}
+      \field{volume}{40}
+      \field{year}{2012}
+      \field{dateera}{ce}
+      \field{pages}{162\bibrangedash 176}
+      \range{pages}{15}
+      \verb{doi}
+      \verb 10.1016/j.wocn.2011.10.006
+      \endverb
+      \verb{file}
+      \verb /Users/mlbrinke/Zotero/storage/ZGERJVDG/dicanioCoarticulationToneGlottal2012.pdf
+      \endverb
+      \keyw{Otomanguean,Voice Quality}
+    \endentry
     \entry{eslingVoiceQualityLaryngeal2019}{book}{}{}
       \name{author}{4}{}{%
         {{un=0,uniquepart=base,hash=082cefbe699f8f788561da9b0c5bf06b}{%
@@ -508,6 +717,51 @@
       \endverb
       \keyw{Voice Quality}
     \endentry
+    \entry{espositoVariationContrastivePhonation2010}{article}{}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=8302fa658b038a406c26db0f6760e735}{%
+           family={Esposito},
+           familyi={E\bibinitperiod},
+           given={Christina\bibnamedelima M.},
+           giveni={C\bibinitperiod\bibinitdelim M\bibinitperiod},
+           givenun=0}}%
+      }
+      \list{publisher}{1}{%
+        {Cambridge University Press}%
+      }
+      \strng{namehash}{8302fa658b038a406c26db0f6760e735}
+      \strng{fullhash}{8302fa658b038a406c26db0f6760e735}
+      \strng{fullhashraw}{8302fa658b038a406c26db0f6760e735}
+      \strng{bibnamehash}{8302fa658b038a406c26db0f6760e735}
+      \strng{authorbibnamehash}{8302fa658b038a406c26db0f6760e735}
+      \strng{authornamehash}{8302fa658b038a406c26db0f6760e735}
+      \strng{authorfullhash}{8302fa658b038a406c26db0f6760e735}
+      \strng{authorfullhashraw}{8302fa658b038a406c26db0f6760e735}
+      \field{extraname}{1}
+      \field{sortinit}{E}
+      \field{sortinithash}{8da8a182d344d5b9047633dfc0cc9131}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{abstract}{The present study sets out to investigate variation due to gender, F0, and/or prosodie position in Santa Ana del Valle Zapotee (Oto-Manguean), a language with phonemically breathy, modal and creaky vowels, each associated with a tone. Male and female speakers produced words in five prosodie positions: isolation (with focus, F0 higher than sentence-medial position), initial (focused, high F0), isolation (without focus, mid-range F0), medial (midrange F0), final (lower F0). Two acoustic measures of phonation, H1-H2 and H1-A3, were made for each vowel. Results were inconclusive as to whether one gender was creakier or breathier than the other, though they did suggest that there was a difference in the production of phonation. In addition, there was also a strong effect of F0 on phonation, but not of position independently of F0. While the three-way phonation contrast was present in all five prosodie positions, it was not always well-defined. The contrast was minimized in isolation with focus (high F0) and initial position (high F0). The results obtained indicate that there is variation in phonation, even in a language with contrastive phonation.}
+      \field{issn}{0025-1003}
+      \field{journaltitle}{Journal of the International Phonetic Association}
+      \field{number}{2}
+      \field{title}{Variation in Contrastive Phonation in {{Santa Ana Del Valle Zapotec}}}
+      \field{volume}{40}
+      \field{year}{2010}
+      \field{dateera}{ce}
+      \field{pages}{181\bibrangedash 198}
+      \range{pages}{18}
+      \verb{doi}
+      \verb 10.1017/S0025100310000046
+      \endverb
+      \verb{file}
+      \verb /Users/mlbrinke/Zotero/storage/3X7WTGLQ/espositoVariationContrastivePhonation2010.pdf
+      \endverb
+      \keyw{Otomanguean,Voice Quality}
+    \endentry
     \entry{espositoAcousticElectroglottographicStudy2012}{article}{}{}
       \name{author}{1}{}{%
         {{un=0,uniquepart=base,hash=8302fa658b038a406c26db0f6760e735}{%
@@ -525,6 +779,7 @@
       \strng{authornamehash}{8302fa658b038a406c26db0f6760e735}
       \strng{authorfullhash}{8302fa658b038a406c26db0f6760e735}
       \strng{authorfullhashraw}{8302fa658b038a406c26db0f6760e735}
+      \field{extraname}{2}
       \field{sortinit}{E}
       \field{sortinithash}{8da8a182d344d5b9047633dfc0cc9131}
       \field{extradatescope}{labelyear}
@@ -643,6 +898,195 @@
       \verb /Users/mlbrinke/Zotero/storage/QGHJSMB9/fischer-jorgensenPhoneticAnalysisBreathy1968.pdf
       \endverb
       \keyw{Voice Quality}
+    \endentry
+    \entry{frazierPhoneticsYucatecMaya2013}{article}{}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=d2d119618606f2f6f274fa636fe877e8}{%
+           family={Frazier},
+           familyi={F\bibinitperiod},
+           given={Melissa},
+           giveni={M\bibinitperiod},
+           givenun=0}}%
+      }
+      \list{publisher}{1}{%
+        {De Gruyter (A)}%
+      }
+      \strng{namehash}{d2d119618606f2f6f274fa636fe877e8}
+      \strng{fullhash}{d2d119618606f2f6f274fa636fe877e8}
+      \strng{fullhashraw}{d2d119618606f2f6f274fa636fe877e8}
+      \strng{bibnamehash}{d2d119618606f2f6f274fa636fe877e8}
+      \strng{authorbibnamehash}{d2d119618606f2f6f274fa636fe877e8}
+      \strng{authornamehash}{d2d119618606f2f6f274fa636fe877e8}
+      \strng{authorfullhash}{d2d119618606f2f6f274fa636fe877e8}
+      \strng{authorfullhashraw}{d2d119618606f2f6f274fa636fe877e8}
+      \field{sortinit}{F}
+      \field{sortinithash}{2638baaa20439f1b5a8f80c6c08a13b4}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{abstract}{We examine the known typology of laryngeal complexity (SILVERMAN 1997a, b) in light of phonetic research (FRAZIER 2009) showing that Yucatec Maya uses contrastive tone and phonation type. The phonetic patterns in YM suggest that articulatory incompatibility is the most important factor in enforcing the phasing of tone and non-modal phonation, but that perceptual factors account for the distribution of phasing patterns. Furthermore, YM is similar to the unrelated languages Danish and Acoma which show that creaky voice conditions preceding high pitch. We motivate future research on cross-linguistic differences in the production of creak and its interaction with pitch and gender.}
+      \field{day}{1}
+      \field{journaltitle}{STUF - Language Typology and Universals}
+      \field{langid}{english}
+      \field{month}{4}
+      \field{number}{1}
+      \field{title}{The Phonetics of {{Yucatec Maya}} and the Typology of Laryngeal Complexity}
+      \field{volume}{66}
+      \field{year}{2013}
+      \field{dateera}{ce}
+      \field{pages}{7\bibrangedash 21}
+      \range{pages}{15}
+      \verb{doi}
+      \verb 10.1524/stuf.2013.0002
+      \endverb
+      \verb{file}
+      \verb /Users/mlbrinke/Zotero/storage/KWD7N4Y8/frazierPhoneticsYucatecMaya2013.pdf
+      \endverb
+      \keyw{Laryngeal Complexity,Voice Quality}
+    \endentry
+    \entry{garellekAcousticDiscriminabilityComplex2020}{article}{}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=6261be825a58b093c669ab685b17a0a2}{%
+           family={Garellek},
+           familyi={G\bibinitperiod},
+           given={Marc},
+           giveni={M\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{6261be825a58b093c669ab685b17a0a2}
+      \strng{fullhash}{6261be825a58b093c669ab685b17a0a2}
+      \strng{fullhashraw}{6261be825a58b093c669ab685b17a0a2}
+      \strng{bibnamehash}{6261be825a58b093c669ab685b17a0a2}
+      \strng{authorbibnamehash}{6261be825a58b093c669ab685b17a0a2}
+      \strng{authornamehash}{6261be825a58b093c669ab685b17a0a2}
+      \strng{authorfullhash}{6261be825a58b093c669ab685b17a0a2}
+      \strng{authorfullhashraw}{6261be825a58b093c669ab685b17a0a2}
+      \field{sortinit}{G}
+      \field{sortinithash}{32d67eca0634bf53703493fb1090a2e8}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{abstract}{Phonation types, or contrastive voice qualities, are minimally produced using complex movements of the vocal folds, but may additionally involve constriction in the supraglottal and pharyngeal cavities. These complex articulations in turn produce a multidimensional acoustic output that can be modeled in various ways. In this study, I investigate whether the psychoacoustic model of voice by Kreiman et al. (2014) succeeds at distinguishing six phonation types of !Xóõ. Linear discriminant analysis is performed using parameters from the model averaged over the entire vowel as well as for the first and final halves of the vowel. The results indicate very high classification accuracy for all phonation types. Measures averaged over the vowel’s entire duration are closely correlated with the discriminant functions, suggesting that they are sufficient for distinguishing even dynamic phonation types. Measures from all classes of parameters are correlated with the linear discriminant functions; in particular, the “strident” vowels, which are harsh in quality, are characterized by their noise, changes in spectral tilt, decrease in voicing amplitude and frequency, and raising of the first formant. Despite the large number of contrasts and the time-varying characteristics of many of the phonation types, the phonation contrasts in !Xóõ remain well differentiated acoustically.}
+      \field{day}{1}
+      \field{issn}{1423-0321, 0031-8388}
+      \field{journaltitle}{Phonetica}
+      \field{langid}{english}
+      \field{month}{3}
+      \field{number}{2}
+      \field{title}{Acoustic {{Discriminability}} of the {{Complex Phonation System}} in !{{Xóõ}}}
+      \field{volume}{77}
+      \field{year}{2020}
+      \field{dateera}{ce}
+      \field{pages}{131\bibrangedash 160}
+      \range{pages}{30}
+      \verb{doi}
+      \verb 10.1159/000494301
+      \endverb
+      \verb{file}
+      \verb /Users/mlbrinke/Zotero/storage/JLIMD4RD/garellekAcousticDiscriminabilityComplex2020.pdf
+      \endverb
+      \keyw{Voice Quality}
+    \endentry
+    \entry{garellekPhoneticsWhiteHmong2023}{article}{}{}
+      \name{author}{2}{}{%
+        {{un=0,uniquepart=base,hash=6261be825a58b093c669ab685b17a0a2}{%
+           family={Garellek},
+           familyi={G\bibinitperiod},
+           given={Marc},
+           giveni={M\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=8302fa658b038a406c26db0f6760e735}{%
+           family={Esposito},
+           familyi={E\bibinitperiod},
+           given={Christina\bibnamedelima M.},
+           giveni={C\bibinitperiod\bibinitdelim M\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{7235f16aa872756d424cfb27d2689fa1}
+      \strng{fullhash}{7235f16aa872756d424cfb27d2689fa1}
+      \strng{fullhashraw}{7235f16aa872756d424cfb27d2689fa1}
+      \strng{bibnamehash}{7235f16aa872756d424cfb27d2689fa1}
+      \strng{authorbibnamehash}{7235f16aa872756d424cfb27d2689fa1}
+      \strng{authornamehash}{7235f16aa872756d424cfb27d2689fa1}
+      \strng{authorfullhash}{7235f16aa872756d424cfb27d2689fa1}
+      \strng{authorfullhashraw}{7235f16aa872756d424cfb27d2689fa1}
+      \field{sortinit}{G}
+      \field{sortinithash}{32d67eca0634bf53703493fb1090a2e8}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{abstract}{Hmong languages, particularly White Hmong, are well studied for their complex tone systems that incorporate pitch, phonation, and duration differences. Still, prior work has made use mostly of tones elicited in their citation forms in carrier phrases. In this paper, we provide a detailed description of both the vowel and tone systems of White Hmong from recordings of read speech. We confirm several features of the language, including the presence of nasal vowels (rather than derived nasalized vowels through coarticulation with a coda [ŋ]), the description of certain tone contours, and the systematic presence of breathy and creaky voice on two of the tones. We also find little evidence of additional intonational f0 targets. However, we show that some tones vary greatly by their position in utterance, and propose novel descriptions for several of them. Finally, we show that \$\textbackslash textrm\{H\}1\textasciicircum\{\textbackslash!*\}\$ –H2 * , a widely used measure of voice quality and phonation in Hmong and across languages, does not adequately distinguish modal from non-modal phonation in this data set, and argue that noise measures like Cepstral Peak Prominence (CPP) are more robust to phonation differences in corpora with more variability.}
+      \field{issn}{0025-1003, 1475-3502}
+      \field{journaltitle}{Journal of the International Phonetic Association}
+      \field{langid}{english}
+      \field{number}{1}
+      \field{shortjournal}{Journal of the International Phonetic Association}
+      \field{title}{Phonetics of {{White Hmong}} Vowel and Tonal Contrasts}
+      \field{volume}{53}
+      \field{year}{2023}
+      \field{dateera}{ce}
+      \field{pages}{213\bibrangedash 232}
+      \range{pages}{20}
+      \verb{doi}
+      \verb 10.1017/S0025100321000104
+      \endverb
+      \verb{file}
+      \verb /Users/mlbrinke/Zotero/storage/5CCTVK8T/garellekPhoneticsWhiteHmong2023.pdf
+      \endverb
+      \keyw{Voice Quality}
+    \endentry
+    \entry{garellekAcousticConsequencesPhonation2011}{article}{}{}
+      \name{author}{2}{}{%
+        {{un=0,uniquepart=base,hash=6261be825a58b093c669ab685b17a0a2}{%
+           family={Garellek},
+           familyi={G\bibinitperiod},
+           given={Marc},
+           giveni={M\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=fc50eafcd8e8098287287e0504b34e67}{%
+           family={Keating},
+           familyi={K\bibinitperiod},
+           given={Patricia},
+           giveni={P\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{9a2ba1e284f604d00149ed2164ea2add}
+      \strng{fullhash}{9a2ba1e284f604d00149ed2164ea2add}
+      \strng{fullhashraw}{9a2ba1e284f604d00149ed2164ea2add}
+      \strng{bibnamehash}{9a2ba1e284f604d00149ed2164ea2add}
+      \strng{authorbibnamehash}{9a2ba1e284f604d00149ed2164ea2add}
+      \strng{authornamehash}{9a2ba1e284f604d00149ed2164ea2add}
+      \strng{authorfullhash}{9a2ba1e284f604d00149ed2164ea2add}
+      \strng{authorfullhashraw}{9a2ba1e284f604d00149ed2164ea2add}
+      \field{sortinit}{G}
+      \field{sortinithash}{32d67eca0634bf53703493fb1090a2e8}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{abstract}{San Felipe Jalapa de Díaz (Jalapa) Mazatec is unusual in possessing a three-way phonation contrast and three-way level tone contrast independent of phonation. This study investigates the acoustics of how phonation and tone interact in this language, and how such interactions are maintained across variables like speaker sex, vowel timecourse, and presence of aspiration in the onset. Using a large number of words from the recordings of Mazatec made by Paul Kirk and Peter Ladefoged in the 1980s and 1990s, the results of our acoustic and statistical analysis support the claim that spectral measures like H1-H2 and mid-range spectral measures like H1-A2 best distinguish each phonation type, though other measures like Cepstral Peak Prominence are important as well. This is true regardless of tone and speaker sex. The phonation type contrasts are strongest in the first third of the vowel and then weaken towards the end. Although the tone categories remain distinct from one another in terms of F0 throughout the vowel, for laryngealized phonation the tone contrast in F0 is partially lost in the initial third. Consistent with phonological work on languages that cross-classify tone and phonation type (i.e. ‘laryngeally complex’ languages, Silverman 1997), this study shows that the complex orthogonal three-way phonation and tone contrasts do remain acoustically distinct according to the measures studied, despite partial neutralizations in any given measure.}
+      \field{issn}{0025-1003, 1475-3502}
+      \field{journaltitle}{Journal of the International Phonetic Association}
+      \field{langid}{english}
+      \field{month}{8}
+      \field{number}{2}
+      \field{shortjournal}{Journal of the International Phonetic Association}
+      \field{title}{The Acoustic Consequences of Phonation and Tone Interactions in {{Jalapa Mazatec}}}
+      \field{volume}{41}
+      \field{year}{2011}
+      \field{dateera}{ce}
+      \field{pages}{185\bibrangedash 205}
+      \range{pages}{21}
+      \verb{doi}
+      \verb 10.1017/S0025100311000193
+      \endverb
+      \verb{file}
+      \verb /Users/mlbrinke/Zotero/storage/BRYZWEUH/garellekAcousticConsequencesPhonation2011.pdf;/Users/mlbrinke/Zotero/storage/LDMQ9BGE/5441FBAED7CB9A8EB3D4AFAA2D01FD84.html
+      \endverb
+      \keyw{Laryngeal Complexity,Voice Quality}
     \endentry
     \entry{garellekVoiceQualityTone2013}{article}{}{}
       \name{author}{4}{}{%
@@ -818,6 +1262,101 @@
       \endverb
       \keyw{Voice Quality}
     \endentry
+    \entry{hastieGeneralizedAdditiveModels1986}{article}{}{}
+      \name{author}{2}{}{%
+        {{un=0,uniquepart=base,hash=0cb8fe4210baa81c4b0e67913b4d2768}{%
+           family={Hastie},
+           familyi={H\bibinitperiod},
+           given={Trevor},
+           giveni={T\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=88eea600247d798f8b2ce0b2dc614492}{%
+           family={Tibshirani},
+           familyi={T\bibinitperiod},
+           given={Robert},
+           giveni={R\bibinitperiod},
+           givenun=0}}%
+      }
+      \list{publisher}{1}{%
+        {Institute of Mathematical Statistics}%
+      }
+      \strng{namehash}{5b3eb99eff6117affd95725e5df145bd}
+      \strng{fullhash}{5b3eb99eff6117affd95725e5df145bd}
+      \strng{fullhashraw}{5b3eb99eff6117affd95725e5df145bd}
+      \strng{bibnamehash}{5b3eb99eff6117affd95725e5df145bd}
+      \strng{authorbibnamehash}{5b3eb99eff6117affd95725e5df145bd}
+      \strng{authornamehash}{5b3eb99eff6117affd95725e5df145bd}
+      \strng{authorfullhash}{5b3eb99eff6117affd95725e5df145bd}
+      \strng{authorfullhashraw}{5b3eb99eff6117affd95725e5df145bd}
+      \field{sortinit}{H}
+      \field{sortinithash}{23a3aa7c24e56cfa16945d55545109b5}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{abstract}{Likelihood-based regression models such as the normal linear regression model and the linear logistic model, assume a linear (or some other parametric) form for the covariates \$X\_1, X\_2, \textbackslash cdots, X\_p\$. We introduce the class of generalized additive models which replaces the linear form \$\textbackslash sum \textbackslash beta\_jX\_j\$ by a sum of smooth functions \$\textbackslash sum s\_j(X\_j)\$. The \$s\_j(\textbackslash cdot)\$'s are unspecified functions that are estimated using a scatterplot smoother, in an iterative procedure we call the local scoring algorithm. The technique is applicable to any likelihood-based regression model: the class of generalized linear models contains many of these. In this class the linear predictor \$\textbackslash eta = \textbackslash Sigma \textbackslash beta\_jX\_j\$ is replaced by the additive predictor \$\textbackslash Sigma s\_j(X\_j)\$; hence, the name generalized additive models. We illustrate the technique with binary response and survival data. In both cases, the method proves to be useful in uncovering nonlinear covariate effects. It has the advantage of being completely automatic, i.e., no "detective work" is needed on the part of the statistician. As a theoretical underpinning, the technique is viewed as an empirical method of maximizing the expected log likelihood, or equivalently, of minimizing the Kullback-Leibler distance to the true model.}
+      \field{issn}{0883-4237, 2168-8745}
+      \field{journaltitle}{Statistical Science}
+      \field{month}{8}
+      \field{number}{3}
+      \field{title}{Generalized {{Additive Models}}}
+      \field{volume}{1}
+      \field{year}{1986}
+      \field{dateera}{ce}
+      \field{pages}{297\bibrangedash 310}
+      \range{pages}{14}
+      \verb{doi}
+      \verb 10.1214/ss/1177013604
+      \endverb
+      \verb{file}
+      \verb /Users/mlbrinke/Zotero/storage/QS5C4VWD/hastieGeneralizedAdditiveModels1986.pdf;/Users/mlbrinke/Zotero/storage/PQEJBPTR/1177013604.html
+      \endverb
+    \endentry
+    \entry{herrerazendejasAmuzgoZapotecTwo2000}{article}{}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=4196bcd5f87a70e52e241138b351ff21}{%
+           family={Herrera\bibnamedelima Zendejas},
+           familyi={H\bibinitperiod\bibinitdelim Z\bibinitperiod},
+           given={Esther},
+           giveni={E\bibinitperiod},
+           givenun=0}}%
+      }
+      \list{publisher}{1}{%
+        {[Anthropological Linguistics, Trustees of Indiana University]}%
+      }
+      \strng{namehash}{4196bcd5f87a70e52e241138b351ff21}
+      \strng{fullhash}{4196bcd5f87a70e52e241138b351ff21}
+      \strng{fullhashraw}{4196bcd5f87a70e52e241138b351ff21}
+      \strng{bibnamehash}{4196bcd5f87a70e52e241138b351ff21}
+      \strng{authorbibnamehash}{4196bcd5f87a70e52e241138b351ff21}
+      \strng{authornamehash}{4196bcd5f87a70e52e241138b351ff21}
+      \strng{authorfullhash}{4196bcd5f87a70e52e241138b351ff21}
+      \strng{authorfullhashraw}{4196bcd5f87a70e52e241138b351ff21}
+      \field{sortinit}{H}
+      \field{sortinithash}{23a3aa7c24e56cfa16945d55545109b5}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{shorttitle}
+      \field{abstract}{This article describes the main acoustic properties of breathy vowels in Amuzgo and creaky vowels in Zapotec. Following Daniel Silverman's phasing and recoverability hypothesis, I propose an alternative interpretation of so-called ballistic syllables in Amuzgo. Drawing on the phasing hypotheis in the instrumental analysis of creaky vowels in Zapotec, I then address the issue of articulatory incompatibility of gestures involved in creakiness and pitch.}
+      \field{eprinttype}{jstor}
+      \field{issn}{0003-5483}
+      \field{journaltitle}{Anthropological Linguistics}
+      \field{number}{4}
+      \field{shorttitle}{Amuzgo and {{Zapotec}}}
+      \field{title}{Amuzgo and {{Zapotec}}: {{Two More Cases}} of {{Laryngeally Complex Languages}}}
+      \field{volume}{42}
+      \field{year}{2000}
+      \field{dateera}{ce}
+      \field{pages}{545\bibrangedash 563}
+      \range{pages}{19}
+      \verb{eprint}
+      \verb 30028566
+      \endverb
+      \verb{file}
+      \verb /Users/mlbrinke/Zotero/storage/Y83KHDAQ/herrerazendejasAmuzgoZapotecTwo2000.pdf
+      \endverb
+    \endentry
     \entry{keatingCrosslanguageAcousticSpace2023}{article}{}{}
       \name{author}{5}{}{%
         {{un=0,uniquepart=base,hash=fc50eafcd8e8098287287e0504b34e67}{%
@@ -886,6 +1425,56 @@
       \endverb
       \keyw{Voice Quality}
     \endentry
+    \entry{keltererPhonationTypeContrasts2020}{article}{}{}
+      \name{author}{2}{}{%
+        {{un=0,uniquepart=base,hash=fc67d1917ee442db147099f5674aa4f8}{%
+           family={Kelterer},
+           familyi={K\bibinitperiod},
+           given={Anneliese},
+           giveni={A\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=565ff4c2c2baa6625fb079ca01096567}{%
+           family={Schuppler},
+           familyi={S\bibinitperiod},
+           given={Barbara},
+           giveni={B\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{efc3cb63e4a3bb291282a411065bb901}
+      \strng{fullhash}{efc3cb63e4a3bb291282a411065bb901}
+      \strng{fullhashraw}{efc3cb63e4a3bb291282a411065bb901}
+      \strng{bibnamehash}{efc3cb63e4a3bb291282a411065bb901}
+      \strng{authorbibnamehash}{efc3cb63e4a3bb291282a411065bb901}
+      \strng{authornamehash}{efc3cb63e4a3bb291282a411065bb901}
+      \strng{authorfullhash}{efc3cb63e4a3bb291282a411065bb901}
+      \strng{authorfullhashraw}{efc3cb63e4a3bb291282a411065bb901}
+      \field{sortinit}{K}
+      \field{sortinithash}{c02bf6bff1c488450c352b40f5d853ab}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{abstract}{Chichimec (Otomanguean) has two tones, high and low, and a phonological three-way phonation contrast: modal /V/, breathy / 𝑉 ¨ 𝑉 ¨ /, and creaky / 𝑉 ˜ 𝑉 ̃ /. Tone and phonation type contrasts are used independently. This paper investigates the acoustic realization of modal, breathy, and creaky vowels; the timing of phonation in non-modal vowels; and the production of tone in combination with different phonation types. The results of cepstral peak prominence and three spectral tilt measures showed that phonation type contrasts are not distinguished by the same acoustic measures for women and men. In line with expectations for laryngeally complex languages, phonetic modal and non-modal phonation are sequenced in phonological breathy and creaky vowels. With respect to the timing pattern, however, the results show that non-modal phonation is not, as previously reported, mainly located in the middle of the vowel. Non-modal phonation is, instead, predominantly realized in the second half of phonological breathy and creaky vowels. Tone is distinguished in all three phonation types, and non-modal vowels do not exhibit distinct F0 ranges except for creaky vowels produced by women in which F0 declines in the creaky portion. The results of the acoustic analysis provide additional insights to phonological accounts of laryngeal complexity in Chichimec.}
+      \field{issn}{0001-4966}
+      \field{journaltitle}{The Journal of the Acoustical Society of America}
+      \field{langid}{english}
+      \field{month}{4}
+      \field{number}{4}
+      \field{shortjournal}{The Journal of the Acoustical Society of America}
+      \field{title}{Phonation Type Contrasts and Tone in {{Chichimec}}}
+      \field{volume}{147}
+      \field{year}{2020}
+      \field{dateera}{ce}
+      \field{pages}{3043\bibrangedash 3059}
+      \range{pages}{17}
+      \verb{doi}
+      \verb 10.1121/10.0001015
+      \endverb
+      \verb{file}
+      \verb /Users/mlbrinke/Zotero/storage/5JZ3ZMS8/keltererPhonationTypeContrasts2020.pdf
+      \endverb
+      \keyw{Laryngeal Complexity,Voice Quality}
+    \endentry
     \entry{klattAnalysisSynthesisPerception1990}{article}{}{}
       \name{author}{2}{}{%
         {{un=0,uniquepart=base,hash=a2fa29fb28c17c62541fc39688ab5700}{%
@@ -934,6 +1523,73 @@
       \verb /Users/mlbrinke/Zotero/storage/SSSLK23X/klattAnalysisSynthesisPerception1990.pdf
       \endverb
     \endentry
+    \entry{kreimanUnifiedTheoryVoice2014}{article}{}{}
+      \name{author}{5}{}{%
+        {{un=0,uniquepart=base,hash=d2d148472f827463299e324b2c3ee3b8}{%
+           family={Kreiman},
+           familyi={K\bibinitperiod},
+           given={Jody},
+           giveni={J\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=4ca67c39dc38a5286306030a24a2683c}{%
+           family={Gerratt},
+           familyi={G\bibinitperiod},
+           given={Bruce\bibnamedelima R.},
+           giveni={B\bibinitperiod\bibinitdelim R\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=6261be825a58b093c669ab685b17a0a2}{%
+           family={Garellek},
+           familyi={G\bibinitperiod},
+           given={Marc},
+           giveni={M\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=57cc5e491e13464e727d78f0cad36c99}{%
+           family={Samlan},
+           familyi={S\bibinitperiod},
+           given={Robin},
+           giveni={R\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=764c62c9583b2946e3532305a9cfc4cf}{%
+           family={Zhang},
+           familyi={Z\bibinitperiod},
+           given={Zhaoyan},
+           giveni={Z\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{aba01c7cf7d3fb2b516a9aad124b4cd1}
+      \strng{fullhash}{3a7a8db76e65963b86fa838f02a93153}
+      \strng{fullhashraw}{3a7a8db76e65963b86fa838f02a93153}
+      \strng{bibnamehash}{3a7a8db76e65963b86fa838f02a93153}
+      \strng{authorbibnamehash}{3a7a8db76e65963b86fa838f02a93153}
+      \strng{authornamehash}{aba01c7cf7d3fb2b516a9aad124b4cd1}
+      \strng{authorfullhash}{3a7a8db76e65963b86fa838f02a93153}
+      \strng{authorfullhashraw}{3a7a8db76e65963b86fa838f02a93153}
+      \field{extraname}{1}
+      \field{sortinit}{K}
+      \field{sortinithash}{c02bf6bff1c488450c352b40f5d853ab}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{abstract}{At present, two important questions about voice remain unanswered: When voice quality changes, what physiological alteration caused this change, and if a change to the voice production system occurs, what change in perceived quality can be expected? We argue that these questions can only be answered by an integrated model of voice linking production and perception, and we describe steps towards the development of such a model. Preliminary evidence in support of this approach is also presented. We conclude that development of such a model should be a priority for scientists interested in voice, to explain what physical condition(s) might underlie a given voice quality, or what voice quality might result from a specific physical configuration.}
+      \field{issn}{2386-2637}
+      \field{journaltitle}{Loquens}
+      \field{langid}{english}
+      \field{number}{1}
+      \field{shortjournal}{loquens}
+      \field{title}{Toward a Unified Theory of Voice Production and Perception.}
+      \field{volume}{1}
+      \field{year}{2014}
+      \field{dateera}{ce}
+      \field{pages}{e009}
+      \range{pages}{-1}
+      \verb{doi}
+      \verb 10.3989/loquens.2014.009
+      \endverb
+      \verb{file}
+      \verb /Users/mlbrinke/Zotero/storage/9TX9XLVV/kreimanUnifiedTheoryVoice2014.pdf
+      \endverb
+    \endentry
     \entry{kreimanValidatingPsychoacousticModel2021}{article}{}{}
       \name{author}{5}{}{%
         {{un=0,uniquepart=base,hash=d2d148472f827463299e324b2c3ee3b8}{%
@@ -978,6 +1634,7 @@
       \strng{authornamehash}{aba01c7cf7d3fb2b516a9aad124b4cd1}
       \strng{authorfullhash}{d74f4e23e280eb13744a65afeb1192b2}
       \strng{authorfullhashraw}{d74f4e23e280eb13744a65afeb1192b2}
+      \field{extraname}{2}
       \field{sortinit}{K}
       \field{sortinithash}{c02bf6bff1c488450c352b40f5d853ab}
       \field{extradatescope}{labelyear}
@@ -1203,6 +1860,62 @@
       \verb /Users/mlbrinke/Zotero/storage/457CYJ8G/index.html
       \endverb
     \endentry
+    \entry{pickettIsthmusJuchitanZapotec2010}{article}{}{}
+      \name{author}{3}{}{%
+        {{un=0,uniquepart=base,hash=1e8e08a47426b315fe03ebf8a58ee844}{%
+           family={Pickett},
+           familyi={P\bibinitperiod},
+           given={Velma\bibnamedelima B.},
+           giveni={V\bibinitperiod\bibinitdelim B\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=28dd4db33d60a44b81b02d404d1c62d6}{%
+           family={Villalobos},
+           familyi={V\bibinitperiod},
+           given={María\bibnamedelima Villalobos},
+           giveni={M\bibinitperiod\bibinitdelim V\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=1495248a39270201e45c3c0c2929db01}{%
+           family={Marlett},
+           familyi={M\bibinitperiod},
+           given={Stephen\bibnamedelima A.},
+           giveni={S\bibinitperiod\bibinitdelim A\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{2e80ace0aa0258dca5618e62089d8f53}
+      \strng{fullhash}{2e80ace0aa0258dca5618e62089d8f53}
+      \strng{fullhashraw}{2e80ace0aa0258dca5618e62089d8f53}
+      \strng{bibnamehash}{2e80ace0aa0258dca5618e62089d8f53}
+      \strng{authorbibnamehash}{2e80ace0aa0258dca5618e62089d8f53}
+      \strng{authornamehash}{2e80ace0aa0258dca5618e62089d8f53}
+      \strng{authorfullhash}{2e80ace0aa0258dca5618e62089d8f53}
+      \strng{authorfullhashraw}{2e80ace0aa0258dca5618e62089d8f53}
+      \field{sortinit}{P}
+      \field{sortinithash}{ff3bcf24f47321b42cb156c2cc8a8422}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{abstract}{Isthmus Zapotec (autoglossonym: [dìʤàˈzàˑ]) is the common name used for a variety of Zapotec (Otomanguean family) spoken on the Isthmus of Tehuantepec, Oaxaca, Mexico (Suárez 1983: xvi; Campbell 1997: 158). It is now officially listed by the Instituto Nacional de Lenguas Indígenas (INALI 2008) as ‘zapoteco de la planicie costera’ (‘coastal plain Zapotec’) to distinguish it from other varieties of Zapotec spoken on the Isthmus. It is the mother tongue of many inhabitants of various cities and towns, as well as many smaller communities (INALI 2008), with some lexical, syntactic and phonetic variation between towns only a few kilometers apart. The ISO 639-3 code for this variety is zai. Since the most recent census figures do not separate out the varieties of Zapotec, and have not done so reliably when attempted, official statistics as to the number of speakers of Isthmus Zapotec are not available. (The Ethnologue (Lewis 2009) cites the 1990 census as listing 85,000 speakers; that figure must have been an interpretation of other statistics in the census.) INALI (personal communication, September 2008) estimates the current number to be about 104,000. In the city of Tehuantepec, the language is no longer widely used. In certain other locations, including Juchitán de Zaragoza, Spanish is becoming the dominant or the only language spoken by many people born after about 1990, although Zapotec is dominant in many outlying towns, including San Blas Atempa. Mature speakers have remarked that young people who are not fluent do not use tones correctly. Isthmus Zapotec has had active writers, including poets and novelists, since the first half of the twentieth century, well before an orthography was officially established ( Alfabeto popular 1956), but reading and writing of the language are still not taught in schools in the region.}
+      \field{issn}{0025-1003, 1475-3502}
+      \field{journaltitle}{Journal of the International Phonetic Association}
+      \field{langid}{english}
+      \field{month}{12}
+      \field{number}{3}
+      \field{shortjournal}{Journal of the International Phonetic Association}
+      \field{title}{Isthmus ({{Juchitán}}) {{Zapotec}}}
+      \field{volume}{40}
+      \field{year}{2010}
+      \field{dateera}{ce}
+      \field{pages}{365\bibrangedash 372}
+      \range{pages}{8}
+      \verb{doi}
+      \verb 10.1017/S0025100310000174
+      \endverb
+      \verb{file}
+      \verb /Users/mlbrinke/Zotero/storage/YLYTM8E6/pickettIsthmusJuchitanZapotec2010.pdf
+      \endverb
+      \keyw{Otomanguean}
+    \endentry
     \entry{podesvaStanceWindowLanguageRace2016}{incollection}{}{}
       \name{author}{1}{}{%
         {{un=0,uniquepart=base,hash=0f1b47a920774b4b8564e359f1229724}{%
@@ -1264,6 +1977,60 @@
       \range{pages}{17}
       \verb{doi}
       \verb 10.1093/acprof:oso/9780190625696.003.0012
+      \endverb
+    \endentry
+    \entry{shueVoiceSauceProgramVoice2011}{inproceedings}{}{}
+      \name{author}{4}{}{%
+        {{un=0,uniquepart=base,hash=896d0443e7a9226ce7368a885df38c1b}{%
+           family={Shue},
+           familyi={S\bibinitperiod},
+           given={Yen-Liang},
+           giveni={Y\bibinithyphendelim L\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=fc50eafcd8e8098287287e0504b34e67}{%
+           family={Keating},
+           familyi={K\bibinitperiod},
+           given={Patricia},
+           giveni={P\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=f4fd04c3da220bb07a7dabafb3e8cdd1}{%
+           family={Vicenik},
+           familyi={V\bibinitperiod},
+           given={Chad},
+           giveni={C\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=de3116136506ee966ad29abb8d674eda}{%
+           family={Yu},
+           familyi={Y\bibinitperiod},
+           given={Kristine},
+           giveni={K\bibinitperiod},
+           givenun=0}}%
+      }
+      \list{location}{1}{%
+        {Hong Kong}%
+      }
+      \strng{namehash}{588745f000ce9f123318f1ed7f49f206}
+      \strng{fullhash}{b1f9234a8e9964f31f02f6cadc0df477}
+      \strng{fullhashraw}{b1f9234a8e9964f31f02f6cadc0df477}
+      \strng{bibnamehash}{b1f9234a8e9964f31f02f6cadc0df477}
+      \strng{authorbibnamehash}{b1f9234a8e9964f31f02f6cadc0df477}
+      \strng{authornamehash}{588745f000ce9f123318f1ed7f49f206}
+      \strng{authorfullhash}{b1f9234a8e9964f31f02f6cadc0df477}
+      \strng{authorfullhashraw}{b1f9234a8e9964f31f02f6cadc0df477}
+      \field{sortinit}{S}
+      \field{sortinithash}{b164b07b29984b41daf1e85279fbc5ab}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{booktitle}{Proceedings of the 17th {{International Congress}} of {{Phonetic Sciences}} ({{ICPhS XVII}})}
+      \field{title}{{{VoiceSauce}}: {{A}} Program for Voice Analysis.}
+      \field{year}{2011}
+      \field{dateera}{ce}
+      \field{pages}{1846\bibrangedash 1849}
+      \range{pages}{4}
+      \verb{file}
+      \verb /Users/mlbrinke/Zotero/storage/9PI8FUS6/shueVoiceSauceProgramVoice2011.pdf
       \endverb
     \endentry
     \entry{silvermanLaryngealComplexityOtomanguean1997}{article}{}{}
@@ -1353,6 +2120,439 @@
       \verb /Users/mlbrinke/Zotero/storage/ZCFPUR28/silvermanPhasingRecoverability1997.pdf
       \endverb
       \keyw{Laryngeal Complexity}
+    \endentry
+    \entry{soskuthyGeneralisedAdditiveMixed2017}{online}{}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=198dc4d6cb4194daec385a3d561f62d7}{%
+           family={Sóskuthy},
+           familyi={S\bibinitperiod},
+           given={Márton},
+           giveni={M\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{198dc4d6cb4194daec385a3d561f62d7}
+      \strng{fullhash}{198dc4d6cb4194daec385a3d561f62d7}
+      \strng{fullhashraw}{198dc4d6cb4194daec385a3d561f62d7}
+      \strng{bibnamehash}{198dc4d6cb4194daec385a3d561f62d7}
+      \strng{authorbibnamehash}{198dc4d6cb4194daec385a3d561f62d7}
+      \strng{authornamehash}{198dc4d6cb4194daec385a3d561f62d7}
+      \strng{authorfullhash}{198dc4d6cb4194daec385a3d561f62d7}
+      \strng{authorfullhashraw}{198dc4d6cb4194daec385a3d561f62d7}
+      \field{extraname}{1}
+      \field{sortinit}{S}
+      \field{sortinithash}{b164b07b29984b41daf1e85279fbc5ab}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{shorttitle}
+      \field{abstract}{This is a hands-on introduction to Generalised Additive Mixed Models (GAMMs) in the context of linguistics with a particular focus on dynamic speech analysis (e.g. formant contours, pitch tracks, diachronic change, etc.). The main goal is to explain some of the main ideas underlying GAMMs, and to provide a practical guide to frequentist significance testing using these models. The introduction covers a range of topics including basis functions, the smoothing penalty, random smooths, difference smooths, smooth interactions, model comparison and autocorrelation. It is divided into two parts. The first part looks at what GAMMs are, how they work and why/when we should use them. Although the reader can replicate some of the example analyses in this section, this is not essential. The second part is a tutorial introduction that illustrates the process of fitting and evaluating GAMMs in the R statistical software environment, and the reader is strongly encouraged to work through the examples on their own machine.}
+      \field{day}{15}
+      \field{eprintclass}{stat}
+      \field{eprinttype}{arXiv}
+      \field{month}{3}
+      \field{pubstate}{prepublished}
+      \field{shorttitle}{Generalised Additive Mixed Models for Dynamic Analysis in Linguistics}
+      \field{title}{Generalised Additive Mixed Models for Dynamic Analysis in Linguistics: A Practical Introduction}
+      \field{year}{2017}
+      \field{dateera}{ce}
+      \verb{eprint}
+      \verb 1703.05339
+      \endverb
+      \verb{file}
+      \verb /Users/mlbrinke/Zotero/storage/U9ZQDEXK/soskuthyGeneralisedAdditiveMixed2017.pdf;/Users/mlbrinke/Zotero/storage/6VXWLW3H/1703.html
+      \endverb
+    \endentry
+    \entry{soskuthyEvaluatingGeneralisedAdditive2021}{article}{}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=198dc4d6cb4194daec385a3d561f62d7}{%
+           family={Sóskuthy},
+           familyi={S\bibinitperiod},
+           given={Márton},
+           giveni={M\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{198dc4d6cb4194daec385a3d561f62d7}
+      \strng{fullhash}{198dc4d6cb4194daec385a3d561f62d7}
+      \strng{fullhashraw}{198dc4d6cb4194daec385a3d561f62d7}
+      \strng{bibnamehash}{198dc4d6cb4194daec385a3d561f62d7}
+      \strng{authorbibnamehash}{198dc4d6cb4194daec385a3d561f62d7}
+      \strng{authornamehash}{198dc4d6cb4194daec385a3d561f62d7}
+      \strng{authorfullhash}{198dc4d6cb4194daec385a3d561f62d7}
+      \strng{authorfullhashraw}{198dc4d6cb4194daec385a3d561f62d7}
+      \field{extraname}{2}
+      \field{sortinit}{S}
+      \field{sortinithash}{b164b07b29984b41daf1e85279fbc5ab}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{abstract}{Generalised additive mixed models (GAMMs) are increasingly popular in dynamic speech analysis, where the focus is on measurements with temporal or spatial structure such as formant, pitch or tongue contours. GAMMs provide a range of tools for dealing with the non-linear contour shapes and complex hierarchical organisation characteristic of such data sets. This, however, means that analysts are faced with non-trivial choices, many of which have a serious impact on the statistical validity of their analyses. This paper presents type I and type II error simulations to help researchers make informed decisions about modelling strategies when using GAMMs to analyse phonetic data. The simulations are based on two real data sets containing F2 and pitch contours, and a simulated data set modelled after the F2 data. They reflect typical scenarios in dynamic speech analysis. The main emphasis is on (i) dealing with dependencies within contours and higher-level units using random structures and other tools, and (ii) strategies for significance testing using GAMMs. The paper concludes with a small set of recommendations for fitting GAMMs, and provides advice on diagnosing issues and tailoring GAMMs to specific data sets. It is also accompanied by a GitHub repository including a tutorial on running type I error simulations for existing data sets: https://github.com/soskuthy/gamm\_strategies.}
+      \field{day}{1}
+      \field{issn}{0095-4470}
+      \field{journaltitle}{Journal of Phonetics}
+      \field{langid}{english}
+      \field{month}{1}
+      \field{shortjournal}{Journal of Phonetics}
+      \field{title}{Evaluating Generalised Additive Mixed Modelling Strategies for Dynamic Speech Analysis}
+      \field{volume}{84}
+      \field{year}{2021}
+      \field{dateera}{ce}
+      \field{pages}{101017}
+      \range{pages}{1}
+      \verb{doi}
+      \verb 10.1016/j.wocn.2020.101017
+      \endverb
+      \verb{file}
+      \verb /Users/mlbrinke/Zotero/storage/BZU8I5EX/soskuthyEvaluatingGeneralisedAdditive2021.pdf;/Users/mlbrinke/Zotero/storage/PXSHQRPP/S009544702030108X.html
+      \endverb
+    \endentry
+    \entry{sundbergObjectiveCharacterizationPhonation2022}{article}{}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=a0cc6c0bb298b3ac888cbae6e9019a32}{%
+           family={Sundberg},
+           familyi={S\bibinitperiod},
+           given={Johan},
+           giveni={J\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{a0cc6c0bb298b3ac888cbae6e9019a32}
+      \strng{fullhash}{a0cc6c0bb298b3ac888cbae6e9019a32}
+      \strng{fullhashraw}{a0cc6c0bb298b3ac888cbae6e9019a32}
+      \strng{bibnamehash}{a0cc6c0bb298b3ac888cbae6e9019a32}
+      \strng{authorbibnamehash}{a0cc6c0bb298b3ac888cbae6e9019a32}
+      \strng{authornamehash}{a0cc6c0bb298b3ac888cbae6e9019a32}
+      \strng{authorfullhash}{a0cc6c0bb298b3ac888cbae6e9019a32}
+      \strng{authorfullhashraw}{a0cc6c0bb298b3ac888cbae6e9019a32}
+      \field{sortinit}{S}
+      \field{sortinithash}{b164b07b29984b41daf1e85279fbc5ab}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{abstract}{Phonation type, a phonatory dimension ranging from hypofunctional/breathy to hyperfunctional/pressed, is important both from a clinical and acoustical point of view; hyperfunctional voice can lead to voice disorders and hypofunctional voice reduces text intelligibility. Five male singers sang diminuendo sequences of the syllable /pae/ and three of them also produced speech or singing samples with different phonation types which were rated for phonatory pressedness by a panel of voice experts. The sequences were analyzed by inverse filtering and the associated subglottal pressures were estimated as the oral pressures during the /p/ occlusion. The results showed strong quasi-linear correlations between the peak-to-peak amplitude of the flow glottogram (henceforth pulse amplitude) and mean subglottal pressure, mean airflow, and the level difference between the first and second voice source partials L1–L2. These correlations were found to vary systematically with phonation type. Regardless of phonation type, the correlation between the pulse amplitude and the amplitude of the voice source fundamental frequency was very close to 1.0. The level difference between the first and second spectrum partials L1–L2 in narrow-band long-term-average spectra of speech and singing was found to vary systematically with phonation type in a manner related to voice experts’ ratings of perceived degree of pressedness. The findings support the assumption that the combination of subglottal pressure and level of the voice source fundamental is useful for an objective measure of phonation type.}
+      \field{day}{1}
+      \field{issn}{0892-1997}
+      \field{journaltitle}{Journal of Voice}
+      \field{month}{1}
+      \field{number}{1}
+      \field{shortjournal}{Journal of Voice}
+      \field{title}{Objective {{Characterization}} of {{Phonation Type Using Amplitude}} of {{Flow Glottogram Pulse}} and of {{Voice Source Fundamental}}}
+      \field{volume}{36}
+      \field{year}{2022}
+      \field{dateera}{ce}
+      \field{pages}{4\bibrangedash 14}
+      \range{pages}{11}
+      \verb{doi}
+      \verb 10.1016/j.jvoice.2020.03.018
+      \endverb
+      \verb{file}
+      \verb /Users/mlbrinke/Zotero/storage/EBNTUV9Q/sundbergObjectiveCharacterizationPhonation2022.pdf;/Users/mlbrinke/Zotero/storage/WB82VGPT/S0892199720301107.html
+      \endverb
+      \keyw{Voice Quality}
+    \endentry
+    \entry{tagliamonteModelsForestsTrees2012}{article}{}{}
+      \name{author}{2}{}{%
+        {{un=0,uniquepart=base,hash=c0dc433faabbb58d02dc1ce0c4f860b8}{%
+           family={Tagliamonte},
+           familyi={T\bibinitperiod},
+           given={Sali\bibnamedelima A.},
+           giveni={S\bibinitperiod\bibinitdelim A\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=565077aca2e0ab3c1f6f17ba10e34235}{%
+           family={Baayen},
+           familyi={B\bibinitperiod},
+           given={R.\bibnamedelimi Harald},
+           giveni={R\bibinitperiod\bibinitdelim H\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{abcd488989020feb82bef8a714a86834}
+      \strng{fullhash}{abcd488989020feb82bef8a714a86834}
+      \strng{fullhashraw}{abcd488989020feb82bef8a714a86834}
+      \strng{bibnamehash}{abcd488989020feb82bef8a714a86834}
+      \strng{authorbibnamehash}{abcd488989020feb82bef8a714a86834}
+      \strng{authornamehash}{abcd488989020feb82bef8a714a86834}
+      \strng{authorfullhash}{abcd488989020feb82bef8a714a86834}
+      \strng{authorfullhashraw}{abcd488989020feb82bef8a714a86834}
+      \field{sortinit}{T}
+      \field{sortinithash}{9af77f0292593c26bde9a56e688eaee9}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{shorttitle}
+      \field{abstract}{Abstract What is the explanation for vigorous variation between was and were in plural existential constructions, and what is the optimal tool for analyzing it? Previous studies of this phenomenon have used the variable rule program, a generalized linear model; however, recent developments in statistics have introduced new tools, including mixed-effects models, random forests, and conditional inference trees that may open additional possibilities for data exploration, analysis, and interpretation. In a step-by-step demonstration, we show how this well-known variable benefits from these complementary techniques. Mixed-effects models provide a principled way of assessing the importance of random-effect factors such as the individuals in the sample. Random forests provide information about the importance of predictors, whether factorial or continuous, and do so also for unbalanced designs with high multicollinearity, cases for which the family of linear models is less appropriate. Conditional inference trees straightforwardly visualize how multiple predictors operate in tandem. Taken together, the results confirm that polarity, distance from verb to plural element, and the nature of the DP are significant predictors. Ongoing linguistic change and social reallocation via morphologization are operational. Furthermore, the results make predictions that can be tested in future research. We conclude that variationist research can be substantially enriched by an expanded tool kit.}
+      \field{issn}{0954-3945, 1469-8021}
+      \field{journaltitle}{Language Variation and Change}
+      \field{langid}{english}
+      \field{month}{7}
+      \field{number}{2}
+      \field{shortjournal}{Lang Var Change}
+      \field{shorttitle}{Models, Forests, and Trees of {{York English}}}
+      \field{title}{Models, Forests, and Trees of {{York English}}: {{{\mkbibemph{Was}}}}{\mkbibemph{/Were}} Variation as a Case Study for Statistical Practice}
+      \field{volume}{24}
+      \field{year}{2012}
+      \field{dateera}{ce}
+      \field{pages}{135\bibrangedash 178}
+      \range{pages}{44}
+      \verb{doi}
+      \verb 10.1017/S0954394512000129
+      \endverb
+      \verb{file}
+      \verb /Users/mlbrinke/Zotero/storage/58G75EFF/tagliamonteModelsForestsTrees2012.pdf
+      \endverb
+    \endentry
+    \entry{wellerInteractionsToneGlottalization2023}{unpublished}{}{}
+      \name{author}{4}{}{%
+        {{un=0,uniquepart=base,hash=69e8bc33222747c41c0f56b2f7e1405a}{%
+           family={Weller},
+           familyi={W\bibinitperiod},
+           given={Jae},
+           giveni={J\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=221825a969bbcaf0ab2b537d56a132d5}{%
+           family={Steffman},
+           familyi={S\bibinitperiod},
+           given={Jeremy},
+           giveni={J\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=1e491434a3a744923d385965cee5e9f7}{%
+           family={Cortés},
+           familyi={C\bibinitperiod},
+           given={Félix},
+           giveni={F\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=14a1ce5dcc1e759708c065758d8521f2}{%
+           family={Mantenuto},
+           familyi={M\bibinitperiod},
+           given={Iara},
+           giveni={I\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{a8636c5d235c72c6421b85dd4aebe691}
+      \strng{fullhash}{ea932c03592b5cf8aec12730059cf335}
+      \strng{fullhashraw}{ea932c03592b5cf8aec12730059cf335}
+      \strng{bibnamehash}{ea932c03592b5cf8aec12730059cf335}
+      \strng{authorbibnamehash}{ea932c03592b5cf8aec12730059cf335}
+      \strng{authornamehash}{a8636c5d235c72c6421b85dd4aebe691}
+      \strng{authorfullhash}{ea932c03592b5cf8aec12730059cf335}
+      \strng{authorfullhashraw}{ea932c03592b5cf8aec12730059cf335}
+      \field{extraname}{1}
+      \field{sortinit}{W}
+      \field{sortinithash}{4315d78024d0cea9b57a0c6f0e35ed0d}
+      \field{extradate}{1}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{eventtitle}{97th Annual Meeting of the {{Linguistic Society}} of {{America}}}
+      \field{month}{1}
+      \field{title}{Interactions of Tone, Glottalization, and Word Shape in {{San Sebastián Del Monte Mixtec}}}
+      \field{type}{Oral presentation}
+      \field{venue}{Denver, CO}
+      \field{year}{2023}
+      \field{dateera}{ce}
+    \endentry
+    \entry{wellerLexicalToneVowel2023}{article}{}{}
+      \name{author}{4}{}{%
+        {{un=0,uniquepart=base,hash=69e8bc33222747c41c0f56b2f7e1405a}{%
+           family={Weller},
+           familyi={W\bibinitperiod},
+           given={Jae},
+           giveni={J\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=221825a969bbcaf0ab2b537d56a132d5}{%
+           family={Steffman},
+           familyi={S\bibinitperiod},
+           given={Jeremy},
+           giveni={J\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=1e491434a3a744923d385965cee5e9f7}{%
+           family={Cortés},
+           familyi={C\bibinitperiod},
+           given={Félix},
+           giveni={F\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=14a1ce5dcc1e759708c065758d8521f2}{%
+           family={Mantenuto},
+           familyi={M\bibinitperiod},
+           given={Iara},
+           giveni={I\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{a8636c5d235c72c6421b85dd4aebe691}
+      \strng{fullhash}{ea932c03592b5cf8aec12730059cf335}
+      \strng{fullhashraw}{ea932c03592b5cf8aec12730059cf335}
+      \strng{bibnamehash}{ea932c03592b5cf8aec12730059cf335}
+      \strng{authorbibnamehash}{ea932c03592b5cf8aec12730059cf335}
+      \strng{authornamehash}{a8636c5d235c72c6421b85dd4aebe691}
+      \strng{authorfullhash}{ea932c03592b5cf8aec12730059cf335}
+      \strng{authorfullhashraw}{ea932c03592b5cf8aec12730059cf335}
+      \field{extraname}{2}
+      \field{sortinit}{W}
+      \field{sortinithash}{4315d78024d0cea9b57a0c6f0e35ed0d}
+      \field{extradate}{2}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{abstract}{Vowel duration has been shown to vary as a function of lexical tone (Gandour, 1977; Gordon, 2001; Yu, 2010). Here we explore the relationship between tone and duration in a dialect of Mixtec. San Sebastián del Monte Mixtec (SSM) has three tones which link to individual moras: H(igh) M(id) L(ow). These can be combined in a long (bimoraic) vowel, in some cases creating contour tones: HH MM LL HL ML LM (Cortes et al., forthcoming). Audio recordings of 14 native speakers (9F, 5M) were collected, producing 264 utterances with target words in phrase-medial position. The corpus includes all tones, as well as all vowels /i,e,a,o,u/ across four possible word shapes (with several lexical gaps). With mixed effects modeling, we find that duration varies as a function of tone with vowel and onset consonant controlled for (1) L tones are shorter than M and H tones in mono-moriacsyllables, and (2) tones in bimoraic (long vowel) monosyllabic words vary in duration as well: \{MM,HH,LH\}\,\&gt;\,\{ML,LM,LL\}. First vowels are longer, consistent with stress on the initial syllable. We further discuss the relation between duration, mean F0, and F0 range, and the influence of vowel features and preceding consonant on duration.}
+      \field{day}{1}
+      \field{issn}{0001-4966}
+      \field{issue}{3\_supplement}
+      \field{journaltitle}{The Journal of the Acoustical Society of America}
+      \field{month}{3}
+      \field{shortjournal}{The Journal of the Acoustical Society of America}
+      \field{title}{Lexical Tone and Vowel Duration in {{San Sebastián}} Del {{Monte Mixtec}}}
+      \field{volume}{153}
+      \field{year}{2023}
+      \field{dateera}{ce}
+      \field{pages}{A293}
+      \range{pages}{-1}
+      \verb{doi}
+      \verb 10.1121/10.0018900
+      \endverb
+      \verb{file}
+      \verb /Users/mlbrinke/Zotero/storage/B4ZNHZHA/Lexical-tone-and-vowel-duration-in-San-Sebastian.html
+      \endverb
+    \endentry
+    \entry{wellerVoiceQualityTone2024}{unpublished}{}{}
+      \name{author}{4}{}{%
+        {{un=0,uniquepart=base,hash=69e8bc33222747c41c0f56b2f7e1405a}{%
+           family={Weller},
+           familyi={W\bibinitperiod},
+           given={Jae},
+           giveni={J\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=221825a969bbcaf0ab2b537d56a132d5}{%
+           family={Steffman},
+           familyi={S\bibinitperiod},
+           given={Jeremy},
+           giveni={J\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=1e491434a3a744923d385965cee5e9f7}{%
+           family={Cortés},
+           familyi={C\bibinitperiod},
+           given={Félix},
+           giveni={F\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=14a1ce5dcc1e759708c065758d8521f2}{%
+           family={Mantenuto},
+           familyi={M\bibinitperiod},
+           given={Iara},
+           giveni={I\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{a8636c5d235c72c6421b85dd4aebe691}
+      \strng{fullhash}{ea932c03592b5cf8aec12730059cf335}
+      \strng{fullhashraw}{ea932c03592b5cf8aec12730059cf335}
+      \strng{bibnamehash}{ea932c03592b5cf8aec12730059cf335}
+      \strng{authorbibnamehash}{ea932c03592b5cf8aec12730059cf335}
+      \strng{authornamehash}{a8636c5d235c72c6421b85dd4aebe691}
+      \strng{authorfullhash}{ea932c03592b5cf8aec12730059cf335}
+      \strng{authorfullhashraw}{ea932c03592b5cf8aec12730059cf335}
+      \field{extraname}{3}
+      \field{sortinit}{W}
+      \field{sortinithash}{4315d78024d0cea9b57a0c6f0e35ed0d}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{eventtitle}{Sound {{Systems}} of {{Latin America}} 4}
+      \field{month}{11}
+      \field{title}{Voice {{Quality}} and {{Tone}} in {{San Sebastián}} Del {{Monte Rearticulated}} and {{Modal Vowels}}}
+      \field{type}{Oral presentation}
+      \field{venue}{Seattle, WA}
+      \field{year}{2024}
+      \field{dateera}{ce}
+    \endentry
+    \entry{wielingAnalyzingDynamicPhonetic2018}{article}{}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=210957e931f1a0a12afd9b9d7f3e8947}{%
+           family={Wieling},
+           familyi={W\bibinitperiod},
+           given={Martijn},
+           giveni={M\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{210957e931f1a0a12afd9b9d7f3e8947}
+      \strng{fullhash}{210957e931f1a0a12afd9b9d7f3e8947}
+      \strng{fullhashraw}{210957e931f1a0a12afd9b9d7f3e8947}
+      \strng{bibnamehash}{210957e931f1a0a12afd9b9d7f3e8947}
+      \strng{authorbibnamehash}{210957e931f1a0a12afd9b9d7f3e8947}
+      \strng{authornamehash}{210957e931f1a0a12afd9b9d7f3e8947}
+      \strng{authorfullhash}{210957e931f1a0a12afd9b9d7f3e8947}
+      \strng{authorfullhashraw}{210957e931f1a0a12afd9b9d7f3e8947}
+      \field{sortinit}{W}
+      \field{sortinithash}{4315d78024d0cea9b57a0c6f0e35ed0d}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{shorttitle}
+      \field{abstract}{In phonetics, many datasets are encountered which deal with dynamic data collected over time. Examples include diphthongal formant trajectories and articulator trajectories observed using electromagnetic articulography. Traditional approaches for analyzing this type of data generally aggregate data over a certain timespan, or only include measurements at a fixed time point (e.g., formant measurements at the midpoint of a vowel). This paper discusses generalized additive modeling, a non-linear regression method which does not require aggregation or the pre-selection of a fixed time point. Instead, the method is able to identify general patterns over dynamically varying data, while simultaneously accounting for subject and item-related variability. An advantage of this approach is that patterns may be discovered which are hidden when data is aggregated or when a single time point is selected. A corresponding disadvantage is that these analyses are generally more time consuming and complex. This tutorial aims to overcome this disadvantage by providing a hands-on introduction to generalized additive modeling using articulatory trajectories from L1 and L2 speakers of English within the freely available R environment. All data and R code is made available to reproduce the analysis presented in this paper.}
+      \field{day}{1}
+      \field{issn}{0095-4470}
+      \field{journaltitle}{Journal of Phonetics}
+      \field{langid}{english}
+      \field{month}{9}
+      \field{shortjournal}{Journal of Phonetics}
+      \field{shorttitle}{Analyzing Dynamic Phonetic Data Using Generalized Additive Mixed Modeling}
+      \field{title}{Analyzing Dynamic Phonetic Data Using Generalized Additive Mixed Modeling: {{A}} Tutorial Focusing on Articulatory Differences between {{L1}} and {{L2}} Speakers of {{English}}}
+      \field{volume}{70}
+      \field{year}{2018}
+      \field{dateera}{ce}
+      \field{pages}{86\bibrangedash 116}
+      \range{pages}{31}
+      \verb{doi}
+      \verb 10.1016/j.wocn.2018.03.002
+      \endverb
+      \verb{file}
+      \verb /Users/mlbrinke/Zotero/storage/FUI26KIM/wielingAnalyzingDynamicPhonetic2018.pdf;/Users/mlbrinke/Zotero/storage/LW4SUXWZ/S0095447017301377.html
+      \endverb
+    \endentry
+    \entry{woodGeneralizedAdditiveModels2017}{book}{}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=4f816a96f8d000d6cb78dea6a1f2da1d}{%
+           family={Wood},
+           familyi={W\bibinitperiod},
+           given={Simon\bibnamedelima N.},
+           giveni={S\bibinitperiod\bibinitdelim N\bibinitperiod},
+           givenun=0}}%
+      }
+      \list{location}{1}{%
+        {Boca Raton, FL}%
+      }
+      \list{publisher}{1}{%
+        {Chapman and Hall/CRC}%
+      }
+      \strng{namehash}{4f816a96f8d000d6cb78dea6a1f2da1d}
+      \strng{fullhash}{4f816a96f8d000d6cb78dea6a1f2da1d}
+      \strng{fullhashraw}{4f816a96f8d000d6cb78dea6a1f2da1d}
+      \strng{bibnamehash}{4f816a96f8d000d6cb78dea6a1f2da1d}
+      \strng{authorbibnamehash}{4f816a96f8d000d6cb78dea6a1f2da1d}
+      \strng{authornamehash}{4f816a96f8d000d6cb78dea6a1f2da1d}
+      \strng{authorfullhash}{4f816a96f8d000d6cb78dea6a1f2da1d}
+      \strng{authorfullhashraw}{4f816a96f8d000d6cb78dea6a1f2da1d}
+      \field{sortinit}{W}
+      \field{sortinithash}{4315d78024d0cea9b57a0c6f0e35ed0d}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{shorttitle}
+      \field{day}{18}
+      \field{edition}{2}
+      \field{isbn}{978-1-315-37027-9}
+      \field{langid}{english}
+      \field{month}{5}
+      \field{series}{Texts in {{Statistical Science Series}}}
+      \field{shorttitle}{Generalized {{Additive Models}}}
+      \field{title}{Generalized {{Additive Models}}: {{An Introduction}} with {{R}}}
+      \field{year}{2017}
+      \field{dateera}{ce}
+      \verb{doi}
+      \verb 10.1201/9781315370279
+      \endverb
+      \verb{file}
+      \verb /Users/mlbrinke/Zotero/storage/AP4P7BQP/woodGeneralizedAdditiveModels2017.pdf
+      \endverb
     \endentry
   \enddatalist
 \endrefsection
