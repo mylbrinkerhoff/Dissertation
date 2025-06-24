@@ -17,38 +17,13 @@ Languages also make use of voice quality differences to convey paralinguistic in
 \section{Measuring voice quality} \label{sec:measuring_voice_quality}
 %-------------------------------------------------------------
 
-Acoustic measurements are the most common way of measuring phonation and involve analyzing the sound waves produced during speech (see \cite{garellekPhoneticsVoice2019} for a detailed discussion). The oldest and most common way this is accomplished is with spectral silt measures, which reflect the open quotient, which is the proportion of the glottal cycle during which the glottis is open \citep{holmbergComparisonsAerodynamicElectroglottographic1995}. These measures originate in \posscitet{fischer-jorgensenPhoneticAnalysisBreathy1968} investigation into breathy vowels in Gujarati. She observed that the amplitude of the first harmonic (H1) is higher for vowels labeled as breathy/murmured than for vowels that were plain/modal. As a way to normalize across the signal and mitigate the effects of the high-pass filter, she subtracted the amplitude of the second harmonic (H2) from the amplitude of the first harmonic (H1) to create a measure that is now commonly referred to as H1$-$H2. 
+Acoustic measurements are the most common way of measuring phonation and involve analyzing the sound waves produced during speech (see \cite{garellekPhoneticsVoice2019} for a detailed discussion). The oldest and most common way this is accomplished is with spectral tilt measures, which reflect the open quotient, which is the proportion of the glottal cycle during which the glottis is open \citep{holmbergComparisonsAerodynamicElectroglottographic1995}. These measures originate in \posscitet{fischer-jorgensenPhoneticAnalysisBreathy1968} investigation into breathy vowels in Gujarati. She observed that the amplitude of the first harmonic (H1) is higher for vowels labeled as breathy/murmured than for vowels that were plain/modal. As a way to normalize across the signal and mitigate the effects of the high-pass filter, she subtracted the amplitude of the second harmonic (H2) from the amplitude of the first harmonic (H1) to create a measure that is now commonly referred to as H1$-$H2.
 
-Subsequent research has shown that this measure is effective at distinguishing not only breathy and modal phonation but creaky phonation as well in a variety of languages (see \cite{garellekTheoreticalAchievementsPhonetics2022} for a history). This has led to the widespread adoption of this measure and for some researchers to claim that ``H1$-$H2 may be a (near-)universal acoustic measure of phonation \citep[8]{espositoCrosslinguisticPatternsPhonation2020}". However, research has also shown that this measure is not always effective at distinguishing between phonation types in all languages (e.g., \cite{brinkerhoffUsingResidualH12025,chaiH1H2AcousticMeasure2022,espositoVariationContrastivePhonation2010,simpsonFirstSecondHarmonics2012}). 
+Subsequent research has shown that this measure is effective at distinguishing not only breathy and modal phonation but creaky phonation as well in a variety of languages (see \cite{garellekTheoreticalAchievementsPhonetics2022} for a history). This has led to the widespread adoption of this measure and for some researchers to claim that ``H1$-$H2 may be a (near-)universal acoustic measure of phonation \citep[8]{espositoCrosslinguisticPatternsPhonation2020}". However, research has also shown that this measure is not always effective at distinguishing between phonation types in all languages (e.g., \cite{brinkerhoffUsingResidualH12025,chaiH1H2AcousticMeasure2022,espositoVariationContrastivePhonation2010,simpsonFirstSecondHarmonics2012}).
+
+More recently, \citet{chaiH1H2AcousticMeasure2022} have proposed a new acoustic measure called residual H1*, which is the amplitude of the first harmonic (H1) after removing the effects of energy. This measure aims to capture the amplitude of the fundamental more accurately. \citeauthor{chaiH1H2AcousticMeasure2022} demonstrate that this more accurately captures the behavior of phonation than the traditional H1*$-$H2*. In their study they also demonstrate that this measure is more closely correlated with the open quotient than H1*$-$H2* and that it is more effective at distinguishing between breathy, modal, and creaky phonation in a variety of languages. This measure has been adopted by some researchers as a more effective way to capture phonation contrasts in languages \citep[e.g.,][]{brinkerhoffUsingResidualH12025,chaiPhoneticsPhonologyChecked2022,chaiPhoneticsGlottalizedPhonations2023}.
 
 Based on a multiplicity of research into voice quality showing that voice quality is multidimensional, \citet{kreimanUnifiedTheoryVoice2014,kreimanValidatingPsychoacousticModel2021} have proposed a unified model that incorporates several acoustic measures that capture the spectral slope, the inharmonic source excitation, the time-varying source characteristics, and the vocal tract transfer function. They have that voice quality can best be understood as a combination of these different acoustic measures, and that no single measure is sufficient to capture the complexity of voice quality.
-
-
-
-% \begin{itemize}
-%     \item The most common way that this is done is with spectral silt measures which reflect the open quotient.
-%     \begin{itemize}
-%         \item . 
-%     \end{itemize} 
-%     \item Other measures that reflect the periodicity of the signal are also consulted such as HNR and CPP. Typically nonmodal phonation is also aperiodic and will have a lower score compared to the modal. 
-%     \item They also state that ``H1-H2 may be a (near-)universal acoustic measure of phonation'' (8).
-%     \item They further say that this measure works the best the most often but there are several exceptions where other H1-X measures are more robust at capturing the phonation contrasts in the language. 
-%     \begin{itemize}
-%         \item As discussed in \citet{chaiH1H2AcousticMeasure2022}, what they are actually trying to do is get at the amplitude differences in H1 as first observed by \citet{fischer-jorgensenPhoneticAnalysisBreathy1968,laverVoiceQualityIndexical1968}.
-%         \item I think this is where, I and other researchers fell into a fallicy where we think that just the spectral-tilt is what matters instead of realizing what those measures where trying to accomplish which was to normalize H1 for comparison. 
-%     \end{itemize}
-%     \item \citet{espositoCrosslinguisticPatternsPhonation2020} further discuss the role that EGG play. 
-%     \item Two things that I think are relavent for my dissertation is the discussion around localization of non-modal phonation and how phonation relates to tone. 
-%     \item For the discussion around localization, they keep in line with \citet{silvermanLaryngealComplexityOtomanguean1997} who says that phonation is located in certain portions of the vowel. 
-%     \item Localization of non-modal phonation is also important in languages with complex ``clusters'' (i.e., phonetic sequences) of phonation type, which involve at least one non-modal phonation localized to a portion of the vowel. 
-%     \begin{itemize}
-%         \item !Xóõ distinguishes clusters of breathy-creaky, pharyngealized-creaky, and breathy-pharyngealized phonation in addition to modal, breathy, creaky, and pharyngealized voice
-%     \end{itemize}
-%     \item In terms of tone and phonation interactions, \citet{espositoCrosslinguisticPatternsPhonation2020} claim that there are four different types of interactions based on whether or not tone and phonation is contrastive in the language. 
-%     \item Table~\ref{tab:Typology} shows each of the different interactions between tone and phonation. In this table each row represents whether or not tone/\textit{f0}/pitch accent is contrastive and each column represents whether or not phonation is contrastive. 
-%     \item Each cell represent each of the four different types of languages (I-IV). 
-%     \item Types II-IV are further subdivided based on whether or not tone and phonation are cues for each other. 
-% \end{itemize}
 
 %-------------------------------------------------------------
 \section{Interactions between Voice Quality and Tone} \label{sec:interactions_between_voice_quality_and_tone}
