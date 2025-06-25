@@ -19,6 +19,37 @@
 
 \refsection{0}
   \datalist[entry]{nyt/global//global/global/global}
+    \entry{abercrombieElementsGeneralPhonetics1967}{book}{}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=f63d46c2d2987cd6e5cbed706da41886}{%
+           family={Abercrombie},
+           familyi={A\bibinitperiod},
+           given={David},
+           giveni={D\bibinitperiod},
+           givenun=0}}%
+      }
+      \list{publisher}{1}{%
+        {Edinburgh: Edinburgh University Press}%
+      }
+      \strng{namehash}{f63d46c2d2987cd6e5cbed706da41886}
+      \strng{fullhash}{f63d46c2d2987cd6e5cbed706da41886}
+      \strng{fullhashraw}{f63d46c2d2987cd6e5cbed706da41886}
+      \strng{bibnamehash}{f63d46c2d2987cd6e5cbed706da41886}
+      \strng{authorbibnamehash}{f63d46c2d2987cd6e5cbed706da41886}
+      \strng{authornamehash}{f63d46c2d2987cd6e5cbed706da41886}
+      \strng{authorfullhash}{f63d46c2d2987cd6e5cbed706da41886}
+      \strng{authorfullhashraw}{f63d46c2d2987cd6e5cbed706da41886}
+      \field{sortinit}{A}
+      \field{sortinithash}{2f401846e2029bad6b3ecc16d50031e2}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{Elements of General Phonetics}
+      \field{year}{1967}
+      \field{dateera}{ce}
+      \keyw{nosource}
+    \endentry
     \entry{adlerDerivationVerbInitiality2018}{incollection}{}{}
       \name{author}{5}{}{%
         {{un=0,uniquepart=base,hash=b8a825085fb4c29a3e2681a9b7f9b547}{%
@@ -106,7 +137,7 @@
       \field{pages}{31\bibrangedash 49}
       \range{pages}{19}
       \verb{file}
-      \verb /Users/mlbrinke/Dropbox/Zotero/2_Areas/Zapotec/adlerDerivationVerbInitiality2018.pdf
+      \verb /Users/mlbrinke/Zotero/storage/8P4IDD4D/adlerDerivationVerbInitiality2018.pdf
       \endverb
       \keyw{Otomanguean}
     \endentry
@@ -194,7 +225,7 @@
       \field{year}{2009}
       \field{dateera}{ce}
       \verb{file}
-      \verb /Users/mlbrinke/Dropbox/Zotero/2_Areas/Zapotec/arellanesarellanesSistemaFonologicoPropiedades2009.pdf;/Users/mlbrinke/Zotero/storage/MUY9IVJM/ff365545q.html;/Users/mlbrinke/Zotero/storage/Z88FGETW/2581859370.html
+      \verb /Users/mlbrinke/Zotero/storage/SDTV8F47/arellanesarellanesSistemaFonologicoPropiedades2009.pdf;/Users/mlbrinke/Zotero/storage/MUY9IVJM/ff365545q.html;/Users/mlbrinke/Zotero/storage/Z88FGETW/2581859370.html
       \endverb
       \keyw{Otomanguean}
     \endentry
@@ -254,7 +285,7 @@
       \verb 10.2307/j.ctv6jmx5b.7
       \endverb
       \verb{file}
-      \verb /Users/mlbrinke/Dropbox/Zotero/1_Projects/Dissertation/arellanesarellanesDosGradosLaringizacion2010.pdf
+      \verb /Users/mlbrinke/Zotero/storage/LBZHHFB6/arellanesarellanesDosGradosLaringizacion2010.pdf
       \endverb
     \endentry
     \entry{ariza-garciaPhonationTypesTones2018}{article}{}{}
@@ -295,7 +326,7 @@
       \verb 10.30842/alp2306573714220
       \endverb
       \verb{file}
-      \verb /Users/mlbrinke/Dropbox/Zotero/4_Archive/QE/ariza-garciaPhonationTypesTones2018.pdf
+      \verb /Users/mlbrinke/Zotero/storage/PZSJVFXM/ariza-garciaPhonationTypesTones2018.pdf
       \endverb
       \keyw{Otomanguean,Voice Quality}
     \endentry
@@ -334,7 +365,7 @@
       \field{year}{1998}
       \field{dateera}{ce}
       \verb{file}
-      \verb /Users/mlbrinke/Dropbox/Zotero/1_Projects/Dissertation/arrasIntroductionErrorPropagation1998.pdf
+      \verb /Users/mlbrinke/Zotero/storage/VDL7DNB8/arrasIntroductionErrorPropagation1998.pdf
       \endverb
     \endentry
     \entry{avelinoTopicsYalalagZapotec2004}{thesis}{}{}
@@ -375,7 +406,7 @@
       \field{year}{2004}
       \field{dateera}{ce}
       \verb{file}
-      \verb /Users/mlbrinke/Dropbox/Zotero/2_Areas/Zapotec/avelinobecerraTopicsYalalagZapotec2004.pdf
+      \verb /Users/mlbrinke/Zotero/storage/9NNZQG5E/avelinobecerraTopicsYalalagZapotec2004.pdf
       \endverb
       \verb{urlraw}
       \verb https://search.proquest.com/docview/305216850?accountid=14523
@@ -427,7 +458,7 @@
       \verb 10.1016/j.jvoice.2008.10.002
       \endverb
       \verb{file}
-      \verb /Users/mlbrinke/Dropbox/Zotero/2_Areas/Zapotec/QP2/avelinoAcousticElectroglottographicAnalyses2010.pdf;/Users/mlbrinke/Zotero/storage/PX8C76HB/S0892199708001665.html
+      \verb /Users/mlbrinke/Zotero/storage/KA7QW5KE/avelinoAcousticElectroglottographicAnalyses2010.pdf;/Users/mlbrinke/Zotero/storage/PX8C76HB/S0892199708001665.html
       \endverb
       \keyw{Otomanguean,Voice Quality}
     \endentry
@@ -487,7 +518,6 @@
       \field{title}{Phonetic and Phonological Realizations of 'Broken Glottal' Vowels in {{K}}'ichee'}
       \field{year}{2011}
       \field{dateera}{ce}
-      \keyw{/unread}
     \endentry
     \entry{barzilaiContextdependentPhoneticEnhancement2021}{article}{}{}
       \name{author}{2}{}{%
@@ -539,7 +569,7 @@
       \verb 10.5334/gjgl.959
       \endverb
       \verb{file}
-      \verb /Users/mlbrinke/Dropbox/Zotero/2_Areas/Zapotec/barzilaiContextdependentPhoneticEnhancement2021.pdf;/Users/mlbrinke/Zotero/storage/LPKR942I/gjgl.959.html
+      \verb /Users/mlbrinke/Zotero/storage/3XDJVH2H/barzilaiContextdependentPhoneticEnhancement2021.pdf;/Users/mlbrinke/Zotero/storage/LPKR942I/gjgl.959.html
       \endverb
       \keyw{Laryngeal Complexity,Otomanguean,Voice Quality}
     \endentry
@@ -584,9 +614,142 @@
       \verb 10.3765/bls.v33i2.3497
       \endverb
       \verb{file}
-      \verb /Users/mlbrinke/Dropbox/Zotero/2_Areas/Zapotec/beamdeazconaProblemsZapotecTone2007.pdf
+      \verb /Users/mlbrinke/Zotero/storage/TPDM7C58/beamdeazconaProblemsZapotecTone2007.pdf
       \endverb
       \keyw{Otomanguean}
+    \endentry
+    \entry{belotel-greniePhonationTypesAnalysis1994}{inproceedings}{}{}
+      \name{author}{2}{}{%
+        {{un=0,uniquepart=base,hash=d98ad77261af22bacedc020a21c32bbe}{%
+           family={Belotel-Grenié},
+           familyi={B\bibinithyphendelim G\bibinitperiod},
+           given={Agnès},
+           giveni={A\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=d3c2e513233eb310b7f4831f7c901c51}{%
+           family={Grenié},
+           familyi={G\bibinitperiod},
+           given={Michel},
+           giveni={M\bibinitperiod},
+           givenun=0}}%
+      }
+      \list{publisher}{1}{%
+        {ISCA}%
+      }
+      \strng{namehash}{8d73e515d0716c2cd4779c2d3864a393}
+      \strng{fullhash}{8d73e515d0716c2cd4779c2d3864a393}
+      \strng{fullhashraw}{8d73e515d0716c2cd4779c2d3864a393}
+      \strng{bibnamehash}{8d73e515d0716c2cd4779c2d3864a393}
+      \strng{authorbibnamehash}{8d73e515d0716c2cd4779c2d3864a393}
+      \strng{authornamehash}{8d73e515d0716c2cd4779c2d3864a393}
+      \strng{authorfullhash}{8d73e515d0716c2cd4779c2d3864a393}
+      \strng{authorfullhashraw}{8d73e515d0716c2cd4779c2d3864a393}
+      \field{extraname}{1}
+      \field{sortinit}{B}
+      \field{sortinithash}{d7095fff47cda75ca2589920aae98399}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{booktitle}{3rd {{International Conference}} on {{Spoken Language Processing}} ({{ICSLP}} 1994)}
+      \field{day}{18}
+      \field{eventtitle}{3rd {{International Conference}} on {{Spoken Language Processing}} ({{ICSLP}} 1994)}
+      \field{langid}{english}
+      \field{month}{9}
+      \field{title}{Phonation Types Analysis in Standard {{Chinese}}}
+      \field{year}{1994}
+      \field{dateera}{ce}
+      \field{pages}{343\bibrangedash 346}
+      \range{pages}{4}
+      \verb{doi}
+      \verb 10.21437/ICSLP.1994-89
+      \endverb
+      \keyw{/unread}
+    \endentry
+    \entry{belotel-grenieTypesPhonationTons1997}{article}{}{}
+      \name{author}{2}{}{%
+        {{un=0,uniquepart=base,hash=d98ad77261af22bacedc020a21c32bbe}{%
+           family={Belotel-Grenié},
+           familyi={B\bibinithyphendelim G\bibinitperiod},
+           given={Agnès},
+           giveni={A\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=d3c2e513233eb310b7f4831f7c901c51}{%
+           family={Grenié},
+           familyi={G\bibinitperiod},
+           given={Michel},
+           giveni={M\bibinitperiod},
+           givenun=0}}%
+      }
+      \list{publisher}{1}{%
+        {Centre de Recherches Linguistiques sur l'Asie Orientale - EHESS}%
+      }
+      \strng{namehash}{8d73e515d0716c2cd4779c2d3864a393}
+      \strng{fullhash}{8d73e515d0716c2cd4779c2d3864a393}
+      \strng{fullhashraw}{8d73e515d0716c2cd4779c2d3864a393}
+      \strng{bibnamehash}{8d73e515d0716c2cd4779c2d3864a393}
+      \strng{authorbibnamehash}{8d73e515d0716c2cd4779c2d3864a393}
+      \strng{authornamehash}{8d73e515d0716c2cd4779c2d3864a393}
+      \strng{authorfullhash}{8d73e515d0716c2cd4779c2d3864a393}
+      \strng{authorfullhashraw}{8d73e515d0716c2cd4779c2d3864a393}
+      \field{extraname}{2}
+      \field{sortinit}{B}
+      \field{sortinithash}{d7095fff47cda75ca2589920aae98399}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{abstract}{Contrairement à d'autres dialectes chinois, en putonghua les types de phonation ne sont pas à l'origine d'oppositions phonologiques, toutefois différents types de phonation en fonction des tons existent. Bien que la production de voix craquée soit dépendante du locuteur, elle reste liée aux ton 3 (bas) et 4 (descendant). D'un autre côté les changements de types de phonation sont présents pour tous les types de voyelles mais des différences significatives sont observées suivant leur type. Enfin, ni le mode ni le lieu d'articulation de la consonne initiale ne semblent influencer la production de la voix craquée. D'un point de vue perceptif, les tons 3 produits avec de la voix craquée sont plus rapidement reconnus que les tons 3 produits sans voix craquée. Ce qui nous permet de supposer que la voix craquée est un indice secondaire du ton 3.}
+      \field{journaltitle}{Cahiers de Linguistique - Asie Orientale}
+      \field{langid}{english}
+      \field{number}{2}
+      \field{title}{Types de Phonation et Tons En Chinois Standard}
+      \field{volume}{26}
+      \field{year}{1997}
+      \field{dateera}{ce}
+      \field{pages}{249\bibrangedash 279}
+      \range{pages}{31}
+      \verb{doi}
+      \verb 10.3406/clao.1997.1516
+      \endverb
+    \endentry
+    \entry{belotel-grenieCreakyVoicePhonation2004}{inproceedings}{}{}
+      \name{author}{2}{}{%
+        {{un=0,uniquepart=base,hash=d98ad77261af22bacedc020a21c32bbe}{%
+           family={Belotel-Grenié},
+           familyi={B\bibinithyphendelim G\bibinitperiod},
+           given={Agnès},
+           giveni={A\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=d3c2e513233eb310b7f4831f7c901c51}{%
+           family={Grenié},
+           familyi={G\bibinitperiod},
+           given={Michel},
+           giveni={M\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{8d73e515d0716c2cd4779c2d3864a393}
+      \strng{fullhash}{8d73e515d0716c2cd4779c2d3864a393}
+      \strng{fullhashraw}{8d73e515d0716c2cd4779c2d3864a393}
+      \strng{bibnamehash}{8d73e515d0716c2cd4779c2d3864a393}
+      \strng{authorbibnamehash}{8d73e515d0716c2cd4779c2d3864a393}
+      \strng{authornamehash}{8d73e515d0716c2cd4779c2d3864a393}
+      \strng{authorfullhash}{8d73e515d0716c2cd4779c2d3864a393}
+      \strng{authorfullhashraw}{8d73e515d0716c2cd4779c2d3864a393}
+      \field{extraname}{3}
+      \field{sortinit}{B}
+      \field{sortinithash}{d7095fff47cda75ca2589920aae98399}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{booktitle}{International Symposium on Tonal Aspects of Languages: {{With}} Emphasis on Tone Languages}
+      \field{title}{The Creaky Voice Phonation and the Organisation of {{Chinese}} Discourse}
+      \field{year}{2004}
+      \field{dateera}{ce}
+      \verb{file}
+      \verb /Users/mlbrinke/Zotero/storage/6SGQ4XEI/belotel-grenieCreakyVoicePhonation2004.pdf
+      \endverb
     \endentry
     \entry{bennettMayanPhonology2016}{article}{}{}
       \name{author}{1}{}{%
@@ -626,7 +789,7 @@
       \verb 10.1111/lnc3.12148
       \endverb
       \verb{file}
-      \verb /Users/mlbrinke/Dropbox/Zotero/1_Projects/Domain Generalization/bennettMayanPhonology2016.pdf;/Users/mlbrinke/Zotero/storage/KHHCMEL4/lnc3.html
+      \verb /Users/mlbrinke/Zotero/storage/T98IHHCX/bennettMayanPhonology2016.pdf;/Users/mlbrinke/Zotero/storage/KHHCMEL4/lnc3.html
       \endverb
     \endentry
     \entry{bhattacharyyaMeasureDivergenceTwo1943}{article}{}{}
@@ -672,7 +835,6 @@
       \verb{url}
       \verb https://cir.nii.ac.jp/crid/1573105974836363008
       \endverb
-      \keyw{⛔ No DOI found}
     \endentry
     \entry{bladonPhoneticsHearers1986}{incollection}{}{}
       \name{author}{1}{}{%
@@ -725,7 +887,6 @@
       \field{dateera}{ce}
       \field{pages}{1\bibrangedash 24}
       \range{pages}{24}
-      \keyw{/unread}
     \endentry
     \entry{blankenshipTimeCourseBreathiness1997}{thesis}{}{}
       \name{author}{1}{}{%
@@ -764,7 +925,7 @@
       \field{year}{1997}
       \field{dateera}{ce}
       \verb{file}
-      \verb /Users/mlbrinke/Dropbox/Zotero/4_Archive/QE/blankenshipTimeCourseBreathiness1997.pdf
+      \verb /Users/mlbrinke/Zotero/storage/NCGTTCF9/blankenshipTimeCourseBreathiness1997.pdf
       \endverb
       \keyw{Voice Quality}
     \endentry
@@ -808,9 +969,9 @@
       \verb 10.1006/jpho.2001.0155
       \endverb
       \verb{file}
-      \verb /Users/mlbrinke/Dropbox/Zotero/2_Areas/Zapotec/QP2/blankenshipTimingNonmodalPhonation2002.pdf
+      \verb /Users/mlbrinke/Zotero/storage/9KZC3IRC/blankenshipTimingNonmodalPhonation2002.pdf
       \endverb
-      \keyw{/unread,Voice Quality}
+      \keyw{Voice Quality}
     \endentry
     \entry{blevinsEvolutionPonapeicNasal1993}{article}{}{}
       \name{author}{2}{}{%
@@ -858,9 +1019,8 @@
       \verb 10.2307/3623193
       \endverb
       \verb{file}
-      \verb /Users/mlbrinke/Dropbox/Zotero/1_Projects/Dissertation/blevinsEvolutionPonapeicNasal1993.pdf
+      \verb /Users/mlbrinke/Zotero/storage/7II82M54/blevinsEvolutionPonapeicNasal1993.pdf
       \endverb
-      \keyw{/unread}
     \endentry
     \entry{boehmkeHandsOnMachineLearning2019}{book}{}{}
       \name{author}{2}{}{%
@@ -909,7 +1069,7 @@
       \verb 10.1201/9780367816377
       \endverb
       \verb{file}
-      \verb /Users/mlbrinke/Dropbox/Zotero/1_Projects/Dissertation/boehmkeHandsOnMachineLearning2019.pdf;/Users/mlbrinke/Zotero/storage/2ZBT2CYW/HOML.html
+      \verb /Users/mlbrinke/Zotero/storage/Z5ZVNX3V/boehmkeHandsOnMachineLearning2019.pdf;/Users/mlbrinke/Zotero/storage/2ZBT2CYW/HOML.html
       \endverb
     \endentry
     \entry{breimanBaggingPredictors1996}{article}{}{}
@@ -954,7 +1114,7 @@
       \verb 10.1007/BF00058655
       \endverb
       \verb{file}
-      \verb /Users/mlbrinke/Dropbox/Zotero/1_Projects/Dissertation/breimanBaggingPredictors1996.pdf
+      \verb /Users/mlbrinke/Zotero/storage/ATP7QY6L/breimanBaggingPredictors1996.pdf
       \endverb
     \endentry
     \entry{breimanRandomForests2001}{article}{}{}
@@ -999,9 +1159,8 @@
       \verb 10.1023/A:1010933404324
       \endverb
       \verb{file}
-      \verb /Users/mlbrinke/Dropbox/Zotero/1_Projects/Dissertation/breimanRandomForests2001.pdf
+      \verb /Users/mlbrinke/Zotero/storage/R6DGHWH6/breimanRandomForests2001.pdf
       \endverb
-      \keyw{/unread,Artificial Intelligence,classification,ensemble,regression}
     \endentry
     \entry{breimanClassificationRegressionTrees1986}{book}{}{}
       \name{author}{4}{}{%
@@ -1057,7 +1216,7 @@
       \field{year}{1986}
       \field{dateera}{ce}
       \verb{file}
-      \verb /Users/mlbrinke/Dropbox/Zotero/1_Projects/Dissertation/breimanClassificationRegressionTrees1986.pdf
+      \verb /Users/mlbrinke/Zotero/storage/LNPJTP7B/breimanClassificationRegressionTrees1986.pdf
       \endverb
     \endentry
     \entry{brinkerhoffDownstepSantiagoLaxopa2021}{inproceedings}{}{}
@@ -1196,7 +1355,7 @@
       \verb 10.1121/10.0035881
       \endverb
       \verb{file}
-      \verb /Users/mlbrinke/Dropbox/Zotero/2_Areas/My Publications/brinkerhoffUsingResidualH12025.pdf;/Users/mlbrinke/Zotero/storage/7WSJDPEJ/Using-residual-H1-for-voice-quality-researcha.html
+      \verb /Users/mlbrinke/Zotero/storage/D9VWHNGC/brinkerhoffUsingResidualH12025.pdf;/Users/mlbrinke/Zotero/storage/7WSJDPEJ/Using-residual-H1-for-voice-quality-researcha.html
       \endverb
     \endentry
     \entry{brunelleRegisterEasternCham2005}{thesis}{}{}
@@ -1240,7 +1399,52 @@
       \field{year}{2005}
       \field{dateera}{ce}
       \verb{file}
-      \verb /Users/mlbrinke/Dropbox/Zotero/1_Projects/Dissertation/brunelleRegisterEasternCham2005.pdf
+      \verb /Users/mlbrinke/Zotero/storage/VVM4SQZ2/brunelleRegisterEasternCham2005.pdf
+      \endverb
+    \endentry
+    \entry{brunelleTonePerceptionNorthern2009}{article}{}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=7d6a5b5776037be59870e95574946ce9}{%
+           family={Brunelle},
+           familyi={B\bibinitperiod},
+           given={Marc},
+           giveni={M\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{7d6a5b5776037be59870e95574946ce9}
+      \strng{fullhash}{7d6a5b5776037be59870e95574946ce9}
+      \strng{fullhashraw}{7d6a5b5776037be59870e95574946ce9}
+      \strng{bibnamehash}{7d6a5b5776037be59870e95574946ce9}
+      \strng{authorbibnamehash}{7d6a5b5776037be59870e95574946ce9}
+      \strng{authornamehash}{7d6a5b5776037be59870e95574946ce9}
+      \strng{authorfullhash}{7d6a5b5776037be59870e95574946ce9}
+      \strng{authorfullhashraw}{7d6a5b5776037be59870e95574946ce9}
+      \field{extraname}{2}
+      \field{sortinit}{B}
+      \field{sortinithash}{d7095fff47cda75ca2589920aae98399}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{abstract}{The experiment presented in this paper shows that Northern and Southern Vietnamese tones in isolation are identified by listeners through a small set of acoustic properties. Each of these perceptual cues is used for more than one tone, which suggests that listeners establish economical patterns of perceptual contrast. Although the two dialects under study share common identification cues, they also exhibit differences, especially with respect to the use of voice quality, which is an important cue in Northern Vietnamese but only plays a limited role in Southern Vietnamese. Results further suggest that Southern Vietnamese listeners can adjust their perception strategies to northern cues, which is expected since Northern Vietnamese is the standard national variety. Interestingly, the phonetic properties of tones (perceptual or acoustic) do not match the phonologically active tone classes of Vietnamese. Based on these results, previous models of Vietnamese tone features are challenged and a model of abstract tonal categories associated with a flexible phonetic knowledge is argued for.}
+      \field{day}{1}
+      \field{issn}{0095-4470}
+      \field{journaltitle}{Journal of Phonetics}
+      \field{langid}{english}
+      \field{month}{1}
+      \field{number}{1}
+      \field{shortjournal}{Journal of Phonetics}
+      \field{title}{Tone Perception in {{Northern}} and {{Southern Vietnamese}}}
+      \field{volume}{37}
+      \field{year}{2009}
+      \field{dateera}{ce}
+      \field{pages}{79\bibrangedash 96}
+      \range{pages}{18}
+      \verb{doi}
+      \verb 10.1016/j.wocn.2008.09.003
+      \endverb
+      \verb{file}
+      \verb /Users/mlbrinke/Zotero/storage/DTZJP2RF/brunelleTonePerceptionNorthern2009.pdf;/Users/mlbrinke/Zotero/storage/W4WKXNS8/S0095447008000454.html
       \endverb
     \endentry
     \entry{brunelleDialectExperiencePerceptual2012}{article}{}{}
@@ -1260,7 +1464,7 @@
       \strng{authornamehash}{7d6a5b5776037be59870e95574946ce9}
       \strng{authorfullhash}{7d6a5b5776037be59870e95574946ce9}
       \strng{authorfullhashraw}{7d6a5b5776037be59870e95574946ce9}
-      \field{extraname}{2}
+      \field{extraname}{3}
       \field{sortinit}{B}
       \field{sortinithash}{d7095fff47cda75ca2589920aae98399}
       \field{extradatescope}{labelyear}
@@ -1284,7 +1488,56 @@
       \verb 10.1121/1.3693651
       \endverb
       \verb{file}
-      \verb /Users/mlbrinke/Dropbox/Zotero/2_Areas/Zapotec/QP2/LarynxTime/brunelleDialectExperiencePerceptual2012.pdf
+      \verb /Users/mlbrinke/Zotero/storage/ZX63VUP8/brunelleDialectExperiencePerceptual2012.pdf
+      \endverb
+    \endentry
+    \entry{brunelleTonePerceptionSgaw2011}{inproceedings}{}{}
+      \name{author}{2}{}{%
+        {{un=0,uniquepart=base,hash=7d6a5b5776037be59870e95574946ce9}{%
+           family={Brunelle},
+           familyi={B\bibinitperiod},
+           given={Marc},
+           giveni={M\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=c85725ed7d7499ddb18f1fd53fb0f2e8}{%
+           family={Finkeldey},
+           familyi={F\bibinitperiod},
+           given={Joshua},
+           giveni={J\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{41bc9a394915254945cc1f1f9b432185}
+      \strng{fullhash}{41bc9a394915254945cc1f1f9b432185}
+      \strng{fullhashraw}{41bc9a394915254945cc1f1f9b432185}
+      \strng{bibnamehash}{41bc9a394915254945cc1f1f9b432185}
+      \strng{authorbibnamehash}{41bc9a394915254945cc1f1f9b432185}
+      \strng{authornamehash}{41bc9a394915254945cc1f1f9b432185}
+      \strng{authorfullhash}{41bc9a394915254945cc1f1f9b432185}
+      \strng{authorfullhashraw}{41bc9a394915254945cc1f1f9b432185}
+      \field{sortinit}{B}
+      \field{sortinithash}{d7095fff47cda75ca2589920aae98399}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{booktitle}{{{ICPhS}}}
+      \field{title}{Tone Perception in {{Sgaw Karen}}.}
+      \field{urlday}{11}
+      \field{urlmonth}{4}
+      \field{urlyear}{2024}
+      \field{year}{2011}
+      \field{dateera}{ce}
+      \field{urldateera}{ce}
+      \field{pages}{372\bibrangedash 375}
+      \range{pages}{4}
+      \verb{file}
+      \verb /Users/mlbrinke/Zotero/storage/SJCLU3ZR/brunelleTonePerceptionSgaw2011.pdf
+      \endverb
+      \verb{urlraw}
+      \verb http://www.internationalphoneticassociation.org/icphs-proceedings/ICPhS2011/OnlineProceedings/RegularSession/Brunelle/Brunelle.pdf
+      \endverb
+      \verb{url}
+      \verb http://www.internationalphoneticassociation.org/icphs-proceedings/ICPhS2011/OnlineProceedings/RegularSession/Brunelle/Brunelle.pdf
       \endverb
     \endentry
     \entry{brunelleTonePhonationSoutheast2016}{article}{}{}
@@ -1334,7 +1587,7 @@
       \verb 10.1111/lnc3.12182
       \endverb
       \verb{file}
-      \verb /Users/mlbrinke/Dropbox/Zotero/2_Areas/Zapotec/brunelleTonePhonationSoutheast2016 3.pdf;/Users/mlbrinke/Dropbox/Zotero/2_Areas/Zapotec/brunelleTonePhonationSoutheast2016.pdf;/Users/mlbrinke/Zotero/storage/V22PW58G/lnc3.html
+      \verb /Users/mlbrinke/Zotero/storage/I8TPYA4H/brunelleTonePhonationSoutheast2016.pdf;/Users/mlbrinke/Zotero/storage/V22PW58G/lnc3.html
       \endverb
       \keyw{Voice Quality}
     \endentry
@@ -1384,7 +1637,7 @@
       \verb 10.1007/b97636
       \endverb
       \verb{file}
-      \verb /Users/mlbrinke/Dropbox/Zotero/3_Resources/Statistics/burnhamModelSelectionMultimodel2004.pdf
+      \verb /Users/mlbrinke/Zotero/storage/3PCXV4KR/burnhamModelSelectionMultimodel2004.pdf
       \endverb
     \endentry
     \entry{burnhamMultimodelInferenceUnderstanding2004}{article}{}{}
@@ -1439,7 +1692,7 @@
       \verb 10.1177/0049124104268644
       \endverb
       \verb{file}
-      \verb /Users/mlbrinke/Dropbox/Zotero/3_Resources/Statistics/burnhamMultimodelInferenceUnderstanding2004.pdf
+      \verb /Users/mlbrinke/Zotero/storage/MIXU7B56/burnhamMultimodelInferenceUnderstanding2004.pdf
       \endverb
     \endentry
     \entry{burnhamAICModelSelection2011}{article}{}{}
@@ -1496,7 +1749,7 @@
       \verb 10.1007/s00265-010-1029-6
       \endverb
       \verb{file}
-      \verb /Users/mlbrinke/Dropbox/Zotero/3_Resources/Statistics/burnhamAICModelSelection2011.pdf
+      \verb /Users/mlbrinke/Zotero/storage/PGD6IHNX/burnhamAICModelSelection2011.pdf
       \endverb
     \endentry
     \entry{butlerh.DiccionarioZapotecoYatzachi1997}{book}{}{}
@@ -1539,9 +1792,42 @@
       \field{year}{1997}
       \field{dateera}{ce}
       \verb{file}
-      \verb /Users/mlbrinke/Dropbox/Zotero/2_Areas/Zapotec/butlerh.DiccionarioZapotecoYatzachi1997.pdf
+      \verb /Users/mlbrinke/Zotero/storage/GFGLJK82/butlerh.DiccionarioZapotecoYatzachi1997.pdf
       \endverb
-      \keyw{/unread,Dictionaries Spanish,Mexico San Baltasar Yatzachi el Alto,Mexico San Baltasar Yatzachi el Bajo,Zapotec language}
+    \endentry
+    \entry{campbellZenzontepecChatinoAspect2011}{article}{}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=2d6c103639eb7b80600b569751984c73}{%
+           family={Campbell},
+           familyi={C\bibinitperiod},
+           given={Eric\bibnamedelima W.},
+           giveni={E\bibinitperiod\bibinitdelim W\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{2d6c103639eb7b80600b569751984c73}
+      \strng{fullhash}{2d6c103639eb7b80600b569751984c73}
+      \strng{fullhashraw}{2d6c103639eb7b80600b569751984c73}
+      \strng{bibnamehash}{2d6c103639eb7b80600b569751984c73}
+      \strng{authorbibnamehash}{2d6c103639eb7b80600b569751984c73}
+      \strng{authornamehash}{2d6c103639eb7b80600b569751984c73}
+      \strng{authorfullhash}{2d6c103639eb7b80600b569751984c73}
+      \strng{authorfullhashraw}{2d6c103639eb7b80600b569751984c73}
+      \field{extraname}{1}
+      \field{sortinit}{C}
+      \field{sortinithash}{4d103a86280481745c9c897c925753c0}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{International Journal of American Linguistics}
+      \field{number}{2}
+      \field{title}{Zenzontepec {{Chatino}} Aspect Morphology and {{Zapotecan}} Verb Classes}
+      \field{volume}{77}
+      \field{year}{2011}
+      \field{dateera}{ce}
+      \field{pages}{219\bibrangedash 246}
+      \range{pages}{28}
+      \keyw{Otomanguean}
     \endentry
     \entry{campbellAspectsPhonologyMorphology2014}{thesis}{}{}
       \name{author}{1}{}{%
@@ -1566,7 +1852,7 @@
       \strng{authornamehash}{2d6c103639eb7b80600b569751984c73}
       \strng{authorfullhash}{2d6c103639eb7b80600b569751984c73}
       \strng{authorfullhashraw}{2d6c103639eb7b80600b569751984c73}
-      \field{extraname}{1}
+      \field{extraname}{2}
       \field{sortinit}{C}
       \field{sortinithash}{4d103a86280481745c9c897c925753c0}
       \field{extradatescope}{labelyear}
@@ -1578,7 +1864,7 @@
       \field{year}{2014}
       \field{dateera}{ce}
       \verb{file}
-      \verb /Users/mlbrinke/Dropbox/Zotero/2_Areas/Zapotec/campbellAspectsPhonologyMorphology2014.pdf
+      \verb /Users/mlbrinke/Zotero/storage/9U3XRE2K/campbellAspectsPhonologyMorphology2014.pdf
       \endverb
       \keyw{Otomanguean}
     \endentry
@@ -1599,7 +1885,7 @@
       \strng{authornamehash}{2d6c103639eb7b80600b569751984c73}
       \strng{authorfullhash}{2d6c103639eb7b80600b569751984c73}
       \strng{authorfullhashraw}{2d6c103639eb7b80600b569751984c73}
-      \field{extraname}{2}
+      \field{extraname}{3}
       \field{sortinit}{C}
       \field{sortinithash}{4d103a86280481745c9c897c925753c0}
       \field{extradate}{1}
@@ -1624,7 +1910,7 @@
       \verb 10.1111/lnc3.12244
       \endverb
       \verb{file}
-      \verb /Users/mlbrinke/Dropbox/Zotero/1_Projects/Dissertation/campbellOtomangueanHistoricalLinguistics2017a.pdf
+      \verb /Users/mlbrinke/Zotero/storage/53TVTMRE/campbellOtomangueanHistoricalLinguistics2017a.pdf
       \endverb
     \endentry
     \entry{campbellOtomangueanHistoricalLinguistics2017a}{article}{}{}
@@ -1647,7 +1933,7 @@
       \strng{authornamehash}{2d6c103639eb7b80600b569751984c73}
       \strng{authorfullhash}{2d6c103639eb7b80600b569751984c73}
       \strng{authorfullhashraw}{2d6c103639eb7b80600b569751984c73}
-      \field{extraname}{3}
+      \field{extraname}{4}
       \field{sortinit}{C}
       \field{sortinithash}{4d103a86280481745c9c897c925753c0}
       \field{extradate}{2}
@@ -1672,7 +1958,45 @@
       \verb 10.1111/lnc3.12240
       \endverb
       \verb{file}
-      \verb /Users/mlbrinke/Dropbox/Zotero/3_Resources/Linguistics/Philology/campbellOtomangueanHistoricalLinguistics2017b.pdf
+      \verb /Users/mlbrinke/Zotero/storage/C86DRBSR/campbellOtomangueanHistoricalLinguistics2017b.pdf
+      \endverb
+    \endentry
+    \entry{chaiPhoneticsPhonologyChecked2022}{thesis}{}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=fcf466e8710c65fda6efd2698765eb05}{%
+           family={Chai},
+           familyi={C\bibinitperiod},
+           given={Yuan},
+           giveni={Y\bibinitperiod},
+           givenun=0}}%
+      }
+      \list{institution}{1}{%
+        {University of California San Diego}%
+      }
+      \list{location}{1}{%
+        {San Diego, CA}%
+      }
+      \strng{namehash}{fcf466e8710c65fda6efd2698765eb05}
+      \strng{fullhash}{fcf466e8710c65fda6efd2698765eb05}
+      \strng{fullhashraw}{fcf466e8710c65fda6efd2698765eb05}
+      \strng{bibnamehash}{fcf466e8710c65fda6efd2698765eb05}
+      \strng{authorbibnamehash}{fcf466e8710c65fda6efd2698765eb05}
+      \strng{authornamehash}{fcf466e8710c65fda6efd2698765eb05}
+      \strng{authorfullhash}{fcf466e8710c65fda6efd2698765eb05}
+      \strng{authorfullhashraw}{fcf466e8710c65fda6efd2698765eb05}
+      \field{extraname}{1}
+      \field{sortinit}{C}
+      \field{sortinithash}{4d103a86280481745c9c897c925753c0}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{Phonetics and Phonology of Checked Phonation, Syllables, and Tones}
+      \field{type}{phdthesis}
+      \field{year}{2022}
+      \field{dateera}{ce}
+      \verb{file}
+      \verb /Users/mlbrinke/Zotero/storage/BC3GHCG4/chaiPhoneticsPhonologyChecked2022.pdf
       \endverb
     \endentry
     \entry{chaiPerceptionCheckedRearticulated2025}{unpublished}{}{}
@@ -1692,6 +2016,7 @@
       \strng{authornamehash}{fcf466e8710c65fda6efd2698765eb05}
       \strng{authorfullhash}{fcf466e8710c65fda6efd2698765eb05}
       \strng{authorfullhashraw}{fcf466e8710c65fda6efd2698765eb05}
+      \field{extraname}{2}
       \field{sortinit}{C}
       \field{sortinithash}{4d103a86280481745c9c897c925753c0}
       \field{extradatescope}{labelyear}
@@ -1704,7 +2029,6 @@
       \field{venue}{Online}
       \field{year}{2025}
       \field{dateera}{ce}
-      \keyw{/unread}
     \endentry
     \entry{chaiPhoneticsGlottalizedPhonations2023}{inproceedings}{}{}
       \name{author}{3}{}{%
@@ -1770,9 +2094,8 @@
       \field{pages}{1751\bibrangedash 1755}
       \range{pages}{5}
       \verb{file}
-      \verb /Users/mlbrinke/Dropbox/Zotero/1_Projects/Dissertation/chaiPhoneticsGlottalizedPhonations.pdf
+      \verb /Users/mlbrinke/Zotero/storage/IH2WA5UT/chaiPhoneticsGlottalizedPhonations.pdf
       \endverb
-      \keyw{/unread,⛔ No DOI found}
     \endentry
     \entry{chaiH1H2AcousticMeasure2022}{article}{}{}
       \name{author}{2}{}{%
@@ -1821,7 +2144,7 @@
       \verb 10.1121/10.0014175
       \endverb
       \verb{file}
-      \verb /Users/mlbrinke/Dropbox/Zotero/4_Archive/QE/chaiH1H2Acoustic2022.pdf
+      \verb /Users/mlbrinke/Zotero/storage/W6IKIXMJ/chaiH1H2Acoustic2022.pdf
       \endverb
       \keyw{Voice Quality}
     \endentry
@@ -1873,7 +2196,7 @@
       \verb 10.3390/languages7010047
       \endverb
       \verb{file}
-      \verb /Users/mlbrinke/Dropbox/Zotero/1_Projects/Dissertation/chaiCheckedSyllablesChecked2022.pdf
+      \verb /Users/mlbrinke/Zotero/storage/D3GM8Y92/chaiCheckedSyllablesChecked2022.pdf
       \endverb
     \endentry
     \entry{chavez-peonPhoneticCuesStress2008}{inproceedings}{}{}
@@ -1925,7 +2248,7 @@
       \field{pages}{13}
       \range{pages}{1}
       \verb{file}
-      \verb /Users/mlbrinke/Dropbox/Zotero/2_Areas/Zapotec/chavez-peonPhoneticCuesStress2008.pdf
+      \verb /Users/mlbrinke/Zotero/storage/2L3N796T/chavez-peonPhoneticCuesStress2008.pdf
       \endverb
       \verb{urlraw}
       \verb http://www.chass.utoronto.ca/~cla-acl/actes2008/actes2008.html
@@ -1972,7 +2295,7 @@
       \verb 10.14288/1.0071253
       \endverb
       \verb{file}
-      \verb /Users/mlbrinke/Dropbox/Zotero/2_Areas/Zapotec/chavez-peonInteractionMetricalStructure2010.pdf;/Users/mlbrinke/Zotero/storage/MU3W5GBZ/1.html
+      \verb /Users/mlbrinke/Zotero/storage/ZKGIJZB6/chavez-peonInteractionMetricalStructure2010.pdf;/Users/mlbrinke/Zotero/storage/MU3W5GBZ/1.html
       \endverb
       \keyw{Otomanguean,Voice Quality}
     \endentry
@@ -2016,9 +2339,8 @@
       \verb 10.1121/1.419620
       \endverb
       \verb{file}
-      \verb /Users/mlbrinke/Dropbox/Zotero/1_Projects/Dissertation/chenAcousticCorrelatesEnglish1997.pdf;/Users/mlbrinke/Zotero/storage/QYCAA3U6/Acoustic-correlates-of-English-and-French.html
+      \verb /Users/mlbrinke/Zotero/storage/MAMGEVCI/chenAcousticCorrelatesEnglish1997.pdf;/Users/mlbrinke/Zotero/storage/QYCAA3U6/Acoustic-correlates-of-English-and-French.html
       \endverb
-      \keyw{/unread}
     \endentry
     \entry{corettaTidygamTidyPrediction2024}{manual}{}{}
       \name{author}{1}{}{%
@@ -2053,7 +2375,6 @@
       \verb{url}
       \verb https://github.com/stefanocoretta/tidygam
       \endverb
-      \keyw{/unread}
     \endentry
     \entry{cortesSanSebastianMonte2023}{article}{}{}
       \name{author}{3}{}{%
@@ -2108,7 +2429,7 @@
       \verb 10.1017/S0025100322000226
       \endverb
       \verb{file}
-      \verb /Users/mlbrinke/Dropbox/Zotero/3_Resources/Linguistics/Phonetics/JIPA_Illustrations/cortesSanSebastianMonte2023.pdf
+      \verb /Users/mlbrinke/Zotero/storage/EN7I8Q3P/cortesSanSebastianMonte2023.pdf
       \endverb
       \keyw{Otomanguean}
     \endentry
@@ -2163,9 +2484,8 @@
       \verb 10.1016/j.wocn.2016.06.001
       \endverb
       \verb{file}
-      \verb /Users/mlbrinke/Dropbox/Zotero/1_Projects/Dissertation/crowhurstInfluenceVowelLaryngealisation2016 2.pdf;/Users/mlbrinke/Zotero/storage/URT75B6W/S0095447016300158.html
+      \verb /Users/mlbrinke/Zotero/storage/PVM66MWU/crowhurstInfluenceVowelLaryngealisation2016 2.pdf;/Users/mlbrinke/Zotero/storage/URT75B6W/S0095447016300158.html
       \endverb
-      \keyw{Iambic–Trochaic Law,Laryngealisation,Rhythmic grouping,Speech perception,Zapotec}
     \endentry
     \entry{delgutteCorrelatesPhoneticDistinctions1982}{incollection}{}{}
       \name{author}{1}{}{%
@@ -2221,7 +2541,6 @@
       \field{dateera}{ce}
       \field{pages}{131\bibrangedash 150}
       \range{pages}{20}
-      \keyw{/unread}
     \endentry
     \entry{delvauxPerceptionContrasteNasalite2009}{article}{}{}
       \name{author}{1}{}{%
@@ -2262,9 +2581,8 @@
       \verb 10.1017/S0959269508003566
       \endverb
       \verb{file}
-      \verb /Users/mlbrinke/Dropbox/Zotero/1_Projects/Dissertation/delvauxPerceptionContrasteNasalite2009.pdf
+      \verb /Users/mlbrinke/Zotero/storage/M996IK4H/delvauxPerceptionContrasteNasalite2009.pdf
       \endverb
-      \keyw{/unread}
     \endentry
     \entry{dicanioPhoneticsPhonologySan2008}{thesis}{}{}
       \name{author}{1}{}{%
@@ -2307,7 +2625,7 @@
       \field{dateera}{ce}
       \field{urldateera}{ce}
       \verb{file}
-      \verb /Users/mlbrinke/Dropbox/Zotero/2_Areas/Zapotec/QP2/dicanioPhoneticsPhonologySan2008.pdf;/Users/mlbrinke/Zotero/storage/2PKD97I8/6d05x60k.html
+      \verb /Users/mlbrinke/Zotero/storage/8ALQY63Q/dicanioPhoneticsPhonologySan2008.pdf;/Users/mlbrinke/Zotero/storage/2PKD97I8/6d05x60k.html
       \endverb
       \verb{urlraw}
       \verb https://escholarship.org/uc/item/6d05x60k
@@ -2317,7 +2635,7 @@
       \endverb
       \keyw{Otomanguean}
     \endentry
-    \entry{dicanioItunyosoTrique2010}{article}{}{}
+    \entry{dicanioPhoneticsRegisterTakhian2009}{article}{}{}
       \name{author}{1}{}{%
         {{un=0,uniquepart=base,hash=8b5bcd278ae69c9608f75bc543fc2bd1}{%
            family={DiCanio},
@@ -2344,6 +2662,53 @@
       \field{labeldatesource}{}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
+      \field{abstract}{The Chong language uses a combination of different acoustic correlates to distinguish among its four contrastive registers (phonation types). Electroglottographic (EGG) and acoustic data were examined from original fieldwork on the Takhian Thong dialect. EGG data shows high open quotient (OQ) values for the breathy register, low OQ values for the tense register, intermediate OQ values for the modal register, and rapidly changing high to low OQ values for the breathy-tense register. Acoustic correlates indicate that H1-A3 best distinguishes between breathy and non-breathy phonation, but measures like H1-H2 and pitch are necessary to discriminate between tense and non-tense phonation. A comparison of spectral tilt and OQ measures shows the greatest correlation between OQ and H1-H2, suggesting that changes in the relative amplitude of frequencies in the upper spectrum are not directly related to changes in the open period of the glottal cycle. OQ is best correlated with changes in the degree of glottal tension.}
+      \field{issn}{1475-3502, 0025-1003}
+      \field{journaltitle}{Journal of the International Phonetic Association}
+      \field{langid}{english}
+      \field{month}{8}
+      \field{number}{2}
+      \field{title}{The Phonetics of Register in {{Takhian Thong Chong}}}
+      \field{volume}{39}
+      \field{year}{2009}
+      \field{dateera}{ce}
+      \field{pages}{162\bibrangedash 188}
+      \range{pages}{27}
+      \verb{doi}
+      \verb 10.1017/S0025100309003879
+      \endverb
+      \verb{file}
+      \verb /Users/mlbrinke/Zotero/storage/6SQK5ER3/dicanioPhoneticsRegisterTakhian2009 2.pdf;/Users/mlbrinke/Zotero/storage/USCC4B9B/dicanioPhoneticsRegisterTakhian2009.pdf;/Users/mlbrinke/Zotero/storage/EDP44DX4/CE4D2A9249EEC12D522DC2AF3C23A591.html
+      \endverb
+      \keyw{/unread,Voice Quality}
+    \endentry
+    \entry{dicanioItunyosoTrique2010}{article}{}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=8b5bcd278ae69c9608f75bc543fc2bd1}{%
+           family={DiCanio},
+           familyi={D\bibinitperiod},
+           given={Christian},
+           giveni={C\bibinitperiod},
+           givenun=0}}%
+      }
+      \list{publisher}{1}{%
+        {Cambridge University Press}%
+      }
+      \strng{namehash}{8b5bcd278ae69c9608f75bc543fc2bd1}
+      \strng{fullhash}{8b5bcd278ae69c9608f75bc543fc2bd1}
+      \strng{fullhashraw}{8b5bcd278ae69c9608f75bc543fc2bd1}
+      \strng{bibnamehash}{8b5bcd278ae69c9608f75bc543fc2bd1}
+      \strng{authorbibnamehash}{8b5bcd278ae69c9608f75bc543fc2bd1}
+      \strng{authornamehash}{8b5bcd278ae69c9608f75bc543fc2bd1}
+      \strng{authorfullhash}{8b5bcd278ae69c9608f75bc543fc2bd1}
+      \strng{authorfullhashraw}{8b5bcd278ae69c9608f75bc543fc2bd1}
+      \field{extraname}{3}
+      \field{sortinit}{D}
+      \field{sortinithash}{6f385f66841fb5e82009dc833c761848}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
       \field{abstract}{Itunyoso Trique /itunˈjoso ˈtɾiki/ is an Oto-Manguean language (Mixtecan branch) spoken in the town of San Martín Itunyoso, Oaxaca, Mexico. It is one of three Trique languages, all of which are spoken in Oaxaca, Mexico. According to the 2005 census (INEGI 2005), there are 1,345 inhabitants in the town, virtually all of whom speak Itunyoso Trique as a native language. However, this number does not reflect the total number of speakers, as approximately 30\%–50\% of the population lives outside of San Martín Itunyoso at any given time. The population of the nearby town of Concepción Itunyoso, with a population of 261 (ibid.), is considered to speak the same dialect. The remaining populations of speakers are found in Oaxaca City, Mexico City, and the United States.}
       \field{issn}{1475-3502, 0025-1003}
       \field{journaltitle}{Journal of the International Phonetic Association}
@@ -2360,7 +2725,7 @@
       \verb 10.1017/S0025100310000034
       \endverb
       \verb{file}
-      \verb /Users/mlbrinke/Dropbox/Zotero/3_Resources/Linguistics/Phonetics/JIPA_Illustrations/dicanioItunyosoTrique2010.pdf
+      \verb /Users/mlbrinke/Zotero/storage/KGL7Y7L5/dicanioItunyosoTrique2010.pdf
       \endverb
       \keyw{Otomanguean}
     \endentry
@@ -2381,7 +2746,7 @@
       \strng{authornamehash}{8b5bcd278ae69c9608f75bc543fc2bd1}
       \strng{authorfullhash}{8b5bcd278ae69c9608f75bc543fc2bd1}
       \strng{authorfullhashraw}{8b5bcd278ae69c9608f75bc543fc2bd1}
-      \field{extraname}{3}
+      \field{extraname}{4}
       \field{sortinit}{D}
       \field{sortinithash}{6f385f66841fb5e82009dc833c761848}
       \field{extradate}{1}
@@ -2406,7 +2771,7 @@
       \verb 10.1016/j.wocn.2011.10.006
       \endverb
       \verb{file}
-      \verb /Users/mlbrinke/Dropbox/Zotero/2_Areas/Zapotec/QP2/LarynxTime/dicanioCoarticulationToneGlottal2012.pdf
+      \verb /Users/mlbrinke/Zotero/storage/ZGERJVDG/dicanioCoarticulationToneGlottal2012.pdf
       \endverb
       \keyw{Otomanguean,Voice Quality}
     \endentry
@@ -2427,7 +2792,7 @@
       \strng{authornamehash}{8b5bcd278ae69c9608f75bc543fc2bd1}
       \strng{authorfullhash}{8b5bcd278ae69c9608f75bc543fc2bd1}
       \strng{authorfullhashraw}{8b5bcd278ae69c9608f75bc543fc2bd1}
-      \field{extraname}{4}
+      \field{extraname}{5}
       \field{sortinit}{D}
       \field{sortinithash}{6f385f66841fb5e82009dc833c761848}
       \field{extradate}{2}
@@ -2438,7 +2803,6 @@
       \field{issn}{0020-7071, 1545-7001}
       \field{journaltitle}{International Journal of American Linguistics}
       \field{langid}{english}
-      \field{month}{4}
       \field{number}{2}
       \field{shortjournal}{International Journal of American Linguistics}
       \field{title}{The Phonetics of Fortis and Lenis Consonants in {{Itunyoso Trique}}}
@@ -2451,7 +2815,7 @@
       \verb 10.1086/664481
       \endverb
       \verb{file}
-      \verb /Users/mlbrinke/Dropbox/Zotero/2_Areas/Zapotec/Fortis/Lenis/dicanioPhoneticsFortisLenis2012.pdf
+      \verb /Users/mlbrinke/Zotero/storage/BIRA7PJ6/dicanioPhoneticsFortisLenis2012.pdf
       \endverb
       \keyw{/unread,Otomanguean}
     \endentry
@@ -2472,7 +2836,7 @@
       \strng{authornamehash}{8b5bcd278ae69c9608f75bc543fc2bd1}
       \strng{authorfullhash}{8b5bcd278ae69c9608f75bc543fc2bd1}
       \strng{authorfullhashraw}{8b5bcd278ae69c9608f75bc543fc2bd1}
-      \field{extraname}{5}
+      \field{extraname}{6}
       \field{sortinit}{D}
       \field{sortinithash}{6f385f66841fb5e82009dc833c761848}
       \field{extradatescope}{labelyear}
@@ -2495,7 +2859,7 @@
       \verb 10.1121/1.4861921
       \endverb
       \verb{file}
-      \verb /Users/mlbrinke/Dropbox/Zotero/2_Areas/Zapotec/QP2/dicanioCueWeightPerception2014.pdf
+      \verb /Users/mlbrinke/Zotero/storage/LAMTCBUL/dicanioCueWeightPerception2014.pdf
       \endverb
       \keyw{Otomanguean}
     \endentry
@@ -2557,7 +2921,7 @@
       \verb 10.3765/pda.v2art4.3
       \endverb
       \verb{file}
-      \verb /Users/mlbrinke/Dropbox/Zotero/1_Projects/Dissertation/dicanioGlottalTogglingItunyoso2020.pdf
+      \verb /Users/mlbrinke/Zotero/storage/RPQDVTER/dicanioGlottalTogglingItunyoso2020.pdf
       \endverb
     \endentry
     \entry{eischensTonePhonationPhonologyPhonetics2022}{thesis}{}{}
@@ -2596,7 +2960,7 @@
       \field{dateera}{ce}
       \field{urldateera}{ce}
       \verb{file}
-      \verb /Users/mlbrinke/Dropbox/Zotero/4_Archive/QE/eischensTonePhonationPhonologyPhonetics2022.pdf;/Users/mlbrinke/Zotero/storage/UT9EQG8T/6sq4z7cm.html
+      \verb /Users/mlbrinke/Zotero/storage/I3DB34DP/eischensTonePhonationPhonologyPhonetics2022.pdf;/Users/mlbrinke/Zotero/storage/UT9EQG8T/6sq4z7cm.html
       \endverb
       \verb{urlraw}
       \verb https://escholarship.org/uc/item/6sq4z7cm
@@ -2660,53 +3024,43 @@
       \verb 10.1017/S0025100315000389
       \endverb
       \verb{file}
-      \verb /Users/mlbrinke/Dropbox/Zotero/3_Resources/Linguistics/Phonetics/JIPA_Illustrations/elliottChicahuaxtlaTriqui2016.pdf
+      \verb /Users/mlbrinke/Zotero/storage/ZV9R56DB/elliottChicahuaxtlaTriqui2016.pdf
       \endverb
       \keyw{Otomanguean}
     \endentry
-    \entry{eslingThereAreNo2005}{article}{}{}
+    \entry{enfieldArealLinguisticsMainland2005}{article}{}{}
       \name{author}{1}{}{%
-        {{un=0,uniquepart=base,hash=082cefbe699f8f788561da9b0c5bf06b}{%
-           family={Esling},
+        {{un=0,uniquepart=base,hash=17b5a0eb59ea61c5a239fdf5578e183d}{%
+           family={Enfield},
            familyi={E\bibinitperiod},
-           given={John\bibnamedelima H.},
-           giveni={J\bibinitperiod\bibinitdelim H\bibinitperiod},
+           given={Nick\bibnamedelima J.},
+           giveni={N\bibinitperiod\bibinitdelim J\bibinitperiod},
            givenun=0}}%
       }
-      \strng{namehash}{082cefbe699f8f788561da9b0c5bf06b}
-      \strng{fullhash}{082cefbe699f8f788561da9b0c5bf06b}
-      \strng{fullhashraw}{082cefbe699f8f788561da9b0c5bf06b}
-      \strng{bibnamehash}{082cefbe699f8f788561da9b0c5bf06b}
-      \strng{authorbibnamehash}{082cefbe699f8f788561da9b0c5bf06b}
-      \strng{authornamehash}{082cefbe699f8f788561da9b0c5bf06b}
-      \strng{authorfullhash}{082cefbe699f8f788561da9b0c5bf06b}
-      \strng{authorfullhashraw}{082cefbe699f8f788561da9b0c5bf06b}
+      \list{publisher}{1}{%
+        {Annual Reviews}%
+      }
+      \strng{namehash}{17b5a0eb59ea61c5a239fdf5578e183d}
+      \strng{fullhash}{17b5a0eb59ea61c5a239fdf5578e183d}
+      \strng{fullhashraw}{17b5a0eb59ea61c5a239fdf5578e183d}
+      \strng{bibnamehash}{17b5a0eb59ea61c5a239fdf5578e183d}
+      \strng{authorbibnamehash}{17b5a0eb59ea61c5a239fdf5578e183d}
+      \strng{authornamehash}{17b5a0eb59ea61c5a239fdf5578e183d}
+      \strng{authorfullhash}{17b5a0eb59ea61c5a239fdf5578e183d}
+      \strng{authorfullhashraw}{17b5a0eb59ea61c5a239fdf5578e183d}
       \field{sortinit}{E}
       \field{sortinithash}{8da8a182d344d5b9047633dfc0cc9131}
       \field{extradatescope}{labelyear}
       \field{labeldatesource}{}
       \field{labelnamesource}{author}
-      \field{labeltitlesource}{shorttitle}
-      \field{abstract}{As an alternative to the high-low-front-back model of vowel specification, the laryngeal articulator model is proposed, based on a reinterpretation of how the vocal tract functions to produce laryngeal and pharyngeal sounds. Evidence drawn from numerous laryngoscopic studies demonstrates the scope of articulatory behaviours possible in the pharynx. For a broad sample of languages, lingual retraction is shown to accompany laryngeal/pharyngeal gestures, motivating the redistribution of vowel quality designations. The vocal tract is divided into two articulatory components: the laryngeal articulator and the oral articulator. The vowel chart is split into three sectors: front, raised, and retracted. Whereas front vowels can be qualified as close or open, so-called back vowels are re-designated as either raised or retracted, and the role of retraction as a function of the laryngeal constrictor mechanism is elaborated., RésuméUne alternative au modèle de spécification vocalique haut-bas-antérieur-postérieur est proposée, c’est-à-dire le modèle d’articulateur laryngien. Ce dernier est fondé sur une réinterprétation de comment le conduit vocal fonctionne pour produire des sons laryngiens et pharyngiens. Des données puisées de nombreuses études laryngoscopiques mettent en évidence la portée des comportements articulatoires possibles dans le pharynx. Pour un échantillon relativement large de langues, il est démontré que la rétraction linguale accompagne les gestes laryngiens/pharyngiens; ceci motive la redistribution des désignations de qualité vocalique. Le conduit vocal est divisé en deux composants articulatoires : l’articulateur laryngien et l’articulateuroral. L’espace vocalique est divisé en trois secteurs : antérieur, élevé et rétracté. Alors que les voyelles antérieures peuvent être qualifiées comme étant fermées ou ouvertes, les soi-disant voyelles postérieures sont re-désignées comme étant soit élevées ou rétractées, et le rôle de la rétraction comme une fonction du mécanisme de constriction laryngienne est élaboré.}
-      \field{issn}{0008-4131, 1710-1115}
-      \field{journaltitle}{Canadian Journal of Linguistics/Revue canadienne de linguistique}
-      \field{langid}{english}
-      \field{month}{12}
-      \field{number}{1--4}
-      \field{shorttitle}{There {{Are No Back Vowels}}}
-      \field{title}{There {{Are No Back Vowels}}: {{The Larygeal Articulator Model}}}
-      \field{volume}{50}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Annual Review of Anthropology}
+      \field{title}{Areal Linguistics and Mainland {{Southeast Asia}}}
+      \field{volume}{34}
       \field{year}{2005}
       \field{dateera}{ce}
-      \field{pages}{13\bibrangedash 44}
-      \range{pages}{32}
-      \verb{doi}
-      \verb 10.1017/S0008413100003650
-      \endverb
-      \verb{file}
-      \verb /Users/mlbrinke/Dropbox/Zotero/1_Projects/Dissertation/eslingThereAreNo2005.pdf
-      \endverb
-      \keyw{/unread}
+      \field{pages}{181\bibrangedash 206}
+      \range{pages}{26}
     \endentry
     \entry{eslingVoiceQualityLaryngeal2019}{book}{}{}
       \name{author}{4}{}{%
@@ -2767,7 +3121,7 @@
       \verb 10.1017/9781108696555
       \endverb
       \verb{file}
-      \verb /Users/mlbrinke/Dropbox/Zotero/2_Areas/Zapotec/eslingVoiceQualityLaryngeal2019.pdf
+      \verb /Users/mlbrinke/Zotero/storage/ZXQTVS9P/eslingVoiceQualityLaryngeal2019.pdf
       \endverb
       \keyw{Voice Quality}
     \endentry
@@ -2807,7 +3161,7 @@
       \field{pages}{71\bibrangedash 105}
       \range{pages}{35}
       \verb{file}
-      \verb /Users/mlbrinke/Dropbox/Zotero/1_Projects/Dissertation/espositoSantaAnaValle2004.pdf
+      \verb /Users/mlbrinke/Zotero/storage/E7FA8RAT/espositoSantaAnaValle2004.pdf
       \endverb
       \verb{urlraw}
       \verb http://phonetics.linguistics.ucla.edu/workpapph/103/6.Esposito-SantaAnadelValleZapotec.pdf
@@ -2815,6 +3169,52 @@
       \verb{url}
       \verb http://phonetics.linguistics.ucla.edu/workpapph/103/6.Esposito-SantaAnadelValleZapotec.pdf
       \endverb
+    \endentry
+    \entry{espositoEffectsLinguisticExperience2010}{article}{}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=8302fa658b038a406c26db0f6760e735}{%
+           family={Esposito},
+           familyi={E\bibinitperiod},
+           given={Christina\bibnamedelima M.},
+           giveni={C\bibinitperiod\bibinitdelim M\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{8302fa658b038a406c26db0f6760e735}
+      \strng{fullhash}{8302fa658b038a406c26db0f6760e735}
+      \strng{fullhashraw}{8302fa658b038a406c26db0f6760e735}
+      \strng{bibnamehash}{8302fa658b038a406c26db0f6760e735}
+      \strng{authorbibnamehash}{8302fa658b038a406c26db0f6760e735}
+      \strng{authornamehash}{8302fa658b038a406c26db0f6760e735}
+      \strng{authorfullhash}{8302fa658b038a406c26db0f6760e735}
+      \strng{authorfullhashraw}{8302fa658b038a406c26db0f6760e735}
+      \field{extraname}{2}
+      \field{sortinit}{E}
+      \field{sortinithash}{8da8a182d344d5b9047633dfc0cc9131}
+      \field{extradate}{1}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{abstract}{This study investigates the role linguistic experience has on the perception of phonation and acoustic properties that correlate with this perception. Listeners from Gujarati (contrasts breathy versus modal vowels), Spanish (no breathiness) and English (allophonic breathiness) participated in: (1) a similarityrating task, indicating the similarity of modal and/or breathy Mazatec vowels and (2) a free-sort task, sorting breathy and modal stimuli from many languages.}
+      \field{issn}{00954470}
+      \field{journaltitle}{Journal of Phonetics}
+      \field{langid}{english}
+      \field{month}{4}
+      \field{number}{2}
+      \field{shortjournal}{Journal of Phonetics}
+      \field{title}{The Effects of Linguistic Experience on the Perception of Phonation}
+      \field{volume}{38}
+      \field{year}{2010}
+      \field{dateera}{ce}
+      \field{pages}{306\bibrangedash 316}
+      \range{pages}{11}
+      \verb{doi}
+      \verb 10.1016/j.wocn.2010.02.002
+      \endverb
+      \verb{file}
+      \verb /Users/mlbrinke/Zotero/storage/NYZHGS82/espositoEffectsLinguisticExperience2010.pdf
+      \endverb
+      \keyw{Voice Quality}
     \endentry
     \entry{espositoVariationContrastivePhonation2010}{article}{}{}
       \name{author}{1}{}{%
@@ -2836,9 +3236,10 @@
       \strng{authornamehash}{8302fa658b038a406c26db0f6760e735}
       \strng{authorfullhash}{8302fa658b038a406c26db0f6760e735}
       \strng{authorfullhashraw}{8302fa658b038a406c26db0f6760e735}
-      \field{extraname}{2}
+      \field{extraname}{3}
       \field{sortinit}{E}
       \field{sortinithash}{8da8a182d344d5b9047633dfc0cc9131}
+      \field{extradate}{2}
       \field{extradatescope}{labelyear}
       \field{labeldatesource}{}
       \field{labelnamesource}{author}
@@ -2857,7 +3258,7 @@
       \verb 10.1017/S0025100310000046
       \endverb
       \verb{file}
-      \verb /Users/mlbrinke/Dropbox/Zotero/2_Areas/Zapotec/espositoVariationContrastivePhonation2010.pdf
+      \verb /Users/mlbrinke/Zotero/storage/3X7WTGLQ/espositoVariationContrastivePhonation2010.pdf
       \endverb
       \keyw{Otomanguean,Voice Quality}
     \endentry
@@ -2878,7 +3279,7 @@
       \strng{authornamehash}{8302fa658b038a406c26db0f6760e735}
       \strng{authorfullhash}{8302fa658b038a406c26db0f6760e735}
       \strng{authorfullhashraw}{8302fa658b038a406c26db0f6760e735}
-      \field{extraname}{3}
+      \field{extraname}{4}
       \field{sortinit}{E}
       \field{sortinithash}{8da8a182d344d5b9047633dfc0cc9131}
       \field{extradatescope}{labelyear}
@@ -2903,62 +3304,9 @@
       \verb 10.1016/j.wocn.2012.02.007
       \endverb
       \verb{file}
-      \verb /Users/mlbrinke/Dropbox/Zotero/2_Areas/Zapotec/QP2/LarynxTime/espositoAcousticElectroglottographicStudy2012.pdf;/Users/mlbrinke/Zotero/storage/RIHIB9DS/S0095447012000174.html
+      \verb /Users/mlbrinke/Zotero/storage/778NM6YW/espositoAcousticElectroglottographicStudy2012.pdf;/Users/mlbrinke/Zotero/storage/RIHIB9DS/S0095447012000174.html
       \endverb
       \keyw{Voice Quality}
-    \endentry
-    \entry{espositoContrastiveBreathinessConsonants2012}{article}{}{}
-      \name{author}{2}{}{%
-        {{un=0,uniquepart=base,hash=8302fa658b038a406c26db0f6760e735}{%
-           family={Esposito},
-           familyi={E\bibinitperiod},
-           given={Christina\bibnamedelima M.},
-           giveni={C\bibinitperiod\bibinitdelim M\bibinitperiod},
-           givenun=0}}%
-        {{un=0,uniquepart=base,hash=1e278f071c6b1958dea181d4413c7e40}{%
-           family={Khan},
-           familyi={K\bibinitperiod},
-           given={Sameer\bibnamedelimb ud\bibnamedelima Dowla},
-           giveni={S\bibinitperiod\bibinitdelim u\bibinitperiod\bibinitdelim D\bibinitperiod},
-           givenun=0}}%
-      }
-      \list{publisher}{1}{%
-        {Cambridge University Press}%
-      }
-      \strng{namehash}{4f2af2bb0ab93576c18909519b9035e8}
-      \strng{fullhash}{4f2af2bb0ab93576c18909519b9035e8}
-      \strng{fullhashraw}{4f2af2bb0ab93576c18909519b9035e8}
-      \strng{bibnamehash}{4f2af2bb0ab93576c18909519b9035e8}
-      \strng{authorbibnamehash}{4f2af2bb0ab93576c18909519b9035e8}
-      \strng{authornamehash}{4f2af2bb0ab93576c18909519b9035e8}
-      \strng{authorfullhash}{4f2af2bb0ab93576c18909519b9035e8}
-      \strng{authorfullhashraw}{4f2af2bb0ab93576c18909519b9035e8}
-      \field{extraname}{1}
-      \field{sortinit}{E}
-      \field{sortinithash}{8da8a182d344d5b9047633dfc0cc9131}
-      \field{extradatescope}{labelyear}
-      \field{labeldatesource}{}
-      \field{labelnamesource}{author}
-      \field{labeltitlesource}{shorttitle}
-      \field{abstract}{Gujarati and White Hmong are among a small handful of languages known to maintain a phonemic contrast between breathy and modal voice across both obstruents and vowels. Given that breathiness on stop consonants is realized as a breathy-voiced aspirated release into the following vowel, how is consonant breathiness distinguished from vocalic breathiness, if at all? We examine acoustic and electroglottographic data of potentially ambiguous CV sequences collected from speakers of Gujarati and White Hmong, to determine what properties reliably distinguish breathiness associated with stop consonants from breathiness associated with vowels comparing both within and across these two unrelated languages. Results from the two languages are strikingly similar: only the early timing and increased magnitude of the various acoustic reflexes of breathiness phonetically distinguish phonemic consonantal breathiness from phonemic vocalic breathiness.}
-      \field{issn}{1475-3502, 0025-1003}
-      \field{journaltitle}{Journal of the International Phonetic Association}
-      \field{langid}{english}
-      \field{month}{8}
-      \field{number}{2}
-      \field{shorttitle}{Contrastive Breathiness across Consonants and Vowels}
-      \field{title}{Contrastive Breathiness across Consonants and Vowels: {{A}} Comparative Study of {{Gujarati}} and {{White Hmong}}}
-      \field{volume}{42}
-      \field{year}{2012}
-      \field{dateera}{ce}
-      \field{pages}{123\bibrangedash 143}
-      \range{pages}{21}
-      \verb{doi}
-      \verb 10.1017/S0025100312000047
-      \endverb
-      \verb{file}
-      \verb /Users/mlbrinke/Dropbox/Zotero/4_Archive/QE/espositoContrastiveBreathinessConsonants2012.pdf
-      \endverb
     \endentry
     \entry{espositoCrosslinguisticPatternsPhonation2020}{article}{}{}
       \name{author}{2}{}{%
@@ -2983,7 +3331,6 @@
       \strng{authornamehash}{4f2af2bb0ab93576c18909519b9035e8}
       \strng{authorfullhash}{4f2af2bb0ab93576c18909519b9035e8}
       \strng{authorfullhashraw}{4f2af2bb0ab93576c18909519b9035e8}
-      \field{extraname}{2}
       \field{sortinit}{E}
       \field{sortinithash}{8da8a182d344d5b9047633dfc0cc9131}
       \field{extradatescope}{labelyear}
@@ -3005,73 +3352,9 @@
       \verb 10.1111/lnc3.12392
       \endverb
       \verb{file}
-      \verb /Users/mlbrinke/Dropbox/Zotero/2_Areas/Zapotec/QP2/espositoCrossLinguisticPatterns2020.pdf
+      \verb /Users/mlbrinke/Zotero/storage/SM5MAIHQ/espositoCrossLinguisticPatterns2020.pdf
       \endverb
       \keyw{Voice Quality}
-    \endentry
-    \entry{espositoDistinguishingBreathyConsonants2019}{article}{}{}
-      \name{author}{4}{}{%
-        {{un=0,uniquepart=base,hash=8302fa658b038a406c26db0f6760e735}{%
-           family={Esposito},
-           familyi={E\bibinitperiod},
-           given={Christina\bibnamedelima M.},
-           giveni={C\bibinitperiod\bibinitdelim M\bibinitperiod},
-           givenun=0}}%
-        {{un=0,uniquepart=base,hash=1e278f071c6b1958dea181d4413c7e40}{%
-           family={Khan},
-           familyi={K\bibinitperiod},
-           given={Sameer\bibnamedelimb ud\bibnamedelima Dowla},
-           giveni={S\bibinitperiod\bibinitdelim u\bibinitperiod\bibinitdelim D\bibinitperiod},
-           givenun=0}}%
-        {{un=0,uniquepart=base,hash=a34074ebf8c85b3a1165b061cc6c68a3}{%
-           family={Berkson},
-           familyi={B\bibinitperiod},
-           given={Kelly\bibnamedelima H.},
-           giveni={K\bibinitperiod\bibinitdelim H\bibinitperiod},
-           givenun=0}}%
-        {{un=0,uniquepart=base,hash=eff471adff7cae7cdcc965612fa16324}{%
-           family={Nelson},
-           familyi={N\bibinitperiod},
-           given={Max},
-           giveni={M\bibinitperiod},
-           givenun=0}}%
-      }
-      \list{publisher}{1}{%
-        {De Gruyter Mouton}%
-      }
-      \strng{namehash}{1c27e1dff9725ba30f792c63c494d273}
-      \strng{fullhash}{3dae3fd902c9cf24918a60e5fbd4d4b2}
-      \strng{fullhashraw}{3dae3fd902c9cf24918a60e5fbd4d4b2}
-      \strng{bibnamehash}{3dae3fd902c9cf24918a60e5fbd4d4b2}
-      \strng{authorbibnamehash}{3dae3fd902c9cf24918a60e5fbd4d4b2}
-      \strng{authornamehash}{1c27e1dff9725ba30f792c63c494d273}
-      \strng{authorfullhash}{3dae3fd902c9cf24918a60e5fbd4d4b2}
-      \strng{authorfullhashraw}{3dae3fd902c9cf24918a60e5fbd4d4b2}
-      \field{sortinit}{E}
-      \field{sortinithash}{8da8a182d344d5b9047633dfc0cc9131}
-      \field{extradatescope}{labelyear}
-      \field{labeldatesource}{}
-      \field{labelnamesource}{author}
-      \field{labeltitlesource}{title}
-      \field{abstract}{Across languages, the acoustic and articulatory correlates of breathiness are similar whether they are associated with consonants or with vowels. This raises the question of whether breathy consonants are confusable with breathy vowels in languages in which a phonemically breathy vowel contrasts with a phonemically modal vowel that follows a breathy-aspirated consonant, e.\,g. Gujarati /ba̤ɾ/ ‘outside’ vs. /bʱaɾ/ ‘burden’, respectively. We investigate the perception of a minimal triplet of Gujarati words, with a breathy vowel vs. a breathy consonant vs. an all-modal sequence, via three tasks: free-sort, AX discrimination, and picture-matching identification. Results across the three tasks indicate that breathiness is indeed confusable across the association types. Specifically, while listeners do recognize the stronger breathiness in vowels following breathy consonants, they are not necessarily able to determine whether that breathiness is associated with the vowel or the consonant. Furthermore, they do not reliably recognize the subtler breathiness of breathy vowels, which often indicates that they are the same as or an acceptable realization of an all-modal sequence (/baɾ/ ‘twelve’). This suggests a potential perceptual merger in Gujarati, despite previously-reported evidence of a robust three-way contrast in production.}
-      \field{day}{1}
-      \field{issn}{2196-078X}
-      \field{journaltitle}{Journal of South Asian Languages and Linguistics}
-      \field{langid}{english}
-      \field{month}{9}
-      \field{number}{2}
-      \field{title}{Distinguishing Breathy Consonants and Vowels in {{Gujarati}}}
-      \field{volume}{6}
-      \field{year}{2019}
-      \field{dateera}{ce}
-      \field{pages}{215\bibrangedash 243}
-      \range{pages}{29}
-      \verb{doi}
-      \verb 10.1515/jsall-2019-2011
-      \endverb
-      \verb{file}
-      \verb /Users/mlbrinke/Dropbox/Zotero/1_Projects/Dissertation/espositoDistinguishingBreathyConsonants2019.pdf
-      \endverb
     \endentry
     \entry{ferrerriesgoWhatMakesCepstral2020}{article}{}{}
       \name{author}{2}{}{%
@@ -3119,7 +3402,7 @@
       \verb 10.1016/j.jvoice.2019.01.004
       \endverb
       \verb{file}
-      \verb /Users/mlbrinke/Dropbox/Zotero/4_Archive/QE/ferrerriesgoWhatMakesCepstral2020.pdf;/Users/mlbrinke/Zotero/storage/YBCWSZHS/S0892199718304193.html
+      \verb /Users/mlbrinke/Zotero/storage/Y8MZRREQ/ferrerriesgoWhatMakesCepstral2020.pdf;/Users/mlbrinke/Zotero/storage/YBCWSZHS/S0892199718304193.html
       \endverb
     \endentry
     \entry{fischer-jorgensenPhoneticAnalysisBreathy1968}{article}{}{}
@@ -3162,7 +3445,7 @@
       \verb 10.7146/aripuc.v2i.130674
       \endverb
       \verb{file}
-      \verb /Users/mlbrinke/Dropbox/Zotero/1_Projects/Dissertation/fischer-jorgensenPhoneticAnalysisBreathy1968.pdf
+      \verb /Users/mlbrinke/Zotero/storage/QGHJSMB9/fischer-jorgensenPhoneticAnalysisBreathy1968.pdf
       \endverb
       \keyw{Voice Quality}
     \endentry
@@ -3299,7 +3582,7 @@
       \field{pages}{87\bibrangedash 102}
       \range{pages}{16}
       \verb{file}
-      \verb /Users/mlbrinke/Dropbox/Zotero/2_Areas/Zapotec/foleyForbiddenCliticClusters2018.pdf
+      \verb /Users/mlbrinke/Zotero/storage/I3XRDNCV/foleyForbiddenCliticClusters2018.pdf
       \endverb
       \keyw{Otomanguean}
     \endentry
@@ -3349,7 +3632,7 @@
       \verb 10.1162/ling_a_00395
       \endverb
       \verb{file}
-      \verb /Users/mlbrinke/Dropbox/Zotero/3_Resources/Linguistics/Syntax/foleyExtendingPersonCaseConstraint2020.pdf
+      \verb /Users/mlbrinke/Zotero/storage/3NXZ8P4N/foleyExtendingPersonCaseConstraint2020.pdf
       \endverb
       \keyw{Otomanguean}
     \endentry
@@ -3395,9 +3678,9 @@
       \verb 10.1524/stuf.2013.0002
       \endverb
       \verb{file}
-      \verb /Users/mlbrinke/Dropbox/Zotero/4_Archive/QE/frazierPhoneticsYucatecMaya2013.pdf
+      \verb /Users/mlbrinke/Zotero/storage/KWD7N4Y8/frazierPhoneticsYucatecMaya2013.pdf
       \endverb
-      \keyw{creaky voice,laryngeal complexity,Laryngeal Complexity,phonetics-phonology interface,tone,Voice Quality,Yucatec Maya}
+      \keyw{Laryngeal Complexity,Voice Quality}
     \endentry
     \entry{gaoPhonationVariationFunction2022}{article}{}{}
       \name{author}{2}{}{%
@@ -3448,7 +3731,7 @@
       \verb 10.3390/languages7030171
       \endverb
       \verb{file}
-      \verb /Users/mlbrinke/Dropbox/Zotero/1_Projects/Dissertation/gaoPhonationVariationFunction2022.pdf
+      \verb /Users/mlbrinke/Zotero/storage/I8275R82/gaoPhonationVariationFunction2022.pdf
       \endverb
     \endentry
     \entry{garellekTimingSequencingCoarticulated2012}{article}{}{}
@@ -3492,57 +3775,7 @@
       \verb 10.1016/j.wocn.2011.10.003
       \endverb
       \verb{file}
-      \verb /Users/mlbrinke/Dropbox/Zotero/1_Projects/Dissertation/garellekTimingSequencingCoarticulated2012.pdf
-      \endverb
-    \endentry
-    \entry{garellekProductionPerceptionGlottal2013}{thesis}{}{}
-      \name{author}{1}{}{%
-        {{un=0,uniquepart=base,hash=6261be825a58b093c669ab685b17a0a2}{%
-           family={Garellek},
-           familyi={G\bibinitperiod},
-           given={Marc},
-           giveni={M\bibinitperiod},
-           givenun=0}}%
-      }
-      \list{institution}{1}{%
-        {University of California, Los Angeles}%
-      }
-      \list{location}{1}{%
-        {Los Angeles, CA}%
-      }
-      \strng{namehash}{6261be825a58b093c669ab685b17a0a2}
-      \strng{fullhash}{6261be825a58b093c669ab685b17a0a2}
-      \strng{fullhashraw}{6261be825a58b093c669ab685b17a0a2}
-      \strng{bibnamehash}{6261be825a58b093c669ab685b17a0a2}
-      \strng{authorbibnamehash}{6261be825a58b093c669ab685b17a0a2}
-      \strng{authornamehash}{6261be825a58b093c669ab685b17a0a2}
-      \strng{authorfullhash}{6261be825a58b093c669ab685b17a0a2}
-      \strng{authorfullhashraw}{6261be825a58b093c669ab685b17a0a2}
-      \field{extraname}{2}
-      \field{sortinit}{G}
-      \field{sortinithash}{32d67eca0634bf53703493fb1090a2e8}
-      \field{extradatescope}{labelyear}
-      \field{labeldatesource}{}
-      \field{labelnamesource}{author}
-      \field{labeltitlesource}{title}
-      \field{abstract}{This dissertation investigates how glottal stops are produced and perceived, and why they occur so frequently before word-initial vowels in languages of the world. Specifically, the goal of the production chapter was to determine whether glottal stops are truly glottal sounds. High-speed imaging of glottal stops uttered by five phonetically-trained English speakers was obtained using trans-oral videoendoscopy. When produced as plosives, glottal stops always had some form of vocal fold incursion, though full glottal closure is not always observed. Moreover, glottal stops were usually - but not always - accompanied by ventricular incursion. Glottal stops are thus necessarily glottal but not necessarily ventricular sounds. The timing of ventricular incursion suggests that it may be used to sustain, rather than produce, glottal closure.The specific goal of the perception study was to determine whether glottal stops are perceived distinctly from phrase-final creak, which shares similar acoustic features to glottalization. Sixteen English listeners were asked to identify words with glottal stops as allophones of /t/, e.g. 'button,' 'atlas,' and 'dent.' They were also presented with near-minimal pairs with no glottal stop, e.g. 'bun,' 'Alice,' and 'den.' The target words either had creak or no creak. The results indicate that words with glottal stop allophones are more accurately and more confidently identified when no creak is present, when the glottal stop is acoustically longer, and/or when the glottal stop is word-medial. Moreover, glottal stops are more accurately identified in creak when they occur in 'button'-type words, compared with worse identification in 'atlas'- and 'dent'-type words. For words with no glottal stops (e.g., 'bun,' 'Alice,' and 'den'), the presence of creak does not render them confusable with words with glottal allophones, except for 'den'-type words where word-final creak is sometimes mistaken for a glottal stop. Thus, glottal stops are generally harder to detect in creak, but are mutually confusable with creak only word-finally after nasals.To determine why and when glottal stops occur word-initially, the occurrence of word-initial full glottal stops in an English corpus was analyzed using logistic mixed-effects regression modeling. Prominence and phrasing are overwhelmingly the most important factors in predicting full glottal stop occurrence in English. Moreover, prominent word-initial vowels that are not preceded by full glottal stops show acoustic correlates of glottal constriction, whereas non-prominent phrase-initial vowels do not. Rather, phrase-initial voicing (even for sonorants) is less regular, but in a manner inconsistent with glottal constriction. These findings were subsequently confirmed using articulatory measures from electroglottography, and extended to Spanish. Based on the results, a prominence-driven theory of word-initial glottalization is proposed and motivated, with higher phrasal domains responsible only for the relative strength of the glottal stop gesture. Glottalization before word-initial vowels is thus a marker of prominence and is used amplify cues to prominence when they would otherwise be weakened.}
-      \field{langid}{english}
-      \field{title}{Production and Perception of Glottal Stops}
-      \field{type}{phdthesis}
-      \field{urlday}{17}
-      \field{urlmonth}{3}
-      \field{urlyear}{2023}
-      \field{year}{2013}
-      \field{dateera}{ce}
-      \field{urldateera}{ce}
-      \verb{file}
-      \verb /Users/mlbrinke/Dropbox/Zotero/4_Archive/QE/garellekProductionPerceptionGlottal2013.pdf
-      \endverb
-      \verb{urlraw}
-      \verb https://escholarship.org/uc/item/7zk830cm
-      \endverb
-      \verb{url}
-      \verb https://escholarship.org/uc/item/7zk830cm
+      \verb /Users/mlbrinke/Zotero/storage/MR4NYU4Z/garellekTimingSequencingCoarticulated2012.pdf
       \endverb
     \endentry
     \entry{garellekPhoneticsVoice2019}{incollection}{}{}
@@ -3584,7 +3817,7 @@
       \strng{editornamehash}{1e88019b76873e5c57a3cacd704b20be}
       \strng{editorfullhash}{1e88019b76873e5c57a3cacd704b20be}
       \strng{editorfullhashraw}{1e88019b76873e5c57a3cacd704b20be}
-      \field{extraname}{3}
+      \field{extraname}{2}
       \field{sortinit}{G}
       \field{sortinithash}{32d67eca0634bf53703493fb1090a2e8}
       \field{extradatescope}{labelyear}
@@ -3600,7 +3833,7 @@
       \field{pages}{75\bibrangedash 106}
       \range{pages}{32}
       \verb{file}
-      \verb /Users/mlbrinke/Dropbox/Zotero/2_Areas/Zapotec/QP2/garellekPhoneticsVoice2019.pdf
+      \verb /Users/mlbrinke/Zotero/storage/2CDDY7CB/garellekPhoneticsVoice2019.pdf
       \endverb
     \endentry
     \entry{garellekAcousticDiscriminabilityComplex2020}{article}{}{}
@@ -3620,7 +3853,7 @@
       \strng{authornamehash}{6261be825a58b093c669ab685b17a0a2}
       \strng{authorfullhash}{6261be825a58b093c669ab685b17a0a2}
       \strng{authorfullhashraw}{6261be825a58b093c669ab685b17a0a2}
-      \field{extraname}{4}
+      \field{extraname}{3}
       \field{sortinit}{G}
       \field{sortinithash}{32d67eca0634bf53703493fb1090a2e8}
       \field{extradatescope}{labelyear}
@@ -3644,7 +3877,7 @@
       \verb 10.1159/000494301
       \endverb
       \verb{file}
-      \verb /Users/mlbrinke/Dropbox/Zotero/4_Archive/QE/garellekAcousticDiscriminabilityComplex2020.pdf
+      \verb /Users/mlbrinke/Zotero/storage/JLIMD4RD/garellekAcousticDiscriminabilityComplex2020.pdf
       \endverb
       \keyw{Voice Quality}
     \endentry
@@ -3665,7 +3898,7 @@
       \strng{authornamehash}{6261be825a58b093c669ab685b17a0a2}
       \strng{authorfullhash}{6261be825a58b093c669ab685b17a0a2}
       \strng{authorfullhashraw}{6261be825a58b093c669ab685b17a0a2}
-      \field{extraname}{5}
+      \field{extraname}{4}
       \field{sortinit}{G}
       \field{sortinithash}{32d67eca0634bf53703493fb1090a2e8}
       \field{extradatescope}{labelyear}
@@ -3690,7 +3923,7 @@
       \verb 10.1016/j.wocn.2022.101155
       \endverb
       \verb{file}
-      \verb /Users/mlbrinke/Dropbox/Zotero/4_Archive/QE/garellekTheoreticalAchievementsPhonetics2022.pdf;/Users/mlbrinke/Zotero/storage/K3XCSEXV/S0095447022000304.html
+      \verb /Users/mlbrinke/Zotero/storage/WWHFL2WS/garellekTheoreticalAchievementsPhonetics2022.pdf;/Users/mlbrinke/Zotero/storage/K3XCSEXV/S0095447022000304.html
       \endverb
       \keyw{Voice Quality}
     \endentry
@@ -3752,7 +3985,7 @@
       \verb 10.1017/S0025100321000116
       \endverb
       \verb{file}
-      \verb /Users/mlbrinke/Dropbox/Zotero/4_Archive/QE/garellekVoicingGlottalConsonants2021.pdf
+      \verb /Users/mlbrinke/Zotero/storage/XDKEYBXJ/garellekVoicingGlottalConsonants2021.pdf
       \endverb
       \keyw{Voice Quality}
     \endentry
@@ -3801,7 +4034,7 @@
       \verb 10.1017/S0025100321000104
       \endverb
       \verb{file}
-      \verb /Users/mlbrinke/Dropbox/Zotero/2_Areas/Zapotec/QP2/garellekPhoneticsWhiteHmong2023.pdf
+      \verb /Users/mlbrinke/Zotero/storage/5CCTVK8T/garellekPhoneticsWhiteHmong2023.pdf
       \endverb
       \keyw{Voice Quality}
     \endentry
@@ -3851,9 +4084,70 @@
       \verb 10.1017/S0025100311000193
       \endverb
       \verb{file}
-      \verb /Users/mlbrinke/Dropbox/Zotero/2_Areas/Zapotec/garellekAcousticConsequencesPhonation2011.pdf;/Users/mlbrinke/Zotero/storage/LDMQ9BGE/5441FBAED7CB9A8EB3D4AFAA2D01FD84.html
+      \verb /Users/mlbrinke/Zotero/storage/BRYZWEUH/garellekAcousticConsequencesPhonation2011.pdf;/Users/mlbrinke/Zotero/storage/LDMQ9BGE/5441FBAED7CB9A8EB3D4AFAA2D01FD84.html
       \endverb
       \keyw{Laryngeal Complexity,Voice Quality}
+    \endentry
+    \entry{garellekVoiceQualityTone2013}{article}{}{}
+      \name{author}{4}{}{%
+        {{un=0,uniquepart=base,hash=6261be825a58b093c669ab685b17a0a2}{%
+           family={Garellek},
+           familyi={G\bibinitperiod},
+           given={Marc},
+           giveni={M\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=fc50eafcd8e8098287287e0504b34e67}{%
+           family={Keating},
+           familyi={K\bibinitperiod},
+           given={Patricia},
+           giveni={P\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=8302fa658b038a406c26db0f6760e735}{%
+           family={Esposito},
+           familyi={E\bibinitperiod},
+           given={Christina\bibnamedelima M.},
+           giveni={C\bibinitperiod\bibinitdelim M\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=d2d148472f827463299e324b2c3ee3b8}{%
+           family={Kreiman},
+           familyi={K\bibinitperiod},
+           given={Jody},
+           giveni={J\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{8c59d9056f3f3e00d53ff80aef36a55f}
+      \strng{fullhash}{f2fc8b7843ffdb320b686dec5c3c7be4}
+      \strng{fullhashraw}{f2fc8b7843ffdb320b686dec5c3c7be4}
+      \strng{bibnamehash}{f2fc8b7843ffdb320b686dec5c3c7be4}
+      \strng{authorbibnamehash}{f2fc8b7843ffdb320b686dec5c3c7be4}
+      \strng{authornamehash}{8c59d9056f3f3e00d53ff80aef36a55f}
+      \strng{authorfullhash}{f2fc8b7843ffdb320b686dec5c3c7be4}
+      \strng{authorfullhashraw}{f2fc8b7843ffdb320b686dec5c3c7be4}
+      \field{extraname}{2}
+      \field{sortinit}{G}
+      \field{sortinithash}{32d67eca0634bf53703493fb1090a2e8}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{issn}{0001-4966}
+      \field{journaltitle}{The Journal of the Acoustical Society of America}
+      \field{langid}{english}
+      \field{month}{2}
+      \field{number}{2}
+      \field{shortjournal}{The Journal of the Acoustical Society of America}
+      \field{title}{Voice Quality and Tone Identification in {{White Hmong}}}
+      \field{volume}{133}
+      \field{year}{2013}
+      \field{dateera}{ce}
+      \field{pages}{1078\bibrangedash 1089}
+      \range{pages}{12}
+      \verb{doi}
+      \verb 10.1121/1.4773259
+      \endverb
+      \verb{file}
+      \verb /Users/mlbrinke/Zotero/storage/3IFT98LT/garellekVoiceQualityTone2013.pdf
+      \endverb
     \endentry
     \entry{garellekMarginsPhonologyPhonetics2025}{article}{}{}
       \name{author}{3}{}{%
@@ -3910,7 +4204,7 @@
       \verb 10.16995/labphon.10925
       \endverb
       \verb{file}
-      \verb /Users/mlbrinke/Dropbox/Zotero/1_Projects/Dissertation/garellekMarginsPhonologyPhonetics2025.pdf
+      \verb /Users/mlbrinke/Zotero/storage/LC4C24SE/garellekMarginsPhonologyPhonetics2025.pdf
       \endverb
     \endentry
     \entry{garellekBreathyVoiceNasality2016}{article}{}{}
@@ -3965,9 +4259,8 @@
       \verb 10.1016/j.wocn.2016.09.001
       \endverb
       \verb{file}
-      \verb /Users/mlbrinke/Dropbox/Zotero/1_Projects/Dissertation/garellekBreathyVoiceNasality2016.pdf;/Users/mlbrinke/Zotero/storage/ZB83YIDE/S0095447016300730.html
+      \verb /Users/mlbrinke/Zotero/storage/U7QMFYHE/garellekBreathyVoiceNasality2016.pdf;/Users/mlbrinke/Zotero/storage/ZB83YIDE/S0095447016300730.html
       \endverb
-      \keyw{/unread,Enhancement,Nasality,Phonation,Sound change,Voice quality}
     \endentry
     \entry{garellekModelingVoiceSource2016}{article}{}{}
       \name{author}{4}{}{%
@@ -4004,7 +4297,7 @@
       \strng{authornamehash}{8c59d9056f3f3e00d53ff80aef36a55f}
       \strng{authorfullhash}{7daf26632feb980df7cf5b09e9bbc136}
       \strng{authorfullhashraw}{7daf26632feb980df7cf5b09e9bbc136}
-      \field{extraname}{2}
+      \field{extraname}{3}
       \field{sortinit}{G}
       \field{sortinithash}{32d67eca0634bf53703493fb1090a2e8}
       \field{extradatescope}{labelyear}
@@ -4027,7 +4320,7 @@
       \verb 10.1121/1.4944474
       \endverb
       \verb{file}
-      \verb /Users/mlbrinke/Dropbox/Zotero/4_Archive/QE/garellekModelingVoiceSource2016 2.pdf;/Users/mlbrinke/Dropbox/Zotero/4_Archive/QE/garellekModelingVoiceSource2016.pdf;/Users/mlbrinke/Zotero/storage/7MZYRXVF/Modeling-the-voice-source-in-terms-of-spectral.html
+      \verb /Users/mlbrinke/Zotero/storage/NA969769/garellekModelingVoiceSource2016 2.pdf;/Users/mlbrinke/Zotero/storage/YMQ3FUS3/garellekModelingVoiceSource2016.pdf;/Users/mlbrinke/Zotero/storage/7MZYRXVF/Modeling-the-voice-source-in-terms-of-spectral.html
       \endverb
     \endentry
     \entry{gerfenPhonologyPhoneticsCoatzospan1999}{book}{}{}
@@ -4067,7 +4360,7 @@
       \field{year}{1999}
       \field{dateera}{ce}
       \verb{file}
-      \verb /Users/mlbrinke/Dropbox/Zotero/2_Areas/HomeLibrary/gerfenPhonologyPhoneticsCoatzospan1999.pdf
+      \verb /Users/mlbrinke/Zotero/storage/2J9N9RTI/gerfenPhonologyPhoneticsCoatzospan1999.pdf
       \endverb
       \keyw{Otomanguean}
     \endentry
@@ -4117,7 +4410,7 @@
       \verb 10.1016/j.wocn.2004.11.002
       \endverb
       \verb{file}
-      \verb /Users/mlbrinke/Dropbox/Zotero/2_Areas/Zapotec/QP2/gerfenProductionPerceptionLaryngealized2005.pdf
+      \verb /Users/mlbrinke/Zotero/storage/TAYRDPV2/gerfenProductionPerceptionLaryngealized2005.pdf
       \endverb
       \keyw{Otomanguean,Voice Quality}
     \endentry
@@ -4167,7 +4460,7 @@
       \verb 10.1006/jpho.2001.0149
       \endverb
       \verb{file}
-      \verb /Users/mlbrinke/Dropbox/Zotero/2_Areas/Zapotec/QP2/gerrattTaxonomyNonmodalPhonation2001.pdf;/Users/mlbrinke/Zotero/storage/6AKBSUYY/S0095447001901494.html
+      \verb /Users/mlbrinke/Zotero/storage/8YHUNV6U/gerrattTaxonomyNonmodalPhonation2001.pdf;/Users/mlbrinke/Zotero/storage/6AKBSUYY/S0095447001901494.html
       \endverb
       \keyw{Voice Quality}
     \endentry
@@ -4219,9 +4512,9 @@
       \verb 10.1006/jpho.2001.0147
       \endverb
       \verb{file}
-      \verb /Users/mlbrinke/Dropbox/Zotero/2_Areas/Zapotec/QP2/gordonPhonationTypesCrosslinguistic2001.pdf
+      \verb /Users/mlbrinke/Zotero/storage/5Y2XQRFJ/gordonPhonationTypesCrosslinguistic2001.pdf
       \endverb
-      \keyw{/unread,Voice Quality}
+      \keyw{Voice Quality}
     \endentry
     \entry{gronnumDanishStodLaryngealization2013}{article}{}{}
       \name{author}{3}{}{%
@@ -4279,7 +4572,7 @@
       \verb 10.1159/000354640
       \endverb
       \verb{file}
-      \verb /Users/mlbrinke/Dropbox/Zotero/1_Projects/Dissertation/gronnumDanishStodLaryngealization2013.pdf
+      \verb /Users/mlbrinke/Zotero/storage/G865TF6K/gronnumDanishStodLaryngealization2013.pdf
       \endverb
     \endentry
     \entry{hansonGlottalCharacteristicsFemale1997}{article}{}{}
@@ -4323,7 +4616,7 @@
       \verb 10.1121/1.417991
       \endverb
       \verb{file}
-      \verb /Users/mlbrinke/Dropbox/Zotero/1_Projects/Dissertation/hansonGlottalCharacteristicsFemale1997.pdf;/Users/mlbrinke/Zotero/storage/YP24L2HL/Glottal-characteristics-of-female-speakers.html
+      \verb /Users/mlbrinke/Zotero/storage/ZC88H6FX/hansonGlottalCharacteristicsFemale1997.pdf;/Users/mlbrinke/Zotero/storage/YP24L2HL/Glottal-characteristics-of-female-speakers.html
       \endverb
     \endentry
     \entry{hastieGeneralizedAdditiveModels1986}{article}{}{}
@@ -4373,9 +4666,8 @@
       \verb 10.1214/ss/1177013604
       \endverb
       \verb{file}
-      \verb /Users/mlbrinke/Dropbox/Zotero/2_Areas/Zapotec/QE/hastieGeneralizedAdditiveModels1986.pdf;/Users/mlbrinke/Zotero/storage/PQEJBPTR/1177013604.html
+      \verb /Users/mlbrinke/Zotero/storage/QS5C4VWD/hastieGeneralizedAdditiveModels1986.pdf;/Users/mlbrinke/Zotero/storage/PQEJBPTR/1177013604.html
       \endverb
-      \keyw{/unread}
     \endentry
     \entry{hastieElementsStatisticalLearning2009}{book}{}{}
       \name{author}{3}{}{%
@@ -4427,7 +4719,7 @@
       \verb 10.1007/978-0-387-84858-7
       \endverb
       \verb{file}
-      \verb /Users/mlbrinke/Dropbox/Zotero/1_Projects/Dissertation/hastieElementsStatisticalLearning2009.pdf
+      \verb /Users/mlbrinke/Zotero/storage/65QLI9UG/hastieElementsStatisticalLearning2009.pdf
       \endverb
     \endentry
     \entry{hayFactorsInfluencingSpeech2006}{article}{}{}
@@ -4485,7 +4777,6 @@
       \verb{file}
       \verb /Users/mlbrinke/Zotero/storage/VWVTA3N8/S0095447005000550.html
       \endverb
-      \keyw{/unread}
     \endentry
     \entry{hendersonMainFeaturesCambodian1952}{article}{}{}
       \name{author}{1}{}{%
@@ -4526,7 +4817,7 @@
       \verb 10.1017/S0041977X00084251
       \endverb
       \verb{file}
-      \verb /Users/mlbrinke/Dropbox/Zotero/1_Projects/Dissertation/hendersonMainFeaturesCambodian1952.pdf
+      \verb /Users/mlbrinke/Zotero/storage/4AVVAHI5/hendersonMainFeaturesCambodian1952.pdf
       \endverb
     \endentry
     \entry{herbstPerformanceEvaluationSubharmonictoHarmonic2021}{article}{}{}
@@ -4571,7 +4862,6 @@
       \verb{file}
       \verb /Users/mlbrinke/Zotero/storage/CN2T48PW/S0892199719304801.html
       \endverb
-      \keyw{/unread,EGG,Electroglottography,Period doubling,SHR,Subharmonic-to-harmonic ratio,Subharmonics,Voice}
     \endentry
     \entry{herrerazendejasAmuzgoZapotecTwo2000}{article}{}{}
       \name{author}{1}{}{%
@@ -4615,9 +4905,8 @@
       \verb 30028566
       \endverb
       \verb{file}
-      \verb /Users/mlbrinke/Dropbox/Zotero/1_Projects/Dissertation/LaryngealComplexity/herrerazendejasAmuzgoZapotecTwo2000.pdf
+      \verb /Users/mlbrinke/Zotero/storage/Y83KHDAQ/herrerazendejasAmuzgoZapotecTwo2000.pdf
       \endverb
-      \keyw{⛔ No DOI found}
     \endentry
     \entry{hillenbrandAcousticCorrelatesBreathy1996}{article}{}{}
       \name{author}{2}{}{%
@@ -4642,8 +4931,10 @@
       \strng{authornamehash}{14954b5d4ea8735575ed71d5384b7f5e}
       \strng{authorfullhash}{14954b5d4ea8735575ed71d5384b7f5e}
       \strng{authorfullhashraw}{14954b5d4ea8735575ed71d5384b7f5e}
+      \field{extraname}{1}
       \field{sortinit}{H}
       \field{sortinithash}{23a3aa7c24e56cfa16945d55545109b5}
+      \field{extradate}{1}
       \field{extradatescope}{labelyear}
       \field{labeldatesource}{}
       \field{labelnamesource}{author}
@@ -4666,9 +4957,96 @@
       \verb 10.1044/jshr.3902.311
       \endverb
       \verb{file}
-      \verb /Users/mlbrinke/Dropbox/Zotero/2_Areas/Zapotec/QP2/hillenbrandAcousticCorrelatesBreathy1996.pdf
+      \verb /Users/mlbrinke/Zotero/storage/D9IV68KM/hillenbrandAcousticCorrelatesBreathy1996.pdf
       \endverb
       \keyw{Voice Quality}
+    \endentry
+    \entry{hillenbrandRoleF0Amplitude1996}{article}{}{}
+      \name{author}{2}{}{%
+        {{un=0,uniquepart=base,hash=c8292fe68ce306a0786f415d8f236fc5}{%
+           family={Hillenbrand},
+           familyi={H\bibinitperiod},
+           given={James},
+           giveni={J\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=86f288efa40dea313717c65154caa938}{%
+           family={Houde},
+           familyi={H\bibinitperiod},
+           given={Robert\bibnamedelima A.},
+           giveni={R\bibinitperiod\bibinitdelim A\bibinitperiod},
+           givenun=0}}%
+      }
+      \list{publisher}{1}{%
+        {American Speech-Language-Hearing Association}%
+      }
+      \strng{namehash}{14954b5d4ea8735575ed71d5384b7f5e}
+      \strng{fullhash}{14954b5d4ea8735575ed71d5384b7f5e}
+      \strng{fullhashraw}{14954b5d4ea8735575ed71d5384b7f5e}
+      \strng{bibnamehash}{14954b5d4ea8735575ed71d5384b7f5e}
+      \strng{authorbibnamehash}{14954b5d4ea8735575ed71d5384b7f5e}
+      \strng{authornamehash}{14954b5d4ea8735575ed71d5384b7f5e}
+      \strng{authorfullhash}{14954b5d4ea8735575ed71d5384b7f5e}
+      \strng{authorfullhashraw}{14954b5d4ea8735575ed71d5384b7f5e}
+      \field{extraname}{2}
+      \field{sortinit}{H}
+      \field{sortinithash}{23a3aa7c24e56cfa16945d55545109b5}
+      \field{extradate}{2}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{abstract}{Glottal stops that occur in vowel-consonant-vowel context are often not realized as stops at all, but rather show voicing that is continuous throughout the glottal constriction gesture. Glottal articulations that are realized in this way are apparently marked by reductions in amplitude and fundamental frequency. In the present study measurements from naturally produced utterances containing the sequence /o2o/ (i.e., a glottal stop separating two identical vowels) were used to create a set of synthetic stimuli that varied in their F0 and amplitude contours. The utterances were resynthesized in six ways: (a) original pitch/original amplitude, (b) original pitch/flat amplitude, (c) flat pitch/original amplitude, (d) flat pitch/flat amplitude, (e) flat pitch/inverted amplitude, and (f) inverted pitch/flat amplitude. Results indicated that: (a) a dip in the pitch contour is nearly always sufficient to cue the presence of a glottal stop in the absence of any drop in amplitude, (b) a dip in the amplitude contour is usually sufficient to cue the presence of a glottal stop, and (c) signals with inverted contours were not heard as glottal stops, indicating that it is not merely an abrupt change that is needed to signal a glottal stop.}
+      \field{journaltitle}{Journal of Speech, Language, and Hearing Research}
+      \field{month}{12}
+      \field{number}{6}
+      \field{title}{Role of {{F0}} and {{Amplitude}} in the {{Perception}} of {{Intervocalic Glottal Stops}}}
+      \field{volume}{39}
+      \field{year}{1996}
+      \field{dateera}{ce}
+      \field{pages}{1182\bibrangedash 1190}
+      \range{pages}{9}
+      \verb{doi}
+      \verb 10.1044/jshr.3906.1182
+      \endverb
+    \endentry
+    \entry{hockettPeipingPhonology1947}{article}{}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=c9adb07d83e55f0156dc5064dd566bc8}{%
+           family={Hockett},
+           familyi={H\bibinitperiod},
+           given={Charles\bibnamedelima F.},
+           giveni={C\bibinitperiod\bibinitdelim F\bibinitperiod},
+           givenun=0}}%
+      }
+      \list{publisher}{1}{%
+        {American Oriental Society}%
+      }
+      \strng{namehash}{c9adb07d83e55f0156dc5064dd566bc8}
+      \strng{fullhash}{c9adb07d83e55f0156dc5064dd566bc8}
+      \strng{fullhashraw}{c9adb07d83e55f0156dc5064dd566bc8}
+      \strng{bibnamehash}{c9adb07d83e55f0156dc5064dd566bc8}
+      \strng{authorbibnamehash}{c9adb07d83e55f0156dc5064dd566bc8}
+      \strng{authornamehash}{c9adb07d83e55f0156dc5064dd566bc8}
+      \strng{authorfullhash}{c9adb07d83e55f0156dc5064dd566bc8}
+      \strng{authorfullhashraw}{c9adb07d83e55f0156dc5064dd566bc8}
+      \field{sortinit}{H}
+      \field{sortinithash}{23a3aa7c24e56cfa16945d55545109b5}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{issn}{0003-0279}
+      \field{journaltitle}{Journal of the American Oriental Society}
+      \field{number}{4}
+      \field{title}{Peiping {{Phonology}}}
+      \field{volume}{67}
+      \field{year}{1947}
+      \field{dateera}{ce}
+      \field{pages}{253\bibrangedash 267}
+      \range{pages}{15}
+      \verb{doi}
+      \verb 10.2307/596062
+      \endverb
     \endentry
     \entry{hollenbachPhonologyMorphologyTone1984}{thesis}{}{}
       \name{author}{1}{}{%
@@ -4764,7 +5142,7 @@
       \verb 10.1044/jshr.3806.1212
       \endverb
       \verb{file}
-      \verb /Users/mlbrinke/Dropbox/Zotero/2_Areas/Zapotec/QP2/Independent Study/holmbergComparisonsAerodynamicElectroglottographic1995.pdf
+      \verb /Users/mlbrinke/Zotero/storage/K3RW5ML8/holmbergComparisonsAerodynamicElectroglottographic1995.pdf
       \endverb
       \keyw{Voice Quality}
     \endentry
@@ -4820,7 +5198,7 @@
       \verb 10.1121/1.2697522
       \endverb
       \verb{file}
-      \verb /Users/mlbrinke/Dropbox/Zotero/1_Projects/Dissertation/iseliAgeSexVowel2007.pdf;/Users/mlbrinke/Zotero/storage/JM2RMSVA/Age-sex-and-vowel-dependencies-of-acoustic.html
+      \verb /Users/mlbrinke/Zotero/storage/CPD2GQTN/iseliAgeSexVowel2007.pdf;/Users/mlbrinke/Zotero/storage/JM2RMSVA/Age-sex-and-vowel-dependencies-of-acoustic.html
       \endverb
     \endentry
     \entry{jaegerInitialConsonantClusters1982}{article}{}{}
@@ -4868,7 +5246,7 @@
       \verb 10.1086/465724
       \endverb
       \verb{file}
-      \verb /Users/mlbrinke/Dropbox/Zotero/2_Areas/Zapotec/jaegerInitialConsonantClusters1982.pdf
+      \verb /Users/mlbrinke/Zotero/storage/APBMVAWC/jaegerInitialConsonantClusters1982.pdf
       \endverb
       \keyw{Otomanguean}
     \endentry
@@ -4932,7 +5310,7 @@
       \verb 10.1007/978-1-0716-1418-1
       \endverb
       \verb{file}
-      \verb /Users/mlbrinke/Dropbox/Zotero/3_Resources/Statistics/jamesIntroductionStatisticalLearning2021.pdf
+      \verb /Users/mlbrinke/Zotero/storage/GYD8LF2P/jamesIntroductionStatisticalLearning2021.pdf
       \endverb
     \endentry
     \entry{janitzaOverestimationRandomForests2018}{article}{}{}
@@ -4985,9 +5363,8 @@
       \verb 10.1371/journal.pone.0201904
       \endverb
       \verb{file}
-      \verb /Users/mlbrinke/Dropbox/Zotero/0_Inbox/_.pdf
+      \verb /Users/mlbrinke/Zotero/storage/GEEB793P/_.pdf
       \endverb
-      \keyw{Breast cancer,Colorectal cancer,Forecasting,Genomics,Normal distribution,Prostate cancer,Simulation and modeling,Trees}
     \endentry
     \entry{johnsonQuantifyingOverlapBhattacharyyas2015}{unpublished}{}{}
       \name{author}{1}{}{%
@@ -5031,7 +5408,6 @@
       \verb{url}
       \verb https://danielezrajohnson.shinyapps.io/nwav_44/
       \endverb
-      \keyw{/unread}
     \endentry
     \entry{josserandMixtecDialectHistory1983}{thesis}{}{}
       \name{author}{1}{}{%
@@ -5077,7 +5453,7 @@
       \field{dateera}{ce}
       \field{urldateera}{ce}
       \verb{file}
-      \verb /Users/mlbrinke/Dropbox/Zotero/1_Projects/Dissertation/josserandMixtecDialectHistory1983.pdf
+      \verb /Users/mlbrinke/Zotero/storage/DG9E2NTW/josserandMixtecDialectHistory1983.pdf
       \endverb
       \verb{urlraw}
       \verb https://www.proquest.com/docview/303280102/abstract/983851C79F2C4431PQ/1
@@ -5095,12 +5471,14 @@
            given={Hideki},
            giveni={H\bibinitperiod},
            givenun=0}}%
-        {{un=0,uniquepart=base,hash=9368ae76fdf054c0a6a5af334c8bc57e}{%
-           family={Cheveigne},
+        {{un=0,uniquepart=base,useprefix=true,hash=44b86644ebd49d416c6723f7b1e9aca9}{%
+           family={Cheveigné},
            familyi={C\bibinitperiod},
-           given={Alain\bibnamedelima De},
-           giveni={A\bibinitperiod\bibinitdelim D\bibinitperiod},
-           givenun=0}}%
+           given={Alain},
+           giveni={A\bibinitperiod},
+           givenun=0,
+           prefix={de},
+           prefixi={d\bibinitperiod}}}%
         {{un=0,uniquepart=base,hash=87b5026e145679dbb77b786d7933698e}{%
            family={Patterson},
            familyi={P\bibinitperiod},
@@ -5111,14 +5489,14 @@
       \list{publisher}{1}{%
         {ISCA}%
       }
-      \strng{namehash}{0855130c506b24a6cc8fdf1c85b54374}
-      \strng{fullhash}{0855130c506b24a6cc8fdf1c85b54374}
-      \strng{fullhashraw}{0855130c506b24a6cc8fdf1c85b54374}
-      \strng{bibnamehash}{0855130c506b24a6cc8fdf1c85b54374}
-      \strng{authorbibnamehash}{0855130c506b24a6cc8fdf1c85b54374}
-      \strng{authornamehash}{0855130c506b24a6cc8fdf1c85b54374}
-      \strng{authorfullhash}{0855130c506b24a6cc8fdf1c85b54374}
-      \strng{authorfullhashraw}{0855130c506b24a6cc8fdf1c85b54374}
+      \strng{namehash}{84f64aa2a65dba8e60e5f6bb41103992}
+      \strng{fullhash}{84f64aa2a65dba8e60e5f6bb41103992}
+      \strng{fullhashraw}{84f64aa2a65dba8e60e5f6bb41103992}
+      \strng{bibnamehash}{84f64aa2a65dba8e60e5f6bb41103992}
+      \strng{authorbibnamehash}{84f64aa2a65dba8e60e5f6bb41103992}
+      \strng{authornamehash}{84f64aa2a65dba8e60e5f6bb41103992}
+      \strng{authorfullhash}{84f64aa2a65dba8e60e5f6bb41103992}
+      \strng{authorfullhashraw}{84f64aa2a65dba8e60e5f6bb41103992}
       \field{sortinit}{K}
       \field{sortinithash}{c02bf6bff1c488450c352b40f5d853ab}
       \field{extradatescope}{labelyear}
@@ -5140,7 +5518,68 @@
       \verb 10.21437/ICSLP.1998-555
       \endverb
       \verb{file}
-      \verb /Users/mlbrinke/Dropbox/Zotero/1_Projects/Dissertation/kawaharaInstantaneousfrequencybasedPitchExtraction1998.pdf
+      \verb /Users/mlbrinke/Zotero/storage/RML754MI/kawaharaInstantaneousfrequencybasedPitchExtraction1998.pdf
+      \endverb
+    \endentry
+    \entry{keatingPhonationContrastsLanguages}{article}{}{}
+      \name{author}{5}{}{%
+        {{un=0,uniquepart=base,hash=fc50eafcd8e8098287287e0504b34e67}{%
+           family={Keating},
+           familyi={K\bibinitperiod},
+           given={Patricia},
+           giveni={P\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=8302fa658b038a406c26db0f6760e735}{%
+           family={Esposito},
+           familyi={E\bibinitperiod},
+           given={Christina\bibnamedelima M.},
+           giveni={C\bibinitperiod\bibinitdelim M\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=6261be825a58b093c669ab685b17a0a2}{%
+           family={Garellek},
+           familyi={G\bibinitperiod},
+           given={Marc},
+           giveni={M\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=1e278f071c6b1958dea181d4413c7e40}{%
+           family={Khan},
+           familyi={K\bibinitperiod},
+           given={Sameer\bibnamedelimb ud\bibnamedelima Dowla},
+           giveni={S\bibinitperiod\bibinitdelim u\bibinitperiod\bibinitdelim D\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=7d1849b84165ad2cf1a6792d64e558ab}{%
+           family={Kuang},
+           familyi={K\bibinitperiod},
+           given={Jianjing},
+           giveni={J\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{598d014c98253185954661b223073717}
+      \strng{fullhash}{890753acd5580fb7e10d48b4a87df1f1}
+      \strng{fullhashraw}{890753acd5580fb7e10d48b4a87df1f1}
+      \strng{bibnamehash}{890753acd5580fb7e10d48b4a87df1f1}
+      \strng{authorbibnamehash}{890753acd5580fb7e10d48b4a87df1f1}
+      \strng{authornamehash}{598d014c98253185954661b223073717}
+      \strng{authorfullhash}{890753acd5580fb7e10d48b4a87df1f1}
+      \strng{authorfullhashraw}{890753acd5580fb7e10d48b4a87df1f1}
+      \field{extraname}{1}
+      \field{sortinit}{K}
+      \field{sortinithash}{c02bf6bff1c488450c352b40f5d853ab}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{abstract}{This study compared the contrastive phonation types of four languages—Gujarati (modal vs. breathy), Hmong (modal vs. breathy vs. creaky), Mazatec (modal vs. breathy vs. creaky), and Yi (tense vs. lax)—on several acoustic measures, within and across languages. For Gujarati, Hmong, and Yi, two electroglottographic (EGG) measures were also compared; a Contact Quotient measure distinguished the within-language phonation types in all three languages. While several acoustic measures distinguished phonation types within each language, only H1*H2* did so in all four languages. However, when each within-language phonation category was then compared across languages, each category was found to differ from language to language on multiple acoustic measures, e.g. breathy in Hmong is distinct from breathy in Gujarati. This unexpected result suggests that language/speaker differences in voice quality are larger than phonation category differences. This suggestion finds support in a Multi-Dimensional Scaling analysis of the acoustic measures. A three-dimensional space turns out to mostly distinguish the languages, less so the phonations. The phonation categories do not form clusters in this space across languages as might have been expected, but they do occupy separate regions along the third dimension of the space, a dimension correlated especially with H1*-H2*. Thus H1*-H2* is again seen to be the most important measure of phonation contrasts across languages.}
+      \field{journaltitle}{UCLA Working Papers in Phonetics}
+      \field{langid}{english}
+      \field{number}{108}
+      \field{title}{Phonation {{Contrasts Across Languages}}}
+      \field{year}{2010}
+      \field{dateera}{ce}
+      \field{pages}{188\bibrangedash 202}
+      \range{pages}{15}
+      \verb{file}
+      \verb /Users/mlbrinke/Zotero/storage/EYTNZVRX/keatingPhonationContrastsLanguages.pdf
       \endverb
     \endentry
     \entry{keatingAcousticPropertiesDifferent2015}{inproceedings}{}{}
@@ -5185,9 +5624,8 @@
       \field{year}{2015}
       \field{dateera}{ce}
       \verb{file}
-      \verb /Users/mlbrinke/Dropbox/Zotero/4_Archive/QE/keatingAcousticPropertiesDifferent2015.pdf
+      \verb /Users/mlbrinke/Zotero/storage/B5RMJ9YY/keatingAcousticPropertiesDifferent2015.pdf
       \endverb
-      \keyw{/unread,⛔ No DOI found}
     \endentry
     \entry{keatingCrosslanguageAcousticSpace2023}{article}{}{}
       \name{author}{5}{}{%
@@ -5233,6 +5671,7 @@
       \strng{authornamehash}{598d014c98253185954661b223073717}
       \strng{authorfullhash}{a2fe3a0907e667ce45bb92e62b1895ce}
       \strng{authorfullhashraw}{a2fe3a0907e667ce45bb92e62b1895ce}
+      \field{extraname}{2}
       \field{sortinit}{K}
       \field{sortinithash}{c02bf6bff1c488450c352b40f5d853ab}
       \field{extradatescope}{labelyear}
@@ -5253,7 +5692,7 @@
       \verb 10.1353/lan.2023.a900090
       \endverb
       \verb{file}
-      \verb /Users/mlbrinke/Dropbox/Zotero/1_Projects/Dissertation/keatingCrosslanguageAcousticSpace2023.pdf
+      \verb /Users/mlbrinke/Zotero/storage/FPFVXQTH/keatingCrosslanguageAcousticSpace2023.pdf
       \endverb
       \keyw{Voice Quality}
     \endentry
@@ -5303,7 +5742,7 @@
       \verb 10.1121/10.0001015
       \endverb
       \verb{file}
-      \verb /Users/mlbrinke/Dropbox/Zotero/2_Areas/Zapotec/QP2/keltererPhonationTypeContrasts2020.pdf
+      \verb /Users/mlbrinke/Zotero/storage/5JZ3ZMS8/keltererPhonationTypeContrasts2020.pdf
       \endverb
       \keyw{Laryngeal Complexity,Voice Quality}
     \endentry
@@ -5388,9 +5827,8 @@
       \verb 10.1016/j.wocn.2012.07.001
       \endverb
       \verb{file}
-      \verb /Users/mlbrinke/Dropbox/Zotero/1_Projects/Dissertation/khanPhoneticsContrastivePhonation2012.pdf;/Users/mlbrinke/Zotero/storage/NRYEDTZ2/S0095447012000514.html
+      \verb /Users/mlbrinke/Zotero/storage/WY4DEFAG/khanPhoneticsContrastivePhonation2012.pdf;/Users/mlbrinke/Zotero/storage/NRYEDTZ2/S0095447012000514.html
       \endverb
-      \keyw{/unread}
     \endentry
     \entry{kirkQuantifyingAcousticProperties1993}{incollection}{}{}
       \name{author}{3}{}{%
@@ -5455,7 +5893,6 @@
       \field{dateera}{ce}
       \field{pages}{435\bibrangedash 450}
       \range{pages}{16}
-      \keyw{/unread,⛔ No DOI found}
     \endentry
     \entry{klattAnalysisSynthesisPerception1990}{article}{}{}
       \name{author}{2}{}{%
@@ -5502,7 +5939,7 @@
       \verb 10.1121/1.398894
       \endverb
       \verb{file}
-      \verb /Users/mlbrinke/Dropbox/Zotero/2_Areas/Zapotec/QP2/LarynxTime/klattAnalysisSynthesisPerception1990.pdf
+      \verb /Users/mlbrinke/Zotero/storage/SSSLK23X/klattAnalysisSynthesisPerception1990.pdf
       \endverb
     \endentry
     \entry{kreimanMeasuresGlottalSource2007}{article}{}{}
@@ -5557,7 +5994,7 @@
       \verb 10.1044/1092-4388(2007/042)
       \endverb
       \verb{file}
-      \verb /Users/mlbrinke/Dropbox/Zotero/2_Areas/Zapotec/QP2/LarynxTime/kreimanMeasuresGlottalSource2007.pdf
+      \verb /Users/mlbrinke/Zotero/storage/I6M4HXRM/kreimanMeasuresGlottalSource2007.pdf
       \endverb
     \endentry
     \entry{kreimanUnifiedTheoryVoice2014}{article}{}{}
@@ -5624,7 +6061,7 @@
       \verb 10.3989/loquens.2014.009
       \endverb
       \verb{file}
-      \verb /Users/mlbrinke/Dropbox/Zotero/2_Areas/Zapotec/QP2/kreimanUnifiedTheoryVoice2014.pdf
+      \verb /Users/mlbrinke/Zotero/storage/9TX9XLVV/kreimanUnifiedTheoryVoice2014.pdf
       \endverb
     \endentry
     \entry{kreimanValidatingPsychoacousticModel2021}{article}{}{}
@@ -5693,7 +6130,7 @@
       \verb 10.1121/10.0003331
       \endverb
       \verb{file}
-      \verb /Users/mlbrinke/Dropbox/Zotero/4_Archive/QE/kreimanValidatingPsychoacousticModel2021 2.pdf;/Users/mlbrinke/Dropbox/Zotero/4_Archive/QE/kreimanValidatingPsychoacousticModel2021.pdf;/Users/mlbrinke/Zotero/storage/9RLE8Y5W/Validating-a-psychoacoustic-model-of-voice-quality.html
+      \verb /Users/mlbrinke/Zotero/storage/F3DR7PKI/kreimanValidatingPsychoacousticModel2021 2.pdf;/Users/mlbrinke/Zotero/storage/R6LLLIYT/kreimanValidatingPsychoacousticModel2021.pdf;/Users/mlbrinke/Zotero/storage/9RLE8Y5W/Validating-a-psychoacoustic-model-of-voice-quality.html
       \endverb
     \endentry
     \entry{dekromCepstrumBasedTechniqueDetermining1993}{article}{}{}
@@ -5738,7 +6175,7 @@
       \verb 10.1044/jshr.3602.254
       \endverb
       \verb{file}
-      \verb /Users/mlbrinke/Dropbox/Zotero/4_Archive/QE/dekromCepstrumBasedTechniqueDetermining1993.pdf
+      \verb /Users/mlbrinke/Zotero/storage/5YXPLFCB/dekromCepstrumBasedTechniqueDetermining1993.pdf
       \endverb
     \endentry
     \entry{kruskalMultidimensionalScaling1978}{book}{}{}
@@ -5783,49 +6220,6 @@
       \verb 10.4135/9781412985130
       \endverb
     \endentry
-    \entry{kuangCovariationVoiceQuality2017}{article}{}{}
-      \name{author}{1}{}{%
-        {{un=0,uniquepart=base,hash=7d1849b84165ad2cf1a6792d64e558ab}{%
-           family={Kuang},
-           familyi={K\bibinitperiod},
-           given={Jianjing},
-           giveni={J\bibinitperiod},
-           givenun=0}}%
-      }
-      \strng{namehash}{7d1849b84165ad2cf1a6792d64e558ab}
-      \strng{fullhash}{7d1849b84165ad2cf1a6792d64e558ab}
-      \strng{fullhashraw}{7d1849b84165ad2cf1a6792d64e558ab}
-      \strng{bibnamehash}{7d1849b84165ad2cf1a6792d64e558ab}
-      \strng{authorbibnamehash}{7d1849b84165ad2cf1a6792d64e558ab}
-      \strng{authornamehash}{7d1849b84165ad2cf1a6792d64e558ab}
-      \strng{authorfullhash}{7d1849b84165ad2cf1a6792d64e558ab}
-      \strng{authorfullhashraw}{7d1849b84165ad2cf1a6792d64e558ab}
-      \field{sortinit}{K}
-      \field{sortinithash}{c02bf6bff1c488450c352b40f5d853ab}
-      \field{extradatescope}{labelyear}
-      \field{labeldatesource}{}
-      \field{labelnamesource}{author}
-      \field{labeltitlesource}{shorttitle}
-      \field{issn}{0001-4966}
-      \field{journaltitle}{The Journal of the Acoustical Society of America}
-      \field{langid}{english}
-      \field{month}{9}
-      \field{number}{3}
-      \field{shortjournal}{The Journal of the Acoustical Society of America}
-      \field{shorttitle}{Covariation between Voice Quality and Pitch}
-      \field{title}{Covariation between Voice Quality and Pitch: {{Revisiting}} the Case of {{Mandarin}} Creaky Voice}
-      \field{volume}{142}
-      \field{year}{2017}
-      \field{dateera}{ce}
-      \field{pages}{1693\bibrangedash 1706}
-      \range{pages}{14}
-      \verb{doi}
-      \verb 10.1121/1.5003649
-      \endverb
-      \verb{file}
-      \verb /Users/mlbrinke/Dropbox/Zotero/2_Areas/Zapotec/QP2/kuangCovariationVoiceQuality2017.pdf
-      \endverb
-    \endentry
     \entry{ladefogedSoundsWorldsLanguages1996}{book}{}{}
       \name{author}{2}{}{%
         {{un=0,uniquepart=base,hash=ee50d5fae1323a80cddc05b09f356e54}{%
@@ -5867,7 +6261,6 @@
       \field{title}{The Sounds of the World's Languages}
       \field{year}{1996}
       \field{dateera}{ce}
-      \keyw{/unread}
     \endentry
     \entry{laverVoiceQualityIndexical1968}{article}{}{}
       \name{author}{1}{}{%
@@ -5889,6 +6282,7 @@
       \strng{authornamehash}{32e2e5b32e647c0c0d595c1540445d31}
       \strng{authorfullhash}{32e2e5b32e647c0c0d595c1540445d31}
       \strng{authorfullhashraw}{32e2e5b32e647c0c0d595c1540445d31}
+      \field{extraname}{1}
       \field{sortinit}{L}
       \field{sortinithash}{7c47d417cecb1f4bd38d1825c427a61a}
       \field{extradatescope}{labelyear}
@@ -5911,7 +6305,42 @@
       \verb 10.3109/13682826809011440
       \endverb
       \verb{file}
-      \verb /Users/mlbrinke/Dropbox/Zotero/1_Projects/Dissertation/laverVoiceQualityIndexical1968.pdf
+      \verb /Users/mlbrinke/Zotero/storage/B7NA3KXQ/laverVoiceQualityIndexical1968.pdf
+      \endverb
+    \endentry
+    \entry{laverPhoneticDescriptionVoice1980}{article}{}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=32e2e5b32e647c0c0d595c1540445d31}{%
+           family={Laver},
+           familyi={L\bibinitperiod},
+           given={John\bibnamedelimb D.\bibnamedelimi M.},
+           giveni={J\bibinitperiod\bibinitdelim D\bibinitperiod\bibinitdelim M\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{32e2e5b32e647c0c0d595c1540445d31}
+      \strng{fullhash}{32e2e5b32e647c0c0d595c1540445d31}
+      \strng{fullhashraw}{32e2e5b32e647c0c0d595c1540445d31}
+      \strng{bibnamehash}{32e2e5b32e647c0c0d595c1540445d31}
+      \strng{authorbibnamehash}{32e2e5b32e647c0c0d595c1540445d31}
+      \strng{authornamehash}{32e2e5b32e647c0c0d595c1540445d31}
+      \strng{authorfullhash}{32e2e5b32e647c0c0d595c1540445d31}
+      \strng{authorfullhashraw}{32e2e5b32e647c0c0d595c1540445d31}
+      \field{extraname}{2}
+      \field{sortinit}{L}
+      \field{sortinithash}{7c47d417cecb1f4bd38d1825c427a61a}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Cambridge Studies in Linguistics London}
+      \field{title}{The {{Phonetic Description}} of {{Voice Quality}}}
+      \field{volume}{31}
+      \field{year}{1980}
+      \field{dateera}{ce}
+      \field{pages}{1\bibrangedash 186}
+      \range{pages}{186}
+      \verb{file}
+      \verb /Users/mlbrinke/Zotero/storage/457CYJ8G/index.html
       \endverb
     \endentry
     \entry{lillehaugenOtomangueanLanguages2019}{incollection}{}{}
@@ -6001,7 +6430,7 @@
       \verb 10.1007/978-1-4613-8202-7_10
       \endverb
       \verb{file}
-      \verb /Users/mlbrinke/Dropbox/Zotero/1_Projects/Dissertation/lindblomEconomySpeechGestures1983.pdf
+      \verb /Users/mlbrinke/Zotero/storage/R4TKE26D/lindblomEconomySpeechGestures1983.pdf
       \endverb
     \endentry
     \entry{longDiccionarioZapotecoSan2005}{book}{}{}
@@ -6050,7 +6479,7 @@
       \field{year}{2005}
       \field{dateera}{ce}
       \verb{file}
-      \verb /Users/mlbrinke/Dropbox/Zotero/3_Resources/Linguistics/Grammars/longDiccionarioZapotecoSan2005.pdf
+      \verb /Users/mlbrinke/Zotero/storage/C3ZBV7EB/longDiccionarioZapotecoSan2005.pdf
       \endverb
       \keyw{Otomanguean}
     \endentry
@@ -6088,7 +6517,7 @@
       \field{year}{2016}
       \field{dateera}{ce}
       \verb{file}
-      \verb /Users/mlbrinke/Dropbox/Zotero/2_Areas/Zapotec/lopeznicolasEstudiosFonologiaGramatica2016.pdf
+      \verb /Users/mlbrinke/Zotero/storage/NCKY9ALE/lopeznicolasEstudiosFonologiaGramatica2016.pdf
       \endverb
       \keyw{Otomanguean}
     \endentry
@@ -6146,7 +6575,6 @@
       \verb{doi}
       \verb 10.1159/000262212
       \endverb
-      \keyw{/unread}
     \endentry
     \entry{macmillanIntegralityNasalizationF11999}{article}{}{}
       \name{author}{5}{}{%
@@ -6212,9 +6640,41 @@
       \verb 10.1121/1.428113
       \endverb
       \verb{file}
-      \verb /Users/mlbrinke/Dropbox/Zotero/1_Projects/Dissertation/Nasality/macmillanIntegralityNasalizationF11999.pdf;/Users/mlbrinke/Zotero/storage/93WNPS82/Integrality-of-nasalization-and-F1-II-Basic.html
+      \verb /Users/mlbrinke/Zotero/storage/3PWYL2GF/macmillanIntegralityNasalizationF11999.pdf;/Users/mlbrinke/Zotero/storage/93WNPS82/Integrality-of-nasalization-and-F1-II-Basic.html
       \endverb
-      \keyw{/unread}
+    \endentry
+    \entry{masicaDefiningLinguisticArea1976}{book}{}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=6c6c38875108e15aec8cb28ecebfe4d3}{%
+           family={Masica},
+           familyi={M\bibinitperiod},
+           given={Colin\bibnamedelima P.},
+           giveni={C\bibinitperiod\bibinitdelim P\bibinitperiod},
+           givenun=0}}%
+      }
+      \list{location}{1}{%
+        {Chicago}%
+      }
+      \list{publisher}{1}{%
+        {The University of Chicago Press}%
+      }
+      \strng{namehash}{6c6c38875108e15aec8cb28ecebfe4d3}
+      \strng{fullhash}{6c6c38875108e15aec8cb28ecebfe4d3}
+      \strng{fullhashraw}{6c6c38875108e15aec8cb28ecebfe4d3}
+      \strng{bibnamehash}{6c6c38875108e15aec8cb28ecebfe4d3}
+      \strng{authorbibnamehash}{6c6c38875108e15aec8cb28ecebfe4d3}
+      \strng{authornamehash}{6c6c38875108e15aec8cb28ecebfe4d3}
+      \strng{authorfullhash}{6c6c38875108e15aec8cb28ecebfe4d3}
+      \strng{authorfullhashraw}{6c6c38875108e15aec8cb28ecebfe4d3}
+      \field{sortinit}{M}
+      \field{sortinithash}{4625c616857f13d17ce56f7d4f97d451}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{Defining a Linguistic Area: {{South Asia}}}
+      \field{year}{1976}
+      \field{dateera}{ce}
     \endentry
     \entry{matisoffRhinoglottophiliaMysteriousConnection1975}{incollection}{}{}
       \name{author}{1}{}{%
@@ -6273,7 +6733,7 @@
       \field{pages}{265\bibrangedash 287}
       \range{pages}{23}
       \verb{file}
-      \verb /Users/mlbrinke/Dropbox/Zotero/1_Projects/Dissertation/matisoffRhinoglottophiliaMysteriousConnection1975.pdf
+      \verb /Users/mlbrinke/Zotero/storage/VCH4U44A/matisoffRhinoglottophiliaMysteriousConnection1975.pdf
       \endverb
     \endentry
     \entry{merrillTilquiapanZapotec2008}{article}{}{}
@@ -6313,9 +6773,44 @@
       \verb 10.1017/S0025100308003344
       \endverb
       \verb{file}
-      \verb /Users/mlbrinke/Dropbox/Zotero/2_Areas/Zapotec/merrillTilquiapanZapotec2008.pdf
+      \verb /Users/mlbrinke/Zotero/storage/KY3Y9GAY/merrillTilquiapanZapotec2008.pdf
       \endverb
       \keyw{Otomanguean}
+    \endentry
+    \entry{michaudComplexTonesEast2012}{article}{}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=063a82c18c619a62f0ae039d45b1c177}{%
+           family={Michaud},
+           familyi={M\bibinitperiod},
+           given={Alexis},
+           giveni={A\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{063a82c18c619a62f0ae039d45b1c177}
+      \strng{fullhash}{063a82c18c619a62f0ae039d45b1c177}
+      \strng{fullhashraw}{063a82c18c619a62f0ae039d45b1c177}
+      \strng{bibnamehash}{063a82c18c619a62f0ae039d45b1c177}
+      \strng{authorbibnamehash}{063a82c18c619a62f0ae039d45b1c177}
+      \strng{authornamehash}{063a82c18c619a62f0ae039d45b1c177}
+      \strng{authorfullhash}{063a82c18c619a62f0ae039d45b1c177}
+      \strng{authorfullhashraw}{063a82c18c619a62f0ae039d45b1c177}
+      \field{sortinit}{M}
+      \field{sortinithash}{4625c616857f13d17ce56f7d4f97d451}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{abstract}{In some of the tone systems of East and Southeast Asian languages, linguistic tone cannot simply be equated with pitch; some tones have phonation-type characteristics as part of their phonological definition; and there is no compelling evidence for analyzing tonal contours into sequences of levels. Salient findings are reviewed, first from a synchronic perspective, then from a diachronic one, to bring out facts that are relevant for tonal typology and for evolutionary approaches to phonology.}
+      \field{langid}{english}
+      \field{title}{The {{Complex Tones}} of {{East}}/{{Southeast Asian Languages}}: {{Current Challenges}} for {{Typology}} and {{Modelling}}}
+      \field{year}{2012}
+      \field{dateera}{ce}
+      \field{pages}{8}
+      \range{pages}{1}
+      \verb{file}
+      \verb /Users/mlbrinke/Zotero/storage/4QH24KET/michaudComplexTonesEast2012.pdf
+      \endverb
+      \keyw{Voice Quality}
     \endentry
     \entry{mittalStudyEffectsVocal2014}{article}{}{}
       \name{author}{3}{}{%
@@ -6369,7 +6864,7 @@
       \verb 10.1121/1.4894789
       \endverb
       \verb{file}
-      \verb /Users/mlbrinke/Dropbox/Zotero/mittalStudyEffectsVocal2014.pdf;/Users/mlbrinke/Zotero/storage/7KN28MI5/Study-of-the-effects-of-vocal-tract-constriction.html
+      \verb /Users/mlbrinke/Zotero/storage/NFUTWQ7B/mittalStudyEffectsVocal2014.pdf;/Users/mlbrinke/Zotero/storage/7KN28MI5/Study-of-the-effects-of-vocal-tract-constriction.html
       \endverb
     \endentry
     \entry{mockPitchAccentStress1988}{incollection}{}{}
@@ -6421,182 +6916,6 @@
       \field{pages}{197\bibrangedash 223}
       \range{pages}{27}
       \keyw{Otomanguean}
-    \endentry
-    \entry{moisikMultimodalImagingGlottal2015}{book}{}{}
-      \name{author}{5}{}{%
-        {{un=0,uniquepart=base,hash=c9796751a0e358010abfeb9004a1725a}{%
-           family={Moisik},
-           familyi={M\bibinitperiod},
-           given={Scott\bibnamedelima R},
-           giveni={S\bibinitperiod\bibinitdelim R\bibinitperiod},
-           givenun=0}}%
-        {{un=0,uniquepart=base,hash=082cefbe699f8f788561da9b0c5bf06b}{%
-           family={Esling},
-           familyi={E\bibinitperiod},
-           given={John\bibnamedelima H},
-           giveni={J\bibinitperiod\bibinitdelim H\bibinitperiod},
-           givenun=0}}%
-        {{un=0,uniquepart=base,hash=2e037d06ebedc505c9d1f923fbe51522}{%
-           family={Crevier-Buchman},
-           familyi={C\bibinithyphendelim B\bibinitperiod},
-           given={Lise},
-           giveni={L\bibinitperiod},
-           givenun=0}}%
-        {{un=0,uniquepart=base,hash=03d16d5edbf49b535821ee6f0875efaa}{%
-           family={Amelot},
-           familyi={A\bibinitperiod},
-           given={Angélique},
-           giveni={A\bibinitperiod},
-           givenun=0}}%
-        {{un=0,uniquepart=base,hash=6af7f8861ae3e9625bce5d07eff53db3}{%
-           family={Halimi},
-           familyi={H\bibinitperiod},
-           given={Philippe},
-           giveni={P\bibinitperiod},
-           givenun=0}}%
-      }
-      \name{editor}{1}{}{%
-        {{hash=8b84a1bba7eab84a5d06c6cde6ff4b83}{%
-           family={Consortium},
-           familyi={C\bibinitperiod},
-           given={Scottish},
-           giveni={S\bibinitperiod}}}%
-      }
-      \strng{namehash}{96f7c53ef11e2bf0f6968a985ec76611}
-      \strng{fullhash}{750c079e16045b25e952cc265126a488}
-      \strng{fullhashraw}{750c079e16045b25e952cc265126a488}
-      \strng{bibnamehash}{750c079e16045b25e952cc265126a488}
-      \strng{authorbibnamehash}{750c079e16045b25e952cc265126a488}
-      \strng{authornamehash}{96f7c53ef11e2bf0f6968a985ec76611}
-      \strng{authorfullhash}{750c079e16045b25e952cc265126a488}
-      \strng{authorfullhashraw}{750c079e16045b25e952cc265126a488}
-      \strng{editorbibnamehash}{8b84a1bba7eab84a5d06c6cde6ff4b83}
-      \strng{editornamehash}{8b84a1bba7eab84a5d06c6cde6ff4b83}
-      \strng{editorfullhash}{8b84a1bba7eab84a5d06c6cde6ff4b83}
-      \strng{editorfullhashraw}{8b84a1bba7eab84a5d06c6cde6ff4b83}
-      \field{sortinit}{M}
-      \field{sortinithash}{4625c616857f13d17ce56f7d4f97d451}
-      \field{extradatescope}{labelyear}
-      \field{labeldatesource}{}
-      \field{labelnamesource}{author}
-      \field{labeltitlesource}{title}
-      \field{abstract}{This paper investigates the role of epilaryngeal constriction in constricted laryngeal gestures such as creaky voice and glottal stop. Two imaging modalities were used to study canonical phonetic productions anchored by auditory targets. Laryngeal posture was examined in axial and sagittal sections using magnetic resonance imaging, and high-speed laryngoscopic video was used to study posturing and vibratory dynamics. Together these data support the view that epilaryngeal constriction plays a key role in suppressing vocal fold vibration most directly through a vertical compaction mechanism, whereby the vocal folds and ventricular folds come into contact, obliterating the ventricle. The effect of this is suggested to increase mechanical impedance to mucosal wave transmission resulting in the perturbed vibration observed in creaky voice or facilitating vibratory arrest in glottal stop.}
-      \field{langid}{english}
-      \field{title}{Multimodal Imaging of Glottal Stop and Creaky Voice: {{Evaluating}} the Role of Epilaryngeal Constriction}
-      \field{volume}{paper 247}
-      \field{year}{2015}
-      \field{dateera}{ce}
-      \verb{file}
-      \verb /Users/mlbrinke/Dropbox/Zotero/2_Areas/Zapotec/QP2/moisikMultimodalImagingGlottal2015.pdf
-      \endverb
-    \endentry
-    \entry{moisikPhonologicalPotentialsLower2021}{article}{}{}
-      \name{author}{3}{}{%
-        {{un=0,uniquepart=base,hash=c9796751a0e358010abfeb9004a1725a}{%
-           family={Moisik},
-           familyi={M\bibinitperiod},
-           given={Scott\bibnamedelima R.},
-           giveni={S\bibinitperiod\bibinitdelim R\bibinitperiod},
-           givenun=0}}%
-        {{un=0,uniquepart=base,hash=fce2ecae21b8089676bbac592267c36a}{%
-           family={Czaykowska-Higgins},
-           familyi={C\bibinithyphendelim H\bibinitperiod},
-           given={Ewa},
-           giveni={E\bibinitperiod},
-           givenun=0}}%
-        {{un=0,uniquepart=base,hash=082cefbe699f8f788561da9b0c5bf06b}{%
-           family={Esling},
-           familyi={E\bibinitperiod},
-           given={John\bibnamedelima H.},
-           giveni={J\bibinitperiod\bibinitdelim H\bibinitperiod},
-           givenun=0}}%
-      }
-      \list{publisher}{1}{%
-        {Cambridge University Press}%
-      }
-      \strng{namehash}{0254962e49ba7c870e96ca80e6932755}
-      \strng{fullhash}{0254962e49ba7c870e96ca80e6932755}
-      \strng{fullhashraw}{0254962e49ba7c870e96ca80e6932755}
-      \strng{bibnamehash}{0254962e49ba7c870e96ca80e6932755}
-      \strng{authorbibnamehash}{0254962e49ba7c870e96ca80e6932755}
-      \strng{authornamehash}{0254962e49ba7c870e96ca80e6932755}
-      \strng{authorfullhash}{0254962e49ba7c870e96ca80e6932755}
-      \strng{authorfullhashraw}{0254962e49ba7c870e96ca80e6932755}
-      \field{sortinit}{M}
-      \field{sortinithash}{4625c616857f13d17ce56f7d4f97d451}
-      \field{extradatescope}{labelyear}
-      \field{labeldatesource}{}
-      \field{labelnamesource}{author}
-      \field{labeltitlesource}{title}
-      \field{abstract}{This paper outlines a theoretical approach to speech sound systems based on the notion of phonological potentials: physical ‘pressures’ or biases that give rise to discrete structure and the tendencies associated with this structure that arise from the physical nature of speech sound systems. We apply this approach to a poorly understood area of phonology – phenomena of the lower vocal tract (LVT) – through a schematic that encapsulates the complex interactions among the vocal tract structures responsible for producing LVT sounds. With the framework, we provide an account of a range of LVT phenomena from several languages, illustrating how tonal, phonatory, and vowel qualities interact. Finally, we consider how the idea of phonological potentials extends across various physical domains and might exhibit patterns of alignment across these domains, thereby serving to guide the formation of patterns found in speech sound systems.}
-      \field{issn}{0025-1003, 1475-3502}
-      \field{journaltitle}{Journal of the International Phonetic Association}
-      \field{langid}{english}
-      \field{month}{4}
-      \field{number}{1}
-      \field{title}{Phonological Potentials and the Lower Vocal Tract}
-      \field{volume}{51}
-      \field{year}{2021}
-      \field{dateera}{ce}
-      \field{pages}{1\bibrangedash 35}
-      \range{pages}{35}
-      \verb{doi}
-      \verb 10.1017/S0025100318000403
-      \endverb
-      \verb{file}
-      \verb /Users/mlbrinke/Dropbox/Zotero/1_Projects/Dissertation/moisikPhonologicalPotentialsLower2021.pdf;/Users/mlbrinke/Zotero/storage/PVKCQDVE/BC15B276E97FA654F2D6967BC9349FE2.html
-      \endverb
-    \endentry
-    \entry{moisikModelingBiomechanicalInfluence2014}{article}{}{}
-      \name{author}{2}{}{%
-        {{un=0,uniquepart=base,hash=c9796751a0e358010abfeb9004a1725a}{%
-           family={Moisik},
-           familyi={M\bibinitperiod},
-           given={Scott\bibnamedelima R.},
-           giveni={S\bibinitperiod\bibinitdelim R\bibinitperiod},
-           givenun=0}}%
-        {{un=0,uniquepart=base,hash=082cefbe699f8f788561da9b0c5bf06b}{%
-           family={Esling},
-           familyi={E\bibinitperiod},
-           given={John\bibnamedelima H.},
-           giveni={J\bibinitperiod\bibinitdelim H\bibinitperiod},
-           givenun=0}}%
-      }
-      \list{publisher}{1}{%
-        {American Speech-Language-Hearing Association}%
-      }
-      \strng{namehash}{b017d786bb45cc7df298621f94fb3dd5}
-      \strng{fullhash}{b017d786bb45cc7df298621f94fb3dd5}
-      \strng{fullhashraw}{b017d786bb45cc7df298621f94fb3dd5}
-      \strng{bibnamehash}{b017d786bb45cc7df298621f94fb3dd5}
-      \strng{authorbibnamehash}{b017d786bb45cc7df298621f94fb3dd5}
-      \strng{authornamehash}{b017d786bb45cc7df298621f94fb3dd5}
-      \strng{authorfullhash}{b017d786bb45cc7df298621f94fb3dd5}
-      \strng{authorfullhashraw}{b017d786bb45cc7df298621f94fb3dd5}
-      \field{sortinit}{M}
-      \field{sortinithash}{4625c616857f13d17ce56f7d4f97d451}
-      \field{extradatescope}{labelyear}
-      \field{labeldatesource}{}
-      \field{labelnamesource}{author}
-      \field{labeltitlesource}{shorttitle}
-      \field{abstract}{Purpose Physiological and phonetic studies suggest that, at moderate levels of epilaryngeal stricture, the ventricular folds impinge upon the vocal folds and influence their dynamical behavior, which is thought to be responsible for constricted laryngeal sounds. In this work, the authors examine this hypothesis through biomechanical modeling. Method The dynamical response of a low-dimensional, lumped-element model of the vocal folds under the influence of vocal–ventricular fold coupling was evaluated. The model was assessed for F0 and cover-mass phase difference. Case studies of simulations of different constricted phonation types and of glottal stop illustrate various additional aspects of model performance. Results Simulated vocal–ventricular fold coupling lowers F0 and perturbs the mucosal wave. It also appears to reinforce irregular patterns of oscillation, and it can enhance laryngeal closure in glottal stop production. Conclusion The effects of simulated vocal–ventricular fold coupling are consistent with sounds, such as creaky voice, harsh voice, and glottal stop, that have been observed to involve epilaryngeal stricture and apparent contact between the vocal folds and ventricular folds. This supports the view that vocal–ventricular fold coupling is important in the vibratory dynamics of such sounds and, furthermore, suggests that these sounds may intrinsically require epilaryngeal stricture.}
-      \field{journaltitle}{Journal of Speech, Language, and Hearing Research}
-      \field{month}{4}
-      \field{number}{2}
-      \field{shorttitle}{Modeling the {{Biomechanical Influence}} of {{Epilaryngeal Stricture}} on the {{Vocal Folds}}}
-      \field{title}{Modeling the {{Biomechanical Influence}} of {{Epilaryngeal Stricture}} on the {{Vocal Folds}}: {{A Low-Dimensional Model}} of {{Vocal}}–{{Ventricular Fold Coupling}}}
-      \field{volume}{57}
-      \field{year}{2014}
-      \field{dateera}{ce}
-      \field{pages}{S687\bibrangedash S704}
-      \range{pages}{-1}
-      \verb{doi}
-      \verb 10.1044/2014_JSLHR-S-12-0279
-      \endverb
-      \verb{file}
-      \verb /Users/mlbrinke/Dropbox/Zotero/4_Archive/QE/moisikModelingBiomechanicalInfluence2014 2.pdf;/Users/mlbrinke/Dropbox/Zotero/4_Archive/QE/moisikModelingBiomechanicalInfluence2014.pdf
-      \endverb
-      \keyw{Voice Quality}
     \endentry
     \entry{munroDicsyonaaryTeenDiizh1999}{mvbook}{}{}
       \name{author}{2}{}{%
@@ -6687,7 +7006,7 @@
       \verb 10.1109/TASL.2008.2004526
       \endverb
       \verb{file}
-      \verb /Users/mlbrinke/Dropbox/Zotero/murtyEpochExtractionSpeech2008.pdf;/Users/mlbrinke/Zotero/storage/THLCAFVT/4648930.html
+      \verb /Users/mlbrinke/Zotero/storage/VUYDIHVP/murtyEpochExtractionSpeech2008.pdf;/Users/mlbrinke/Zotero/storage/THLCAFVT/4648930.html
       \endverb
     \endentry
     \entry{nellisFortisLenisCajonos1980}{article}{}{}
@@ -6735,7 +7054,7 @@
       \verb 10.1086/465639
       \endverb
       \verb{file}
-      \verb /Users/mlbrinke/Dropbox/Zotero/2_Areas/Zapotec/nellisFortisLenisCajonos1980.pdf
+      \verb /Users/mlbrinke/Zotero/storage/D57P2HZ5/nellisFortisLenisCajonos1980.pdf
       \endverb
       \keyw{Otomanguean}
     \endentry
@@ -6785,9 +7104,8 @@
       \verb 10.1121/1.4894063
       \endverb
       \verb{file}
-      \verb /Users/mlbrinke/Dropbox/Zotero/1_Projects/Dissertation/nyczBestPracticesMeasuring2014.pdf;/Users/mlbrinke/Zotero/storage/VF2J7IGX/Best-practices-in-measuring-vowel-merger.html
+      \verb /Users/mlbrinke/Zotero/storage/86ZU4TPB/nyczBestPracticesMeasuring2014.pdf;/Users/mlbrinke/Zotero/storage/VF2J7IGX/Best-practices-in-measuring-vowel-merger.html
       \endverb
-      \keyw{/unread}
     \endentry
     \entry{ohalaPhoneticExplanationsNasal1975}{incollection}{}{}
       \name{author}{1}{}{%
@@ -6833,7 +7151,6 @@
       \strng{editornamehash}{6453b7446c5b1b884f50f40af6ffac68}
       \strng{editorfullhash}{6453b7446c5b1b884f50f40af6ffac68}
       \strng{editorfullhashraw}{6453b7446c5b1b884f50f40af6ffac68}
-      \field{extraname}{1}
       \field{sortinit}{O}
       \field{sortinithash}{2cd7140a07aea5341f9e2771efe90aae}
       \field{extradatescope}{labelyear}
@@ -6847,64 +7164,8 @@
       \field{pages}{289\bibrangedash 316}
       \range{pages}{28}
       \verb{file}
-      \verb /Users/mlbrinke/Dropbox/Zotero/1_Projects/Dissertation/ohalaPhoneticExplanationsNasal1975.pdf
+      \verb /Users/mlbrinke/Zotero/storage/DN4XMXFC/ohalaPhoneticExplanationsNasal1975.pdf
       \endverb
-    \endentry
-    \entry{ohalaProductionTone1978}{incollection}{}{}
-      \name{author}{1}{}{%
-        {{un=0,uniquepart=base,hash=c428dc2a32ae6acadbe3d35ea47bac17}{%
-           family={Ohala},
-           familyi={O\bibinitperiod},
-           given={John\bibnamedelima J.},
-           giveni={J\bibinitperiod\bibinitdelim J\bibinitperiod},
-           givenun=0}}%
-      }
-      \name{editor}{1}{}{%
-        {{hash=7cda748ed067b7be742e278815ffd792}{%
-           family={Fromkin},
-           familyi={F\bibinitperiod},
-           given={Victoria\bibnamedelima A.},
-           giveni={V\bibinitperiod\bibinitdelim A\bibinitperiod}}}%
-      }
-      \list{location}{1}{%
-        {New York}%
-      }
-      \list{publisher}{1}{%
-        {Academic Press}%
-      }
-      \strng{namehash}{c428dc2a32ae6acadbe3d35ea47bac17}
-      \strng{fullhash}{c428dc2a32ae6acadbe3d35ea47bac17}
-      \strng{fullhashraw}{c428dc2a32ae6acadbe3d35ea47bac17}
-      \strng{bibnamehash}{c428dc2a32ae6acadbe3d35ea47bac17}
-      \strng{authorbibnamehash}{c428dc2a32ae6acadbe3d35ea47bac17}
-      \strng{authornamehash}{c428dc2a32ae6acadbe3d35ea47bac17}
-      \strng{authorfullhash}{c428dc2a32ae6acadbe3d35ea47bac17}
-      \strng{authorfullhashraw}{c428dc2a32ae6acadbe3d35ea47bac17}
-      \strng{editorbibnamehash}{7cda748ed067b7be742e278815ffd792}
-      \strng{editornamehash}{7cda748ed067b7be742e278815ffd792}
-      \strng{editorfullhash}{7cda748ed067b7be742e278815ffd792}
-      \strng{editorfullhashraw}{7cda748ed067b7be742e278815ffd792}
-      \field{extraname}{2}
-      \field{sortinit}{O}
-      \field{sortinithash}{2cd7140a07aea5341f9e2771efe90aae}
-      \field{extradatescope}{labelyear}
-      \field{labeldatesource}{}
-      \field{labelnamesource}{author}
-      \field{labeltitlesource}{title}
-      \field{abstract}{This chapter discusses the aspects of tone production that may be relevant to an understanding of tonal phenomena. It discusses laryngeal anatomy and physiology; reviews the controversial issues in tone production; and provides an introduction to the literature in this area. The larynx is a valve and a sound producer. As a valve, it regulates the flow of air into and out of the lungs and keeps food and drink out of the lungs. The two functions are accomplished by a relatively complex arrangement of cartilages, muscles, and other tissues. The hard structure of the larynx consists of four principal cartilages: the thyroid, the cricoid, and a pair of arytenoid cartilages. The thyroid and cricoid are connected and pivot about a transverse axis. The two arytenoid cartilages are connected to the cricoid cartilage via a ligamentous hinge and sit atop its rear rim. Each can rotate on the rim of the cricoid in such a way as to bring their front projections towards or away from the midline. The two vocal cords or, more appropriately, the vocal folds, are basically ligaments that stretch between the inner lower front surface of the thyroid cartilage and the front faces of the separate arytenoid cartilages. It is the rotation of the arytenoid cartilages that enables the vocal cords to be brought together toward the midline for voicing or breath-holding or to be separated from each other.}
-      \field{booktitle}{Tone: {{A}} Linguistics Survey}
-      \field{day}{1}
-      \field{isbn}{978-0-12-267350-4}
-      \field{month}{1}
-      \field{title}{Production of {{Tone}}}
-      \field{year}{1978}
-      \field{dateera}{ce}
-      \field{pages}{5\bibrangedash 39}
-      \range{pages}{35}
-      \verb{doi}
-      \verb 10.1016/B978-0-12-267350-4.50006-6
-      \endverb
-      \keyw{/unread}
     \endentry
     \entry{ohalaPhoneticsNasalPhonology1993}{incollection}{}{}
       \name{author}{2}{}{%
@@ -6974,7 +7235,7 @@
       \verb 10.1016/B978-0-12-360380-7.50013-2
       \endverb
       \verb{file}
-      \verb /Users/mlbrinke/Dropbox/Zotero/1_Projects/Dissertation/ohalaPhoneticsNasalPhonology1993.pdf;/Users/mlbrinke/Zotero/storage/2JTNK84S/B9780123603807500132.html
+      \verb /Users/mlbrinke/Zotero/storage/Z7LDUU6X/ohalaPhoneticsNasalPhonology1993.pdf;/Users/mlbrinke/Zotero/storage/2JTNK84S/B9780123603807500132.html
       \endverb
     \endentry
     \entry{oksanenVeganCommunityEcology2025}{manual}{}{}
@@ -7253,7 +7514,7 @@
       \verb 10.3390/languages7010050
       \endverb
       \verb{file}
-      \verb /Users/mlbrinke/Dropbox/Zotero/1_Projects/Dissertation/penaStodTimingDomain2022.pdf
+      \verb /Users/mlbrinke/Zotero/storage/YTMHBRB7/penaStodTimingDomain2022.pdf
       \endverb
     \endentry
     \entry{penaProductionPerceptionStod2024}{thesis}{}{}
@@ -7292,7 +7553,7 @@
       \field{year}{2024}
       \field{dateera}{ce}
       \verb{file}
-      \verb /Users/mlbrinke/Dropbox/Zotero/1_Projects/Dissertation/penaProductionPerceptionStod2024.pdf
+      \verb /Users/mlbrinke/Zotero/storage/V7QUC6IJ/penaProductionPerceptionStod2024.pdf
       \endverb
     \endentry
     \entry{pickettIsthmusJuchitanZapotec2010}{article}{}{}
@@ -7347,7 +7608,7 @@
       \verb 10.1017/S0025100310000174
       \endverb
       \verb{file}
-      \verb /Users/mlbrinke/Dropbox/Zotero/2_Areas/Zapotec/pickettIsthmusJuchitanZapotec2010.pdf
+      \verb /Users/mlbrinke/Zotero/storage/YLYTM8E6/pickettIsthmusJuchitanZapotec2010.pdf
       \endverb
       \keyw{Otomanguean}
     \endentry
@@ -7390,7 +7651,7 @@
       \verb 10.1086/463998
       \endverb
       \verb{file}
-      \verb /Users/mlbrinke/Dropbox/Zotero/2_Areas/Zapotec/pikeProblemsZapotecTone1948.pdf
+      \verb /Users/mlbrinke/Zotero/storage/U2YZA52X/pikeProblemsZapotecTone1948.pdf
       \endverb
       \keyw{Otomanguean}
     \endentry
@@ -7433,9 +7694,8 @@
       \verb 10.1214/aoms/1177728599
       \endverb
       \verb{file}
-      \verb /Users/mlbrinke/Dropbox/Zotero/1_Projects/Dissertation/pillaiNewTestCriteria1955.pdf
+      \verb /Users/mlbrinke/Zotero/storage/BNHXF5D2/pillaiNewTestCriteria1955.pdf
       \endverb
-      \keyw{/unread}
     \endentry
     \entry{podesvaStanceWindowLanguageRace2016}{incollection}{}{}
       \name{author}{1}{}{%
@@ -7548,7 +7808,6 @@
       \verb{file}
       \verb /Users/mlbrinke/Zotero/storage/7AR22DZ7/S0167639304000573.html
       \endverb
-      \keyw{/unread,Acoustic correlates,Acoustic parameters,Automatic detection,Automatic speech recognition,Nasal,Nasal manner}
     \endentry
     \entry{rcoreteamLanguageEnvironmentStatistical2024}{manual}{}{}
       \name{author}{1}{}{%
@@ -7586,6 +7845,44 @@
       \verb{url}
       \verb https://www.R-project.org/
       \endverb
+    \endentry
+    \entry{ratliffMeaningfulToneStudy1992}{book}{}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=2522194e212bf0bf085ceb8d349e0ff3}{%
+           family={Ratliff},
+           familyi={R\bibinitperiod},
+           given={Martha\bibnamedelima Susan},
+           giveni={M\bibinitperiod\bibinitdelim S\bibinitperiod},
+           givenun=0}}%
+      }
+      \list{location}{1}{%
+        {DeKalb, Ill}%
+      }
+      \list{publisher}{1}{%
+        {Northern Illinois University, Center for Southeast Asian Studies}%
+      }
+      \strng{namehash}{2522194e212bf0bf085ceb8d349e0ff3}
+      \strng{fullhash}{2522194e212bf0bf085ceb8d349e0ff3}
+      \strng{fullhashraw}{2522194e212bf0bf085ceb8d349e0ff3}
+      \strng{bibnamehash}{2522194e212bf0bf085ceb8d349e0ff3}
+      \strng{authorbibnamehash}{2522194e212bf0bf085ceb8d349e0ff3}
+      \strng{authornamehash}{2522194e212bf0bf085ceb8d349e0ff3}
+      \strng{authorfullhash}{2522194e212bf0bf085ceb8d349e0ff3}
+      \strng{authorfullhashraw}{2522194e212bf0bf085ceb8d349e0ff3}
+      \field{sortinit}{R}
+      \field{sortinithash}{5e1c39a9d46ffb6bebd8f801023a9486}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{shorttitle}
+      \field{isbn}{978-1-877979-77-4}
+      \field{number}{no. 27, 1992}
+      \field{pagetotal}{269}
+      \field{series}{Special Report}
+      \field{shorttitle}{Meaningful Tone}
+      \field{title}{Meaningful Tone: A Study of Tonal Morphology in Compounds, Form Classes and Expressive Phrases in {{White Hmong}}}
+      \field{year}{1992}
+      \field{dateera}{ce}
     \endentry
     \entry{remezIntonationSinusoidalSentences1993}{article}{}{}
       \name{author}{2}{}{%
@@ -7634,9 +7931,8 @@
       \verb 10.1121/1.407501
       \endverb
       \verb{file}
-      \verb /Users/mlbrinke/Dropbox/Zotero/1_Projects/Dissertation/remezIntonationSinusoidalSentences1993.pdf;/Users/mlbrinke/Zotero/storage/574IBJE9/On-the-intonation-of-sinusoidal-sentences-Contour.html
+      \verb /Users/mlbrinke/Zotero/storage/72IIU4DC/remezIntonationSinusoidalSentences1993.pdf;/Users/mlbrinke/Zotero/storage/574IBJE9/On-the-intonation-of-sinusoidal-sentences-Contour.html
       \endverb
-      \keyw{/unread}
     \endentry
     \entry{renschComparativeOtomangueanPhonology1976}{book}{}{}
       \name{author}{1}{}{%
@@ -7713,9 +8009,8 @@
       \verb 10.1121/1.1910550
       \endverb
       \verb{file}
-      \verb /Users/mlbrinke/Dropbox/Zotero/1_Projects/Dissertation/ritsmaFrequenciesDominantPerception1967.pdf;/Users/mlbrinke/Zotero/storage/9YA94RRI/Frequencies-Dominant-in-the-Perception-of-the.html
+      \verb /Users/mlbrinke/Zotero/storage/AMDM6FIN/ritsmaFrequenciesDominantPerception1967.pdf;/Users/mlbrinke/Zotero/storage/9YA94RRI/Frequencies-Dominant-in-the-Perception-of-the.html
       \endverb
-      \keyw{/unread}
     \endentry
     \entry{rosenbergPitchDiscriminationJittered1966}{article}{}{}
       \name{author}{1}{}{%
@@ -7757,9 +8052,56 @@
       \verb 10.1121/1.1909973
       \endverb
       \verb{file}
-      \verb /Users/mlbrinke/Dropbox/Zotero/1_Projects/Dissertation/rosenbergPitchDiscriminationJittered1966.pdf;/Users/mlbrinke/Zotero/storage/V3DC3W4F/Pitch-Discrimination-of-Jittered-Pulse-Trains.html
+      \verb /Users/mlbrinke/Zotero/storage/8DKDS9XS/rosenbergPitchDiscriminationJittered1966.pdf;/Users/mlbrinke/Zotero/storage/V3DC3W4F/Pitch-Discrimination-of-Jittered-Pulse-Trains.html
       \endverb
-      \keyw{/unread}
+    \endentry
+    \entry{samelyKedangEasternIndonesia1991}{book}{}{}
+      \name{author}{2}{}{%
+        {{un=0,uniquepart=base,hash=8daabc81b00ac38964b000c4fee9dbd5}{%
+           family={Samely},
+           familyi={S\bibinitperiod},
+           given={Ursula\bibnamedelima B.},
+           giveni={U\bibinitperiod\bibinitdelim B\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=78effdcf045461730fa29a576946931e}{%
+           family={Samely},
+           familyi={S\bibinitperiod},
+           given={Ursula},
+           giveni={U\bibinitperiod},
+           givenun=0}}%
+      }
+      \list{location}{1}{%
+        {Hamburg}%
+      }
+      \list{publisher}{1}{%
+        {Buske}%
+      }
+      \strng{namehash}{ac49e7e71ec151dcb239b5a50a4f28ed}
+      \strng{fullhash}{ac49e7e71ec151dcb239b5a50a4f28ed}
+      \strng{fullhashraw}{ac49e7e71ec151dcb239b5a50a4f28ed}
+      \strng{bibnamehash}{ac49e7e71ec151dcb239b5a50a4f28ed}
+      \strng{authorbibnamehash}{ac49e7e71ec151dcb239b5a50a4f28ed}
+      \strng{authornamehash}{ac49e7e71ec151dcb239b5a50a4f28ed}
+      \strng{authorfullhash}{ac49e7e71ec151dcb239b5a50a4f28ed}
+      \strng{authorfullhashraw}{ac49e7e71ec151dcb239b5a50a4f28ed}
+      \field{sortinit}{S}
+      \field{sortinithash}{b164b07b29984b41daf1e85279fbc5ab}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{shorttitle}
+      \field{isbn}{978-3-87548-016-0}
+      \field{langid}{eng ger}
+      \field{number}{46}
+      \field{pagetotal}{235}
+      \field{series}{Forum phoneticum}
+      \field{shorttitle}{Kedang, (Eastern Indonesia)}
+      \field{title}{Kedang, (Eastern Indonesia): some aspects of its grammar}
+      \field{year}{1991}
+      \field{dateera}{ce}
+      \verb{file}
+      \verb /Users/mlbrinke/Zotero/storage/EGHBZEAH/samelyKedangEasternIndonesia1991a.pdf
+      \endverb
     \endentry
     \entry{sandriBiasCorrectionAlgorithm2008}{article}{}{}
       \name{author}{2}{}{%
@@ -7811,9 +8153,8 @@
       \verb 10.1198/106186008X344522
       \endverb
       \verb{file}
-      \verb /Users/mlbrinke/Dropbox/Zotero/1_Projects/Dissertation/sandriBiasCorrectionAlgorithm2008.pdf
+      \verb /Users/mlbrinke/Zotero/storage/52RJY3LK/sandriBiasCorrectionAlgorithm2008.pdf
       \endverb
-      \keyw{/unread,Bias,Learning ensemble,Variable importance,Variable selection}
     \endentry
     \entry{schwartzAcousticsNormalNasal1968}{article}{}{}
       \name{author}{1}{}{%
@@ -7857,7 +8198,7 @@
       \field{pages}{125\bibrangedash 140}
       \range{pages}{16}
       \verb{file}
-      \verb /Users/mlbrinke/Dropbox/Zotero/1_Projects/Dissertation/Nasality/schwartzAcousticsNormalNasal1968.pdf
+      \verb /Users/mlbrinke/Zotero/storage/DV6VR3MQ/schwartzAcousticsNormalNasal1968.pdf
       \endverb
       \verb{urlraw}
       \verb http://cleftpalatejournal.pitt.edu/ojs/cleftpalate/article/view/187
@@ -7865,7 +8206,6 @@
       \verb{url}
       \verb http://cleftpalatejournal.pitt.edu/ojs/cleftpalate/article/view/187
       \endverb
-      \keyw{/unread,⛔ No DOI found}
     \endentry
     \entry{seyfarthPlosiveVoicingAcoustics2018}{article}{}{}
       \name{author}{2}{}{%
@@ -7912,7 +8252,7 @@
       \verb 10.1016/j.wocn.2018.09.001
       \endverb
       \verb{file}
-      \verb /Users/mlbrinke/Dropbox/Zotero/1_Projects/Dissertation/seyfarthPlosiveVoicingAcoustics2018.pdf;/Users/mlbrinke/Zotero/storage/BR39ECFY/S0095447017302711.html
+      \verb /Users/mlbrinke/Zotero/storage/PBM23KFJ/seyfarthPlosiveVoicingAcoustics2018.pdf;/Users/mlbrinke/Zotero/storage/BR39ECFY/S0095447017302711.html
       \endverb
     \endentry
     \entry{shueVoiceSauceProgramVoice2011}{inproceedings}{}{}
@@ -7966,7 +8306,7 @@
       \field{pages}{1846\bibrangedash 1849}
       \range{pages}{4}
       \verb{file}
-      \verb /Users/mlbrinke/Dropbox/Zotero/1_Projects/Dissertation/shueVoiceSauceProgramVoice2011.pdf
+      \verb /Users/mlbrinke/Zotero/storage/9PI8FUS6/shueVoiceSauceProgramVoice2011.pdf
       \endverb
     \endentry
     \entry{sichelPronounsAttractionSierra2020}{incollection}{}{}
@@ -8031,7 +8371,7 @@
       \field{year}{2020}
       \field{dateera}{ce}
       \verb{file}
-      \verb /Users/mlbrinke/Dropbox/Zotero/2_Areas/Zapotec/sichelPronounsAttractionSierra2020.pdf
+      \verb /Users/mlbrinke/Zotero/storage/HEMBEJE3/sichelPronounsAttractionSierra2020.pdf
       \endverb
       \verb{urlraw}
       \verb https://escholarship.org/uc/item/0bg941n7
@@ -8079,7 +8419,7 @@
       \field{year}{2020}
       \field{dateera}{ce}
       \verb{file}
-      \verb /Users/mlbrinke/Dropbox/Zotero/2_Areas/Zapotec/sichelFeaturalLifeNominals2020.pdf
+      \verb /Users/mlbrinke/Zotero/storage/2ARXMH9L/sichelFeaturalLifeNominals2020.pdf
       \endverb
       \keyw{Otomanguean}
     \endentry
@@ -8125,7 +8465,7 @@
       \verb 10.1017/S0952675797003412
       \endverb
       \verb{file}
-      \verb /Users/mlbrinke/Dropbox/Zotero/2_Areas/Zapotec/silvermanLaryngealComplexityOtomanguean1997.pdf
+      \verb /Users/mlbrinke/Zotero/storage/PATNHVS6/silvermanLaryngealComplexityOtomanguean1997.pdf
       \endverb
       \keyw{Laryngeal Complexity}
     \endentry
@@ -8167,7 +8507,7 @@
       \field{year}{1997}
       \field{dateera}{ce}
       \verb{file}
-      \verb /Users/mlbrinke/Dropbox/Zotero/1_Projects/Dissertation/silvermanPhasingRecoverability1997.pdf
+      \verb /Users/mlbrinke/Zotero/storage/ZCFPUR28/silvermanPhasingRecoverability1997.pdf
       \endverb
       \keyw{Laryngeal Complexity}
     \endentry
@@ -8211,7 +8551,7 @@
       \verb 10.1016/j.wocn.2012.02.001
       \endverb
       \verb{file}
-      \verb /Users/mlbrinke/Dropbox/Zotero/1_Projects/Dissertation/simpsonFirstSecondHarmonics2012.pdf
+      \verb /Users/mlbrinke/Zotero/storage/E7VRARIX/simpsonFirstSecondHarmonics2012.pdf
       \endverb
     \endentry
     \entry{sjolanderSnackSoundToolkit2004}{software}{}{}
@@ -8253,6 +8593,55 @@
       \verb https://www.speech.kth.se/snack/
       \endverb
     \endentry
+    \entry{smalleyProblemsConsonantsTone1976}{incollection}{}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=14368970c9d3bfdf00b1a8c365ac00bd}{%
+           family={Smalley},
+           familyi={S\bibinitperiod},
+           given={William\bibnamedelima A.},
+           giveni={W\bibinitperiod\bibinitdelim A\bibinitperiod},
+           givenun=0}}%
+      }
+      \name{editor}{1}{}{%
+        {{hash=8cc686cae311c978fd26c4d13b921f3a}{%
+           family={Smalley},
+           familyi={S\bibinitperiod},
+           given={W.\bibnamedelimi A.},
+           giveni={W\bibinitperiod\bibinitdelim A\bibinitperiod}}}%
+      }
+      \list{location}{1}{%
+        {Canberra}%
+      }
+      \list{publisher}{1}{%
+        {Australian National University}%
+      }
+      \strng{namehash}{14368970c9d3bfdf00b1a8c365ac00bd}
+      \strng{fullhash}{14368970c9d3bfdf00b1a8c365ac00bd}
+      \strng{fullhashraw}{14368970c9d3bfdf00b1a8c365ac00bd}
+      \strng{bibnamehash}{14368970c9d3bfdf00b1a8c365ac00bd}
+      \strng{authorbibnamehash}{14368970c9d3bfdf00b1a8c365ac00bd}
+      \strng{authornamehash}{14368970c9d3bfdf00b1a8c365ac00bd}
+      \strng{authorfullhash}{14368970c9d3bfdf00b1a8c365ac00bd}
+      \strng{authorfullhashraw}{14368970c9d3bfdf00b1a8c365ac00bd}
+      \strng{editorbibnamehash}{8cc686cae311c978fd26c4d13b921f3a}
+      \strng{editornamehash}{8cc686cae311c978fd26c4d13b921f3a}
+      \strng{editorfullhash}{8cc686cae311c978fd26c4d13b921f3a}
+      \strng{editorfullhashraw}{8cc686cae311c978fd26c4d13b921f3a}
+      \field{sortinit}{S}
+      \field{sortinithash}{b164b07b29984b41daf1e85279fbc5ab}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{booktitle}{Phonemes and Orthography: {{Language}} Planning in Ten Minority Languages of Thailand}
+      \field{series}{Pacific Linguistics, Series {{C}}}
+      \field{title}{The Problems of Consonants and Tone: {{Hmong}} ({{Meo}}, {{Miao}})}
+      \field{volume}{43}
+      \field{year}{1976}
+      \field{dateera}{ce}
+      \field{pages}{85\bibrangedash 123}
+      \range{pages}{39}
+    \endentry
     \entry{smith-starkAlgunasIsoglosasZapotecas2007}{inproceedings}{}{}
       \name{author}{1}{}{%
         {{un=0,uniquepart=base,hash=b33b8c9414272ad3937ee2fdcc4f15b5}{%
@@ -8289,7 +8678,7 @@
       \field{pages}{69\bibrangedash 133}
       \range{pages}{65}
       \verb{file}
-      \verb /Users/mlbrinke/Dropbox/Zotero/2_Areas/Zapotec/smith-starkAlgunasIsoglosasZapotecas2007.pdf
+      \verb /Users/mlbrinke/Zotero/storage/CSLFJ2I6/smith-starkAlgunasIsoglosasZapotecas2007.pdf
       \endverb
       \keyw{Otomanguean}
     \endentry
@@ -8366,7 +8755,7 @@
       \verb 1703.05339
       \endverb
       \verb{file}
-      \verb /Users/mlbrinke/Dropbox/Zotero/2_Areas/Zapotec/QE/soskuthyGeneralisedAdditiveMixed2017.pdf;/Users/mlbrinke/Zotero/storage/6VXWLW3H/1703.html
+      \verb /Users/mlbrinke/Zotero/storage/U9ZQDEXK/soskuthyGeneralisedAdditiveMixed2017.pdf;/Users/mlbrinke/Zotero/storage/6VXWLW3H/1703.html
       \endverb
     \endentry
     \entry{soskuthyEvaluatingGeneralisedAdditive2021}{article}{}{}
@@ -8410,9 +8799,8 @@
       \verb 10.1016/j.wocn.2020.101017
       \endverb
       \verb{file}
-      \verb /Users/mlbrinke/Dropbox/Zotero/2_Areas/Zapotec/QE/soskuthyEvaluatingGeneralisedAdditive2021.pdf;/Users/mlbrinke/Zotero/storage/PXSHQRPP/S009544702030108X.html
+      \verb /Users/mlbrinke/Zotero/storage/BZU8I5EX/soskuthyEvaluatingGeneralisedAdditive2021.pdf;/Users/mlbrinke/Zotero/storage/PXSHQRPP/S009544702030108X.html
       \endverb
-      \keyw{/unread}
     \endentry
     \entry{stevensAcousticPhonetics2000}{book}{}{}
       \name{author}{1}{}{%
@@ -8453,9 +8841,8 @@
       \field{year}{2000}
       \field{dateera}{ce}
       \verb{file}
-      \verb /Users/mlbrinke/Dropbox/Zotero/1_Projects/Dissertation/stevensAcousticPhonetics2000.pdf
+      \verb /Users/mlbrinke/Zotero/storage/G4BXB9MS/stevensAcousticPhonetics2000.pdf
       \endverb
-      \keyw{/unread}
     \endentry
     \entry{strellufChapter3Low2018}{article}{}{}
       \name{author}{1}{}{%
@@ -8496,7 +8883,6 @@
       \verb{doi}
       \verb 10.1215/00031283-7318737
       \endverb
-      \keyw{/unread}
     \endentry
     \entry{stroblBiasRandomForest2007}{article}{}{}
       \name{author}{4}{}{%
@@ -8557,9 +8943,8 @@
       \verb 10.1186/1471-2105-8-25
       \endverb
       \verb{file}
-      \verb /Users/mlbrinke/Dropbox/Zotero/1_Projects/Dissertation/stroblBiasRandomForest2007.pdf;/Users/mlbrinke/Zotero/storage/F89ZCWSE/1471-2105-8-25.html
+      \verb /Users/mlbrinke/Zotero/storage/XRWJCY82/stroblBiasRandomForest2007.pdf;/Users/mlbrinke/Zotero/storage/F89ZCWSE/1471-2105-8-25.html
       \endverb
-      \keyw{/unread,Bootstrap Sampling,Importance Measure,Random Forest,Variable Importance,Variable Selection}
     \endentry
     \entry{stylerAcousticalPerceptualFeatures2015}{thesis}{}{}
       \name{author}{1}{}{%
@@ -8595,7 +8980,7 @@
       \field{year}{2015}
       \field{dateera}{ce}
       \verb{file}
-      \verb /Users/mlbrinke/Dropbox/Zotero/1_Projects/Dissertation/stylerAcousticalPerceptualFeatures2015.pdf
+      \verb /Users/mlbrinke/Zotero/storage/U4UKFX66/stylerAcousticalPerceptualFeatures2015.pdf
       \endverb
     \endentry
     \entry{stylerAcousticalFeaturesVowel2017}{article}{}{}
@@ -8639,7 +9024,7 @@
       \verb 10.1121/1.5008854
       \endverb
       \verb{file}
-      \verb /Users/mlbrinke/Dropbox/Zotero/1_Projects/Dissertation/Nasality/stylerAcousticalFeaturesVowel2017.pdf;/Users/mlbrinke/Zotero/storage/2TTLJ2D4/On-the-acoustical-features-of-vowel-nasality-in.html;/Users/mlbrinke/Zotero/storage/CAXF5YQM/On-the-acoustical-features-of-vowel-nasality-in.html
+      \verb /Users/mlbrinke/Zotero/storage/LTAHNRJR/stylerAcousticalFeaturesVowel2017.pdf;/Users/mlbrinke/Zotero/storage/2TTLJ2D4/On-the-acoustical-features-of-vowel-nasality-in.html;/Users/mlbrinke/Zotero/storage/CAXF5YQM/On-the-acoustical-features-of-vowel-nasality-in.html
       \endverb
     \endentry
     \entry{sunPitchDeterminationVoice2002}{inproceedings}{}{}
@@ -8680,9 +9065,8 @@
       \verb 10.1109/ICASSP.2002.5743722
       \endverb
       \verb{file}
-      \verb /Users/mlbrinke/Dropbox/Zotero/1_Projects/sunPitchDeterminationVoice2002.pdf;/Users/mlbrinke/Zotero/storage/NV37P4LA/5743722.html
+      \verb /Users/mlbrinke/Zotero/storage/SNPCQI8P/sunPitchDeterminationVoice2002.pdf;/Users/mlbrinke/Zotero/storage/NV37P4LA/5743722.html
       \endverb
-      \keyw{/unread,Frequency estimation,Personal digital assistants,Variable speed drives}
     \endentry
     \entry{sundbergObjectiveCharacterizationPhonation2022}{article}{}{}
       \name{author}{1}{}{%
@@ -8724,7 +9108,7 @@
       \verb 10.1016/j.jvoice.2020.03.018
       \endverb
       \verb{file}
-      \verb /Users/mlbrinke/Dropbox/Zotero/4_Archive/QE/sundbergObjectiveCharacterizationPhonation2022.pdf;/Users/mlbrinke/Zotero/storage/WB82VGPT/S0892199720301107.html
+      \verb /Users/mlbrinke/Zotero/storage/EBNTUV9Q/sundbergObjectiveCharacterizationPhonation2022.pdf;/Users/mlbrinke/Zotero/storage/WB82VGPT/S0892199720301107.html
       \endverb
       \keyw{Voice Quality}
     \endentry
@@ -8775,7 +9159,52 @@
       \verb 10.1017/S0954394512000129
       \endverb
       \verb{file}
-      \verb /Users/mlbrinke/Dropbox/Zotero/1_Projects/Dissertation/tagliamonteModelsForestsTrees2012.pdf
+      \verb /Users/mlbrinke/Zotero/storage/58G75EFF/tagliamonteModelsForestsTrees2012.pdf
+      \endverb
+    \endentry
+    \entry{thurgoodVietnameseTonogenesisRevising2002}{article}{}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=a62fb965e5193807343c20bd6319eebf}{%
+           family={Thurgood},
+           familyi={T\bibinitperiod},
+           given={Graham},
+           giveni={G\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{a62fb965e5193807343c20bd6319eebf}
+      \strng{fullhash}{a62fb965e5193807343c20bd6319eebf}
+      \strng{fullhashraw}{a62fb965e5193807343c20bd6319eebf}
+      \strng{bibnamehash}{a62fb965e5193807343c20bd6319eebf}
+      \strng{authorbibnamehash}{a62fb965e5193807343c20bd6319eebf}
+      \strng{authornamehash}{a62fb965e5193807343c20bd6319eebf}
+      \strng{authorfullhash}{a62fb965e5193807343c20bd6319eebf}
+      \strng{authorfullhashraw}{a62fb965e5193807343c20bd6319eebf}
+      \field{sortinit}{T}
+      \field{sortinithash}{9af77f0292593c26bde9a56e688eaee9}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{shorttitle}
+      \field{abstract}{Summary 		Our most widely-used model of tonogenesis is Haudricourt’s 1954 classic analysis of Vietnamese tonogenesis. This paper examines Vietnamese evidence and this dominant model of tonogenesis, arguing that the Haudricourt analysis should be updated, replacing its segmentally-driven model by a laryngeally-based model, incorporating the effects of voice-quality distinctions. This proposed model provides phonetically-plausible paths of change, not just for Vietnamese, but also for the widely- attested correlations between initial voicing and pitch height and between voice quality and vowel quality. At the same time, these same laryngeal considerations provide a phonetic motivation for the preference for the development of breathy voice from voiced stop onsets over sonorants and fricatives. Of equal importance, the model appears to provide significant insights into tonogenesis in Southeast Asia, East Asia, South Asia, Africa, Europe, and the Americas, that is, the applicability model is not restricted to any particular geographical area. Zusammenfassung 		Eines der verbreitesten Modelle für den Ursprung und die Spaltung der Töne ist die klassische, von Haudricourt 1954 dargestellte Analyse der Tonogenese des Vietnamesischen. In diesem Aufsatz wird dieses eben genannte und in der Lehre der Tonursprung dominante Modell unter die Lupe genommen. Wir meinen, man sollte vielleicht die Haudricourt’sche Analyse etwas auffrischen, indem die segmentale Basis durch eine Fundierung ersetzt wird, die auf den Einfluss der Stimmen- Qualitaet (þvoice quality“) eingebaut ist. Dieses neue Modell liefert phonetisch-plausible Möglichkeiten, nicht nur für das Vietnamesische, sondern auch für Sprachen in denen eine starke Korrelation zwischen der Stimmhaftigkeit der Anlauts-Konsonanten und der Höhe der Silbenfrequenz, sowie zwischen Stimmqualität und Vokal-Qualität vorliegt. Zur gleichen Zeit liefert die Einbeziehung des Stimmerzeugungsapparats eine phonetische Erklärung und Motivation dafür, dass Ver- schlusslaute den Vorteil über Frikativa und Sonorantlautung im Anlaut besitzen. Außerdem noch bringt es neues Licht in den Prozess der Tonogenese in Sprachen so divers wie diejenigen von Südost-Asien, Ost-Asien, Süd-Asien, Afrika, Europa, und Nord- und Südamerika, d.h. Sprachen in praktischen allen geographischen Gegenden der Welt. Résumé 		Le modèle le plus communément accepté de tonogénèse est celui développé par Haudricourt dans son analyse classique du développement des tons en vietnamien en 1954. Le présent article ré-examine le modèle posé pour la tonogénèse en vietnamien et propose une révision du modèle d’Haudricourt, remplaçant une approche basée sur les segments par une approche basée sur les phénomènes laryngaux, en particulier sur les effets de différences de qualité de voix. Le modèle que nous proposons décrit des séquences de changements phonétiquement plausibles, non seulement pour le vietnamien mais aussi pour les corrélations fréquemment attestées d’une part entre voisement initial et hauteur tonale, d’autre part entre qualité de voix et timbre vocalique. Les phénomènes laryngaux que nous décrivons expliquent aussi la prépondérance du développement de la voix soufflée à partir d’occlusives voisées plutôt qu’à partir de sonantes et fricatives. Ce modèle n’est pas restreint à une aire géographique particulière, mais éclaire la tonogénèse dans d’autres langues d’Asie du Sud-est, d’Asie, d’Afrique, d’Europe et des Amériques.}
+      \field{day}{31}
+      \field{issn}{0176-4225, 1569-9714}
+      \field{journaltitle}{Diachronica}
+      \field{langid}{english}
+      \field{month}{12}
+      \field{number}{2}
+      \field{shortjournal}{DIA}
+      \field{shorttitle}{Vietnamese and Tonogenesis}
+      \field{title}{Vietnamese and Tonogenesis: {{Revising}} the Model and the Analysis}
+      \field{volume}{19}
+      \field{year}{2002}
+      \field{dateera}{ce}
+      \field{pages}{333\bibrangedash 363}
+      \range{pages}{31}
+      \verb{doi}
+      \verb 10.1075/dia.19.2.04thu
+      \endverb
+      \verb{file}
+      \verb /Users/mlbrinke/Zotero/storage/WBSWCZV2/thurgoodVietnameseTonogenesisRevising2002.pdf
       \endverb
     \endentry
     \entry{tylerPsychoacousticPhoneticTemporal1982}{article}{}{}
@@ -8836,9 +9265,8 @@
       \verb 10.1121/1.388254
       \endverb
       \verb{file}
-      \verb /Users/mlbrinke/Dropbox/Zotero/1_Projects/Dissertation/tylerPsychoacousticPhoneticTemporal1982.pdf;/Users/mlbrinke/Zotero/storage/YSN78LD3/Psychoacoustic-and-phonetic-temporal-processing-in.html
+      \verb /Users/mlbrinke/Zotero/storage/PYD23FVJ/tylerPsychoacousticPhoneticTemporal1982.pdf;/Users/mlbrinke/Zotero/storage/YSN78LD3/Psychoacoustic-and-phonetic-temporal-processing-in.html
       \endverb
-      \keyw{/unread}
     \endentry
     \entry{uchiharaToneRegistrogenesisQuiavini2016}{article}{}{}
       \name{author}{1}{}{%
@@ -8881,7 +9309,7 @@
       \verb 10.1075/dia.33.2.03uch
       \endverb
       \verb{file}
-      \verb /Users/mlbrinke/Dropbox/Zotero/2_Areas/Zapotec/uchiharaToneRegistrogenesisQuiavini2016.pdf
+      \verb /Users/mlbrinke/Zotero/storage/RCYF38JV/uchiharaToneRegistrogenesisQuiavini2016.pdf
       \endverb
       \keyw{Otomanguean,Voice Quality}
     \endentry
@@ -8930,9 +9358,46 @@
       \verb 10.5334/gjgl.13
       \endverb
       \verb{file}
-      \verb /Users/mlbrinke/Dropbox/Zotero/2_Areas/Zapotec/uchiharaFortisLenisGlides2016.pdf
+      \verb /Users/mlbrinke/Zotero/storage/HGEE6DBT/uchiharaFortisLenisGlides2016.pdf
       \endverb
       \keyw{Otomanguean}
+    \endentry
+    \entry{villardPhonologyMorphologyZacatepec2015}{thesis}{}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=fad8119068b1c04f6368aadb8c30f4ba}{%
+           family={Villard},
+           familyi={V\bibinitperiod},
+           given={Stéphanie},
+           giveni={S\bibinitperiod},
+           givenun=0}}%
+      }
+      \list{institution}{1}{%
+        {University of Texas at Austin}%
+      }
+      \list{location}{1}{%
+        {Austin, TX}%
+      }
+      \strng{namehash}{fad8119068b1c04f6368aadb8c30f4ba}
+      \strng{fullhash}{fad8119068b1c04f6368aadb8c30f4ba}
+      \strng{fullhashraw}{fad8119068b1c04f6368aadb8c30f4ba}
+      \strng{bibnamehash}{fad8119068b1c04f6368aadb8c30f4ba}
+      \strng{authorbibnamehash}{fad8119068b1c04f6368aadb8c30f4ba}
+      \strng{authornamehash}{fad8119068b1c04f6368aadb8c30f4ba}
+      \strng{authorfullhash}{fad8119068b1c04f6368aadb8c30f4ba}
+      \strng{authorfullhashraw}{fad8119068b1c04f6368aadb8c30f4ba}
+      \field{sortinit}{V}
+      \field{sortinithash}{afb52128e5b4dc4b843768c0113d673b}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{The {{Phonology}} and {{Morphology}} of {{Zacatepec Eastern Chatino}}}
+      \field{type}{phdthesis}
+      \field{year}{2015}
+      \field{dateera}{ce}
+      \verb{file}
+      \verb /Users/mlbrinke/Zotero/storage/G3XYACSR/villardPhonologyMorphologyZacatepec2015.pdf
+      \endverb
     \endentry
     \entry{warrenQualityQuantityNew2018}{article}{}{}
       \name{author}{1}{}{%
@@ -8973,9 +9438,60 @@
       \verb 10.1017/S0025100317000329
       \endverb
       \verb{file}
-      \verb /Users/mlbrinke/Dropbox/Zotero/1_Projects/Dissertation/warrenQualityQuantityNew2018.pdf
+      \verb /Users/mlbrinke/Zotero/storage/UQPH7GT5/warrenQualityQuantityNew2018.pdf
       \endverb
-      \keyw{/unread}
+    \endentry
+    \entry{waylandAcousticCorrelatesBreathy2003}{article}{}{}
+      \name{author}{2}{}{%
+        {{un=0,uniquepart=base,hash=c1f08c9642c443a24c7468951a753a40}{%
+           family={Wayland},
+           familyi={W\bibinitperiod},
+           given={Ratree},
+           giveni={R\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=24ec2c9ea1c9981cee4ab45671ebecff}{%
+           family={Jongman},
+           familyi={J\bibinitperiod},
+           given={Allard},
+           giveni={A\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{8e89f079dbcace9413bddc693359108d}
+      \strng{fullhash}{8e89f079dbcace9413bddc693359108d}
+      \strng{fullhashraw}{8e89f079dbcace9413bddc693359108d}
+      \strng{bibnamehash}{8e89f079dbcace9413bddc693359108d}
+      \strng{authorbibnamehash}{8e89f079dbcace9413bddc693359108d}
+      \strng{authornamehash}{8e89f079dbcace9413bddc693359108d}
+      \strng{authorfullhash}{8e89f079dbcace9413bddc693359108d}
+      \strng{authorfullhashraw}{8e89f079dbcace9413bddc693359108d}
+      \field{sortinit}{W}
+      \field{sortinithash}{4315d78024d0cea9b57a0c6f0e35ed0d}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{shorttitle}
+      \field{abstract}{This study investigates acoustic correlates of the putative breathy and clear phonation type contrast in a dialect of Khmer (Cambodian) spoken in Chanthaburi Province, Thailand. The goal is to determine whether this Khmer dialect still preserves this historical contrast. Out of seven acoustic parameters measured, four, namely *H1−*H2, *H1−A1, *H1−*A3, and vowel RMS amplitude successfully distinguished between breathy and clear vowels, with *H1−*H2 measured at the beginning of the vowel being the most robust cue. However, the use of these cues varied from speaker to speaker. The *H1−*H2 measurement obtained from male speakers’ production suggested that the contrast being realized may be that of a tense versus lax voice rather than a breathy versus clear voice. It is concluded that the historical breathy and clear phonation distinction in Khmer is preserved among female speakers, but this distinction may be disappearing or have become a tense versus lax distinction among male speakers.}
+      \field{day}{1}
+      \field{issn}{0095-4470}
+      \field{journaltitle}{Journal of Phonetics}
+      \field{langid}{english}
+      \field{month}{4}
+      \field{number}{2}
+      \field{shortjournal}{Journal of Phonetics}
+      \field{shorttitle}{Acoustic Correlates of Breathy and Clear Vowels}
+      \field{title}{Acoustic Correlates of Breathy and Clear Vowels: The Case of {{Khmer}}}
+      \field{volume}{31}
+      \field{year}{2003}
+      \field{dateera}{ce}
+      \field{pages}{181\bibrangedash 201}
+      \range{pages}{21}
+      \verb{doi}
+      \verb 10.1016/S0095-4470(02)00086-4
+      \endverb
+      \verb{file}
+      \verb /Users/mlbrinke/Zotero/storage/WC3UUUGJ/waylandAcousticCorrelatesBreathy2003.pdf;/Users/mlbrinke/Zotero/storage/EURMDFJS/S0095447002000864.html
+      \endverb
+      \keyw{Voice Quality}
     \endentry
     \entry{wellerInteractionsToneGlottalization2023}{unpublished}{}{}
       \name{author}{4}{}{%
@@ -9027,7 +9543,6 @@
       \field{venue}{Denver, CO}
       \field{year}{2023}
       \field{dateera}{ce}
-      \keyw{/unread}
     \endentry
     \entry{wellerLexicalToneVowel2023}{article}{}{}
       \name{author}{4}{}{%
@@ -9091,7 +9606,6 @@
       \verb{file}
       \verb /Users/mlbrinke/Zotero/storage/B4ZNHZHA/Lexical-tone-and-vowel-duration-in-San-Sebastian.html
       \endverb
-      \keyw{/unread}
     \endentry
     \entry{wellerVoiceQualityTone2024}{unpublished}{}{}
       \name{author}{4}{}{%
@@ -9142,7 +9656,6 @@
       \field{venue}{Seattle, WA}
       \field{year}{2024}
       \field{dateera}{ce}
-      \keyw{/unread}
     \endentry
     \entry{wielingAnalyzingDynamicPhonetic2018}{article}{}{}
       \name{author}{1}{}{%
@@ -9185,9 +9698,8 @@
       \verb 10.1016/j.wocn.2018.03.002
       \endverb
       \verb{file}
-      \verb /Users/mlbrinke/Dropbox/Zotero/2_Areas/Zapotec/QE/wielingAnalyzingDynamicPhonetic2018.pdf;/Users/mlbrinke/Zotero/storage/LW4SUXWZ/S0095447017301377.html
+      \verb /Users/mlbrinke/Zotero/storage/FUI26KIM/wielingAnalyzingDynamicPhonetic2018.pdf;/Users/mlbrinke/Zotero/storage/LW4SUXWZ/S0095447017301377.html
       \endverb
-      \keyw{/unread}
     \endentry
     \entry{woodGeneralizedAdditiveModels2017}{book}{}{}
       \name{author}{1}{}{%
@@ -9232,9 +9744,47 @@
       \verb 10.1201/9781315370279
       \endverb
       \verb{file}
-      \verb /Users/mlbrinke/Dropbox/Zotero/2_Areas/Zapotec/QE/woodGeneralizedAdditiveModels2017.pdf
+      \verb /Users/mlbrinke/Zotero/storage/AP4P7BQP/woodGeneralizedAdditiveModels2017.pdf
       \endverb
-      \keyw{/unread}
+    \endentry
+    \entry{yipTone2002}{book}{}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=42590407e7bd3415cd86df47ed9f605e}{%
+           family={Yip},
+           familyi={Y\bibinitperiod},
+           given={Moira\bibnamedelimb Jean\bibnamedelima Winsland},
+           giveni={M\bibinitperiod\bibinitdelim J\bibinitperiod\bibinitdelim W\bibinitperiod},
+           givenun=0}}%
+      }
+      \list{location}{1}{%
+        {Cambridge ; New York}%
+      }
+      \list{publisher}{1}{%
+        {Cambridge University Press}%
+      }
+      \strng{namehash}{42590407e7bd3415cd86df47ed9f605e}
+      \strng{fullhash}{42590407e7bd3415cd86df47ed9f605e}
+      \strng{fullhashraw}{42590407e7bd3415cd86df47ed9f605e}
+      \strng{bibnamehash}{42590407e7bd3415cd86df47ed9f605e}
+      \strng{authorbibnamehash}{42590407e7bd3415cd86df47ed9f605e}
+      \strng{authornamehash}{42590407e7bd3415cd86df47ed9f605e}
+      \strng{authorfullhash}{42590407e7bd3415cd86df47ed9f605e}
+      \strng{authorfullhashraw}{42590407e7bd3415cd86df47ed9f605e}
+      \field{sortinit}{Y}
+      \field{sortinithash}{fd67ad5a9ef0f7456bdd9aab10fe1495}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{isbn}{978-0-521-77314-0 978-0-521-77445-1}
+      \field{pagetotal}{341}
+      \field{series}{Cambridge Textbooks in Linguistics}
+      \field{title}{Tone}
+      \field{year}{2002}
+      \field{dateera}{ce}
+      \verb{file}
+      \verb /Users/mlbrinke/Zotero/storage/DM73WQPH/yipTone2002.pdf
+      \endverb
     \endentry
     \entry{ZapotecLanguageProject}{online}{}{}
       \field{sortinit}{Z}

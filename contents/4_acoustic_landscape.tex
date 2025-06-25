@@ -40,7 +40,7 @@ Energy was excluded if it had a zero value and then logarithmically transformed 
 
 All data points were then z-scored by speaker to reduce the variation between speakers and provide a way to compare the different measures directly on the same scale.
 
-The residual H1 * was then calculated for the remaining data points following \citet{chaiH1H2AcousticMeasure2022}. First, a linear mixed effects model was generated with the z-scored H1* as the response variable and the z-scored energy as the fixed effect. The uncorrelated interaction of the z-scored energy by speaker was treated as random. The energy factor resulting from this linear mixed-effects model was extracted. Finally, the z-scored H1* had the product of the z-scored energy and the energy factor subtracted from it to produce the residual H1* measure. 
+The residual H1* was then calculated for the remaining data points following \citet{chaiH1H2AcousticMeasure2022}. First, a linear mixed effects model was generated with the z-scored H1* as the response variable and the z-scored energy as the fixed effect. The uncorrelated interaction of the z-scored energy by speaker was treated as random. The energy factor resulting from this linear mixed-effects model was extracted. Finally, the z-scored H1* had the product of the z-scored energy and the energy factor subtracted from it to produce the residual H1* measure. 
 
 Once these steps were completed, the mean of each combination of phonation and speaker was taken for the fourth to seventh interval of the vowel. This is similar to what \citet{keatingCrosslanguageAcousticSpace2023} did by taking the middle of the vowel for their analysis. This choice minimizes the effect of the onset and offset of the vowel on the acoustic measures, which are more likely to be affected by the surrounding consonants and should give us the most accurate representation of the vowel quality. Because z-scores were used, this resulted in negative measures, which presents a problem for MDS analyses. To correct for this, I added the absolute value of the minimum z-score to each measure. This results in a dataset that still preserves the relative differences in the scores while providing a dataset that is all positive for the MDS analysis.
 
@@ -52,7 +52,7 @@ Multidimensional scaling analysis (MDS) is a type of dimensionality reduction to
 
 As shown in \citet{kreimanUnifiedTheoryVoice2014,kreimanValidatingPsychoacousticModel2021,garellekAcousticDiscriminabilityComplex2020}, voice quality is psychoacoustically complex and a single measure is not enough to capture the full range of voice quality. Instead, multiple measures are required that function as cues for the different types of voice quality. For example, a vowel characterized as having a breathy voice has an elevated spectral-slope and a lower harmonics-to-noise ratio than a modal voice. A creaky voice has a lowered spectral-slope and a lowered harmonics-to-noise ratio. 
 
-Because MDS analyses that contain many variables can result in rather unmeaningful results, I chose to focus on the speaker by phonation interaction. This allows us to see how speakers differ in their production of the different voice qualities. This choice to focus on speaker by phonation means that each speaker's production of each of the four phonation contrasts is represented as a single point in the MDS plot (e.g., one point for the first speaker's modal voice, one for their checked voice, one for their rearticulated voice, and one for their breathy voice). This is similar to what \citet{keatingCrosslanguageAcousticSpace2023} did in their study of the acoustic space of voice quality in 11 languages, except that they compared the language by voice quality interaction. Both of these interactions show us similar information. The analysis of speaker-by-voice quality shows us the acoustic space within a language, while the analysis using language-by-voice quality shows us the acoustic space between languages.
+Because MDS analyses that contain many variables can result in rather unmeaningful results, I chose to focus on the speaker-by-phonation interaction. This allows us to see how speakers differ in their production of the different voice qualities. This choice to focus on speaker-by-phonation means that each speaker's production of each of the four phonation contrasts is represented as a single point in the MDS plot (e.g., one point for the first speaker's modal voice, one for their checked voice, one for their rearticulated voice, and one for their breathy voice). This is similar to what \citet{keatingCrosslanguageAcousticSpace2023} did in their study of the acoustic space of voice quality in 11 languages, except that they compared the language by voice quality interaction. Both of these interactions show us similar information. The analysis of speaker-by-phonation shows us the acoustic space within a language, while the analysis using language-by-phonation shows us the acoustic space between languages.
 
 The MDS analysis was conducted using the \texttt{metaMDS} function in the \texttt{vegan} package \citep{oksanenVeganCommunityEcology2025} in the R programming language \citep{rcoreteamLanguageEnvironmentStatistical2024}. The Manhattan distance was used to estimate the differences between the speaker-by-phonation pairs. Because the distances are non-Euclidean, the MDS analysis was conducted using the nonmetric option.
 
@@ -79,7 +79,7 @@ This algorithm resulted in a solution that involves several different dimensions
 \subsection{Acoustic space of voice quality} \label{sec:acousticlandscape:space}
 %--------------------------------------------------------------------------
 
-The results of the MDS analysis show that the acoustical space is represented primarily by a three-dimensional space.\footnote{A 3D plot showing the acoustic space can be found at \href{https://www.mlbrinkerhoff.me/files/3d_plot.html}{https://www.mlbrinkerhoff.me/files/3d_plot.html}.} In all subsequent plots, breathy voice is represented by orange, checked voice with blue, rearticulated voice with green, and modal voice with black. In each of the plots, the modal voice is generally more densely packed than the non-modal voice qualities. This is likely due to the fact that the modal voice represents approximately 60\% of the data, while the non-modal voice qualities represent approximately 40\% of the data. 
+The results of the MDS analysis show that the acoustical space is represented primarily by a three-dimensional space.\footnote{A 3D plot showing the acoustic space can be found at \href{https://www.mlbrinkerhoff.me/files/3d_plot.html}{https://www.mlbrinkerhoff.me/files/3d_plot.html}.} In all subsequent plots, breathy voice is represented by orange, checked voice with blue, rearticulated voice with green, and modal voice with black. In each of the plots, the modal voice is generally more densely packed than the non-modal voice qualities. This is likely due to the fact that the modal voice represents approximately 60\% of the data, while the non-modal voice qualities represent approximately 40\% of the data.Another possible reason for this is that modal voice is more stable and less variable than the non-modal voice qualities, which would result in a more densely packed representation of the modal voice in the acoustic space. 
 % The exact proportions of the data are given in Table~\ref{tab:voice_quality_proportions}.
 
 % \begin{table}[ht]
@@ -99,7 +99,7 @@ Figure~\ref{fig:nmds12} shows the first dimension plotted against the second dim
 
 \begin{figure}[h!]
     \centering
-    \includegraphics[width = 0.9\linewidth]{images/MDS/nmds12_dur.eps}
+    \includegraphics[width = 0.75\linewidth]{images/MDS/nmds12_dur.eps}
     \caption{Two-dimensional MDS solution showing the first and second dimensions.}
     \label{fig:nmds12}
 \end{figure}
@@ -115,7 +115,7 @@ Figure~\ref{fig:nmds13} compares the first dimension with the third dimension. I
 
 \begin{figure}[!h]
     \centering
-    \includegraphics[width = 0.9\linewidth]{images/MDS/nmds13_dur.eps}
+    \includegraphics[width = 0.75\linewidth]{images/MDS/nmds13_dur.eps}
     \caption{Two-dimensional MDS solution showing the first and third dimensions.}
     \label{fig:nmds13}
 \end{figure}
@@ -124,7 +124,7 @@ Figure~\ref{fig:nmds14} shows the first dimension plotted against the fourth dim
 
 \begin{figure}[h!]
     \centering
-    \includegraphics[width = 0.9\linewidth]{images/MDS/nmds14_dur.eps}
+    \includegraphics[width = 0.75\linewidth]{images/MDS/nmds14_dur.eps}
     \caption{Two-dimensional MDS solution showing the first and fourth dimensions.}
     \label{fig:nmds14}
 \end{figure}
@@ -133,16 +133,16 @@ Figure~\ref{fig:nmds23} shows the second dimension plotted against the third dim
 
 \begin{figure}[h!]
     \centering
-    \includegraphics[width = 0.9\linewidth]{images/MDS/nmds23_dur.eps}
+    \includegraphics[width = 0.75\linewidth]{images/MDS/nmds23_dur.eps}
     \caption{Two-dimensional MDS solution showing the second and third dimensions.}
     \label{fig:nmds23}
 \end{figure}
 
 Figure~\ref{fig:nmds24} shows the second dimension plotted against the fourth dimension. This plot shows that the modal voice and the non-modal voice are separated into two different clusters, with modal voice located to the extreme left of the plot and the nonmodal voice qualities located to the right of the modal grouping. Again, as first seen in Figure~\ref{fig:nmds14}, the fourth dimension centralizes the modal voice, but no discernible pattern is observed for the other phonations.
 
-\begin{figure}[!h]
+\begin{figure}[h!]
     \centering
-    \includegraphics[width = \linewidth]{images/MDS/nmds24_dur.eps}
+    \includegraphics[width = 0.75\linewidth]{images/MDS/nmds24_dur.eps}
     \caption{Two-dimensional MDS solution showing the second and fourth dimensions.}
     \label{fig:nmds24}
 \end{figure}
@@ -151,10 +151,12 @@ Figure~\ref{fig:nmds34} shows the third dimension plotted against the fourth dim
 
 \begin{figure}[h!]
     \centering
-    \includegraphics[width = 0.9\linewidth]{images/MDS/nmds34_dur.eps}
+    \includegraphics[width = 0.75\linewidth]{images/MDS/nmds34_dur.eps}
     \caption{Two-dimensional MDS solution showing the third and fourth dimensions.}
     \label{fig:nmds34}
 \end{figure}
+
+% From these plots, we can see that the 
 
 %--------------------------------------------------------------------------
 \subsubsection{Interim summary for dimension plots} \label{sec:acousticlandscape:inter_sum}
@@ -187,7 +189,7 @@ This continuum from breathy to modal to creaky is very similar to the open-quoti
 
 From the plots involving the second dimension, we see that this dimension separates the modals from the non-modal ones. This is similar to what we observe with the various harmonics-to-noise ratios and the cepstral peak prominence (CPP) which are all measures of the amount of noise present in the signal across various bandwidths \citep{dekromCepstrumBasedTechniqueDetermining1993,hillenbrandAcousticCorrelatesBreathy1996,blankenshipTimingNonmodalPhonation2002,ferrerriesgoWhatMakesCepstral2020}. In addition to the amount of noise, it also captures the strength of the vocal fold vibration, similar to what \citet{garellekVoicingGlottalConsonants2021} found in their study of glottal consonants and nonmodals. In their study, they found that the modal voice had the highest strength of vocal fold vibration (measured by the Strength of Excitation), while the non-modal voice had a lower strength of vocal fold vibration. This suggests that the second dimension is to capture the amount of aperiodic voicing and aspiration noise in the signal, the strength of the vocal fold vibration, or both.
 
-The fourth dimension is less clear about what it is potentially capturing. In all of the plots involving the fourth dimension, we see that modal voice is always located near the center of the plot, while the nonmodal voice qualities are located around this point depending on the patterns from the other dimensions. This suggests that the fourth dimension possibly captures something about modal voice. 
+The fourth dimension is less clear in terms of what it is potentially capturing. In all of the plots involving the fourth dimension, we see that modal voice is always located near the center of the plot, while the nonmodal voice qualities are located around this point depending on the patterns from the other dimensions. This suggests that the fourth dimension possibly captures something about modal voice. 
 
 The rest of this chapter will focus on how the different acoustic measures contribute to the different dimensions of the MDS analysis. This will be followed by a general discussion of both the MDS analysis dimensions and the acoustic measures that are correlated with these dimensions. This discussion will focus on how the results of this study relate to previous work on voice quality and the implications of these results for our understanding of the acoustic space of voice quality. 
 
@@ -236,7 +238,7 @@ Table~\ref{tab:acoustic_correlates} shows the correlation score, computed by the
 %--------------------------------------------------------------------------
 \subsubsection{Dimension 1} \label{sec:acousticlandscape:dim1}
 %--------------------------------------------------------------------------
-From Table~\ref{tab:acoustic_correlates}, we observe that the first dimension is negatively correlated with the acoustic slope measures of H1*$-$A1*, H1*$-$A2*, and H1*$-$A3* ($r^{2} \approx -0.825$ for all three of these measures). These measures are all types of spectral slope measures which attempt to normalize the amplitude of the formant corrected H1 against the amplitudes of the formant correct harmonic closest to the first three formants. It has been noted that these measures are correlated with the open-quotient of the glottis (see \cite{garellekPhoneticsVoice2019,garellekTheoreticalAchievementsPhonetics2022} for an overview of these measures). Because these measures all capture the same information and they are all highly correlated with the first dimension, we can conclude that the first dimension is primarily concerned with the spectral slope of the signal (i.e., the open-quotient of the glottis). 
+From Table~\ref{tab:acoustic_correlates}, we observe that the first dimension is negatively correlated with the acoustic slope measures of H1*$-$A1*, H1*$-$A2*, and H1*$-$A3* ($r^{2} \approx -0.825$ for all three of these measures). These measures are all types of spectral tilt measures which attempt to normalize the amplitude of the formant corrected H1 against the amplitudes of the formant correct harmonic closest to the first three formants. It has been noted that these measures are correlated with the open-quotient of the glottis (see \cite{garellekPhoneticsVoice2019,garellekTheoreticalAchievementsPhonetics2022} for an overview of these measures). Because these measures all capture the same information and they are all highly correlated with the first dimension, we can conclude that the first dimension is primarily concerned with the spectral slope of the signal (i.e., the open-quotient of the glottis). 
 
 The first dimension is also positively correlated with the amplitude of the first three formants (that is, A1*, A2*, and A3*). These acoustic measures also share correlations of a similar value ($r^{2} \approx 0.75$). It is also worth noting that these amplitude measures are all used in the normalization of the spectral slope measures (i.e., H1*$-$A1*, H1*$-$A2*, and H1*$-$A3*). I believe that this fact suggests that the first dimension is primarily concerned with the spectral slope of the signal, but is also factoring in the amplitude of the formants.
 
@@ -254,11 +256,9 @@ Together, given the correlations of the HNR measures, energy, and SoE, we can co
 %--------------------------------------------------------------------------
 \subsubsection{Dimension 3} \label{sec:acousticlandscape:dim3}
 %--------------------------------------------------------------------------
-The third dimension is negatively correlated with the two spectral slope measures of residual H1* and H2*$-$H4* ($r^{2} \approx -0.7$). Residual H1* is a measure that has been shown to be robust in capturing the strength of the first harmonic \citep{chaiH1H2AcousticMeasure2022,brinkerhoffUsingResidualH12025}, which was the original goal of using higher harmonics to normalize H1 \citep{fischer-jorgensenPhoneticAnalysisBreathy1968}. H2*$-$H4* has also been shown to be another spectral slope measure that can capture the differences in amplitude between different phonation types \citep{garellekPhoneticsVoice2019,garellekModelingVoiceSource2016,kreimanUnifiedTheoryVoice2014,kreimanValidatingPsychoacousticModel2021}. This suggests that the third dimension is primarily concerned with the spectral slope of the signal, similar to what we observed in the first dimension.
+The third dimension is negatively correlated with the two spectral tilt measures H2*$-$H4* ($r^{2} \approx -0.7$) and H1*$-$A1* ($r^{2} \approx -0.46$). H2*$-$H4* has also been shown to be another spectral slope measure that can capture the differences in amplitude between different phonation types \citep{garellekPhoneticsVoice2019,garellekModelingVoiceSource2016,kreimanUnifiedTheoryVoice2014,kreimanValidatingPsychoacousticModel2021}. This suggests that the third dimension is primarily concerned with the spectral slope of the signal, similar to what we observed in the first dimension.
 
-In addition to these measures, the amplitude of the second harmonic (H2*) was also found to be negatively correlated with the third dimension ($r^{2} \approx -0.69$). This measure is typically used to help normalize the amplitude of the first harmonic and is used in the calculation of the spectral slope measures (e.g., H1*$-$H2*, H2*$-$H4*, etc.). Due to its use in spectral slope measures and that H2*$-$H4* is also negatively correlated with the third dimension, we can conclude that H2 * also contributes to the spectral slope of the signal. This further supports the idea that the third dimension is primarily concerned with the spectral slope of the signal. 
-
-The last acoustic measure also correlated with the third dimension is the spectral slope measure of H1*$-$A1* ($r^{2} \approx -0.46$). Even though the correlation is not as strong as the other acoustic measures, it still shows that the third dimension corresponds to the spectral slope of the signal (i.e., the open-quotient of the glottis).
+In addition to the spectral tilt measures, the amplitude of the fundamental, as measured by residual H1*, and the amplitude of the second harmonic (H2*) were also found to be negatively correlated with the third dimension ($r^{2} \approx -0.7$). Residual H1* is a measure that has been shown to be robust in capturing the strength of the first harmonic \citep{chaiH1H2AcousticMeasure2022,brinkerhoffUsingResidualH12025}, which was the original goal of using higher harmonics to normalize H1 \citep{fischer-jorgensenPhoneticAnalysisBreathy1968}. The amplitude of H2* is typically used to help normalize the amplitude of the first harmonic and is used in the calculation of several spectral slope measures (e.g., H1*$-$H2*, H2*$-$H4*, etc.). These correlations indicate that the third dimension is primarily concerned with spectral tilt and the amplitude of the harmonics. 
 
 %--------------------------------------------------------------------------
 \subsubsection{Dimension 4} \label{sec:acousticlandscape:dim4}
@@ -272,7 +272,11 @@ The positive correlation with H4* ($r^{2} \approx 0.48$) suggests that the fourt
 \subsubsection{Interim summary for acoustic correlates} \label{sec:acousticlandscape:interim_correlates}
 %--------------------------------------------------------------------------
 
-Based on the correlations observed in Table~\ref{tab:acoustic_correlates}, we can summarize the acoustic correlates of each dimension as follows: Dimension 1 captures the spectral slope of the signal, primarily through the spectral slope measures H1*$-$A1*, H1*$-$A2*, and H1*$-$A3*. This dimension appears to be related to the open-quotient of the glottis. Dimension 2 captures the amount of noise in the signal and the strength of vocal fold vibration, primarily through the HNR measures (HNR < 500 Hz, HNR < 1500 Hz, and HNR < 2500 Hz), Energy, and Strength of Excitation. This dimension separates modal from nonmodal voice quality, which is what periodicity is concerned with. Dimension 3 captures the spectral slope of the signal as well, just as Dimension 1 does, primarily through residual H1*, H2*$-$H4*, and H2*. This dimension also appears to be related to the open-quotient of the glottis. Finally, Dimension 4 captures the periodicity in the signal through SHR and also appears to capture some information about the spectral slope, as evidenced by the amplitude of the higher harmonics through H4* and H4*$-$H2k*. However, it is not entirely clear whether this dimension is primarily concerned with the spectral slope of the signal or the periodicity in the signal.
+Based on the correlations observed in Table~\ref{tab:acoustic_correlates}, we can summarize the acoustic correlates of each dimension as follows: Dimension 1 captures the spectral slope of the signal, primarily through the spectral slope measures H1*$-$A1*, H1*$-$A2*, and H1*$-$A3*. This dimension appears to be related to the amount of glottal airflow (i.e., the open-quotient of the glottis). 
+
+Dimension 2 captures the amount of noise in the signal and the strength of vocal fold vibration, primarily through the HNR measures (HNR < 500 Hz, HNR < 1500 Hz, and HNR < 2500 Hz), Energy, and Strength of Excitation. This dimension separates modal from nonmodal voice quality.
+
+Dimension 3 captures the spectral slope of the signal as well, just as Dimension 1 does, primarily through residual H1*, H2*$-$H4*, and H2*. This dimension also appears to be related to the open-quotient of the glottis. Finally, Dimension 4 captures the periodicity in the signal through SHR and also appears to capture some information about the spectral slope, as evidenced by the amplitude of the higher harmonics through H4* and H4*$-$H2k*. However, it is not entirely clear whether this dimension is primarily concerned with the spectral slope of the signal or the periodicity in the signal.
 
 %--------------------------------------------------------------------------
 \section{Discussion} \label{sec:acousticlandscape:discussion}
@@ -309,7 +313,7 @@ As mentioned above, the measures that correlate the most with the first and thir
 
 The second dimension of this chapter's analysis is concerned with dividing the acoustic space into modal and nonmodal voice qualities. This split between modal and nonmodal is similar to the split that exists for periodicity and strength of voicing. The more modal the voice quality is, the greater the amount of periodicity or voicing that we observe in the signal. I propose that this dimension is concerned with how harmonic the signal is, or in other words, how much noise is present in the acoustic signal. This is similar to what \citet{keatingCrosslanguageAcousticSpace2023} found in their study, where the first dimension of their analysis was primarily concerned with making the same split in the acoustic space. Based on these results, I propose that another dimension in the acoustic space of voice quality must correspond to the amount of noise in the signal. This proposal is further supported by the fact that the second dimension of this chapter's analysis is primarily correlated with the harmonics-to-noise ratios, energy, and SoE measures, which are all measures of the amount of noise or the amount of energy present in the acoustic signal. 
 
-The last dimension of the MDS analysis is less clear in what it is capturing. The correlation with the subharmonics-to-harmonic ratio (SHR) suggests that this dimension might be capturing whether or not their is period doubling which is a common feature in creaky voice. However, there is no easily describable pattern that emerges with this measure. 
+The last dimension of the MDS analysis is less clear in terms of what it is capturing. The correlation with the subharmonics-to-harmonic ratio (SHR) suggests that this dimension might be capturing whether or not their is period doubling, which is a common feature in creaky voice. However, there is no easily describable pattern that emerges with this measure. 
 
 The results of this study show that the voice quality acoustic space in SLZ is primarily represented by a three-dimensional space. However, it can primarly be broken down into two aspects that the acoustic space is attempting to capture: (i) the spectral slope of the signal and (ii) the amount of noise in the signal. This can be represented as a primarily two-dimensional space with higher dimensions adding additional information related to these two primary concerns. This can be visualized as a two-dimensional space with the first dimension representing the spectral slope of the signal and the second dimension representing the amount of noise in the signal, as shown in Figure~\ref{fig:acoustic_space}.
 
@@ -326,8 +330,8 @@ The results of this study show that the voice quality acoustic space in SLZ is p
         \node[below,yshift=1cm] at (4,0) {Lower Spectral Slope};
         
         % Labels for the vertical line
-        \node[left, xshift = -1.5mm] at (0,-3) {Less Harmonic};
-        \node[left, xshift = -1.5mm] at (0,3) {More Harmonic};
+        \node[left, xshift = -1.5mm] at (0,-3) {Less Periodic};
+        \node[left, xshift = -1.5mm] at (0,3) {More Periodic};
     \end{tikzpicture}
     \caption{A two-dimensional representation of the acoustic space of voice quality in SLZ. The horizontal axis represents the spectral slope of the signal, while the vertical axis represents the amount of noise or energy in the signal.}
     \label{fig:acoustic_space}
