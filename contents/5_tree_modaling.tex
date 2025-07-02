@@ -238,6 +238,7 @@ When we consider the behavior of nonmodal phonation cross-linguistically, we see
 The behavior of duration warrants further investigation in SLZ. If checked vowels are indeed longer than modal vowels, then this would suggest that the checked vowels in SLZ are not the same as the checked vowels in other Zapotec languages. Furthermore, vowels have been claimed to undergo a process of vowel lengthening in Zapotec languages depending on the type of syllable it is in and whether the coda is a fortis or lenis consonant \citep{nellisFortisLenisCajonos1980,uchiharaFortisLenisGlides2016}. 
 
 If the vowel is in an open syllable or a closed syllable with a lenis coda, then the vowel is lengthened. If the vowel is in a closed syllable with a fortis coda, then the vowel is not lengthened. If this behavior is true for SLZ, this means that the duration of the vowel depends not only on the type of phonation but also on the type of syllable in which it is placed. This requires further investigation to determine if the duration is affected by the phonation and type of syllable.
+
 %--------------------------
 \subsection{Importance of A1*} \label{sec:a1_discussion}
 %--------------------------
@@ -251,6 +252,7 @@ Additionally, A1* has been claimed to be important in capturing the posterior gl
 The inverse of this is also true, the smaller the posterior glottal opening, the narrower B1 is; the narrower the bandwidth, the higher the formant amplitude. This means that if we have a large posterior glottal opening (i.e., breathy voice), then we will have a low amplitude for A1*. If we have a small posterior glottal opening (i.e., creaky voice), then we will have a high amplitude for A1*.
 
 When we look at how A1* is distributed across the different voice qualities in SLZ, as seen in Figure~\ref{fig:a1}, we see that the modal vowels are found at the top of the chart and breathy voice at the bottom. The checked and rearticulated vowels are found in the middle of the chart. This is not what we would expect if A1* was capturing the posterior glottal opening. If A1* was capturing the posterior glottal opening, then we would expect creaky voice (i.e., checked and rearticulated) to have a high amplitude for A1*.
+
 \begin{figure}[h!]
     \centering
     \includegraphics[width = 0.9\linewidth]{images/slz_a1c.eps}
@@ -310,10 +312,9 @@ The distribution of H1*$-$A1* across the different phonation types is shown in F
 
 The plot shows that breathy voice has the highest H1*$-$A1* score, which is consistent with what we would expect from a spectral slope measure. Things are more complicated when we look at the other non-modal phonations. It is expected that checked voice and rearticulated voice have a lower spectral slope than modal voice because of their association with creaky voice. However, this is not the case in Figure~\ref{fig:h1a1}. 
 
-The plot shows that the checked voice has a spectral slope that is identical to that of the modal voice. Additionally, we see that the rearticulated voice has a spectral slope that is higher than the modal voice except at measurement intervals three and four, where it is identical to the modal voice. This behavior for a rearticulated voice is not too surprising, especially at the end of the vowel. 
+The plot shows that the checked voice has a spectral slope that is identical to that of the modal voice. Additionally, we see that the rearticulated voice has a spectral slope that is higher than the modal voice except at measurement intervals three and four, where it is identical to the modal voice.
 
-One reason for this is that when listening to the rearticulated vowels, the portion of the vowel after the glottal occlusion sounds somewhat breathy. One of the possible explanations for this is that in order to produce the glottal occlusion, the speaker is tightly constricting the vocal folds, which causes either a glottal stop or creaky voice. The speaker then relaxes the vocal folds in order to produce the modal voice which stereotypically occurs after this glottal occlusion. However, one way for the speaker to quickly relax the vocal folds is to open them as much as possible to reach the ideal position for the modal voice. This general behavior of opening the vocal folds to produce a modal voice is similar to what is found in a breathy voice. This could be a possible explanation for why the rearticulated voice has a higher H1*$-$A1* score than modal voice.
-
+This behavior raises some questions about the acoustic measures A1* and H1*$-$A1*. The data shows that A1* and H1*$-$A1* have different acoustic patterns. Because these two measures are not patterning similarly, this implies that what we are actually capturing are independent changes to H1* vs. changes to A1*, not something special about H1*$-$A1*.
 %--------------------------
 \subsection{Importance of Residual H1*} \label{sec:rh1_discussion}
 %--------------------------
@@ -378,10 +379,6 @@ One thing to note about the SoE measures is that even though nonmodal phonations
 
 In summary, we find that the results of the Random Forest and the MDS analyses showed a lot of overlap between which measures were correlated and/or important for classifying SLZ's four phonation types. In both analyses, A1*, H1*$-$A1*, residual H1*, HNR $<$ 1500 Hz, and SoE were found to be important acoustic measures. We saw that each of these measures was able to capture some aspect of the phonation types. It also shows that the spectral slope measures and harmonics-to-noise ratio measures are generally the most important measures for classifying the different phonation types. This is consistent with previous work on the acoustics of phonation \citep[e.g.,][]{garellekPhoneticsVoice2019}. We also saw that SoE plays an important role in classifying the different phonation types. This contributes to the growing body of literature that shows that SoE is an important measure for classifying the different phonation types \citep{chaiPhoneticsGlottalizedPhonations2023,garellekVoicingGlottalConsonants2021,wellerInteractionsToneGlottalization2023,wellerLexicalToneVowel2023,wellerVoiceQualityTone2024}.
 
-And when (as in your data) A1 and H1-A1 show different patterns acoustically, that implies that what you're capturing are independent changes to H1 vs. changes to A1, not something special about H1-A1.
-
 Interestingly, the results of the Random Forest analysis showed that duration was the most important predictor in classifying the different phonations. This is consistent with what has been found in other Zapotec languages \citep[e.g.,][]{barzilaiContextdependentPhoneticEnhancement2021,chaiPerceptionCheckedRearticulated2025,chavez-peonInteractionMetricalStructure2010}. However, when we plotted the duration, it showed that modal vowels had the shortest duration instead of checked vowels having the shortest duration. The effect of duration needs to be further investigated in SLZ, especially with respect to differences in syllable type and the claimed effects of vowel lengthening in the various Zapotec languages \citep[e.g.,][]{chavez-peonInteractionMetricalStructure2010,merrillTilquiapanZapotec2008,nellisFortisLenisCajonos1980,pickettIsthmusJuchitanZapotec2010,uchiharaFortisLenisGlides2016}.
 
-
-
-
+Additionally, it is not entirely clear why duration was so clearly identified as an important acoustic measure in the random forest analysis but was not identified as an acoustic correlate to any of the dimensions of the MDS analysis in Chapter~\ref{ch:acousticlandscape}. This requires further investigation. 

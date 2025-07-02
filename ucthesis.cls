@@ -434,8 +434,8 @@ Copyright \copyright\ by\par
 
 \def\abstract{
 \begin{alwayssingle}
-\pagestyle{empty}
-\thispagestyle{empty}
+% \pagestyle{empty}
+% \thispagestyle{empty}
 \addcontentsline{toc}{chapter}{\abstractname}
 %\setcounter{page}{1}
 \begin{center}
